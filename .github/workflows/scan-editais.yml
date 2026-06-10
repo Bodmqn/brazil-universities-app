@@ -1,0 +1,47 @@
+name: Scan Program Websites for Open Calls
+on:
+  schedule:
+    - cron: '59 23 * * *'  # Every day at 23:59 UTC
+  workflow_dispatch:         # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 lxml
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install npm deps
+        run: npm ci
+
+      - name: Parse CSV data
+        run: npm run parse:csv
+
+      - name: Scan program websites
+        run: python scraper/check_editais.py
+
+      - name: Commit updated status
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git add src/assets/data/program-status.json
+          git diff --staged --quiet || (git commit -m "bot: update program status scan results" && git push)
