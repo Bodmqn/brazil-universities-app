@@ -13,7 +13,7 @@ function normalizeUrl(url) {
 
 export default function DashboardPage() {
   const { lang } = useLang();
-  const { data, statusMap, discovered, loading, error } = usePrograms(lang);
+  const { data, statusMap, discovered, loading, error, refreshStatus } = usePrograms(lang);
 
   if (loading) return <div className="center-msg">{tr('loading', lang)}</div>;
   if (error) return <div className="center-msg">{tr('error', lang)}: {error}</div>;
@@ -67,7 +67,7 @@ export default function DashboardPage() {
         {openUnis.length} {tr('universities', lang)}
       </p>
 
-      <ScannerButton />
+      <ScannerButton onScanComplete={refreshStatus} />
 
       {openUnis.length === 0 && discoveredList.length === 0 ? (
         <div className="center-msg">

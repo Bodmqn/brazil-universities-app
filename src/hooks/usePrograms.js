@@ -1,5 +1,7 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useCallback } from 'react';
 import { regionMap, stateMap, uniNameMap, levelMap, termDict, langReqMap, generalTerms } from '../utils/translations-data';
+
+const STATUS_URL = 'https://raw.githubusercontent.com/Bodmqn/brazil-universities-app/main/src/assets/data/program-status.json';
 
 let cached = null;
 let cachedStatus = null;
@@ -137,34 +139,47 @@ export function useProgramsData() {
   const [loading, setLoading] = useState(!cached || !cachedStatus);
   const [error, setError] = useState(null);
 
-  useEffect(() => {
-    Promise.all([
-      import('../assets/data/programs.json'),
-      import('../assets/data/program-status.json').catch(() => ({ default: { programs: {} } }))
-    ])
-      .then(([progsMod, statusMod]) => {
-        cached = progsMod.default || progsMod;
-        const statusFile = statusMod.default || statusMod;
-        cachedStatus = statusFile.programs || {};
-        cachedDiscovered = statusFile.discovered || null;
-        setData(cached);
-        setStatusMap(cachedStatus);
-        setDiscovered(cachedDiscovered);
-        setLoading(false);
-      })
-      .catch(err => {
-        setError(err.message);
-        setLoading(false);
-      });
+  const loadPrograms = useCallback(() => {
+    return import('../assets/data/programs.json').then(mod => {
+      cached = mod.default || mod;
+      setData(cached);
+      return cached;
+    });
   }, []);
 
-  return { data, statusMap, discovered, loading, error };
+  const loadStatus = useCallback(async () => {
+    try {
+      const res = await fetch(`${STATUS_URL}?t=${Date.now()}`);
+      if (!res.ok) throw new Error('fetch failed');
+      const statusFile = await res.json();
+      cachedStatus = statusFile.programs || {};
+      cachedDiscovered = statusFile.discovered || null;
+      setStatusMap(cachedStatus);
+      setDiscovered(cachedDiscovered);
+    } catch {
+      const fallback = await import('../assets/data/program-status.json').catch(() => ({ default: { programs: {} } }));
+      const mod = fallback.default || fallback;
+      cachedStatus = mod.programs || {};
+      cachedDiscovered = mod.discovered || null;
+      setStatusMap(cachedStatus);
+      setDiscovered(cachedDiscovered);
+    }
+  }, []);
+
+  useEffect(() => {
+    Promise.all([loadPrograms(), loadStatus()])
+      .then(() => setLoading(false))
+      .catch(err => { setError(err.message); setLoading(false); });
+  }, [loadPrograms, loadStatus]);
+
+  return { data, statusMap, discovered, loading, error, refreshStatus: loadStatus };
 }
 
 export function usePrograms(lang = 'pt') {
-  const { data, statusMap, discovered, loading, error } = useProgramsData();
+  const result = useProgramsData();
+  const { data, statusMap, discovered, loading, error, refreshStatus } = result;
   const translatedData = useMemo(() => translateData(data, lang), [data, lang]);
-  return { data: translatedData, statusMap, discovered, loading, error };
+  return { data: translatedData, statusMap, discovered, loading, error, refreshStatus };
 }
 
 export function findPrograms(data, query) {
