@@ -42,6 +42,8 @@ export const t = {
     period: 'Período',
     aboutTitle: 'Sobre',
     aboutText: 'Lista de programas de pós-graduação em universidades brasileiras.',
+    discoveredBySearch: 'Descobertas pela Web',
+    discoveredDesc: 'Oportunidades encontradas pela busca na web que não estão no nosso banco de dados.',
   },
   en: {
     title: 'Brazilian Universities',
@@ -86,6 +88,8 @@ export const t = {
     period: 'Period',
     aboutTitle: 'About',
     aboutText: 'List of graduate programs at Brazilian universities.',
+    discoveredBySearch: 'Discovered on the Web',
+    discoveredDesc: 'Opportunities found via web search that are not in our database.',
   }
 };
 

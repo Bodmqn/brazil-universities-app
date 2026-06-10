@@ -12,7 +12,7 @@ function normalizeUrl(url) {
 
 export default function DashboardPage() {
   const { lang } = useLang();
-  const { data, statusMap, loading, error } = usePrograms(lang);
+  const { data, statusMap, discovered, loading, error } = usePrograms(lang);
 
   if (loading) return <div className="center-msg">{tr('loading', lang)}</div>;
   if (error) return <div className="center-msg">{tr('error', lang)}: {error}</div>;
@@ -44,8 +44,13 @@ export default function DashboardPage() {
   }
 
   openUnis.sort((a, b) => b.openCount - a.openCount);
-
   const totalOpen = openUnis.reduce((a, u) => a + u.openCount, 0);
+
+  const discoveredList = discovered
+    ? Object.entries(discovered)
+        .filter(([, v]) => v.status === 'likely_open' || v.status === 'possible')
+        .sort((a, b) => (b[1].confidence || 0) - (a[1].confidence || 0))
+    : [];
 
   return (
     <div className="dashboard-page">
@@ -61,7 +66,7 @@ export default function DashboardPage() {
         {openUnis.length} {tr('universities', lang)}
       </p>
 
-      {openUnis.length === 0 ? (
+      {openUnis.length === 0 && discoveredList.length === 0 ? (
         <div className="center-msg">
           <p style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>&#128225;</p>
           <p>{lang === 'pt' ? 'Nenhum edital aberto encontrado no momento.' : 'No open calls found at this time.'}</p>
@@ -72,41 +77,107 @@ export default function DashboardPage() {
           </p>
         </div>
       ) : (
-        <div className="dashboard-list">
-          {openUnis.map((uni, idx) => (
-            <Link
-              key={(uni.acronym || uni.name) + idx}
-              to={`/universidade/${encodeURIComponent(uni.region)}/${encodeURIComponent(uni.acronym || uni.name)}`}
-              className="dashboard-card"
-            >
-              <div className="dash-card-top">
-                <div className="dash-card-info">
-                  {uni.acronym && <span className="dash-acronym">{uni.acronym}</span>}
-                  <h3>{uni.name}</h3>
-                  <span className="dash-location">{uni.region} &middot; {uni.state}</span>
-                </div>
-                <div className="dash-card-stats">
-                  <div className="dash-stat">
-                    <span className="dash-stat-num open">{uni.openCount}</span>
-                    <span className="dash-stat-label">{lang === 'pt' ? 'Editais' : 'Open Calls'}</span>
-                  </div>
-                  <div className="dash-stat">
-                    <span className="dash-stat-num">{uni.programCount}</span>
-                    <span className="dash-stat-label">{tr('programs', lang)}</span>
-                  </div>
-                </div>
-              </div>
-              <div className="dash-card-progs">
-                {uni.openPrograms.slice(0, 4).map((p, i) => (
-                  <span key={i} className="dash-prog-tag">{p.program}</span>
+        <>
+          {openUnis.length > 0 && (
+            <>
+              <h3 className="dash-section-title">
+                {lang === 'pt' ? 'Editais em Programas Conhecidos' : 'Open Calls at Known Programs'}
+              </h3>
+              <div className="dashboard-list">
+                {openUnis.map((uni, idx) => (
+                  <Link
+                    key={(uni.acronym || uni.name) + idx}
+                    to={`/universidade/${encodeURIComponent(uni.region)}/${encodeURIComponent(uni.acronym || uni.name)}`}
+                    className="dashboard-card"
+                  >
+                    <div className="dash-card-top">
+                      <div className="dash-card-info">
+                        {uni.acronym && <span className="dash-acronym">{uni.acronym}</span>}
+                        <h3>{uni.name}</h3>
+                        <span className="dash-location">{uni.region} &middot; {uni.state}</span>
+                      </div>
+                      <div className="dash-card-stats">
+                        <div className="dash-stat">
+                          <span className="dash-stat-num open">{uni.openCount}</span>
+                          <span className="dash-stat-label">{lang === 'pt' ? 'Editais' : 'Open Calls'}</span>
+                        </div>
+                        <div className="dash-stat">
+                          <span className="dash-stat-num">{uni.programCount}</span>
+                          <span className="dash-stat-label">{tr('programs', lang)}</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="dash-card-progs">
+                      {uni.openPrograms.slice(0, 4).map((p, i) => (
+                        <span key={i} className="dash-prog-tag">{p.program}</span>
+                      ))}
+                      {uni.openPrograms.length > 4 && (
+                        <span className="dash-prog-tag more">+{uni.openPrograms.length - 4}</span>
+                      )}
+                    </div>
+                  </Link>
                 ))}
-                {uni.openPrograms.length > 4 && (
-                  <span className="dash-prog-tag more">+{uni.openPrograms.length - 4}</span>
-                )}
               </div>
-            </Link>
-          ))}
-        </div>
+            </>
+          )}
+
+          {discoveredList.length > 0 && (
+            <>
+              <h3 className="dash-section-title dash-section-title-discovered">
+                {lang === 'pt' ? 'Descobertas pela Web' : 'Discovered on the Web'}
+              </h3>
+              <p className="dash-section-subtitle">
+                {lang === 'pt'
+                  ? 'Oportunidades encontradas pela busca na web que não estão no nosso banco de dados.'
+                  : 'Opportunities found via web search that are not in our database.'}
+              </p>
+              <div className="dashboard-list">
+                {discoveredList.map(([url, item], idx) => (
+                  <a
+                    key={idx}
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="dashboard-card dash-card-discovered"
+                  >
+                    <div className="dash-card-top">
+                      <div className="dash-card-info">
+                        <h3 style={{ fontSize: '0.95rem' }}>{item.title || url}</h3>
+                        {item.snippet && (
+                          <p className="dash-snippet">{item.snippet.slice(0, 200)}</p>
+                        )}
+                        <span className="dash-source-tag">
+                          {lang === 'pt' ? 'Descoberto via' : 'Found via'} Web Search
+                        </span>
+                      </div>
+                      <div className="dash-card-stats">
+                        <div className="dash-stat">
+                          <span className={`dash-stat-num ${item.status === 'likely_open' ? 'open' : 'maybe'}`}>
+                            {item.status === 'likely_open' ? (
+                              lang === 'pt' ? 'Alta' : 'High'
+                            ) : (
+                              lang === 'pt' ? 'Média' : 'Medium'
+                            )}
+                          </span>
+                          <span className="dash-stat-label">
+                            {lang === 'pt' ? 'Confiança' : 'Confidence'}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    {item.dates_found && item.dates_found.length > 0 && (
+                      <div className="dash-card-progs">
+                        <span className="dash-prog-tag date-tag">
+                          {lang === 'pt' ? 'Datas' : 'Dates'}: {item.dates_found.slice(0, 3).join(', ')}
+                        </span>
+                      </div>
+                    )}
+                  </a>
+                ))}
+              </div>
+            </>
+          )}
+        </>
       )}
     </div>
   );

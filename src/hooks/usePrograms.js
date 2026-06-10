@@ -3,6 +3,7 @@ import { regionMap, stateMap, uniNameMap, levelMap, termDict, langReqMap, genera
 
 let cached = null;
 let cachedStatus = null;
+let cachedDiscovered = null;
 
 function translateProgramName(ptName) {
   if (!ptName) return ptName;
@@ -132,6 +133,7 @@ function translateData(data, lang) {
 export function useProgramsData() {
   const [data, setData] = useState(cached);
   const [statusMap, setStatusMap] = useState(cachedStatus);
+  const [discovered, setDiscovered] = useState(cachedDiscovered);
   const [loading, setLoading] = useState(!cached || !cachedStatus);
   const [error, setError] = useState(null);
 
@@ -142,9 +144,12 @@ export function useProgramsData() {
     ])
       .then(([progsMod, statusMod]) => {
         cached = progsMod.default || progsMod;
-        cachedStatus = (statusMod.default || statusMod).programs || {};
+        const statusFile = statusMod.default || statusMod;
+        cachedStatus = statusFile.programs || {};
+        cachedDiscovered = statusFile.discovered || null;
         setData(cached);
         setStatusMap(cachedStatus);
+        setDiscovered(cachedDiscovered);
         setLoading(false);
       })
       .catch(err => {
@@ -153,13 +158,13 @@ export function useProgramsData() {
       });
   }, []);
 
-  return { data, statusMap, loading, error };
+  return { data, statusMap, discovered, loading, error };
 }
 
 export function usePrograms(lang = 'pt') {
-  const { data, statusMap, loading, error } = useProgramsData();
+  const { data, statusMap, discovered, loading, error } = useProgramsData();
   const translatedData = useMemo(() => translateData(data, lang), [data, lang]);
-  return { data: translatedData, statusMap, loading, error };
+  return { data: translatedData, statusMap, discovered, loading, error };
 }
 
 export function findPrograms(data, query) {
@@ -191,14 +196,4 @@ export function getRegionByName(data, name) {
   return data.find(r => r.name.toLowerCase() === name.toLowerCase());
 }
 
-export function getUniversity(data, regionName, uniName) {
-  const region = getRegionByName(data, regionName);
-  if (!region) return null;
-  for (const state of region.states) {
-    const uni = state.universities.find(u =>
-      (u.name + u.acronym).toLowerCase().includes(uniName.toLowerCase())
-    );
-    if (uni) return { region: region.name, state: state.name, university: uni };
-  }
-  return null;
-}
+

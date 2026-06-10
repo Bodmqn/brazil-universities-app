@@ -229,8 +229,13 @@ def load_programs():
         return json.load(f)
 
 
-def save_status(results, is_temp=False):
+def save_status(results, is_temp=False, discovered=None):
     STATUS_FILE.parent.mkdir(parents=True, exist_ok=True)
+
+    all_items = dict(results)
+    if discovered:
+        all_items.update(discovered)
+
     output = {
         'last_run': datetime.now(timezone.utc).isoformat(),
         'total_urls': len(results),
@@ -238,7 +243,10 @@ def save_status(results, is_temp=False):
         'programs': results,
     }
 
-    for v in results.values():
+    if discovered:
+        output['discovered'] = discovered
+
+    for v in all_items.values():
         s = v.get('status', 'unknown')
         output['by_status'][s] = output['by_status'].get(s, 0) + 1
 
@@ -257,6 +265,7 @@ def main():
     parser.add_argument('--limit', type=int, default=None, help='Max URLs to scan')
     parser.add_argument('--sample', action='store_true', help='Scan just 5 programs')
     parser.add_argument('--url', type=str, default=None, help='Scan a specific URL only')
+    parser.add_argument('--skip-web-search', action='store_true', help='Skip web search layer')
     args = parser.parse_args()
 
     limit = 5 if args.sample else args.limit
@@ -276,7 +285,13 @@ def main():
     global signal_results
     results = scan_programs(programs, url_filter=args.url, limit=limit)
     signal_results = results
-    save_status(results)
+
+    discovered = None
+    if not args.skip_web_search:
+        from web_search import web_search_for_editais
+        discovered = web_search_for_editais(programs=programs)
+
+    save_status(results, discovered=discovered)
 
 
 def signal_handler(sig, frame):

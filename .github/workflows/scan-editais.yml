@@ -21,7 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 lxml
+          pip install requests beautifulsoup4 lxml duckduckgo-search
 
       - name: Install Node.js
         uses: actions/setup-node@v4
