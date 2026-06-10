@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { useLang } from '../context/LanguageContext';
 import { tr } from '../utils/translations';
 import { usePrograms } from '../hooks/usePrograms';
+import ScannerButton from '../components/ScannerButton';
 
 function normalizeUrl(url) {
   if (!url) return '';
@@ -65,6 +66,8 @@ export default function DashboardPage() {
         {totalOpen} {tr('programs', lang)} {lang === 'pt' ? 'com editais abertos em' : 'with open calls at'}{' '}
         {openUnis.length} {tr('universities', lang)}
       </p>
+
+      <ScannerButton />
 
       {openUnis.length === 0 && discoveredList.length === 0 ? (
         <div className="center-msg">

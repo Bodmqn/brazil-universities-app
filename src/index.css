@@ -616,6 +616,93 @@ a { text-decoration: none; color: inherit; }
 .dash-stat-num.maybe { color: #856404; }
 .date-tag { background: #e8f4fd; color: #0056b3; border-color: #b3d7ff; }
 
+/* Scanner controls */
+.scanner-controls {
+  margin-bottom: 1.2rem;
+}
+.scanner-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+.scanner-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1.1rem;
+  border: none;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+}
+.scanner-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+.scanner-btn-run {
+  background: var(--green);
+  color: white;
+  box-shadow: 0 2px 8px rgba(0,156,59,0.25);
+}
+.scanner-btn-run:hover:not(:disabled) { background: var(--green-dark); transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,156,59,0.35); }
+.scanner-btn-save {
+  background: var(--blue);
+  color: white;
+}
+.scanner-btn-save:hover:not(:disabled) { background: var(--blue-dark); }
+.scanner-btn-save:disabled { opacity: 0.4; }
+.scanner-btn-cancel {
+  background: transparent;
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+}
+.scanner-btn-cancel:hover { background: var(--bg); }
+.scanner-btn-ghost {
+  background: transparent;
+  color: var(--text-light);
+  padding: 0.4rem;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.scanner-btn-ghost:hover { background: var(--bg); color: var(--text); }
+.scanner-spinner {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid rgba(255,255,255,0.3);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+  margin-left: 0.4rem;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.scanner-last-run {
+  font-size: 0.78rem;
+  color: var(--text-light);
+}
+.scanner-token-input {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.scanner-token-field {
+  flex: 1;
+  min-width: 250px;
+  padding: 0.5rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.scanner-token-field:focus { border-color: var(--green); }
+
 /* Footer */
 .footer {
   text-align: center;
