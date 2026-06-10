@@ -684,25 +684,6 @@ a { text-decoration: none; color: inherit; }
   font-size: 0.78rem;
   color: var(--text-light);
 }
-.scanner-token-input {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.scanner-token-field {
-  flex: 1;
-  min-width: 250px;
-  padding: 0.5rem 0.85rem;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  font-size: 0.85rem;
-  font-family: inherit;
-  outline: none;
-  transition: border-color 0.2s;
-}
-.scanner-token-field:focus { border-color: var(--green); }
-
 /* Footer */
 .footer {
   text-align: center;
