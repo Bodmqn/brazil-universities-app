@@ -52,16 +52,16 @@ export default function SearchPage() {
                     to={`/universidade/${encodeURIComponent(r.region)}/${encodeURIComponent(r.university.acronym || r.university.name)}`}
                     className="search-uni-link"
                   >
-                    <strong translate="no">{r.university.acronym}</strong> — {r.university.name}
+                    <strong translate="no">{r.university.acronym}</strong> — <span className="notranslate">{r.university.name}</span>
                   </Link>
                   <span style={{ display: 'flex', gap: '0.4rem', alignItems: 'center' }}>
                     {statusBadge(s?.status)}
-                    <span className="badge">{r.program.level}</span>
+                    <span className="badge notranslate">{r.program.level}</span>
                   </span>
                 </div>
                 <p className="search-program">{r.program.program}</p>
                 <div className="search-card-meta">
-                  <span>{r.region} &middot; {r.state} &middot; {r.program.city}</span>
+                  <span className="notranslate">{r.region} &middot; {r.state} &middot; {r.program.city}</span>
                   <span>Início: {r.program.startDate}</span>
                   {progUrl && (
                     <a href={progUrl} target="_blank" rel="noopener noreferrer" className="web-link">

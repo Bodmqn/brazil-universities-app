@@ -60,16 +60,16 @@ export default function UniversityPage() {
       <div className="breadcrumb">
         <Link to="/">Início</Link>
         <span> / </span>
-        <Link to={`/regiao/${encodeURIComponent(foundRegion)}`}>{foundRegion}</Link>
+        <Link to={`/regiao/${encodeURIComponent(foundRegion)}`} className="notranslate">{foundRegion}</Link>
         <span> / </span>
         <span translate="no">{foundUni.acronym || foundUni.name}</span>
       </div>
 
       <div className="uni-header">
         <div className="uni-header-info">
-          <h2>{foundUni.name}</h2>
+          <h2 className="notranslate">{foundUni.name}</h2>
           <p className="uni-meta">
-            <strong translate="no">{foundUni.acronym}</strong> &middot; {foundState} &middot; {foundRegion}
+            <strong translate="no">{foundUni.acronym}</strong> &middot; <span className="notranslate">{foundState}</span> &middot; <span className="notranslate">{foundRegion}</span>
           </p>
         </div>
         <div className="uni-header-stats">

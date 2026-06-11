@@ -16,10 +16,10 @@ export default function RegionPage() {
       <div className="breadcrumb">
         <Link to="/">Início</Link>
         <span> / </span>
-        <span>{region.name}</span>
+        <span className="notranslate">{region.name}</span>
       </div>
 
-      <h2 className="page-title">{region.name}</h2>
+      <h2 className="page-title notranslate">{region.name}</h2>
       <p className="page-subtitle">
         {region.states.length} Estados &middot;{' '}
         {region.states.reduce((a, s) => a + s.universities.length, 0)} Universidades
@@ -30,7 +30,7 @@ export default function RegionPage() {
           const uniCount = state.universities.length;
           return (
             <div key={state.name} className="state-section">
-              <h3 className="state-name">{state.name}</h3>
+              <h3 className="state-name notranslate">{state.name}</h3>
               <p className="state-meta">{uniCount} Universidades</p>
               <div className="uni-list">
                 {state.universities.map(uni => (
@@ -43,7 +43,7 @@ export default function RegionPage() {
                       <span className="uni-acronym" translate="no">{uni.acronym}</span>
                       <span className="uni-prog-count">{uni.programs.length} Programas</span>
                     </div>
-                    <p className="uni-name">{uni.name}</p>
+                    <p className="uni-name notranslate">{uni.name}</p>
                     <div className="uni-card-footer">
                       <span>{[...new Set(uni.programs.map(p => p.level))].join(', ')}</span>
                     </div>

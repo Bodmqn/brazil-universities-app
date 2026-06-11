@@ -66,7 +66,7 @@ export default function HomePage() {
             >
               <div className="region-header">
                 <span className="region-icon">{regionIcons[region.name] || '\u{1F4CD}'}</span>
-                <h2>{region.name}</h2>
+                <h2 className="notranslate">{region.name}</h2>
               </div>
               <div className="region-states">{stateCount} Estados</div>
               <div className="region-stats">

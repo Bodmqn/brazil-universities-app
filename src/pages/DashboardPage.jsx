@@ -106,8 +106,8 @@ export default function DashboardPage() {
                     <div className="dash-card-top">
                       <div className="dash-card-info">
                         {uni.acronym && <span className="dash-acronym" translate="no">{uni.acronym}</span>}
-                        <h3>{uni.name}</h3>
-                        <span className="dash-location">{uni.region} &middot; {uni.state}</span>
+                        <h3 className="notranslate">{uni.name}</h3>
+                        <span className="dash-location notranslate">{uni.region} &middot; {uni.state}</span>
                       </div>
                       <div className="dash-card-stats">
                         <div className="dash-stat">
