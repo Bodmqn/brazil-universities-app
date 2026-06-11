@@ -52,7 +52,7 @@ export default function SearchPage() {
                     to={`/universidade/${encodeURIComponent(r.region)}/${encodeURIComponent(r.university.acronym || r.university.name)}`}
                     className="search-uni-link"
                   >
-                    <strong>{r.university.acronym}</strong> — {r.university.name}
+                    <strong translate="no">{r.university.acronym}</strong> — {r.university.name}
                   </Link>
                   <span style={{ display: 'flex', gap: '0.4rem', alignItems: 'center' }}>
                     {statusBadge(s?.status)}

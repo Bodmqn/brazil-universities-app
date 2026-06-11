@@ -62,14 +62,14 @@ export default function UniversityPage() {
         <span> / </span>
         <Link to={`/regiao/${encodeURIComponent(foundRegion)}`}>{foundRegion}</Link>
         <span> / </span>
-        <span>{foundUni.acronym || foundUni.name}</span>
+        <span translate="no">{foundUni.acronym || foundUni.name}</span>
       </div>
 
       <div className="uni-header">
         <div className="uni-header-info">
           <h2>{foundUni.name}</h2>
           <p className="uni-meta">
-            <strong>{foundUni.acronym}</strong> &middot; {foundState} &middot; {foundRegion}
+            <strong translate="no">{foundUni.acronym}</strong> &middot; {foundState} &middot; {foundRegion}
           </p>
         </div>
         <div className="uni-header-stats">

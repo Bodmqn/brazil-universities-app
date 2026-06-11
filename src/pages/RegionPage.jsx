@@ -40,7 +40,7 @@ export default function RegionPage() {
                     className="uni-card"
                   >
                     <div className="uni-card-header">
-                      <span className="uni-acronym">{uni.acronym}</span>
+                      <span className="uni-acronym" translate="no">{uni.acronym}</span>
                       <span className="uni-prog-count">{uni.programs.length} Programas</span>
                     </div>
                     <p className="uni-name">{uni.name}</p>
