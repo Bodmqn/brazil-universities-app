@@ -1,7 +1,32 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { regionName } from '../utils/regionName';
 import { usePrograms } from '../hooks/usePrograms';
+
+const PAGE_SIZE = 50;
+
+const COLUMNS = [
+  { key: 'region', label: 'Região', fixed: true },
+  { key: 'state', label: 'Estado', fixed: true },
+  { key: 'university', label: 'Universidade', fixed: true },
+  { key: 'acronym', label: 'Sigla' },
+  { key: 'level', label: 'Nível' },
+  { key: 'program', label: 'Nome do Programa' },
+  { key: 'city', label: 'Cidade' },
+  { key: 'campus', label: 'Campus' },
+  { key: 'startDate', label: 'Início' },
+  { key: 'duration', label: 'Duração (meses)' },
+  { key: 'languageRequirement', label: 'Requisito de Idioma' },
+  { key: 'openCalls', label: 'Editais Abertos' },
+  { key: 'url', label: 'Site' },
+];
+
+const COL_WIDTHS = {
+  region: 100, state: 110, university: 230, acronym: 75,
+  level: 85, program: 260, city: 110, campus: 170,
+  startDate: 80, duration: 70, languageRequirement: 200,
+  openCalls: 100, url: 55,
+};
 
 function normalizeUrl(url) {
   if (!url) return '';
@@ -25,22 +50,6 @@ function statusBadge(status) {
     </span>
   );
 }
-
-const COLUMNS = [
-  { key: 'region', label: 'Região' },
-  { key: 'state', label: 'Estado' },
-  { key: 'university', label: 'Universidade' },
-  { key: 'acronym', label: 'Sigla' },
-  { key: 'level', label: 'Nível' },
-  { key: 'program', label: 'Nome do Programa' },
-  { key: 'city', label: 'Cidade' },
-  { key: 'campus', label: 'Campus' },
-  { key: 'startDate', label: 'Início' },
-  { key: 'duration', label: 'Duração (meses)' },
-  { key: 'languageRequirement', label: 'Requisito de Idioma' },
-  { key: 'openCalls', label: 'Editais Abertos' },
-  { key: 'url', label: 'Site' },
-];
 
 function flattenData(data, statusMap) {
   const rows = [];
@@ -74,10 +83,67 @@ function flattenData(data, statusMap) {
   return rows;
 }
 
+function renderCell(colKey, row, statusMap) {
+  switch (colKey) {
+    case 'region':
+      return regionName(row.region);
+    case 'state':
+      return row.state;
+    case 'university':
+      return (
+        <Link
+          to={`/universidade/${encodeURIComponent(row.regionSlug)}/${encodeURIComponent(row.uniKey)}`}
+          className="web-link"
+        >
+          {row.university}
+        </Link>
+      );
+    case 'acronym':
+      return <span className="badge" translate="no">{row.acronym}</span>;
+    case 'level':
+      return <span className="badge">{row.level}</span>;
+    case 'program':
+      return <span className="ap-prog-name">{row.program}</span>;
+    case 'city':
+      return row.city;
+    case 'campus':
+      return row.campus;
+    case 'startDate':
+      return row.startDate;
+    case 'duration':
+      return row.duration ? `${row.duration} meses` : '';
+    case 'languageRequirement':
+      return <span className="lang-cell">{row.languageRequirement}</span>;
+    case 'openCalls':
+      return statusBadge(row.openCalls);
+    case 'url':
+      return row.url ? (
+        <a href={normalizeUrl(row.url)}
+          target="_blank" rel="noopener noreferrer" className="web-link">
+          Site
+        </a>
+      ) : null;
+    default:
+      return null;
+  }
+}
+
+const COL_PICKER_LABELS = {
+  region: 'Região', state: 'Estado', university: 'Universidade',
+  acronym: 'Sigla', level: 'Nível', program: 'Nome do Programa',
+  city: 'Cidade', campus: 'Campus', startDate: 'Início',
+  duration: 'Duração', languageRequirement: 'Requisito de Idioma',
+  openCalls: 'Editais Abertos', url: 'Site',
+};
+
 export default function AllProgramsPage() {
   const { data, statusMap, loading, error } = usePrograms();
   const [sortKey, setSortKey] = useState(null);
   const [sortAsc, setSortAsc] = useState(true);
+  const [page, setPage] = useState(1);
+  const [visibleCols, setVisibleCols] = useState(() => COLUMNS.map(c => c.key));
+  const [showColPicker, setShowColPicker] = useState(false);
+  const pickerRef = useRef(null);
 
   const rows = useMemo(() => flattenData(data, statusMap), [data, statusMap]);
 
@@ -99,6 +165,36 @@ export default function AllProgramsPage() {
     });
   }, [rows, sortKey, sortAsc]);
 
+  const totalPages = Math.max(1, Math.ceil(sorted.length / PAGE_SIZE));
+  const clampedPage = Math.min(page, totalPages);
+  const startIdx = (clampedPage - 1) * PAGE_SIZE;
+  const endIdx = Math.min(startIdx + PAGE_SIZE, sorted.length);
+  const currentRows = sorted.slice(startIdx, endIdx);
+
+  useEffect(() => setPage(1), [sortKey]);
+
+  useEffect(() => {
+    if (page > totalPages) setPage(totalPages);
+  }, [page, totalPages]);
+
+  useEffect(() => {
+    function handleClick(e) {
+      if (pickerRef.current && !pickerRef.current.contains(e.target)) {
+        setShowColPicker(false);
+      }
+    }
+    if (showColPicker) {
+      document.addEventListener('mousedown', handleClick);
+      return () => document.removeEventListener('mousedown', handleClick);
+    }
+  }, [showColPicker]);
+
+  const displayCols = useMemo(() => {
+    const fixed = COLUMNS.filter(c => c.fixed).map(c => c.key);
+    const merged = new Set([...fixed, ...visibleCols]);
+    return COLUMNS.filter(c => merged.has(c.key));
+  }, [visibleCols]);
+
   function handleSort(key) {
     if (sortKey === key) {
       setSortAsc(a => !a);
@@ -108,8 +204,22 @@ export default function AllProgramsPage() {
     }
   }
 
+  function toggleCol(key) {
+    const col = COLUMNS.find(c => c.key === key);
+    if (col?.fixed) return;
+    setVisibleCols(prev =>
+      prev.includes(key) ? prev.filter(k => k !== key) : [...prev, key]
+    );
+  }
+
+  function goToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
   if (loading) return <div className="center-msg">Carregando...</div>;
   if (error) return <div className="center-msg">Erro ao carregar dados: {error}</div>;
+
+  const sortLabel = COLUMNS.find(c => c.key === sortKey)?.label || '';
 
   return (
     <div className="all-programs-page">
@@ -120,60 +230,111 @@ export default function AllProgramsPage() {
       </div>
 
       <h2 className="page-title">Tabela Completa de Programas</h2>
-      <p className="page-subtitle">{rows.length} programas de pós-graduação listados</p>
+      <p className="page-subtitle">{sorted.length} programas de pós-graduação listados</p>
 
-      <div className="programs-table-wrap all-programs-wrap">
-        <table className="programs-table all-programs-table">
-          <thead>
-            <tr>
-              {COLUMNS.map(col => (
-                <th
-                  key={col.key}
-                  className={`sortable-th ${sortKey === col.key ? (sortAsc ? 'sorted-asc' : 'sorted-desc') : ''}`}
-                  onClick={() => handleSort(col.key)}
-                >
-                  {col.label}
-                  {sortKey === col.key && (
-                    <span className="sort-arrow">{sortAsc ? ' ▲' : ' ▼'}</span>
-                  )}
-                </th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {sorted.map((row, idx) => (
-              <tr key={idx}>
-                <td>{regionName(row.region)}</td>
-                <td>{row.state}</td>
-                <td>
-                  <Link
-                    to={`/universidade/${encodeURIComponent(row.regionSlug)}/${encodeURIComponent(row.uniKey)}`}
-                    className="web-link"
+      <div className="ap-toolbar">
+        <div className="ap-toolbar-left">
+          <button className="ap-top-btn" onClick={goToTop}>⬆ Topo</button>
+          <span className="ap-page-info">
+            <strong>{startIdx + 1}–{endIdx}</strong> de {sorted.length}
+          </span>
+        </div>
+        <div className="ap-toolbar-center">
+          <button
+            className="ap-page-btn"
+            disabled={clampedPage <= 1}
+            onClick={() => setPage(p => p - 1)}
+          >
+            ◀
+          </button>
+          <span className="ap-page-num">Página {clampedPage} de {totalPages}</span>
+          <button
+            className="ap-page-btn"
+            disabled={clampedPage >= totalPages}
+            onClick={() => setPage(p => p + 1)}
+          >
+            ▶
+          </button>
+        </div>
+        <div className="ap-toolbar-right" ref={pickerRef}>
+          <button
+            className="ap-col-picker-btn"
+            onClick={() => setShowColPicker(s => !s)}
+          >
+            Colunas ▾
+          </button>
+          {showColPicker && (
+            <div className="ap-col-picker-dropdown">
+              {COLUMNS.map(col => {
+                const isVisible = displayCols.includes(col.key);
+                return (
+                  <label
+                    key={col.key}
+                    className={`ap-col-option ${col.fixed ? 'ap-col-fixed' : ''}`}
                   >
-                    {row.university}
-                  </Link>
-                </td>
-                <td><span className="badge" translate="no">{row.acronym}</span></td>
-                <td><span className="badge">{row.level}</span></td>
-                <td className="prog-name">{row.program}</td>
-                <td>{row.city}</td>
-                <td>{row.campus}</td>
-                <td>{row.startDate}</td>
-                <td>{row.duration} meses</td>
-                <td className="lang-cell">{row.languageRequirement}</td>
-                <td>{statusBadge(row.openCalls)}</td>
-                <td>
-                  {row.url && (
-                    <a href={normalizeUrl(row.url)}
-                      target="_blank" rel="noopener noreferrer" className="web-link">
-                      Site
-                    </a>
-                  )}
-                </td>
+                    <input
+                      type="checkbox"
+                      checked={isVisible}
+                      disabled={col.fixed}
+                      onChange={() => toggleCol(col.key)}
+                    />
+                    {col.label}
+                    {col.fixed && <span className="ap-col-fixed-tag">fixa</span>}
+                  </label>
+                );
+              })}
+            </div>
+          )}
+        </div>
+      </div>
+
+      <div className="ap-table-container">
+        <div className="ap-header-table">
+          <table className="ap-table">
+            <colgroup>
+              {displayCols.map(col => (
+                <col key={col.key} style={{ width: COL_WIDTHS[col.key] }} />
+              ))}
+            </colgroup>
+            <thead>
+              <tr>
+                {displayCols.map(col => (
+                  <th
+                    key={col.key}
+                    data-col={col.key}
+                    className={`ap-th ${sortKey === col.key ? (sortAsc ? 'sorted-asc' : 'sorted-desc') : ''}`}
+                    onClick={() => handleSort(col.key)}
+                  >
+                    {col.label}
+                    {sortKey === col.key && (
+                      <span className="sort-arrow">{sortAsc ? ' ▲' : ' ▼'}</span>
+                    )}
+                  </th>
+                ))}
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+          </table>
+        </div>
+        <div className="ap-body-wrapper">
+          <table className="ap-table">
+            <colgroup>
+              {displayCols.map(col => (
+                <col key={col.key} style={{ width: COL_WIDTHS[col.key] }} />
+              ))}
+            </colgroup>
+            <tbody>
+              {currentRows.map((row, idx) => (
+                <tr key={startIdx + idx}>
+                  {displayCols.map(col => (
+                    <td key={col.key} data-col={col.key}>
+                      {renderCell(col.key, row, statusMap)}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   );
