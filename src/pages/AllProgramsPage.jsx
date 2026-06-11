@@ -343,6 +343,7 @@ export default function AllProgramsPage() {
           </table>
         </div>
         <div className="ap-body-wrapper">
+          <div className="ap-body-inner">
           <table className="ap-table">
             <colgroup>
               {displayCols.map(col => (
@@ -361,6 +362,7 @@ export default function AllProgramsPage() {
               ))}
             </tbody>
           </table>
+          </div>
         </div>
       </div>
     </div>
