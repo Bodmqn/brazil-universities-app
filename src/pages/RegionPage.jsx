@@ -3,13 +3,13 @@ import { regionName } from '../utils/regionName';
 import { usePrograms, getRegionByName } from '../hooks/usePrograms';
 
 export default function RegionPage() {
-  const { regionName } = useParams();
+  const { regionName: regionSlug } = useParams();
   const { data, loading, error } = usePrograms();
 
   if (loading) return <div className="center-msg">Carregando...</div>;
   if (error) return <div className="center-msg">Erro ao carregar dados: {error}</div>;
 
-  const region = getRegionByName(data, regionName);
+  const region = getRegionByName(data, regionSlug);
   if (!region) return <div className="center-msg">Região não encontrada</div>;
 
   return (
