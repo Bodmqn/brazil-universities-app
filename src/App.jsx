@@ -5,6 +5,7 @@ import RegionPage from './pages/RegionPage';
 import UniversityPage from './pages/UniversityPage';
 import SearchPage from './pages/SearchPage';
 import DashboardPage from './pages/DashboardPage';
+import AllProgramsPage from './pages/AllProgramsPage';
 import ErrorBoundary from './components/ErrorBoundary';
 
 export default function App() {
@@ -17,7 +18,8 @@ export default function App() {
             <Route path="/regiao/:regionName" element={<RegionPage />} />
             <Route path="/universidade/:regionName/:uniKey" element={<UniversityPage />} />
             <Route path="/busca" element={<SearchPage />} />
-          <Route path="/editais" element={<DashboardPage />} />
+            <Route path="/editais" element={<DashboardPage />} />
+            <Route path="/todos-programas" element={<AllProgramsPage />} />
           </Route>
         </Routes>
       </BrowserRouter>

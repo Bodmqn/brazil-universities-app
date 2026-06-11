@@ -726,6 +726,20 @@ a { text-decoration: none; color: inherit; }
   margin-top: 1rem;
 }
 
+/* All Programs Page */
+.all-programs-page { animation: fadeUp 0.35s ease; }
+.all-programs-wrap { overflow-x: auto; }
+.all-programs-table { min-width: 1600px; }
+.sortable-th {
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s;
+}
+.sortable-th:hover { background: #e0e0e0; }
+[data-theme="dark"] .sortable-th:hover { background: #2d3748; }
+.sort-arrow { font-size: 0.65rem; }
+.sorted-asc, .sorted-desc { color: var(--green); }
+
 /* Responsive */
 @media (max-width: 768px) {
   .header-inner { flex-wrap: wrap; }
