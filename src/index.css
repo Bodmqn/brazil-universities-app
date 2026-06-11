@@ -771,6 +771,20 @@ a { text-decoration: none; color: inherit; }
   font-size: 0.82rem;
   color: var(--text-secondary);
 }
+.ap-search-input {
+  padding: 0.3rem 0.7rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-family: inherit;
+  background: var(--bg);
+  color: var(--text);
+  outline: none;
+  min-width: 160px;
+  transition: border-color 0.2s;
+}
+.ap-search-input:focus { border-color: var(--green); }
+.ap-search-input::placeholder { color: var(--text-light); }
 .ap-page-btn {
   display: inline-flex;
   align-items: center;

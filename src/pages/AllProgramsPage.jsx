@@ -143,6 +143,7 @@ export default function AllProgramsPage() {
   const [page, setPage] = useState(1);
   const [visibleCols, setVisibleCols] = useState(() => COLUMNS.map(c => c.key));
   const [showColPicker, setShowColPicker] = useState(false);
+  const [query, setQuery] = useState('');
   const pickerRef = useRef(null);
 
   const rows = useMemo(() => flattenData(data, statusMap), [data, statusMap]);
@@ -165,13 +166,31 @@ export default function AllProgramsPage() {
     });
   }, [rows, sortKey, sortAsc]);
 
-  const totalPages = Math.max(1, Math.ceil(sorted.length / PAGE_SIZE));
+  const filtered = useMemo(() => {
+    if (!query) return sorted;
+    const q = query.toLowerCase();
+    return sorted.filter(row =>
+      String(row.region).toLowerCase().includes(q) ||
+      String(row.state).toLowerCase().includes(q) ||
+      String(row.university).toLowerCase().includes(q) ||
+      String(row.acronym).toLowerCase().includes(q) ||
+      String(row.level).toLowerCase().includes(q) ||
+      String(row.program).toLowerCase().includes(q) ||
+      String(row.city).toLowerCase().includes(q) ||
+      String(row.campus).toLowerCase().includes(q) ||
+      String(row.startDate).toLowerCase().includes(q) ||
+      String(row.duration).toLowerCase().includes(q) ||
+      String(row.languageRequirement).toLowerCase().includes(q)
+    );
+  }, [sorted, query]);
+
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const clampedPage = Math.min(page, totalPages);
   const startIdx = (clampedPage - 1) * PAGE_SIZE;
-  const endIdx = Math.min(startIdx + PAGE_SIZE, sorted.length);
-  const currentRows = sorted.slice(startIdx, endIdx);
+  const endIdx = Math.min(startIdx + PAGE_SIZE, filtered.length);
+  const currentRows = filtered.slice(startIdx, endIdx);
 
-  useEffect(() => setPage(1), [sortKey]);
+  useEffect(() => setPage(1), [sortKey, query]);
 
   useEffect(() => {
     if (page > totalPages) setPage(totalPages);
@@ -230,14 +249,24 @@ export default function AllProgramsPage() {
       </div>
 
       <h2 className="page-title">Tabela Completa de Programas</h2>
-      <p className="page-subtitle">{sorted.length} programas de pós-graduação listados</p>
+      <p className="page-subtitle">
+        {sorted.length} programas de pós-graduação listados
+        {query && <> &middot; <strong>{filtered.length}</strong> correspondentes</>}
+      </p>
 
       <div className="ap-toolbar">
         <div className="ap-toolbar-left">
           <button className="ap-top-btn" onClick={goToTop}>⬆ Topo</button>
           <span className="ap-page-info">
-            <strong>{startIdx + 1}–{endIdx}</strong> de {sorted.length}
+            <strong>{startIdx + 1}–{endIdx}</strong> de {filtered.length}
           </span>
+          <input
+            className="ap-search-input"
+            type="text"
+            placeholder="Filtrar programas..."
+            value={query}
+            onChange={e => setQuery(e.target.value)}
+          />
         </div>
         <div className="ap-toolbar-center">
           <button
