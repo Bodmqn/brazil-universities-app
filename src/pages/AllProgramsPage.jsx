@@ -268,19 +268,17 @@ export default function AllProgramsPage() {
               {COLUMNS.map(col => {
                 const isVisible = displayCols.includes(col.key);
                 return (
-                  <label
+                  <div
                     key={col.key}
                     className={`ap-col-option ${col.fixed ? 'ap-col-fixed' : ''}`}
+                    onClick={() => toggleCol(col.key)}
                   >
-                    <input
-                      type="checkbox"
-                      checked={isVisible}
-                      disabled={col.fixed}
-                      onChange={() => toggleCol(col.key)}
-                    />
+                    <span className={`ap-col-check ${isVisible ? 'ap-col-checked' : ''}`}>
+                      {isVisible && '✓'}
+                    </span>
                     {col.label}
                     {col.fixed && <span className="ap-col-fixed-tag">fixa</span>}
-                  </label>
+                  </div>
                 );
               })}
             </div>

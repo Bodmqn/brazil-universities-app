@@ -835,10 +835,31 @@ a { text-decoration: none; color: inherit; }
   transition: background 0.15s;
 }
 .ap-col-option:hover { background: var(--bg); }
-.ap-col-option input { accent-color: var(--green); }
+.ap-col-check {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--border);
+  border-radius: 3px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  color: white;
+  transition: all 0.15s;
+}
+.ap-col-checked {
+  background: var(--green);
+  border-color: var(--green);
+}
 .ap-col-fixed {
   opacity: 0.6;
   cursor: not-allowed;
+}
+.ap-col-fixed .ap-col-checked {
+  background: var(--text-light);
+  border-color: var(--text-light);
 }
 .ap-col-fixed-tag {
   font-size: 0.68rem;
