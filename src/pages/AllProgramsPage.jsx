@@ -11,7 +11,7 @@ const COLUMNS = [
   { key: 'university', label: 'Universidade', fixed: true },
   { key: 'acronym', label: 'Sigla' },
   { key: 'level', label: 'Nível' },
-  { key: 'program', label: 'Nome do Programa' },
+  { key: 'program', label: 'Nome do Programa', fixed: true },
   { key: 'city', label: 'Cidade' },
   { key: 'campus', label: 'Campus' },
   { key: 'startDate', label: 'Início' },
@@ -56,7 +56,8 @@ function flattenData(data, statusMap) {
   for (const region of data || []) {
     for (const state of region.states || []) {
       for (const uni of state.universities || []) {
-        for (const prog of uni.programs || []) {
+        for (let progIdx = 0; progIdx < (uni.programs || []).length; progIdx++) {
+          const prog = uni.programs[progIdx];
           const s = getStatus(prog.url, statusMap);
           rows.push({
             region: region.name,
@@ -65,6 +66,7 @@ function flattenData(data, statusMap) {
             acronym: uni.acronym,
             level: prog.level,
             program: prog.program,
+            programIdx: progIdx,
             city: prog.city,
             campus: prog.campus,
             startDate: prog.startDate,
@@ -103,7 +105,14 @@ function renderCell(colKey, row, statusMap) {
     case 'level':
       return <span className="badge">{row.level}</span>;
     case 'program':
-      return <span className="ap-prog-name">{row.program}</span>;
+      return (
+        <Link
+          to={`/programa/${encodeURIComponent(row.regionSlug)}/${encodeURIComponent(row.uniKey)}/${row.programIdx}`}
+          className="ap-prog-name web-link"
+        >
+          {row.program}
+        </Link>
+      );
     case 'city':
       return row.city;
     case 'campus':
@@ -141,7 +150,7 @@ export default function AllProgramsPage() {
   const [sortKey, setSortKey] = useState(null);
   const [sortAsc, setSortAsc] = useState(true);
   const [page, setPage] = useState(1);
-  const [visibleCols, setVisibleCols] = useState(() => COLUMNS.map(c => c.key));
+  const [visibleCols, setVisibleCols] = useState(() => ['languageRequirement', 'url']);
   const [showColPicker, setShowColPicker] = useState(false);
   const [query, setQuery] = useState('');
   const pickerRef = useRef(null);

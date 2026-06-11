@@ -142,7 +142,8 @@ export function findPrograms(data, query) {
   for (const region of data) {
     for (const state of region.states) {
       for (const uni of state.universities) {
-        for (const prog of uni.programs) {
+        for (let progIdx = 0; progIdx < uni.programs.length; progIdx++) {
+          const prog = uni.programs[progIdx];
           const match =
             matchesAny(uni.name, queries) ||
             matchesAny(uni.acronym, queries) ||
@@ -150,7 +151,7 @@ export function findPrograms(data, query) {
             matchesAny(prog.city, queries) ||
             matchesAny(prog.level, queries);
           if (match) {
-            results.push({ region: region.name, state: state.name, university: uni, program: prog });
+            results.push({ region: region.name, state: state.name, university: uni, program: prog, programIdx: progIdx });
           }
         }
       }

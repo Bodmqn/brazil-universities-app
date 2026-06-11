@@ -100,7 +100,14 @@ export default function UniversityPage() {
               return (
                 <tr key={idx}>
                   <td><span className="badge">{prog.level}</span></td>
-                  <td className="prog-name">{prog.program}</td>
+                  <td className="prog-name">
+                    <Link
+                      to={`/programa/${encodeURIComponent(foundRegion)}/${encodeURIComponent(foundUni.acronym || foundUni.name)}/${idx}`}
+                      className="prog-link"
+                    >
+                      {prog.program}
+                    </Link>
+                  </td>
                   <td>{prog.city}</td>
                   <td>{prog.campus}</td>
                   <td>{prog.startDate}</td>

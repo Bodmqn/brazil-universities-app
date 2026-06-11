@@ -60,7 +60,14 @@ export default function SearchPage() {
                     <span className="badge">{r.program.level}</span>
                   </span>
                 </div>
-                <p className="search-program">{r.program.program}</p>
+                <p className="search-program">
+                  <Link
+                    to={`/programa/${encodeURIComponent(r.region)}/${encodeURIComponent(r.university.acronym || r.university.name)}/${r.programIdx}`}
+                    className="prog-link"
+                  >
+                    {r.program.program}
+                  </Link>
+                </p>
                 <div className="search-card-meta">
                   <span>{regionName(r.region)} &middot; {r.state} &middot; {r.program.city}</span>
                   <span>Início: {r.program.startDate}</span>

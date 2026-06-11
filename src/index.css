@@ -453,6 +453,57 @@ a { text-decoration: none; color: inherit; }
   transition: color 0.2s;
 }
 .web-link:hover { color: var(--green-dark); text-decoration: underline; }
+.prog-link {
+  color: var(--text);
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.prog-link:hover { color: var(--green); text-decoration: underline; }
+
+/* Program Page */
+.program-page { animation: fadeUp 0.35s ease; }
+.prog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  animation: fadeUp 0.35s ease;
+}
+.prog-header-info h2 { font-size: 1.4rem; font-weight: 800; letter-spacing: -0.01em; }
+.prog-meta { color: var(--text-secondary); font-size: 0.85rem; margin-top: 0.3rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.3rem; }
+.prog-meta-sep { color: var(--text-light); }
+.prog-header-stats { margin-top: 0.5rem; }
+.prog-details {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  overflow: hidden;
+  animation: fadeUp 0.4s ease;
+}
+.prog-detail-row {
+  display: flex;
+  border-bottom: 1px solid var(--border);
+  padding: 0.85rem 1.2rem;
+  transition: background 0.15s;
+}
+.prog-detail-row:last-child { border-bottom: none; }
+.prog-detail-row:hover { background: var(--bg); }
+.prog-detail-label {
+  width: 180px;
+  flex-shrink: 0;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.prog-detail-value {
+  font-size: 0.92rem;
+  color: var(--text);
+}
 
 /* Status badges */
 .status-badge {

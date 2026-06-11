@@ -6,6 +6,7 @@ import UniversityPage from './pages/UniversityPage';
 import SearchPage from './pages/SearchPage';
 import DashboardPage from './pages/DashboardPage';
 import AllProgramsPage from './pages/AllProgramsPage';
+import ProgramPage from './pages/ProgramPage';
 import ErrorBoundary from './components/ErrorBoundary';
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
             <Route path="/busca" element={<SearchPage />} />
             <Route path="/editais" element={<DashboardPage />} />
             <Route path="/todos-programas" element={<AllProgramsPage />} />
+            <Route path="/programa/:regionName/:uniKey/:programIdx" element={<ProgramPage />} />
           </Route>
         </Routes>
       </BrowserRouter>
