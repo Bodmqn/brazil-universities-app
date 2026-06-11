@@ -26,7 +26,7 @@ function statusBadge(status) {
 }
 
 export default function UniversityPage() {
-  const { regionName, uniKey } = useParams();
+  const { regionName: regionSlug, uniKey } = useParams();
   const { data, statusMap, loading, error } = usePrograms();
 
   if (loading) return <div className="center-msg">Carregando...</div>;
@@ -36,7 +36,7 @@ export default function UniversityPage() {
   let foundState = '';
   let foundRegion = '';
   for (const region of data || []) {
-    if (region.name.toLowerCase() !== decodeURIComponent(regionName).toLowerCase()) continue;
+    if (region.name.toLowerCase() !== decodeURIComponent(regionSlug).toLowerCase()) continue;
     for (const state of region.states) {
       for (const uni of state.universities) {
         const key = uni.acronym || uni.name;
