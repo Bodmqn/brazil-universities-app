@@ -955,10 +955,6 @@ a { text-decoration: none; color: inherit; }
 .ap-body-wrapper {
   overflow: auto;
   max-height: 65vh;
-  transform: rotateX(180deg);
-}
-.ap-body-inner {
-  transform: rotateX(180deg);
 }
 .ap-table th {
   padding: 0.55rem 0.6rem;
