@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { usePrograms } from '../hooks/usePrograms';
+import { regionName } from '../utils/regionName';
 import ScannerButton from '../components/ScannerButton';
 
 const YEARS = ['2025', '2026', '2027', '2028'];
@@ -106,8 +107,8 @@ export default function DashboardPage() {
                     <div className="dash-card-top">
                       <div className="dash-card-info">
                         {uni.acronym && <span className="dash-acronym" translate="no">{uni.acronym}</span>}
-                        <h3 className="notranslate">{uni.name}</h3>
-                        <span className="dash-location notranslate">{uni.region} &middot; {uni.state}</span>
+                        <h3>{uni.name}</h3>
+                        <span className="dash-location">{regionName(uni.region)} &middot; {uni.state}</span>
                       </div>
                       <div className="dash-card-stats">
                         <div className="dash-stat">

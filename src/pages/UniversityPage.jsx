@@ -1,4 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
+import { regionName } from '../utils/regionName';
 import { usePrograms } from '../hooks/usePrograms';
 
 function normalizeUrl(url) {
@@ -60,16 +61,16 @@ export default function UniversityPage() {
       <div className="breadcrumb">
         <Link to="/">Início</Link>
         <span> / </span>
-        <Link to={`/regiao/${encodeURIComponent(foundRegion)}`} className="notranslate">{foundRegion}</Link>
+        <Link to={`/regiao/${encodeURIComponent(foundRegion)}`}>{regionName(foundRegion)}</Link>
         <span> / </span>
         <span translate="no">{foundUni.acronym || foundUni.name}</span>
       </div>
 
       <div className="uni-header">
         <div className="uni-header-info">
-          <h2 className="notranslate">{foundUni.name}</h2>
+          <h2>{foundUni.name}</h2>
           <p className="uni-meta">
-            <strong translate="no">{foundUni.acronym}</strong> &middot; <span className="notranslate">{foundState}</span> &middot; <span className="notranslate">{foundRegion}</span>
+            <strong translate="no">{foundUni.acronym}</strong> &middot; {foundState} &middot; {regionName(foundRegion)}
           </p>
         </div>
         <div className="uni-header-stats">
