@@ -1,10 +1,8 @@
 import { useState, useEffect } from 'react';
-import { useLang } from '../context/LanguageContext';
 
 const API = '/.netlify/functions/gh-scan';
 
 export default function ScannerButton({ onScanComplete }) {
-  const { lang } = useLang();
   const [status, setStatus] = useState('idle');
   const [runId, setRunId] = useState(null);
   const [lastRun, setLastRun] = useState(() => localStorage.getItem('gh_last_scan'));
@@ -54,30 +52,15 @@ export default function ScannerButton({ onScanComplete }) {
     }
   };
 
-  const actionLabels = {
-    pt: {
-      trigger: 'Executar Scanner',
-      triggering: 'Iniciando...',
-      running: 'Escaneando...',
-      done: 'Concluído!',
-      error: 'Erro',
-      idle: 'Executar Scanner',
-      lastRun: 'Última execução',
-      now: 'agora mesmo',
-    },
-    en: {
-      trigger: 'Run Scanner',
-      triggering: 'Starting...',
-      running: 'Scanning...',
-      done: 'Complete!',
-      error: 'Error',
-      idle: 'Run Scanner',
-      lastRun: 'Last run',
-      now: 'just now',
-    },
+  const labels = {
+    trigger: 'Executar Scanner',
+    triggering: 'Iniciando...',
+    running: 'Escaneando...',
+    done: 'Concluído!',
+    error: 'Erro',
+    idle: 'Executar Scanner',
+    lastRun: 'Última execução',
   };
-
-  const labels = actionLabels[lang] || actionLabels.en;
 
   return (
     <div className="scanner-toolbar">
@@ -94,20 +77,20 @@ export default function ScannerButton({ onScanComplete }) {
       </button>
       {lastRun && (
         <span className="scanner-last-run">
-          {labels.lastRun}: {formatTimeAgo(lastRun, lang)}
+          {labels.lastRun}: {formatTimeAgo(lastRun)}
         </span>
       )}
     </div>
   );
 }
 
-function formatTimeAgo(iso, lang) {
+function formatTimeAgo(iso) {
   const diff = Date.now() - new Date(iso).getTime();
   const mins = Math.floor(diff / 60000);
-  if (mins < 1) return lang === 'pt' ? 'agora mesmo' : 'just now';
-  if (mins < 60) return lang === 'pt' ? `há ${mins} min` : `${mins}m ago`;
+  if (mins < 1) return 'agora mesmo';
+  if (mins < 60) return `há ${mins} min`;
   const hours = Math.floor(mins / 60);
-  if (hours < 24) return lang === 'pt' ? `há ${hours}h` : `${hours}h ago`;
+  if (hours < 24) return `há ${hours}h`;
   const days = Math.floor(hours / 24);
-  return lang === 'pt' ? `há ${days}d` : `${days}d ago`;
+  return `há ${days}d`;
 }

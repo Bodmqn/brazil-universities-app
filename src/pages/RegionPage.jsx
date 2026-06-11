@@ -1,31 +1,28 @@
 import { useParams, Link } from 'react-router-dom';
-import { useLang } from '../context/LanguageContext';
-import { tr } from '../utils/translations';
 import { usePrograms, getRegionByName } from '../hooks/usePrograms';
 
 export default function RegionPage() {
   const { regionName } = useParams();
-  const { lang } = useLang();
-  const { data, loading, error } = usePrograms(lang);
+  const { data, loading, error } = usePrograms();
 
-  if (loading) return <div className="center-msg">{tr('loading', lang)}</div>;
-  if (error) return <div className="center-msg">{tr('error', lang)}: {error}</div>;
+  if (loading) return <div className="center-msg">Carregando...</div>;
+  if (error) return <div className="center-msg">Erro ao carregar dados: {error}</div>;
 
   const region = getRegionByName(data, regionName);
-  if (!region) return <div className="center-msg">Region not found</div>;
+  if (!region) return <div className="center-msg">Região não encontrada</div>;
 
   return (
     <div className="region-page">
       <div className="breadcrumb">
-        <Link to="/">{tr('home', lang)}</Link>
+        <Link to="/">Início</Link>
         <span> / </span>
         <span>{region.name}</span>
       </div>
 
       <h2 className="page-title">{region.name}</h2>
       <p className="page-subtitle">
-        {region.states.length} {tr('states', lang)} &middot;{' '}
-        {region.states.reduce((a, s) => a + s.universities.length, 0)} {tr('universities', lang)}
+        {region.states.length} Estados &middot;{' '}
+        {region.states.reduce((a, s) => a + s.universities.length, 0)} Universidades
       </p>
 
       <div className="state-list">
@@ -34,7 +31,7 @@ export default function RegionPage() {
           return (
             <div key={state.name} className="state-section">
               <h3 className="state-name">{state.name}</h3>
-              <p className="state-meta">{uniCount} {tr('universities', lang)}</p>
+              <p className="state-meta">{uniCount} Universidades</p>
               <div className="uni-list">
                 {state.universities.map(uni => (
                   <Link
@@ -44,7 +41,7 @@ export default function RegionPage() {
                   >
                     <div className="uni-card-header">
                       <span className="uni-acronym">{uni.acronym}</span>
-                      <span className="uni-prog-count">{uni.programs.length} {tr('programs', lang)}</span>
+                      <span className="uni-prog-count">{uni.programs.length} Programas</span>
                     </div>
                     <p className="uni-name">{uni.name}</p>
                     <div className="uni-card-footer">

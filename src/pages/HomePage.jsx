@@ -1,6 +1,4 @@
 import { Link } from 'react-router-dom';
-import { useLang } from '../context/LanguageContext';
-import { tr } from '../utils/translations';
 import { usePrograms } from '../hooks/usePrograms';
 
 const regionColors = {
@@ -20,11 +18,10 @@ const regionIcons = {
 };
 
 export default function HomePage() {
-  const { lang } = useLang();
-  const { data, statusMap, loading, error } = usePrograms(lang);
+  const { data, statusMap, loading, error } = usePrograms();
 
-  if (loading) return <div className="center-msg">{tr('loading', lang)}</div>;
-  if (error) return <div className="center-msg">{tr('error', lang)}: {error}</div>;
+  if (loading) return <div className="center-msg">Carregando...</div>;
+  if (error) return <div className="center-msg">Erro ao carregar dados: {error}</div>;
   if (!data) return null;
 
   const totalPrograms = data.reduce(
@@ -40,12 +37,12 @@ export default function HomePage() {
   return (
     <div className="home-page">
       <div className="stats-bar">
-        <span><strong>{data.length}</strong> {tr('regions', lang)}</span>
-        <span><strong>{totalUnis}</strong> {tr('universities', lang)}</span>
-        <span><strong>{totalPrograms}</strong> {tr('programs', lang)}</span>
+        <span><strong>{data.length}</strong> Regiões</span>
+        <span><strong>{totalUnis}</strong> Universidades</span>
+        <span><strong>{totalPrograms}</strong> Programas</span>
         {openCallCount !== null && (
           <span className="stat-open-calls">
-            <strong>{openCallCount}</strong> {tr('openCalls', lang)}
+            <strong>{openCallCount}</strong> Editais Abertos
           </span>
         )}
       </div>
@@ -71,10 +68,10 @@ export default function HomePage() {
                 <span className="region-icon">{regionIcons[region.name] || '\u{1F4CD}'}</span>
                 <h2>{region.name}</h2>
               </div>
-              <div className="region-states">{stateCount} {tr('states', lang)}</div>
+              <div className="region-states">{stateCount} Estados</div>
               <div className="region-stats">
-                <span>{uniCount} {tr('universities', lang)}</span>
-                <span>{progCount} {tr('programs', lang)}</span>
+                <span>{uniCount} Universidades</span>
+                <span>{progCount} Programas</span>
               </div>
             </Link>
           );

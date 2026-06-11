@@ -1,12 +1,9 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useLang } from '../context/LanguageContext';
-import { tr } from '../utils/translations';
 
 export default function SearchBar() {
   const [query, setQuery] = useState('');
   const navigate = useNavigate();
-  const { lang } = useLang();
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -21,7 +18,7 @@ export default function SearchBar() {
         type="text"
         value={query}
         onChange={e => setQuery(e.target.value)}
-        placeholder={tr('search', lang)}
+        placeholder="Pesquisar universidades, programas ou cidades..."
         className="search-input"
       />
       <button type="submit" className="search-btn" aria-label="Search">

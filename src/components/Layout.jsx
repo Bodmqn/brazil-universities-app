@@ -1,11 +1,7 @@
 import { Link, Outlet, useLocation } from 'react-router-dom';
-import { useLang } from '../context/LanguageContext';
-import { tr } from '../utils/translations';
-import LanguageToggle from './LanguageToggle';
 import SearchBar from './SearchBar';
 
 export default function Layout() {
-  const { lang } = useLang();
   const location = useLocation();
   const isHome = location.pathname === '/';
 
@@ -16,8 +12,8 @@ export default function Layout() {
           <Link to="/" className="logo">
             <img src="/logo.png" alt="Kehra W" className="logo-img" />
             <div>
-              <h1>{tr('title', lang)}</h1>
-              <p className="subtitle">{tr('subtitle', lang)}</p>
+              <h1>Universidades Brasileiras</h1>
+              <p className="subtitle">Programas de Pós-Graduação (Mestrado e Doutorado)</p>
             </div>
           </Link>
           <div className="header-right">
@@ -26,9 +22,8 @@ export default function Layout() {
                 <path d="M9 11l3 3L22 4" />
                 <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" />
               </svg>
-              {tr('openCalls', lang)}
+              Editais Abertos
             </Link>
-            <LanguageToggle />
           </div>
         </div>
         {!isHome && (
@@ -49,7 +44,7 @@ export default function Layout() {
       </main>
 
       <footer className="footer">
-        <p>{tr('footer', lang)}</p>
+        <p>Dados atualizados para 2026-2027</p>
       </footer>
     </div>
   );

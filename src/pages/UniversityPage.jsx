@@ -1,6 +1,4 @@
 import { useParams, Link } from 'react-router-dom';
-import { useLang } from '../context/LanguageContext';
-import { tr } from '../utils/translations';
 import { usePrograms } from '../hooks/usePrograms';
 
 function normalizeUrl(url) {
@@ -15,28 +13,23 @@ function getStatus(url, statusMap) {
   return statusMap?.[norm] || null;
 }
 
-function statusBadge(status, lang) {
+function statusBadge(status) {
   if (!status || status === 'unknown') return null;
-  const labels = {
-    pt: { likely_open: 'Edital Aberto', possible: 'Possível Edital', error: 'Erro' },
-    en: { likely_open: 'Open Call', possible: 'Possible Call', error: 'Error' }
-  };
+  const labels = { likely_open: 'Edital Aberto', possible: 'Possível Edital', error: 'Erro' };
   const colors = { likely_open: 'status-open', possible: 'status-maybe', error: 'status-error' };
-  const l = labels[lang] || labels.en;
   return (
     <span className={`status-badge ${colors[status] || ''}`}>
-      {l[status] || status}
+      {labels[status] || status}
     </span>
   );
 }
 
 export default function UniversityPage() {
   const { regionName, uniKey } = useParams();
-  const { lang } = useLang();
-  const { data, statusMap, loading, error } = usePrograms(lang);
+  const { data, statusMap, loading, error } = usePrograms();
 
-  if (loading) return <div className="center-msg">{tr('loading', lang)}</div>;
-  if (error) return <div className="center-msg">{tr('error', lang)}: {error}</div>;
+  if (loading) return <div className="center-msg">Carregando...</div>;
+  if (error) return <div className="center-msg">Erro ao carregar dados: {error}</div>;
 
   let foundUni = null;
   let foundState = '';
@@ -58,14 +51,14 @@ export default function UniversityPage() {
     if (foundUni) break;
   }
 
-  if (!foundUni) return <div className="center-msg">{tr('noResults', lang)}</div>;
+  if (!foundUni) return <div className="center-msg">Nenhum resultado encontrado</div>;
 
   const levels = [...new Set(foundUni.programs.map(p => p.level))];
 
   return (
     <div className="university-page">
       <div className="breadcrumb">
-        <Link to="/">{tr('home', lang)}</Link>
+        <Link to="/">Início</Link>
         <span> / </span>
         <Link to={`/regiao/${encodeURIComponent(foundRegion)}`}>{foundRegion}</Link>
         <span> / </span>
@@ -80,7 +73,7 @@ export default function UniversityPage() {
           </p>
         </div>
         <div className="uni-header-stats">
-          <span><strong>{foundUni.programs.length}</strong> {tr('programs', lang)}</span>
+          <span><strong>{foundUni.programs.length}</strong> Programas</span>
           <span><strong>{levels.join(', ')}</strong></span>
         </div>
       </div>
@@ -89,15 +82,15 @@ export default function UniversityPage() {
         <table className="programs-table">
           <thead>
             <tr>
-              <th>{tr('level', lang)}</th>
-              <th>{tr('programs', lang)}</th>
-              <th>{tr('city', lang)}</th>
-              <th>{tr('campus', lang)}</th>
-              <th>{tr('startDate', lang)}</th>
-              <th>{tr('duration', lang)}</th>
-              <th>{tr('languageReq', lang)}</th>
-              <th>{tr('openCalls', lang)}</th>
-              <th>{tr('website', lang)}</th>
+              <th>Nível</th>
+              <th>Programa</th>
+              <th>Cidade</th>
+              <th>Campus</th>
+              <th>Início</th>
+              <th>Duração</th>
+              <th>Requisito de Idioma</th>
+              <th>Editais Abertos</th>
+              <th>Site</th>
             </tr>
           </thead>
           <tbody>
@@ -110,14 +103,14 @@ export default function UniversityPage() {
                   <td>{prog.city}</td>
                   <td>{prog.campus}</td>
                   <td>{prog.startDate}</td>
-                  <td>{prog.duration} {tr('months', lang)}</td>
+                  <td>{prog.duration} meses</td>
                   <td className="lang-cell">{prog.languageRequirement}</td>
-                  <td>{statusBadge(s?.status, lang)}</td>
+                  <td>{statusBadge(s?.status)}</td>
                   <td>
                     {prog.url && (
                       <a href={normalizeUrl(prog.url)}
                         target="_blank" rel="noopener noreferrer" className="web-link">
-                        {tr('checkWebsite', lang)}
+                        Site
                       </a>
                     )}
                   </td>

@@ -1,6 +1,4 @@
 import { Link } from 'react-router-dom';
-import { useLang } from '../context/LanguageContext';
-import { tr } from '../utils/translations';
 import { usePrograms } from '../hooks/usePrograms';
 import ScannerButton from '../components/ScannerButton';
 
@@ -12,11 +10,10 @@ function normalizeUrl(url) {
 }
 
 export default function DashboardPage() {
-  const { lang } = useLang();
-  const { data, statusMap, discovered, loading, error, refreshStatus } = usePrograms(lang);
+  const { data, statusMap, discovered, loading, error, refreshStatus } = usePrograms();
 
-  if (loading) return <div className="center-msg">{tr('loading', lang)}</div>;
-  if (error) return <div className="center-msg">{tr('error', lang)}: {error}</div>;
+  if (loading) return <div className="center-msg">Carregando...</div>;
+  if (error) return <div className="center-msg">Erro ao carregar dados: {error}</div>;
   if (!data) return null;
 
   const openUnis = [];
@@ -56,15 +53,14 @@ export default function DashboardPage() {
   return (
     <div className="dashboard-page">
       <div className="breadcrumb">
-        <Link to="/">{tr('home', lang)}</Link>
+        <Link to="/">Início</Link>
         <span> / </span>
-        <span>{tr('openCalls', lang)}</span>
+        <span>Editais Abertos</span>
       </div>
 
-      <h2 className="page-title">{tr('openCalls', lang)}</h2>
+      <h2 className="page-title">Editais Abertos</h2>
       <p className="page-subtitle">
-        {totalOpen} {tr('programs', lang)} {lang === 'pt' ? 'com editais abertos em' : 'with open calls at'}{' '}
-        {openUnis.length} {tr('universities', lang)}
+        {totalOpen} programas com editais abertos em {openUnis.length} universidades
       </p>
 
       <ScannerButton onScanComplete={refreshStatus} />
@@ -72,20 +68,16 @@ export default function DashboardPage() {
       {openUnis.length === 0 && discoveredList.length === 0 ? (
         <div className="center-msg">
           <p style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>&#128225;</p>
-          <p>{lang === 'pt' ? 'Nenhum edital aberto encontrado no momento.' : 'No open calls found at this time.'}</p>
+          <p>Nenhum edital aberto encontrado no momento.</p>
           <p className="hint">
-            {lang === 'pt'
-              ? 'O scanner de editais verifica os sites periodicamente. Volte mais tarde.'
-              : 'The scanner checks websites periodically. Check back later.'}
+            O scanner de editais verifica os sites periodicamente. Volte mais tarde.
           </p>
         </div>
       ) : (
         <>
           {openUnis.length > 0 && (
             <>
-              <h3 className="dash-section-title">
-                {lang === 'pt' ? 'Editais em Programas Conhecidos' : 'Open Calls at Known Programs'}
-              </h3>
+              <h3 className="dash-section-title">Editais em Programas Conhecidos</h3>
               <div className="dashboard-list">
                 {openUnis.map((uni, idx) => (
                   <Link
@@ -102,11 +94,11 @@ export default function DashboardPage() {
                       <div className="dash-card-stats">
                         <div className="dash-stat">
                           <span className="dash-stat-num open">{uni.openCount}</span>
-                          <span className="dash-stat-label">{lang === 'pt' ? 'Editais' : 'Open Calls'}</span>
+                          <span className="dash-stat-label">Editais</span>
                         </div>
                         <div className="dash-stat">
                           <span className="dash-stat-num">{uni.programCount}</span>
-                          <span className="dash-stat-label">{tr('programs', lang)}</span>
+                          <span className="dash-stat-label">Programas</span>
                         </div>
                       </div>
                     </div>
@@ -126,13 +118,9 @@ export default function DashboardPage() {
 
           {discoveredList.length > 0 && (
             <>
-              <h3 className="dash-section-title dash-section-title-discovered">
-                {lang === 'pt' ? 'Descobertas pela Web' : 'Discovered on the Web'}
-              </h3>
+              <h3 className="dash-section-title dash-section-title-discovered">Descobertas pela Web</h3>
               <p className="dash-section-subtitle">
-                {lang === 'pt'
-                  ? 'Oportunidades encontradas pela busca na web que não estão no nosso banco de dados.'
-                  : 'Opportunities found via web search that are not in our database.'}
+                Oportunidades encontradas pela busca na web que não estão no nosso banco de dados.
               </p>
               <div className="dashboard-list">
                 {discoveredList.map(([url, item], idx) => (
@@ -149,29 +137,21 @@ export default function DashboardPage() {
                         {item.snippet && (
                           <p className="dash-snippet">{item.snippet.slice(0, 200)}</p>
                         )}
-                        <span className="dash-source-tag">
-                          {lang === 'pt' ? 'Descoberto via' : 'Found via'} Web Search
-                        </span>
+                        <span className="dash-source-tag">Descoberto via Web Search</span>
                       </div>
                       <div className="dash-card-stats">
                         <div className="dash-stat">
                           <span className={`dash-stat-num ${item.status === 'likely_open' ? 'open' : 'maybe'}`}>
-                            {item.status === 'likely_open' ? (
-                              lang === 'pt' ? 'Alta' : 'High'
-                            ) : (
-                              lang === 'pt' ? 'Média' : 'Medium'
-                            )}
+                            {item.status === 'likely_open' ? 'Alta' : 'Média'}
                           </span>
-                          <span className="dash-stat-label">
-                            {lang === 'pt' ? 'Confiança' : 'Confidence'}
-                          </span>
+                          <span className="dash-stat-label">Confiança</span>
                         </div>
                       </div>
                     </div>
                     {item.dates_found && item.dates_found.length > 0 && (
                       <div className="dash-card-progs">
                         <span className="dash-prog-tag date-tag">
-                          {lang === 'pt' ? 'Datas' : 'Dates'}: {item.dates_found.slice(0, 3).join(', ')}
+                          Datas: {item.dates_found.slice(0, 3).join(', ')}
                         </span>
                       </div>
                     )}

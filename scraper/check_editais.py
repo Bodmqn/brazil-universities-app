@@ -26,9 +26,11 @@ STATUS_FILE = DATA_DIR / "program-status.json"
 
 STRONG_KEYWORDS = [
     r'edital\s+aberto',
+    r'edital\s+mestrado\s+aberto',
     r'inscri[cç][oõ]es\s+abertas',
     r'processo\s+seletivo\s*aberto',
     r'vagas\s+abertas',
+    r'vagas?\s+mestrado\s+20\d{2}',
     r'inscreva-se',
     r'inscri[cç][aã]o\s+aberta',
     r'sele[cç][aã]o\s+aberta',
@@ -37,13 +39,25 @@ STRONG_KEYWORDS = [
     r'call\s+for\s+applications',
     r'apply\s+now',
     r'open\s+calls?',
+    r'chamada\s+p[uú]blica',
+    r'chamada\s+para\s+sele[cç][aã]o',
+    r'now\s+accepting\s+applications',
+    r'admission\s+open',
+    r'enrollment\s+open',
+    r'turma\s+mestrado\s+20\d{2}',
+    r'ingresso\s+mestrado',
+    r'aberta\s+sele[cç][aã]o\s+mestrado',
+    r'prazo\s+inscri[cç][aã]o\s+mestrado',
+    r'aplicativos?\s+abertos?',
 ]
 
 MEDIUM_KEYWORDS = [
     r'edital',
+    r'edital\s+mestrado',
     r'processo\s+seletivo',
     r'sele[cç][aã]o',
     r'inscri[cç][aã]o',
+    r'inscri[cç][oõ]es',
     r'mestrado',
     r'doutorado',
     r'p[sβ][-]gradua[cç][aã]o',
@@ -52,6 +66,18 @@ MEDIUM_KEYWORDS = [
     r'cronograma',
     r'resultado',
     r'homologa[cç][aã]o',
+    r'p[sr][oó]-reitoria\s+p[sβ][-]gradua[cç][aã]o',
+    r'sele[cç][aã]o\s+p[sβ][-]gradua[cç][aã]o\s+stricto\s+sensu',
+    r'mestrado\s+profissional',
+    r'mestrado\s+acad[eê]mico',
+    r'sigaa',
+    r'capes',
+    r'bolsas?',
+    r'candidatos?\s+mestrado',
+    r'deadline',
+    r'intake',
+    r'admissions?',
+    r'ingresso',
 ]
 
 DATE_PATTERN = re.compile(
