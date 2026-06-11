@@ -266,7 +266,7 @@ export default function AllProgramsPage() {
           {showColPicker && (
             <div className="ap-col-picker-dropdown">
               {COLUMNS.map(col => {
-                const isVisible = displayCols.includes(col.key);
+                const isVisible = visibleCols.includes(col.key);
                 return (
                   <div
                     key={col.key}
