@@ -2,7 +2,18 @@ name: Scan Program Websites for Open Calls
 on:
   schedule:
     - cron: '59 23 * * *'  # Every day at 23:59 UTC
-  workflow_dispatch:         # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      year:
+        description: 'Filter year for web search results'
+        required: false
+        default: '2026'
+        type: choice
+        options:
+          - '2025'
+          - '2026'
+          - '2027'
+          - '2028'
 
 permissions:
   contents: write
@@ -36,7 +47,7 @@ jobs:
         run: npm run parse:csv
 
       - name: Scan program websites
-        run: python scraper/check_editais.py
+        run: python scraper/check_editais.py --year ${{ inputs.year || '2026' }}
 
       - name: Commit updated status
         run: |

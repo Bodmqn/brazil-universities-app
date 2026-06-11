@@ -17,60 +17,60 @@ from urllib3.exceptions import InsecureRequestWarning
 
 warnings.filterwarnings('ignore', category=InsecureRequestWarning)
 
-SEARCH_QUERIES = [
+SEARCH_QUERIES_TEMPLATES = [
     # Portuguese
-    '"edital mestrado" 2026',
-    '"edital seleção mestrado" 2026',
-    '"inscrições abertas mestrado" 2026',
-    '"processo seletivo mestrado" 2026',
-    '"vagas mestrado" 2026',
-    '"vagas abertas mestrado" 2026',
-    '"pós-graduação inscrições abertas" 2026',
-    '"seleção pós-graduação stricto sensu" 2026',
-    '"ingresso mestrado" 2026',
-    '"edital PPG mestrado" 2026',
-    '"chamada pública mestrado" 2026',
-    '"chamada para seleção mestrado" 2026',
-    '"edital mestrado aberto" 2026',
-    '"aberta seleção mestrado" 2026',
-    '"candidatos mestrado inscrição" 2026',
-    '"turma mestrado" 2026',
-    '"prazo inscrição mestrado" 2026',
-    '"mestrado profissional inscrições" 2026',
-    '"mestrado acadêmico vagas" 2026',
-    '"edital CAPES mestrado" 2026',
-    '"SIGAA processo seletivo mestrado" 2026',
-    '"pró-reitoria pós-graduação edital" 2026',
-    '"universidade federal mestrado inscrições" 2026',
+    '"edital mestrado" {year}',
+    '"edital seleção mestrado" {year}',
+    '"inscrições abertas mestrado" {year}',
+    '"processo seletivo mestrado" {year}',
+    '"vagas mestrado" {year}',
+    '"vagas abertas mestrado" {year}',
+    '"pós-graduação inscrições abertas" {year}',
+    '"seleção pós-graduação stricto sensu" {year}',
+    '"ingresso mestrado" {year}',
+    '"edital PPG mestrado" {year}',
+    '"chamada pública mestrado" {year}',
+    '"chamada para seleção mestrado" {year}',
+    '"edital mestrado aberto" {year}',
+    '"aberta seleção mestrado" {year}',
+    '"candidatos mestrado inscrição" {year}',
+    '"turma mestrado" {year}',
+    '"prazo inscrição mestrado" {year}',
+    '"mestrado profissional inscrições" {year}',
+    '"mestrado acadêmico vagas" {year}',
+    '"edital CAPES mestrado" {year}',
+    '"SIGAA processo seletivo mestrado" {year}',
+    '"pró-reitoria pós-graduação edital" {year}',
+    '"universidade federal mestrado inscrições" {year}',
     # English
-    '"masters admission Brazil" open 2026',
-    '"call for applications" masters Brazil 2026',
-    '"open for applications" masters Brazil 2026',
-    '"Brazil university masters admissions" 2026',
-    '"graduate programme applications open" Brazil',
-    '"Brazil masters degree application deadline" 2026',
-    '"apply for masters in Brazil" 2026',
-    '"Brazilian university graduate enrollment" open',
-    '"mestrado selection process" English',
-    '"Brazil postgraduate admission notice" 2026',
-    '"open call masters program" Brazil',
-    '"vacancies masters Brazil university" 2026',
-    '"Brazil federal university masters intake" 2026',
-    '"now accepting masters applications" Brazil 2026',
+    '"masters admission Brazil" open {year}',
+    '"call for applications" masters Brazil {year}',
+    '"open for applications" masters Brazil {year}',
+    '"Brazil university masters admissions" {year}',
+    '"graduate programme applications open" Brazil {year}',
+    '"Brazil masters degree application deadline" {year}',
+    '"apply for masters in Brazil" {year}',
+    '"Brazilian university graduate enrollment" open {year}',
+    '"mestrado selection process" English {year}',
+    '"Brazil postgraduate admission notice" {year}',
+    '"open call masters program" Brazil {year}',
+    '"vacancies masters Brazil university" {year}',
+    '"Brazil federal university masters intake" {year}',
+    '"now accepting masters applications" Brazil {year}',
     # Mixed
-    '"edital mestrado open" 2026',
-    '"inscrições abertas" masters Brazil 2026',
-    '"mestrado admission open" Brazil 2026',
-    '"pós-graduação" masters application Brazil 2026',
-    '"processo seletivo" masters 2026',
-    '"Brazil mestrado call for applications" 2026',
+    '"edital mestrado open" {year}',
+    '"inscrições abertas" masters Brazil {year}',
+    '"mestrado admission open" Brazil {year}',
+    '"pós-graduação" masters application Brazil {year}',
+    '"processo seletivo" masters {year}',
+    '"Brazil mestrado call for applications" {year}',
     # University-specific
-    '"USP mestrado inscrições abertas" 2026',
-    '"UFRJ edital seleção mestrado" 2026',
-    '"UNICAMP processo seletivo pós-graduação" 2026',
-    '"UnB mestrado vagas abertas" 2026',
-    '"UNESP edital mestrado inscrições" 2026',
-    '"UFMG seleção mestrado" 2026',
+    '"USP mestrado inscrições abertas" {year}',
+    '"UFRJ edital seleção mestrado" {year}',
+    '"UNICAMP processo seletivo pós-graduação" {year}',
+    '"UnB mestrado vagas abertas" {year}',
+    '"UNESP edital mestrado inscrições" {year}',
+    '"UFMG seleção mestrado" {year}',
 ]
 
 STRONG_KEYWORDS = [
@@ -221,6 +221,8 @@ def collect_urls_from_results(results, known_urls):
             continue
         if url in known_urls:
             continue
+        if not is_likely_brazilian(url, title, snippet):
+            continue
         known_urls.add(url)
         collected.append({'url': url, 'title': title, 'snippet': snippet})
     return collected
@@ -296,7 +298,32 @@ def scrape_google(query, known_urls):
         return []
 
 
-def web_search_for_editais(programs=None, limit_queries=None):
+def is_likely_brazilian(url, title='', snippet=''):
+    combined = (url + ' ' + title + ' ' + snippet).lower()
+    br_indicators = [
+        '.br', 'brasil', 'brazil', 'brazilian', 'universidade',
+        ' universidade', ' uf', ' ufrj', ' uff', ' ufrgs', ' ufmg',
+        ' ufba', ' ufsc', ' ufpr', ' ufpe', ' ufc', ' ufpa',
+        ' unesp', ' unicamp', ' usp', ' unb', ' puc',
+        'mestrado', 'doutorado', 'pós-graduação', 'pos-graduacao',
+        'capes', 'sigaa', 'edital',
+    ]
+    non_br_indicators = [
+        '.uk', '.ca', '.au', '.de', '.fr', '.es', '.it', '.jp',
+        '.cn', '.in', '.ru', '.nz', '.ie', '.nl', '.be', '.ch',
+        '.se', '.no', '.dk', '.fi', '.pl', '.cz', '.pt', '.ar',
+        '.mx', '.co', '.cl', '.pe',
+    ]
+    for n in non_br_indicators:
+        if n in url.lower():
+            return False
+    for b in br_indicators:
+        if b in combined:
+            return True
+    return url.endswith('.br')
+
+
+def web_search_for_editais(programs=None, limit_queries=None, year='2026'):
     print('\n=== Web Search for Open Calls ===')
 
     known_urls = set()
@@ -310,6 +337,10 @@ def web_search_for_editais(programs=None, limit_queries=None):
                             known_urls.add(url)
 
     print(f'  Known program URLs: {len(known_urls)}')
+    print(f'  Filter year: {year}')
+
+    SEARCH_QUERIES = [q.format(year=year) for q in SEARCH_QUERIES_TEMPLATES]
+
     print(f'  Running {len(SEARCH_QUERIES)} queries...\n')
 
     all_discovered = {}

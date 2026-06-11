@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 const API = '/.netlify/functions/gh-scan';
 
-export default function ScannerButton({ onScanComplete }) {
+export default function ScannerButton({ year, onScanComplete }) {
   const [status, setStatus] = useState('idle');
   const [runId, setRunId] = useState(null);
   const [lastRun, setLastRun] = useState(() => localStorage.getItem('gh_last_scan'));
@@ -36,7 +36,7 @@ export default function ScannerButton({ onScanComplete }) {
       const res = await fetch(API, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ action: 'trigger' }),
+        body: JSON.stringify({ action: 'trigger', year }),
       });
       const data = await res.json();
       if (data.runId) {

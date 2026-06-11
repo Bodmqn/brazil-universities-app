@@ -1,9 +1,22 @@
+import { useState, useEffect } from 'react';
 import { Link, Outlet, useLocation } from 'react-router-dom';
 import SearchBar from './SearchBar';
 
+function getInitialTheme() {
+  try { return localStorage.getItem('theme') || 'light'; } catch { return 'light'; }
+}
+
 export default function Layout() {
+  const [theme, setTheme] = useState(getInitialTheme);
   const location = useLocation();
   const isHome = location.pathname === '/';
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+    try { localStorage.setItem('theme', theme); } catch { /* ignore */ }
+  }, [theme]);
+
+  const toggleTheme = () => setTheme(t => t === 'light' ? 'dark' : 'light');
 
   return (
     <div className="app">
@@ -24,6 +37,9 @@ export default function Layout() {
               </svg>
               Editais Abertos
             </Link>
+            <button onClick={toggleTheme} className="theme-btn" aria-label="Toggle theme">
+              {theme === 'light' ? '\u{1F319}' : '\u{2600}\u{FE0F}'}
+            </button>
           </div>
         </div>
         {!isHome && (
@@ -45,6 +61,9 @@ export default function Layout() {
 
       <footer className="footer">
         <p>Dados atualizados para 2026-2027</p>
+        <p style={{ fontSize: '0.78rem', opacity: 0.7, marginTop: '0.3rem' }}>
+          Design by - The Kehra Corporation.
+        </p>
       </footer>
     </div>
   );

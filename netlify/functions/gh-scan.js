@@ -31,9 +31,10 @@ export const handler = async (event) => {
   try {
     switch (body.action) {
       case 'trigger': {
+        const year = body.year || '2026';
         const dispatchRes = await fetch(
           `https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW}/dispatches`,
-          { method: 'POST', headers: ghHeaders, body: JSON.stringify({ ref: 'main' }) }
+          { method: 'POST', headers: ghHeaders, body: JSON.stringify({ ref: 'main', inputs: { year } }) }
         );
 
         if (dispatchRes.status !== 204) {

@@ -292,6 +292,7 @@ def main():
     parser.add_argument('--sample', action='store_true', help='Scan just 5 programs')
     parser.add_argument('--url', type=str, default=None, help='Scan a specific URL only')
     parser.add_argument('--skip-web-search', action='store_true', help='Skip web search layer')
+    parser.add_argument('--year', type=str, default='2026', help='Year filter for web search')
     args = parser.parse_args()
 
     limit = 5 if args.sample else args.limit
@@ -315,7 +316,7 @@ def main():
     discovered = None
     if not args.skip_web_search:
         from web_search import web_search_for_editais
-        discovered = web_search_for_editais(programs=programs)
+        discovered = web_search_for_editais(programs=programs, year=args.year)
 
     save_status(results, discovered=discovered)
 

@@ -1,6 +1,9 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { usePrograms } from '../hooks/usePrograms';
 import ScannerButton from '../components/ScannerButton';
+
+const YEARS = ['2025', '2026', '2027', '2028'];
 
 function normalizeUrl(url) {
   if (!url) return '';
@@ -9,7 +12,13 @@ function normalizeUrl(url) {
   return `https://${url}`;
 }
 
+function matchesYear(text, year) {
+  if (!text) return false;
+  return text.includes(year);
+}
+
 export default function DashboardPage() {
+  const [scanYear, setScanYear] = useState('2026');
   const { data, statusMap, discovered, loading, error, refreshStatus } = usePrograms();
 
   if (loading) return <div className="center-msg">Carregando...</div>;
@@ -47,6 +56,7 @@ export default function DashboardPage() {
   const discoveredList = discovered
     ? Object.entries(discovered)
         .filter(([, v]) => v.status === 'likely_open' || v.status === 'possible')
+        .filter(([, v]) => matchesYear(v.title, scanYear) || matchesYear(v.snippet, scanYear))
         .sort((a, b) => (b[1].confidence || 0) - (a[1].confidence || 0))
     : [];
 
@@ -63,7 +73,15 @@ export default function DashboardPage() {
         {totalOpen} programas com editais abertos em {openUnis.length} universidades
       </p>
 
-      <ScannerButton onScanComplete={refreshStatus} />
+      <div className="scanner-toolbar">
+        <div className="scanner-year-filter">
+          <label>Ano:</label>
+          <select value={scanYear} onChange={e => setScanYear(e.target.value)}>
+            {YEARS.map(y => <option key={y} value={y}>{y}</option>)}
+          </select>
+        </div>
+        <ScannerButton year={scanYear} onScanComplete={refreshStatus} />
+      </div>
 
       {openUnis.length === 0 && discoveredList.length === 0 ? (
         <div className="center-msg">
