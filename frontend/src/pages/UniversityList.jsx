@@ -1,27 +1,24 @@
 import { useEffect, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
-import { api, REGIONS, CATEGORIES, STATES } from '../services/api'
+import { filterUniversities, loadData, getCalls, REGIONS, CATEGORIES, STATES } from '../services/data'
 
 function Badge({ children, color }) {
   const colors = {
     Federal: 'bg-blue-100 text-blue-800',
     State: 'bg-orange-100 text-orange-800',
     Municipal: 'bg-teal-100 text-teal-800',
-    open: 'bg-green-100 text-green-800',
-    closed: 'bg-gray-100 text-gray-600',
-    upcoming: 'bg-yellow-100 text-yellow-800',
-  };
+  }
   return (
     <span className={`inline-block px-2 py-0.5 rounded-full text-xs font-medium ${colors[children] || colors.Federal}`}>
       {children}
     </span>
-  );
+  )
 }
 
 export default function UniversityList() {
-  const [searchParams, setSearchParams] = useSearchParams();
-  const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [searchParams, setSearchParams] = useSearchParams()
+  const [data, setData] = useState(null)
+  const [loading, setLoading] = useState(true)
 
   const params = {
     category: searchParams.get('category') || '',
@@ -31,31 +28,31 @@ export default function UniversityList() {
     has_calls: searchParams.get('has_calls') || '',
     page: parseInt(searchParams.get('page') || '1'),
     per_page: 50,
-  };
+  }
 
   useEffect(() => {
-    setLoading(true);
-    const cleaned = {};
-    Object.entries(params).forEach(([k, v]) => { if (v) cleaned[k] = v; });
-    api.getUniversities(cleaned).then(d => {
-      setData(d);
-      setLoading(false);
-    }).catch(() => setLoading(false));
-  }, [searchParams]);
+    loadData().then(() => {
+      const cleaned = {}
+      Object.entries(params).forEach(([k, v]) => { if (v) cleaned[k] = v })
+      setData(filterUniversities(cleaned))
+      setLoading(false)
+    })
+  }, [searchParams])
 
   const setParam = (key, value) => {
-    const next = new URLSearchParams(searchParams);
-    if (value) next.set(key, value);
-    else next.delete(key);
-    next.set('page', '1');
-    setSearchParams(next);
-  };
+    const next = new URLSearchParams(searchParams)
+    if (value) next.set(key, value)
+    else next.delete(key)
+    next.set('page', '1')
+    setSearchParams(next)
+  }
 
-  const regionCounts = { Norte: 0, Nordeste: 0, 'Centro-Oeste': 0, Sudeste: 0, Sul: 0 };
-  if (data?.total) {
-    Object.entries(data.data).forEach(([_, u]) => {
-      regionCounts[u.region] = (regionCounts[u.region] || 0) + 1;
-    });
+  const calls = getCalls()
+  const openCallCounts = {}
+  for (const c of calls) {
+    if (c.status === 'open') {
+      openCallCounts[c.university_id] = (openCallCounts[c.university_id] || 0) + 1
+    }
   }
 
   return (
@@ -69,10 +66,7 @@ export default function UniversityList() {
 
       <div className="bg-white rounded-xl border border-gray-200 p-4 mb-6">
         <div className="flex flex-wrap gap-3">
-          <input
-            type="text"
-            placeholder="Search name, acronym, city..."
-            value={params.search}
+          <input type="text" placeholder="Search name, acronym, city..." value={params.search}
             onChange={e => setParam('search', e.target.value)}
             className="flex-1 min-w-[200px] px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-green-500"
           />
@@ -88,10 +82,6 @@ export default function UniversityList() {
             <option value="">All States</option>
             {STATES.map(s => <option key={s} value={s}>{s}</option>)}
           </select>
-          <label className="flex items-center gap-2 text-sm text-gray-600">
-            <input type="checkbox" checked={!!params.has_calls} onChange={e => setParam('has_calls', e.target.checked ? 'true' : '')} className="rounded" />
-            Open calls only
-          </label>
         </div>
       </div>
 
@@ -119,9 +109,7 @@ export default function UniversityList() {
                 {data.data.map(uni => (
                   <tr key={uni.id} className="hover:bg-gray-50 transition-colors">
                     <td className="px-4 py-3">
-                      <Link to={`/universities/${uni.id}`} className="font-medium text-gray-900 hover:text-green-700">
-                        {uni.name}
-                      </Link>
+                      <Link to={`/universities/${uni.id}`} className="font-medium text-gray-900 hover:text-green-700">{uni.name}</Link>
                     </td>
                     <td className="px-4 py-3 font-mono text-sm text-gray-600">{uni.acronym}</td>
                     <td className="px-4 py-3"><Badge>{uni.category}</Badge></td>
@@ -129,10 +117,10 @@ export default function UniversityList() {
                     <td className="px-4 py-3 text-sm text-gray-600">{uni.city}</td>
                     <td className="px-4 py-3 text-sm text-gray-600">{uni.region}</td>
                     <td className="px-4 py-3 text-center">
-                      {uni.open_calls_count > 0 ? (
+                      {openCallCounts[uni.id] > 0 ? (
                         <span className="inline-flex items-center gap-1 text-green-700 font-medium text-sm">
                           <span className="w-2 h-2 bg-green-500 rounded-full"></span>
-                          {uni.open_calls_count}
+                          {openCallCounts[uni.id]}
                         </span>
                       ) : (
                         <span className="text-gray-400 text-sm">0</span>
@@ -149,21 +137,15 @@ export default function UniversityList() {
             <div className="flex items-center justify-between px-4 py-3 border-t border-gray-100 bg-gray-50">
               <span className="text-sm text-gray-500">Page {data.page} of {data.total_pages}</span>
               <div className="flex gap-2">
-                <button
-                  disabled={data.page <= 1}
-                  onClick={() => setParam('page', String(data.page - 1))}
-                  className="px-3 py-1 text-sm rounded border border-gray-300 disabled:opacity-50 hover:bg-gray-100"
-                >Previous</button>
-                <button
-                  disabled={data.page >= data.total_pages}
-                  onClick={() => setParam('page', String(data.page + 1))}
-                  className="px-3 py-1 text-sm rounded border border-gray-300 disabled:opacity-50 hover:bg-gray-100"
-                >Next</button>
+                <button disabled={data.page <= 1} onClick={() => setParam('page', String(data.page - 1))}
+                  className="px-3 py-1 text-sm rounded border border-gray-300 disabled:opacity-50 hover:bg-gray-100">Previous</button>
+                <button disabled={data.page >= data.total_pages} onClick={() => setParam('page', String(data.page + 1))}
+                  className="px-3 py-1 text-sm rounded border border-gray-300 disabled:opacity-50 hover:bg-gray-100">Next</button>
               </div>
             </div>
           )}
         </div>
       )}
     </div>
-  );
+  )
 }

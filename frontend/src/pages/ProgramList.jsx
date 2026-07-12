@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
-import { api, REGIONS, STATES, PROGRAM_LEVELS, SCAN_STATUSES } from '../services/api'
+import { loadData, filterPrograms, getUniversity, REGIONS, STATES, PROGRAM_LEVELS, SCAN_STATUSES } from '../services/data'
 
 const statusColors = {
   likely_open: 'bg-green-100 text-green-800',
@@ -8,12 +8,8 @@ const statusColors = {
   error: 'bg-red-100 text-red-800',
   unknown: 'bg-gray-100 text-gray-500',
 }
-
 const statusLabels = {
-  likely_open: 'Open',
-  possible: 'Possible',
-  error: 'Error',
-  unknown: 'Unknown',
+  likely_open: 'Open', possible: 'Possible', error: 'Error', unknown: 'Unknown',
 }
 
 export default function ProgramList() {
@@ -27,6 +23,7 @@ export default function ProgramList() {
     region: searchParams.get('region') || '',
     state: searchParams.get('state') || '',
     search: searchParams.get('search') || '',
+    university_id: searchParams.get('university_id') || '',
     sort_by: searchParams.get('sort_by') || 'name',
     sort_order: searchParams.get('sort_order') || 'asc',
     page: parseInt(searchParams.get('page') || '1'),
@@ -34,13 +31,12 @@ export default function ProgramList() {
   }
 
   useEffect(() => {
-    setLoading(true)
-    const cleaned = {}
-    Object.entries(params).forEach(([k, v]) => { if (v) cleaned[k] = v })
-    api.getPrograms(cleaned).then(d => {
-      setData(d)
+    loadData().then(() => {
+      const cleaned = {}
+      Object.entries(params).forEach(([k, v]) => { if (v) cleaned[k] = v })
+      setData(filterPrograms(cleaned))
       setLoading(false)
-    }).catch(() => setLoading(false))
+    })
   }, [searchParams])
 
   const setParam = (key, value) => {
@@ -79,10 +75,7 @@ export default function ProgramList() {
 
       <div className="bg-white rounded-xl border border-gray-200 p-4 mb-6">
         <div className="flex flex-wrap gap-3">
-          <input
-            type="text"
-            placeholder="Search program name, university..."
-            value={params.search}
+          <input type="text" placeholder="Search program name, university..." value={params.search}
             onChange={e => setParam('search', e.target.value)}
             className="flex-1 min-w-[200px] px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-green-500"
           />
@@ -118,9 +111,7 @@ export default function ProgramList() {
                   <th className="text-left px-4 py-3 text-xs font-medium text-gray-500 uppercase cursor-pointer select-none hover:text-gray-700" onClick={() => toggleSort('name')}>
                     Program{sortIcon('name')}
                   </th>
-                  <th className="text-left px-4 py-3 text-xs font-medium text-gray-500 uppercase cursor-pointer select-none hover:text-gray-700" onClick={() => toggleSort('level')}>
-                    Level{sortIcon('level')}
-                  </th>
+                  <th className="text-left px-4 py-3 text-xs font-medium text-gray-500 uppercase">Level</th>
                   <th className="text-left px-4 py-3 text-xs font-medium text-gray-500 uppercase">University</th>
                   <th className="text-left px-4 py-3 text-xs font-medium text-gray-500 uppercase">City</th>
                   <th className="text-left px-4 py-3 text-xs font-medium text-gray-500 uppercase">Region</th>
@@ -129,29 +120,28 @@ export default function ProgramList() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-100">
-                {data.data.map(prog => (
-                  <tr key={prog.id} className="hover:bg-gray-50 transition-colors">
-                    <td className="px-4 py-3">
-                      <Link to={`/programs/${prog.id}`} className="font-medium text-gray-900 hover:text-green-700">
-                        {prog.name}
-                      </Link>
-                    </td>
-                    <td className="px-4 py-3"><span className="text-sm text-gray-600">{prog.level}</span></td>
-                    <td className="px-4 py-3">
-                      <Link to={`/universities/${prog.university_id}`} className="text-sm text-gray-600 hover:text-green-700">
-                        {prog.university_acronym}
-                      </Link>
-                    </td>
-                    <td className="px-4 py-3 text-sm text-gray-600">{prog.city}</td>
-                    <td className="px-4 py-3 text-sm text-gray-600">{prog.university_region}</td>
-                    <td className="px-4 py-3 text-sm">{prog.university_state}</td>
-                    <td className="px-4 py-3 text-center">
-                      <span className={`px-2 py-0.5 rounded-full text-xs font-medium ${statusColors[prog.scan_status] || statusColors.unknown}`}>
-                        {statusLabels[prog.scan_status] || 'Unknown'}
-                      </span>
-                    </td>
-                  </tr>
-                ))}
+                {data.data.map(prog => {
+                  const uni = getUniversity(prog.university_id)
+                  return (
+                    <tr key={prog.id} className="hover:bg-gray-50 transition-colors">
+                      <td className="px-4 py-3">
+                        <Link to={`/programs/${prog.id}`} className="font-medium text-gray-900 hover:text-green-700">{prog.name}</Link>
+                      </td>
+                      <td className="px-4 py-3"><span className="text-sm text-gray-600">{prog.level}</span></td>
+                      <td className="px-4 py-3">
+                        {uni && <Link to={`/universities/${uni.id}`} className="text-sm text-gray-600 hover:text-green-700">{uni.acronym}</Link>}
+                      </td>
+                      <td className="px-4 py-3 text-sm text-gray-600">{prog.city}</td>
+                      <td className="px-4 py-3 text-sm text-gray-600">{uni?.region || ''}</td>
+                      <td className="px-4 py-3 text-sm">{uni?.state || ''}</td>
+                      <td className="px-4 py-3 text-center">
+                        <span className={`px-2 py-0.5 rounded-full text-xs font-medium ${statusColors[prog.scan_status] || statusColors.unknown}`}>
+                          {statusLabels[prog.scan_status] || 'Unknown'}
+                        </span>
+                      </td>
+                    </tr>
+                  )
+                })}
               </tbody>
             </table>
           </div>

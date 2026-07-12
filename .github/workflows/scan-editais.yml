@@ -1,13 +1,13 @@
 name: Scan Program Websites for Open Calls
 on:
   schedule:
-    - cron: '59 23 * * *'  # Every day at 23:59 UTC
+    - cron: '59 23 * * *'
   workflow_dispatch:
     inputs:
       year:
         description: 'Filter year for web search results'
         required: false
-        default: '2026'
+        default: '2027'
         type: choice
         options:
           - '2025'
@@ -31,28 +31,15 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 lxml duckduckgo-search
-          python -c "from duckduckgo_search import DDGS; print('duckduckgo-search OK')" || true
-
-      - name: Install Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-
-      - name: Install npm deps
-        run: npm ci
-
-      - name: Parse CSV data
-        run: npm run parse:csv
+          pip install requests beautifulsoup4 lxml
 
       - name: Scan program websites
-        run: python scraper/check_editais.py --year ${{ inputs.year || '2026' }}
+        run: python scripts/scan-programs.py --year ${{ inputs.year || '2027' }}
 
-      - name: Commit updated status
+      - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          git add src/assets/data/program-status.json
-          git diff --staged --quiet || (git commit -m "bot: update program status scan results" && git push)
+          git add frontend/src/data/
+          git diff --staged --quiet || (git commit -m "bot: update scan results and regenerate frontend data" && git push)

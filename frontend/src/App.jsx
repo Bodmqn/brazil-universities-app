@@ -6,11 +6,11 @@ import UniversityDetail from './pages/UniversityDetail'
 import CallsPage from './pages/CallsPage'
 import ProgramList from './pages/ProgramList'
 import ProgramDetail from './pages/ProgramDetail'
-import { api } from './services/api'
+import { loadData, getSummary } from './services/data'
 
 function NavLink({ to, children }) {
-  const location = useLocation();
-  const active = location.pathname === to;
+  const location = useLocation()
+  const active = location.pathname === to
   return (
     <Link
       to={to}
@@ -22,15 +22,25 @@ function NavLink({ to, children }) {
     >
       {children}
     </Link>
-  );
+  )
 }
 
 function App() {
-  const [stats, setStats] = useState(null);
+  const [ready, setReady] = useState(false)
 
   useEffect(() => {
-    api.getStats().then(setStats).catch(() => {});
-  }, []);
+    loadData().then(() => setReady(true))
+  }, [])
+
+  if (!ready) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <div className="text-gray-400 text-lg">Loading data...</div>
+      </div>
+    )
+  }
+
+  const summary = getSummary()
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -50,9 +60,9 @@ function App() {
               <NavLink to="/universities">Universities</NavLink>
               <NavLink to="/programs">Programs</NavLink>
               <NavLink to="/calls">Calls</NavLink>
-              {stats && (
+              {summary && (
                 <span className="ml-4 px-3 py-1 bg-green-100 text-green-800 text-xs font-medium rounded-full">
-                  {stats.total_universities} uni
+                  {summary.total_universities} uni
                 </span>
               )}
             </nav>
@@ -77,7 +87,7 @@ function App() {
         </div>
       </footer>
     </div>
-  );
+  )
 }
 
 export default App
