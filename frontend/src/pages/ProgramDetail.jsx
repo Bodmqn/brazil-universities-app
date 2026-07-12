@@ -23,7 +23,7 @@ export default function ProgramDetail() {
 
   const uni = getUniversity(prog.university_id)
 
-  const hasMeta = prog.meta_campus || prog.meta_duration || prog.meta_start_date || prog.meta_language || prog.meta_master_required
+  const hasMeta = prog.meta_application_deadline || prog.meta_campus || prog.meta_duration || prog.meta_start_date || prog.meta_language || prog.meta_master_required
 
   function displayValue(src, meta) {
     if (src) return src
@@ -85,6 +85,7 @@ export default function ProgramDetail() {
           </div>
           <div>
             <Field label="Language Requirement" value={prog.language_requirement || (prog.meta_language || null)} />
+            <Field label="Application Deadline" value={prog.meta_application_deadline || null} />
           </div>
         </div>
 
@@ -128,6 +129,7 @@ export default function ProgramDetail() {
               <div className="mt-3 pt-3 border-t border-gray-100">
                 <span className="text-gray-500 font-medium">Extracted Metadata:</span>
                 <div className="mt-2 space-y-1">
+                  {renderField('Application Deadline', null, prog.meta_application_deadline)}
                   {renderField('Start Date', prog.start_date, prog.meta_start_date)}
                   {renderField('Duration', prog.duration_months ? `${prog.duration_months} months` : null, prog.meta_duration)}
                   {renderField('Campus', prog.campus, prog.meta_campus)}

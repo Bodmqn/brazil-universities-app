@@ -9,53 +9,75 @@ Usage:
 """
 
 import re
+from collections import OrderedDict
 
 
-FIELDS = {
-    'startDate': {
+FIELDS = OrderedDict([
+    ('applicationDeadline', {
+        'label': 'Application Deadline',
+        'patterns': [
+            (r'inscri[çc][õo]es\s+(?:at[eé]|at[eé]\s+o\s+dia)\s+(\d{1,2}/\d{1,2}/\d{4})', 0.9),
+            (r'inscri[çc][õo]es?\s+(?:nacionais\s+)?(\d{1,2}/\d{1,2}/\d{4})\s+a\s+(\d{1,2}/\d{1,2}/\d{4})', 0.8),
+            (r'prazo\s+(?:final\s+)?para\s+inscri[çc][ãa]o[:\-]\s*(\d{1,2}/\d{1,2}/\d{4})', 0.9),
+            (r'prazo\s+(?:final\s+)?para\s+pagamento\s+(?:da\s+taxa\s+de\s+)?inscri[çc][ãa]o[:\-]\s*(\d{1,2}/\d{1,2}/\d{4})', 0.8),
+            (r'per[ií]odo\s+de\s+inscri[çc][ãa]o[:\-]\s*(\d{1,2}/\d{1,2}/\d{4})\s+a\s+(\d{1,2}/\d{1,2}/\d{4})', 0.8),
+            (r'(?:inscri[çc][õo]es\s+|inscri[çc][ãa]o\s+)(?:abertas\s+)?(?:de\s+)?(\d{1,2}/\d{1,2}/\d{4})\s+(?:a|at[eé])\s+(\d{1,2}/\d{1,2}/\d{4})', 0.7),
+            (r'deadline[:\-]\s*(\d{1,2}[/]\d{1,2}[/]\d{4})', 0.9),
+            (r'application\s+deadline[:\-]\s*(\d{1,2}[/]\d{1,2}[/]\d{4})', 0.9),
+            (r'apply\s+by[:\-]\s*(\d{1,2}[/]\d{1,2}[/]\d{4})', 0.8),
+        ],
+    }),
+    ('startDate', {
         'label': 'Start Date',
         'patterns': [
-            # Portuguese
             (r'in[ií]cio\s*(?:das\s*aulas\s*)?[:\-]\s*(\d{1,2}[/]\d{1,2}[/]\d{4})', 0.9),
             (r'data\s*de\s*in[ií]cio[:\-]\s*(\d{1,2}[/]\d{1,2}[/]\d{4})', 0.9),
             (r'previs[ãa]o\s*de\s*in[ií]cio[:\-]\s*(\d{1,2}[/]\d{1,2}[/]\d{4})', 0.8),
             (r'in[ií]cio\s*(?:previsto\s*)?[:\-]\s*(?:para\s+)?(\d{1,2}[/]\d{1,2}[/]\d{4})', 0.8),
-            (r'(?:semestre|ano)\s*letivo[:\-]\s*(\d{4})', 0.5),
             (r'in[ií]cio\s*(?:previsto\s*)?[:\-]\s*(20\d\d)[./](\d{1,2})', 0.6),
-            # English
+            (r'iniciar[ãa]o\s+(?:suas\s+)?atividades\s+(?:letivas\s+)?no\s+((?:primeiro|1[°º]?)\s+semestre\s+(?:de|,)?\s+20\d{2})', 0.8),
+            (r'iniciar[ãa]o\s+(?:suas\s+)?atividades\s+(?:letivas\s+)?no\s+((?:segundo|2[°º]?)\s+semestre\s+(?:de|,)?\s+20\d{2})', 0.8),
+            (r'in[ií]cio\s+(?:previsto\s+)?(?:para\s+)?o\s+((?:primeiro|1[°º]?)\s+semestre\s+(?:de|,)?\s+20\d{2})', 0.7),
+            (r'previs[ãa]o\s+de\s+in[ií]cio\s+(?:para\s+)?o\s+((?:primeiro|1[°º]?)\s+semestre\s+(?:de|,)?\s+20\d{2})', 0.7),
+            (r'((?:primeiro|1[°º]?)\s+semestre\s+(?:letivo\s+)?de\s+20\d{2})', 0.65),
+            (r'((?:segundo|2[°º]?)\s+semestre\s+(?:letivo\s+)?de\s+20\d{2})', 0.65),
+            (r'(1[°º]?|2[°º]?)\s+SEMESTRE\s+(?:LETIVO\s+)?DE\s+(20\d{2})', 0.5),
+            (r'a\s+partir\s+de\s+(janeiro|fevereiro|mar[çc]o|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)\s+de\s+(20\d{2})', 0.6),
             (r'start\s*date[:\-]\s*(\d{1,2}[/]\d{1,2}[/]\d{4})', 0.9),
             (r'program\s*start[:\-]\s*(\d{1,2}[/]\d{1,2}[/]\d{4})', 0.9),
             (r'beginning\s*[:\-]\s*(\d{1,2}[/]\d{1,2}[/]\d{4})', 0.8),
         ],
-    },
-    'duration': {
+    }),
+    ('duration', {
         'label': 'Duration',
         'patterns': [
-            # Portuguese
             (r'dura[çc][ãa]o\s*(?:do\s*curso\s*)?[:\-]\s*(\d+)\s*(?:meses|anos)', 0.9),
             (r'dura[çc][ãa]o[:\-]\s*(\d+)\s*(?:meses|anos)', 0.9),
+            (r'prazo\s*(?:de|para)\s*(?:integraliza[çc][ãa]o|conclus[ãa]o|dura[çc][ãa]o)\s*(?:do\s*curso\s*)?[:\-]\s*(\d+)\s*(?:meses|anos)', 0.9),
+            (r'integraliza[çc][ãa]o\s*(?:m[ií]nima|m[aá]xima|prevista)\s*[:\-]\s*(\d+)\s*(?:meses|anos)', 0.9),
+            (r'per[ií]odo\s*(?:de|para)\s*integraliza[çc][ãa]o[:\-]\s*(\d+)\s*(?:meses|anos)', 0.8),
+            (r'dura[çc][ãa]o\s*(?:m[ií]nima|m[aá]xima|prevista)\s*[:\-]\s*(\d+)\s*(?:meses|anos)', 0.8),
             (r'per[ií]odo[:\-]\s*(\d+)\s*(?:meses|anos)', 0.7),
             (r'carga\s*hor[áa]ria[:\-]\s*(\d+)\s*h', 0.5),
-            # English
             (r'duration[:\-]\s*(\d+)\s*(?:months|years)', 0.9),
             (r'length[:\-]\s*(\d+)\s*(?:months|years)', 0.8),
             (r'(\d+)[-]\s*year\s*program', 0.8),
             (r'(\d+)[-]\s*month\s*program', 0.8),
         ],
-    },
-    'campus': {
+    }),
+    ('campus', {
         'label': 'Campus',
         'patterns': [
-            (r'c[âa]mpus[:\-]\s*(.+?)(?:\.|$|\d)', 0.9),
-            (r'campus\s+de\s+(.+?)(?:\.|$|\d)', 0.8),
-            (r'campus\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)\s*[-–—]', 0.7),
-            (r'unidade[:\-]\s*(.+?)(?:\.|$|\d)', 0.7),
-            (r'local[:\-]\s*(.+?)(?:\.|$|\d)', 0.6),
-            (r'oferecido\s*em[:\-]\s*(.+?)(?:\.|$|\d)', 0.7),
-            (r'campus\s+universit[aá]rio\s*(?:de\s*)?(.+?)(?:\.|$)', 0.6),
+            (r'c[âa]mpus\s+universit[aá]rio\s+(?:de\s+)?([A-Z][a-zà-ù]+(?:\s+[A-Z][a-zà-ù]+)*)', 0.9),
+            (r'c[âa]mpus\s+de\s+([A-Z][a-zà-ù]+(?:\s+(?:de|da|do|dos|das)\s+[A-Z][a-zà-ù]+)*)', 0.8),
+            (r'c[âa]mpus\s+([A-Z][a-zà-ù]+(?:\s+[A-Z][a-zà-ù]+)*)\s*[-–—]', 0.8),
+            (r'c[âa]mpus[:\-]\s*([A-Z][a-zà-ù]+(?:\s+[A-Z][a-zà-ù]+)*)', 0.7),
+            (r'unidade[:\-]\s*([A-Z][a-zà-ù]+(?:\s+[A-Z][a-zà-ù]+)*)', 0.7),
+            (r'local[:\-]\s*([A-Z][a-zà-ù]+(?:\s+[A-Z][a-zà-ù]+)*)', 0.6),
+            (r'oferecido\s+(?:em|no)\s+(?:c[âa]mpus\s+)?([A-Z][a-zà-ù]+(?:\s+[A-Z][a-zà-ù]+)*)', 0.6),
         ],
-    },
-    'languageRequirement': {
+    }),
+    ('languageRequirement', {
         'label': 'Language Requirement',
         'patterns': [
             (r'idioma[:\-]\s*(portugu[êe]s|ingl[êe]s|espanhol|franc[êe]s)(?:\s*e\s*(portugu[êe]s|ingl[êe]s|espanhol|franc[êe]s))?', 0.9),
@@ -67,8 +89,8 @@ FIELDS = {
             (r'(?:classes|instruction)\s*in\s*(portuguese|english)', 0.7),
             (r'proficiência\s*exigida[:\-]\s*(.+?)(?:\.|$|\d)', 0.7),
         ],
-    },
-    'masterRequired': {
+    }),
+    ('masterRequired', {
         'label': 'Requires Master',
         'patterns': [
             (r'(?:exige|exig[eê]|necessita\s*de)\s*mestrado[:\-]\s*(sim|n[aã]o|yes|no)', 0.9),
@@ -82,8 +104,8 @@ FIELDS = {
             (r"(?:only\s*for|open\s*to)\s*master's\s*holders", 0.7),
             (r'(?:n[aã]o\s*)?exige\s*mestrado', 0.7),
         ],
-    },
-}
+    }),
+])
 
 
 def _text_near_keyword(tag, keyword, max_chars=300):
@@ -130,10 +152,6 @@ def extract_metadata(soup):
                     if m:
                         captured = m.group(0).strip()[:200]
                         value = m.group(1).strip() if m.lastindex and m.lastindex >= 1 else captured
-
-                        # Truncate long captures for campus
-                        if field_name == 'campus' and len(value) > 60:
-                            value = value[:60]
 
                         if confidence > best['confidence']:
                             best = {

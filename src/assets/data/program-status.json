@@ -1,11 +1,11 @@
 {
-  "last_run": "2026-07-12T02:47:47.871535+00:00",
-  "total_urls": 451,
+  "last_run": "2026-07-12T21:25:01.788050+00:00",
+  "total_urls": 554,
   "by_status": {
-    "possible": 290,
-    "likely_open": 83,
-    "error": 82,
-    "unknown": 18
+    "possible": 281,
+    "likely_open": 79,
+    "error": 75,
+    "unknown": 119
   },
   "programs": {
     "https://posgraduacao.uea.edu.br/hematologia/": {
@@ -5823,305 +5823,3817 @@
       "dates_found": [],
       "title": "Unesp - Instituto de Geociências e Ciências Exatas - Câmpus de Rio Claro",
       "last_checked": "2026-07-12T02:41:52.318497+00:00"
-    }
-  },
-  "discovered": {
-    "https://mestrado-doutorado.fgv.br/": {
-      "status": "error",
-      "error": "HTTPSConnectionPool(host='mestrado-doutorado.fgv.br', port=4",
-      "source": "web_search",
-      "query_used": "\"mestrado acadêmico vagas\" 2026",
-      "title": "Home | FGV | Mestrado e Doutorado",
-      "snippet": "Os cursos de Mestrado e Doutorado da Fundação Getulio Vargas (FGV) são referência de excelência no Brasil e no mundo, formando profissionais diferenciados e pesquisadores de alto nível, que …",
-      "last_checked": "2026-07-12T02:43:41.975074+00:00"
     },
-    "https://pt.m.wikipedia.org/wiki/Mestrado": {
-      "status": "possible",
-      "confidence": 0.4,
-      "keywords_found": [
-        "mestrado",
-        "doutorado",
-        "mestrado\\s+profissional"
-      ],
-      "dates_found": [],
-      "title": "Mestrado – Wikipédia, a enciclopédia livre",
-      "snippet": "O mestrado é um grau académico atribuído por uma instituição de ensino superior. Na hierarquia dos graus académicos este grau situa-se, em regra, na segunda posição ascendente.",
-      "source": "web_search",
-      "query_used": "\"mestrado acadêmico vagas\" 2026",
-      "last_checked": "2026-07-12T02:43:42.319944+00:00"
-    },
-    "https://www.uerj.br/pesquisa/cursos-de-pos-graduacao/": {
-      "status": "possible",
-      "confidence": 0.4,
-      "keywords_found": [
-        "mestrado",
-        "doutorado",
-        "calend[aá]rio"
-      ],
-      "dates_found": [],
-      "title": "Cursos de Pós-Graduação - UERJ - Universidade do Estado do Rio de Janeiro",
-      "snippet": "A Universidade do Estado do Rio de Janeiro possui 74 Programas de Pós-graduação stricto sensu credenciados pela CAPES, oferecendo 50 cursos de mestrado acadêmico, 46 cursos de doutorado …",
-      "source": "web_search",
-      "query_used": "\"mestrado acadêmico vagas\" 2026",
-      "last_checked": "2026-07-12T02:43:45.961496+00:00"
-    },
-    "https://estacio.br/cursos/mestrado-doutorado": {
-      "status": "likely_open",
-      "confidence": 0.6,
-      "keywords_found": [
-        "inscreva-se",
-        "edital",
-        "edital\\s+mestrado",
-        "mestrado"
-      ],
-      "dates_found": [],
-      "title": "Mestrado e Doutorado | Estácio EaD, Semi e Presencial",
-      "snippet": "A Universidade Estácio de Sá oferece cinco programas de pós-graduação stricto sensu, dos quais quatro oferecem mestrado e doutorado avaliados com notas entre 4 e 5.",
-      "source": "web_search",
-      "query_used": "\"mestrado acadêmico vagas\" 2026",
-      "last_checked": "2026-07-12T02:43:46.345402+00:00"
-    },
-    "https://ufpr.br/mestrado-e-doutorado/": {
-      "status": "possible",
-      "confidence": 0.4,
-      "keywords_found": [
-        "edital",
-        "sele[cç][aã]o",
-        "mestrado"
-      ],
-      "dates_found": [],
-      "title": "Mestrado e Doutorado – Universidade Federal do Paraná",
-      "snippet": "A concepção de cada curso de mestrado ou doutorado deve demonstrar seus componentes, tais como objetivos, áreas de concentração, linhas de pesquisa e projetos de pesquisa, estrutura curricular, …",
-      "source": "web_search",
-      "query_used": "\"mestrado acadêmico vagas\" 2026",
-      "last_checked": "2026-07-12T02:43:48.761203+00:00"
-    },
-    "https://uem.mz/cursos-de-pos-graduacao/": {
-      "status": "possible",
-      "confidence": 0.4,
-      "keywords_found": [
-        "inscri[cç][aã]o",
-        "mestrado",
-        "doutorado"
-      ],
-      "dates_found": [],
-      "title": "Cursos de Pós-graduação – Universidade Eduardo Mondlane",
-      "snippet": "O curso de pós-graduação compreendem o 2º e 3º ciclos de formação e conferem aos graduado o título académico de mestrado e doutorado, conforme estatui o artigo 22 e 23 da Lei do Ensino Superior.",
-      "source": "web_search",
-      "query_used": "\"mestrado acadêmico vagas\" 2026",
-      "last_checked": "2026-07-12T02:43:54.060595+00:00"
-    },
-    "https://www.enap.gov.br/pos-graduacao/mestrado/": {
-      "status": "likely_open",
-      "confidence": 0.6,
-      "keywords_found": [
-        "inscri[cç][aã]o\\s+aberta",
-        "edital",
-        "sele[cç][aã]o",
-        "inscri[cç][aã]o"
-      ],
-      "dates_found": [],
-      "title": "Mestrados",
-      "snippet": "Lato sensu ou stricto sensu? Quando se fala em pós-graduação, as referências que podem aparecer são especialização, MBA, mestrado e doutorado. Porém, esses cursos apresentam algumas …",
-      "source": "web_search",
-      "query_used": "\"mestrado acadêmico vagas\" 2026",
-      "last_checked": "2026-07-12T02:43:56.642570+00:00"
-    },
-    "https://prpg.unicamp.br/programas/stricto-sensu/mestrado-doutorado-academico/": {
-      "status": "possible",
-      "confidence": 0.4,
-      "keywords_found": [
-        "mestrado",
-        "doutorado",
-        "calend[aá]rio"
-      ],
-      "dates_found": [
-        "11/08/2015",
-        "11/08/2015",
-        "11/08/2015",
-        "11/08/2015",
-        "11/08/2015"
-      ],
-      "title": "Mestrado e Doutorado Acadêmico - Stricto Sensu - Programas - PRPG - Pró-Reitoria de Pós-Graduação da Unicamp",
-      "snippet": "Aug 11, 2015 · Consistem em cursos de mestrado e doutorado acadêmicos, objetivando a formação de recursos humanos altamente qualificados, com vistas ao ensino, pesquisa e ao desenvolvimento …",
-      "source": "web_search",
-      "query_used": "\"mestrado acadêmico vagas\" 2026",
-      "last_checked": "2026-07-12T02:43:57.228331+00:00"
-    },
-    "https://portal.pucrs.br/ensino/mestrado-e-doutorado/": {
-      "status": "likely_open",
-      "confidence": 0.6,
-      "keywords_found": [
-        "inscri[cç][oõ]es\\s+abertas",
-        "sele[cç][aã]o",
-        "inscri[cç][oõ]es",
-        "mestrado"
-      ],
-      "dates_found": [],
-      "title": "Portal | Ensino | Mestrado e Doutorado | PUCRS",
-      "snippet": "Os cursos de pós-graduação em nível de Mestrado são oferecidos a candidatos diplomados em curso superior. São a possibilidade de aprofundar conhecimentos em uma determinada área dando …",
-      "source": "web_search",
-      "query_used": "\"mestrado acadêmico vagas\" 2026",
-      "last_checked": "2026-07-12T02:43:57.708009+00:00"
-    },
-    "https://en.m.wikipedia.org/wiki/Brazil": {
-      "status": "possible",
-      "confidence": 0.4,
-      "keywords_found": [
-        "vagas?",
-        "resultado",
-        "capes"
-      ],
-      "dates_found": [],
-      "title": "Brazil - Wikipedia",
-      "snippet": "Brazil encompasses a wide range of tropical and subtropical landscapes, as well as wetlands, savannas, plateaus, and low mountains. It contains most of the Amazon basin, including the world's largest river …",
-      "source": "web_search",
-      "query_used": "\"Brazil university masters admissions\" 2026",
-      "last_checked": "2026-07-12T02:44:46.586454+00:00"
-    },
-    "https://en.m.wikipedia.org/wiki/Flag_of_Brazil": {
+    "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ciencia-florestal": {
       "status": "unknown",
-      "confidence": 0.05,
-      "keywords_found": [],
-      "dates_found": [],
-      "title": "Flag of Brazil - Wikipedia",
-      "snippet": "A green field with a large yellow rhombus in the center, bearing a blue disk which forms a celestial globe depicting twenty-seven small white five-pointed stars spanned by a white equatorial curved band with …",
-      "source": "web_search",
-      "query_used": "\"Brazil university masters admissions\" 2026",
-      "last_checked": "2026-07-12T02:44:46.793278+00:00"
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786264+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "primeiro semestre de 2025",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "UNIVERSITÁRIO",
+          "confidence": 0.8,
+          "source": "c[âa]mpus\\s+([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)\\s*[-–—]"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
     },
-    "https://www.fap.df.gov.br/editais-fapdf-2025/": {
-      "status": "error",
-      "error": "HTTPSConnectionPool(host='www.fap.df.gov.br', port=443): Rea",
-      "source": "web_search",
-      "query_used": "\"edital mestrado open\" 2026",
-      "title": "Editais FAPDF 2025 - Fundação de Apoio à Pesquisa do Distrito ...",
-      "snippet": "Mar 12, 2025 · Instrução Nº 24 de 20 de março de 2026 – Instituir Comissão de seleção mista entre a Fundação de Apoio à Pesquisa do Distrito Federal/FAPDF e a Secretaria de Estado da Agricultura, …",
-      "last_checked": "2026-07-12T02:45:59.627192+00:00"
-    },
-    "https://www.fap.df.gov.br/editais-fapdf-20261": {
-      "status": "error",
-      "error": "HTTPSConnectionPool(host='www.fap.df.gov.br', port=443): Rea",
-      "source": "web_search",
-      "query_used": "\"edital mestrado open\" 2026",
-      "title": "Editais FAPDF 2026 - Fundação de Apoio à Pesquisa do Distrito ...",
-      "snippet": "Jan 15, 2026 · EDITAL 07/2026 PROGRAMA FAPDF LEARNING - Programa de Fomento Estratégico nas macroáreas das linhas de pesquisas: BIO Learning, TECH Learning, GOV Learning e AGRO Learning",
-      "last_checked": "2026-07-12T02:46:06.016133+00:00"
-    },
-    "https://www.fap.df.gov.br/editais-fapdf-2024/": {
-      "status": "error",
-      "error": "HTTPSConnectionPool(host='www.fap.df.gov.br', port=443): Rea",
-      "source": "web_search",
-      "query_used": "\"edital mestrado open\" 2026",
-      "title": "Editais FAPDF 2024 - Fundação de Apoio à Pesquisa do Distrito ...",
-      "snippet": "CHAMADA 01 – DEMANDA ESPONTÂNEA: Seleção pública de propostas de pesquisa científica, tecnológica e inovação – vinculada ao Edital 05/2024 – Programa de Pesquisa Básica",
-      "last_checked": "2026-07-12T02:46:12.371778+00:00"
-    },
-    "https://www.fap.df.gov.br/edital-ppsus/": {
-      "status": "error",
-      "error": "HTTPSConnectionPool(host='www.fap.df.gov.br', port=443): Rea",
-      "source": "web_search",
-      "query_used": "\"edital mestrado open\" 2026",
-      "title": "Edital PPSUS - Fundação de Apoio à Pesquisa do Distrito ...",
-      "snippet": "Edital PPSUS Chamada Pública nº 04/2025 para Seleção de Projetos de Pesquisa Científica, Tecnológica e de Inovação que promovam a melhoria da qualidade da atenção à saúde no Distrito Federal . (2ª …",
-      "last_checked": "2026-07-12T02:46:18.726626+00:00"
-    },
-    "https://www.fap.df.gov.br/": {
-      "status": "error",
-      "error": "HTTPSConnectionPool(host='www.fap.df.gov.br', port=443): Rea",
-      "source": "web_search",
-      "query_used": "\"edital mestrado open\" 2026",
-      "title": "Fundação de Apoio à Pesquisa do Distrito Federal",
-      "snippet": "Edital PPSUS Realiza 2025 Chamadas Nacionais 2025 Chamadas Internacionais 2025 Editais 2024 Editais FAPDF 2024 Chamadas Nacionais 2024 Chamadas Internacionais 2024 Realiza 2024 Editais 2023 …",
-      "last_checked": "2026-07-12T02:46:25.562707+00:00"
-    },
-    "https://www.fap.df.gov.br/realiza-2026": {
-      "status": "error",
-      "error": "HTTPSConnectionPool(host='www.fap.df.gov.br', port=443): Rea",
-      "source": "web_search",
-      "query_used": "\"edital mestrado open\" 2026",
-      "title": "Realiza 2026 - Fundação de Apoio à Pesquisa do Distrito ...",
-      "snippet": "Jan 16, 2026 · RETIFICAÇÃO DO EDITAL 05/2026 – FAPDF REALIZA – SELEÇÃO PÚBLICA DE PROPOSTAS PARA APOIO À REALIZAÇÃO DE EVENTOS - FUNDAÇÃO DE APOIO À PESQUISA DO DISTRITO FEDERAL.",
-      "last_checked": "2026-07-12T02:46:32.034229+00:00"
-    },
-    "https://www.unb.bank/": {
-      "status": "likely_open",
-      "confidence": 0.6,
-      "keywords_found": [
-        "apply\\s+now"
-      ],
-      "dates_found": [],
-      "title": "UNB Bank - Independently Owned Since 1906 | unb.bank",
-      "snippet": "UNB Bank is a full service community bank offering a wide array of lending and deposit products, with offices in Mount Carmel and …",
-      "source": "web_search",
-      "query_used": "\"UnB mestrado vagas abertas\" 2026",
-      "last_checked": "2026-07-12T02:47:33.160817+00:00"
-    },
-    "https://www2.unesp.br/": {
-      "status": "possible",
-      "confidence": 0.4,
-      "keywords_found": [
-        "vagas?",
-        "resultado",
-        "ingresso"
-      ],
-      "dates_found": [],
-      "title": "Unesp - Universidade Estadual Paulista - Portal",
-      "snippet": "Unesp - Universidade Estadual Paulista Júlio de Mesquita Filho",
-      "source": "web_search",
-      "query_used": "\"UNESP edital mestrado inscrições\" 2026",
-      "last_checked": "2026-07-12T02:47:40.943990+00:00"
-    },
-    "https://en.wikipedia.org/wiki/São_Paulo_State_University": {
-      "status": "possible",
-      "confidence": 0.2,
-      "keywords_found": [
-        "admissions?"
-      ],
-      "dates_found": [
-        "14/01/2001",
-        "15/01/2001",
-        "14/01/2005",
-        "15/01/2005",
-        "14/01/2009"
-      ],
-      "title": "São Paulo State University - Wikipedia",
-      "snippet": "São Paulo State University (Unesp, Portuguese: Universidade Estadual Paulista \"Júlio de Mesquita Filho\") is a public university run by the state government of São Paulo, Brazil. Unesp has a combined …",
-      "source": "web_search",
-      "query_used": "\"UNESP edital mestrado inscrições\" 2026",
-      "last_checked": "2026-07-12T02:47:41.753899+00:00"
-    },
-    "https://www2.unesp.br/portal#!/eng/academic-programs/": {
+    "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ensino-de-fisica": {
       "status": "unknown",
-      "confidence": 0.05,
-      "keywords_found": [],
-      "dates_found": [],
-      "title": "Unesp - Universidade Estadual Paulista - Portal",
-      "snippet": "Unesp offers 179 undergraduate programs with a duration of 4 to 6 years, and 118 graduate programs in nearly every knowledge areas and prepares students for 68 careers in our 24 campuses.",
-      "source": "web_search",
-      "query_used": "\"UNESP edital mestrado inscrições\" 2026",
-      "last_checked": "2026-07-12T02:47:41.931032+00:00"
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786177+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": "25/08/2025 - 24/09/2025",
+          "confidence": 0.8,
+          "source": "inscri[çc][õo]es?\\s+(?:nacionais\\s+)?(\\d{1,2}/\\d{1,2}/\\d{4})\\s+a\\s+(\\d{1,2}/\\d{1,2}/\\d{4})"
+        },
+        "startDate": {
+          "value": "primeiro semestre de 2026",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "Darcy Ribeiro",
+          "confidence": 0.9,
+          "source": "c[âa]mpus\\s+universit[aá]rio\\s+(?:de\\s+)?([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
     },
-    "https://pt.wikipedia.org/wiki/Universidade_Estadual_Paulista": {
-      "status": "possible",
-      "confidence": 0.4,
-      "keywords_found": [
-        "processo\\s+seletivo",
-        "mestrado",
-        "doutorado"
-      ],
-      "dates_found": [
-        "16/09/2015",
-        "16/09/2015",
-        "16/09/2015",
-        "16/09/2015",
-        "16/09/2015"
-      ],
-      "title": "Universidade Estadual Paulista – Wikipédia, a enciclopédia livre",
-      "snippet": "Universidade Estadual Paulista \"Júlio de Mesquita Filho\" (Unesp) é uma universidade pública brasileira, com atuação no ensino, na pesquisa e na extensão de serviços à comunidade. A instituição é uma …",
-      "source": "web_search",
-      "query_used": "\"UNESP edital mestrado inscrições\" 2026",
-      "last_checked": "2026-07-12T02:47:42.402360+00:00"
+    "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-agronomia-producao-vegetal": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786361+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "1º SEMESTRE DE 2025",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ciencia-da-computacao": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786374+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "primeiro semestre de 2023",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ensino-de-humanidades-e-linguagens-2013-ppehl": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786312+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "1º semestre letivo de 2027",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "Cruzeiro do Sul",
+          "confidence": 0.8,
+          "source": "c[âa]mpus\\s+de\\s+([A-Z][a-zà-ù]+(?:\\s+(?:de|da|do|dos|das)\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ciencias-ambientais-ppgca": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786386+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-historia": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786398+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "Primeiro Semestre de 2024",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-geografia": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786392+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "Rio",
+          "confidence": 0.8,
+          "source": "c[âa]mpus\\s+de\\s+([A-Z][a-zà-ù]+(?:\\s+(?:de|da|do|dos|das)\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://ppgbiomol.com.br": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786517+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "Darcy Ribeiro Asa Norte",
+          "confidence": 0.9,
+          "source": "c[âa]mpus\\s+universit[aá]rio\\s+(?:de\\s+)?([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://ppgca.unb.br": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786564+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "Planaltina",
+          "confidence": 0.8,
+          "source": "c[âa]mpus\\s+de\\s+([A-Z][a-zà-ù]+(?:\\s+(?:de|da|do|dos|das)\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://ppgcom.fac.unb.br": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786585+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "sistema de ampla concorrência",
+          "confidence": 0.6,
+          "source": "oferecido\\s+(?:em|no)\\s+(?:c[âa]mpus\\s+)?([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://ppgcf.unb.br": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786601+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "SEGUNDO SEMESTRE LETIVO DE 2026",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "sistema de ampla concorrência",
+          "confidence": 0.6,
+          "source": "oferecido\\s+(?:em|no)\\s+(?:c[âa]mpus\\s+)?([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://ppggag.unb.br": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786635+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "1º SEMESTRE LETIVO DE 2026",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "CURSO DE PÓS",
+          "confidence": 0.6,
+          "source": "local[:\\-]\\s*([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://ppgdsci.unb.br": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786614+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": "06/04/2026 - 12/04/2026",
+          "confidence": 0.7,
+          "source": "(?:inscri[çc][õo]es\\s+|inscri[çc][ãa]o\\s+)(?:abertas\\s+)?(?:de\\s+)?(\\d{1,2}/\\d{1,2}/\\d{4})\\s+(?:a|at[eé])\\s+(\\d{1,2}/\\d{1,2}/\\d{4})"
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "Darcy Ribeiro da Universidade de Brasília",
+          "confidence": 0.9,
+          "source": "c[âa]mpus\\s+universit[aá]rio\\s+(?:de\\s+)?([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://ppgea.fct.ufg.br": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786664+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "primeiro semestre letivo de 2026",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "APARECIDA DE GOIÂNIA FCT",
+          "confidence": 0.8,
+          "source": "c[âa]mpus\\s+([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)\\s*[-–—]"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://ppgif.farmacia.ufg.br": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786676+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": "05/02/2024 - 06/02/2024",
+          "confidence": 0.8,
+          "source": "inscri[çc][õo]es?\\s+(?:nacionais\\s+)?(\\d{1,2}/\\d{1,2}/\\d{4})\\s+a\\s+(\\d{1,2}/\\d{1,2}/\\d{4})"
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://ppgsol.unb.br": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786649+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": "01/06/2026 - 08/06/2026",
+          "confidence": 0.7,
+          "source": "(?:inscri[çc][õo]es\\s+|inscri[çc][ãa]o\\s+)(?:abertas\\s+)?(?:de\\s+)?(\\d{1,2}/\\d{1,2}/\\d{4})\\s+(?:a|at[eé])\\s+(\\d{1,2}/\\d{1,2}/\\d{4})"
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://ppgci.fic.ufg.br": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786690+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": "09/02/2026 - 20/02/2026",
+          "confidence": 0.8,
+          "source": "per[ií]odo\\s+de\\s+inscri[çc][ãa]o[:\\-]\\s*(\\d{1,2}/\\d{1,2}/\\d{4})\\s+a\\s+(\\d{1,2}/\\d{1,2}/\\d{4})"
+        },
+        "startDate": {
+          "value": "02/03/2026",
+          "confidence": 0.9,
+          "source": "in[ií]cio\\s*(?:das\\s*aulas\\s*)?[:\\-]\\s*(\\d{1,2}[/]\\d{1,2}[/]\\d{4})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.ueg.br/ppget": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786717+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.ueg.br/ppgas": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786703+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre letivo de 2026",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.ueg.br/iael/ppgeo": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786750+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre letivo de 2025",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "CORA CORALINA",
+          "confidence": 0.8,
+          "source": "c[âa]mpus\\s+([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)\\s*[-–—]"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.ueg.br/iael/ppghis": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786765+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "2º semestre de 2022",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "Sudeste",
+          "confidence": 0.8,
+          "source": "c[âa]mpus\\s+([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)\\s*[-–—]"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://ppgquimica.jatai.ufg.br": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786777+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": "08/07/2026 - 17/07/2026",
+          "confidence": 0.8,
+          "source": "inscri[çc][õo]es?\\s+(?:nacionais\\s+)?(\\d{1,2}/\\d{1,2}/\\d{4})\\s+a\\s+(\\d{1,2}/\\d{1,2}/\\d{4})"
+        },
+        "startDate": {
+          "value": "segundo semestre de 2026",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.artes.ufes.br/pt-br/pos-graduacao/PPGA": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786811+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "abril - 2022",
+          "confidence": 0.6,
+          "source": "a\\s+partir\\s+de\\s+(janeiro|fevereiro|mar[çc]o|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)\\s+de\\s+(20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.administracao.ufes.br/pos-graduacao/PPGAdm": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786800+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "primeiro semestre letivo de 2026",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "Universitário",
+          "confidence": 0.8,
+          "source": "c[âa]mpus\\s+([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)\\s*[-–—]"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.agroquimica.alegre.ufes.br/pos-graduacao/PPGAQ": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786850+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "primeiro semestre letivo de 2020",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.cienciascontabeis.ufes.br/pos-graduacao/PPGCC": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786867+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "23/03/2026",
+          "confidence": 0.9,
+          "source": "in[ií]cio\\s*(?:das\\s*aulas\\s*)?[:\\-]\\s*(\\d{1,2}[/]\\d{1,2}[/]\\d{4})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.cienciassociais.ufes.br/pt-br/pos-graduacao/PGCS": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786897+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre de 2026",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "Goiabeiras",
+          "confidence": 0.8,
+          "source": "c[âa]mpus\\s+de\\s+([A-Z][a-zà-ù]+(?:\\s+(?:de|da|do|dos|das)\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.odontologia.ufes.br/pt-br/pt-br/pos-graduacao/PPGCienciasOdontologicas": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786913+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "primeiro semestre letivo de 2026",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.cienciasveterinarias.ufes.br/pos-graduacao/PPGCV": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786880+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "1º SEMESTRE DE 2024",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.direito.ufes.br/pt-br/pos-graduacao/PPGDIR": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786926+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "Goiabeiras",
+          "confidence": 0.8,
+          "source": "c[âa]mpus\\s+de\\s+([A-Z][a-zà-ù]+(?:\\s+(?:de|da|do|dos|das)\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": "O processo seletivo do PPGDir-Ufes não se vincula nem se subordina a cronogramas das entidades certificadoras acima mencionadas",
+          "confidence": 0.8,
+          "source": "(?:profici[êe]ncia|requisito\\s*de\\s*idioma)[:\\-]\\s*(.+?)(?:\\.|$|\\d)"
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.educacao.ufes.br/pt-br/pos-graduacao/PPGE": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786940+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "primeiro semestre de 2026",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://enfermagem.vitoria.ufes.br/pt-br/pos-graduacao/PPGENF": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786968+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "2º semestre de 2026",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.civil.ufes.br/pos-graduacao/PPGEC": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786979+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": "03/02/2025 - 06/02/2025",
+          "confidence": 0.7,
+          "source": "(?:inscri[çc][õo]es\\s+|inscri[çc][ãa]o\\s+)(?:abertas\\s+)?(?:de\\s+)?(\\d{1,2}/\\d{1,2}/\\d{4})\\s+(?:a|at[eé])\\s+(\\d{1,2}/\\d{1,2}/\\d{4})"
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "Universitário",
+          "confidence": 0.8,
+          "source": "c[âa]mpus\\s+([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)\\s*[-–—]"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.ambiental.ufes.br/pos-graduacao/PPGEA": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786953+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "2° semestre letivo de 2026",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://engenhariaeletrica.ufes.br/pt-br/pos-graduacao/PPGEE": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787005+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "1º semestre de 2026",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "Alaor Queiroz de Ara",
+          "confidence": 0.9,
+          "source": "c[âa]mpus\\s+universit[aá]rio\\s+(?:de\\s+)?([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.filosofia.ufes.br/pt-br/pos-graduacao/PPGFil": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787023+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": "23/08/2024 - 07/11/2024",
+          "confidence": 0.8,
+          "source": "inscri[çc][õo]es?\\s+(?:nacionais\\s+)?(\\d{1,2}/\\d{1,2}/\\d{4})\\s+a\\s+(\\d{1,2}/\\d{1,2}/\\d{4})"
+        },
+        "startDate": {
+          "value": "primeiro semestre letivo de 2024",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": "0",
+          "confidence": 0.8,
+          "source": "(?:profici[êe]ncia|requisito\\s*de\\s*idioma)[:\\-]\\s*(.+?)(?:\\.|$|\\d)"
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.fisica.ufes.br/pos-graduacao/PPGFis": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787081+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre de 2026",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.ensinoeeducacao.alegre.ufes.br/pt-br/pos-graduacao/PPGEEDUC": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787035+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": "06/02/2025 - 06/03/2025",
+          "confidence": 0.8,
+          "source": "inscri[çc][õo]es?\\s+(?:nacionais\\s+)?(\\d{1,2}/\\d{1,2}/\\d{4})\\s+a\\s+(\\d{1,2}/\\d{1,2}/\\d{4})"
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://gestaopublica.ufes.br/pt-br/pos-graduacao/PPGGP": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787110+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre letivo de 2026",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.engenhariaquimica.alegre.ufes.br/pos-graduacao/PPEQ": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787046+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "primeiro semestre letivo de 2026",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.geografia.ufes.br/pt-br/pos-graduacao/PPGG": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787094+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": "17/11/2025 - 27/11/2025",
+          "confidence": 0.8,
+          "source": "per[ií]odo\\s+de\\s+inscri[çc][ãa]o[:\\-]\\s*(\\d{1,2}/\\d{1,2}/\\d{4})\\s+a\\s+(\\d{1,2}/\\d{1,2}/\\d{4})"
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": "20",
+          "confidence": 0.5,
+          "source": "carga\\s*hor[áa]ria[:\\-]\\s*(\\d+)\\s*h"
+        },
+        "campus": {
+          "value": "Goiabeiras",
+          "confidence": 0.9,
+          "source": "c[âa]mpus\\s+universit[aá]rio\\s+(?:de\\s+)?([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.historia.ufes.br/pt-br/pos-graduacao/PPGHIS": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787122+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "Goiabeiras",
+          "confidence": 0.8,
+          "source": "c[âa]mpus\\s+de\\s+([A-Z][a-zà-ù]+(?:\\s+(?:de|da|do|dos|das)\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.matematica.ufes.br/pos-graduacao/PPGMAT": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787134+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "10/03/2025",
+          "confidence": 0.9,
+          "source": "in[ií]cio\\s*(?:das\\s*aulas\\s*)?[:\\-]\\s*(\\d{1,2}[/]\\d{1,2}[/]\\d{4})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.informatica.ufes.br/pt-br/pos-graduacao/PPGI": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787199+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "Goiabeiras",
+          "confidence": 0.8,
+          "source": "c[âa]mpus\\s+de\\s+([A-Z][a-zà-ù]+(?:\\s+(?:de|da|do|dos|das)\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.letras.ufes.br/pos-graduacao/PPGL": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787148+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.famema.br/pos-graduacao-stricto-sensu/mestrado-profissional": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787249+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "1º semestre de 2026",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": "45",
+          "confidence": 0.5,
+          "source": "carga\\s*hor[áa]ria[:\\-]\\s*(\\d+)\\s*h"
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgapublica": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787259+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "Camobi",
+          "confidence": 0.9,
+          "source": "c[âa]mpus\\s+universit[aá]rio\\s+(?:de\\s+)?([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgagro": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787275+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre de 2010",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgagrobio": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787267+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre de 2010",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgaup": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787284+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "2º semestre de 2026",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgart": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787290+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "1º semestre de 2026",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/pgac": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787297+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre de 2010",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcs": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787311+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "primeiro semestre de 2026",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgba": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787304+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre de 2010",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgbtox": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787319+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre de 2010",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcf": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787333+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre de 2010",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/pgfarmacologia": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787326+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "janeiro - 2021",
+          "confidence": 0.6,
+          "source": "a\\s+partir\\s+de\\s+(janeiro|fevereiro|mar[çc]o|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)\\s+de\\s+(20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcsociais": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787348+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre de 2010",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcmr": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787340+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "1º semestre de 2016",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/mpcs": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787355+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre de 2010",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/poscom": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787362+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "primeiro semestre letivo de 2017",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppged": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787371+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "2º semestre de 2026",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgemef": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787378+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre de 2010",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgeamb": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787391+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre de 2010",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgenf": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787385+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "2º semestre de 2026",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgecam": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787418+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "2º semestre de 2026",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgea": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787398+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "1º semestre de 2026",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgec": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787404+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre de 2010",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgee": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787411+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre de 2010",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgef": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787425+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "Universitário",
+          "confidence": 0.8,
+          "source": "c[âa]mpus\\s+([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)\\s*[-–—]"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/pgmec": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787432+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "2º semestre de 2026",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgeq": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787438+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre de 2010",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgf": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787448+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre de 2010",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/pgfisica": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787455+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "abril - 2026",
+          "confidence": 0.6,
+          "source": "a\\s+partir\\s+de\\s+(janeiro|fevereiro|mar[çc]o|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)\\s+de\\s+(20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppggeo": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787463+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre de 2010",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgmat": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787477+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre de 2010",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgexr": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787469+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre de 2010",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgmet": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787599+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre de 2010",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgmv": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787487+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "Camobi",
+          "confidence": 0.9,
+          "source": "c[âa]mpus\\s+universit[aá]rio\\s+(?:de\\s+)?([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgletras": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787640+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "1º Semestre Letivo de 2025",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "UFSM",
+          "confidence": 0.8,
+          "source": "c[âa]mpus\\s+([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)\\s*[-–—]"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/pppg": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787657+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre de 2010",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgpc": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787495+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "1º semestre de 2026",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgp": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787686+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "1º semestre de 2026",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgq": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787671+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre de 2010",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgsspp": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787715+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "1 semestre de 2026",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgsc": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787701+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "janeiro - 2020",
+          "confidence": 0.6,
+          "source": "a\\s+partir\\s+de\\s+(janeiro|fevereiro|mar[çc]o|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)\\s+de\\s+(20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgz": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787747+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre de 2010",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/frederico-westphalen/ppgctamb": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787799+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "FREDERICO WESTPHALEN PROGRAMA DE PÓS",
+          "confidence": 0.8,
+          "source": "c[âa]mpus\\s+([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)\\s*[-–—]"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/frederico-westphalen/ppgaaa": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787761+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "FREDERICO WESTPHALEN PROGRAMA DE PÓS",
+          "confidence": 0.8,
+          "source": "c[âa]mpus\\s+([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)\\s*[-–—]"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.uffs.edu.br/uffs/mestrado/historia": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787830+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "princípios",
+          "confidence": 0.7,
+          "source": "unidade[:\\-]\\s*([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/espgestao": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787769+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "segundo semestre de 2010",
+          "confidence": 0.65,
+          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.uffs.edu.br/uffs/doutorado/interinstitucional-em-educacao-cientifica-e-tecnologica-encerrado": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787896+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "princípios",
+          "confidence": 0.7,
+          "source": "unidade[:\\-]\\s*([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.uffs.edu.br/uffs/programa-de-pos-graduacao-em-enfermagem/apresentacao": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787875+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "princípios",
+          "confidence": 0.7,
+          "source": "unidade[:\\-]\\s*([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.uffs.edu.br/uffs/pos-graduacao/apresentacao": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787903+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "princípios",
+          "confidence": 0.7,
+          "source": "unidade[:\\-]\\s*([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://www.uffs.edu.br/uffs/doutorado/interinstitucional-em-arquitetura-encerrado": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787887+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "princípios",
+          "confidence": 0.7,
+          "source": "unidade[:\\-]\\s*([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://fcts.unb.br/ppgasfar": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786551+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "sistema de ampla concorrência",
+          "confidence": 0.6,
+          "source": "oferecido\\s+(?:em|no)\\s+(?:c[âa]mpus\\s+)?([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.ueg.br/prp/ppge": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786738+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "seu",
+          "confidence": 0.8,
+          "source": "c[âa]mpus\\s+de\\s+([A-Z][a-zà-ù]+(?:\\s+(?:de|da|do|dos|das)\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.biotecnologia.ufes.br/pt-br/pos-graduacao/PPGBIOTEC": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786834+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": "18/08/2025 - 19/08/2025",
+          "confidence": 0.8,
+          "source": "inscri[çc][õo]es?\\s+(?:nacionais\\s+)?(\\d{1,2}/\\d{1,2}/\\d{4})\\s+a\\s+(\\d{1,2}/\\d{1,2}/\\d{4})"
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "https://energia.ufes.br/pt-br/pos-graduacao/PPGEN": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.786994+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": "20/05/2026 - 25/05/2026",
+          "confidence": 0.8,
+          "source": "inscri[çc][õo]es?\\s+(?:nacionais\\s+)?(\\d{1,2}/\\d{1,2}/\\d{4})\\s+a\\s+(\\d{1,2}/\\d{1,2}/\\d{4})"
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://profagua.ufes.br/pos-graduacao/PROF%C3%81GUA": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787066+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "Experimental ou de Programa de Pós",
+          "confidence": 0.8,
+          "source": "c[âa]mpus\\s+([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)\\s*[-–—]"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.saudecoletiva.ufes.br/pt-br/pos-graduacao/PPGSC": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787222+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": "22/12/2025 - 18/01/2026",
+          "confidence": 0.7,
+          "source": "(?:inscri[çc][õo]es\\s+|inscri[çc][ãa]o\\s+)(?:abertas\\s+)?(?:de\\s+)?(\\d{1,2}/\\d{1,2}/\\d{4})\\s+(?:a|at[eé])\\s+(\\d{1,2}/\\d{1,2}/\\d{4})"
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
+    },
+    "http://www.psicologia.ufes.br/pos-graduacao/PPGP": {
+      "status": "unknown",
+      "confidence": 0,
+      "last_checked": "2026-07-12T21:25:01.787234+00:00",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "Itabira",
+          "confidence": 0.8,
+          "source": "c[âa]mpus\\s+de\\s+([A-Z][a-zà-ù]+(?:\\s+(?:de|da|do|dos|das)\\s+[A-Z][a-zà-ù]+)*)"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      }
     }
   }
 }

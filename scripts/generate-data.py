@@ -139,6 +139,7 @@ def main():
                         "start_date": convert_to_iso(src_start or _meta(scan_info, 'startDate')) if (src_start or _meta(scan_info, 'startDate')) else None,
                         "duration_months": extract_duration(src_dur) if src_dur else (_meta(scan_info, 'duration') if _meta(scan_info, 'duration') else None),
                         "language_requirement": src_lang or _meta(scan_info, 'languageRequirement') or "",
+                        "meta_application_deadline": _meta(scan_info, 'applicationDeadline') or "",
                         "meta_campus": _meta(scan_info, 'campus') or "",
                         "meta_duration": _meta(scan_info, 'duration') or "",
                         "meta_start_date": _meta(scan_info, 'startDate') or "",
