@@ -1,17 +1,24 @@
 {
-  "last_run": "2026-07-11T02:36:42.546816+00:00",
+  "last_run": "2026-07-12T02:47:47.871535+00:00",
   "total_urls": 451,
   "by_status": {
-    "error": 74,
-    "likely_open": 79,
-    "possible": 288,
-    "unknown": 20
+    "possible": 290,
+    "likely_open": 83,
+    "error": 82,
+    "unknown": 18
   },
   "programs": {
     "https://posgraduacao.uea.edu.br/hematologia/": {
-      "status": "error",
-      "error": "timeout",
-      "last_checked": "2026-07-11T02:14:11.294792+00:00"
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "processo\\s+seletivo",
+        "mestrado",
+        "calend[aá]rio"
+      ],
+      "dates_found": [],
+      "title": "Ciências Aplicadas à Hematologia",
+      "last_checked": "2026-07-12T02:25:11.475094+00:00"
     },
     "https://posgraduacao.uea.edu.br/cienciashumanas/": {
       "status": "likely_open",
@@ -24,7 +31,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-graduação Interdisciplinar em Ciências Humanas – PPGICH",
-      "last_checked": "2026-07-11T02:14:16.018735+00:00"
+      "last_checked": "2026-07-12T02:25:14.915909+00:00"
     },
     "https://ppgla.uea.edu.br": {
       "status": "possible",
@@ -36,7 +43,7 @@
       ],
       "dates_found": [],
       "title": "PPGLA – Programa de Pós-Graduação em Letras e Artes",
-      "last_checked": "2026-07-11T02:14:17.697475+00:00"
+      "last_checked": "2026-07-12T02:25:16.618758+00:00"
     },
     "https://pos.uea.edu.br/direitoambiental": {
       "status": "possible",
@@ -54,7 +61,7 @@
         "11/02/2026"
       ],
       "title": "UEA - PROGRAMA DE PÓS-GRADUAÇÃO EM DIREITO AMBIENTAL",
-      "last_checked": "2026-07-11T02:14:21.487597+00:00"
+      "last_checked": "2026-07-12T02:25:20.479687+00:00"
     },
     "https://pos.uea.edu.br/profagua/": {
       "status": "likely_open",
@@ -72,7 +79,7 @@
         "23/04/2025"
       ],
       "title": "UEA - PROGRAMA DE MESTRADO PROFISSIONAL EM GESTÃO E REGULAÇÃO DE RECURSOS HÍDRICOS",
-      "last_checked": "2026-07-11T02:14:23.848592+00:00"
+      "last_checked": "2026-07-12T02:25:22.922677+00:00"
     },
     "https://posgraduacao.uea.edu.br/ensinodeciencia/": {
       "status": "possible",
@@ -83,7 +90,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-graduação em Educação e Ensino de Ciências na Amazônia – PPGEEC",
-      "last_checked": "2026-07-11T02:14:27.614906+00:00"
+      "last_checked": "2026-07-12T02:25:26.075325+00:00"
     },
     "https://posgraduacao.uea.edu.br/ppged/": {
       "status": "likely_open",
@@ -96,7 +103,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Educação – PPGED",
-      "last_checked": "2026-07-11T02:14:29.518645+00:00"
+      "last_checked": "2026-07-12T02:25:27.681887+00:00"
     },
     "https://posgraduacao.uea.edu.br/segurancapublica/": {
       "status": "possible",
@@ -108,36 +115,29 @@
       ],
       "dates_found": [],
       "title": "Segurança Pública, Cidadania e Direitos Humanos",
-      "last_checked": "2026-07-11T02:14:33.736277+00:00"
+      "last_checked": "2026-07-12T02:25:30.937264+00:00"
     },
     "https://posgraduacao.uea.edu.br/dermatologia/": {
-      "status": "possible",
-      "confidence": 0.4,
-      "keywords_found": [
-        "sele[cç][aã]o",
-        "inscri[cç][oõ]es",
-        "mestrado"
-      ],
-      "dates_found": [],
-      "title": "Início - Programa de Pós-gradauação em Dermatologia",
-      "last_checked": "2026-07-11T02:14:37.280015+00:00"
-    },
-    "https://www.uea.edu.br/": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:14:42.388396+00:00"
+      "last_checked": "2026-07-12T02:25:35.239072+00:00"
     },
-    "https://posgraduacao.uea.edu.br/biotecnologia/": {
+    "https://www.uea.edu.br/": {
       "status": "possible",
       "confidence": 0.4,
       "keywords_found": [
-        "processo\\s+seletivo",
-        "mestrado",
-        "calend[aá]rio"
+        "edital",
+        "sele[cç][aã]o",
+        "vagas?"
       ],
       "dates_found": [],
-      "title": "Mestrado em Biotecnologia e Recursos Naturais",
-      "last_checked": "2026-07-11T02:14:45.739114+00:00"
+      "title": "Início - Portal UEA",
+      "last_checked": "2026-07-12T02:25:37.304543+00:00"
+    },
+    "https://posgraduacao.uea.edu.br/biotecnologia/": {
+      "status": "error",
+      "error": "timeout",
+      "last_checked": "2026-07-12T02:25:42.366123+00:00"
     },
     "https://www.proensp.com.br/": {
       "status": "likely_open",
@@ -150,7 +150,7 @@
       ],
       "dates_found": [],
       "title": "INÍCIO | ProEnSP",
-      "last_checked": "2026-07-11T02:14:46.440041+00:00"
+      "last_checked": "2026-07-12T02:25:43.161436+00:00"
     },
     "https://ppgsca.ufam.edu.br": {
       "status": "likely_open",
@@ -163,7 +163,7 @@
       ],
       "dates_found": [],
       "title": "Página inicial",
-      "last_checked": "2026-07-11T02:14:48.751113+00:00"
+      "last_checked": "2026-07-12T02:25:46.113223+00:00"
     },
     "https://ppgcarp.ufam.edu.br": {
       "status": "possible",
@@ -175,7 +175,7 @@
       ],
       "dates_found": [],
       "title": "Página inicial",
-      "last_checked": "2026-07-11T02:14:51.091360+00:00"
+      "last_checked": "2026-07-12T02:25:48.988656+00:00"
     },
     "https://ppgcts.ufam.edu.br": {
       "status": "possible",
@@ -185,7 +185,7 @@
       ],
       "dates_found": [],
       "title": "Página inicial",
-      "last_checked": "2026-07-11T02:14:52.495237+00:00"
+      "last_checked": "2026-07-12T02:25:50.531278+00:00"
     },
     "https://ppgf@ufam.edu.br": {
       "status": "possible",
@@ -203,12 +203,12 @@
         "09/07/2026"
       ],
       "title": "UFAM",
-      "last_checked": "2026-07-11T02:14:54.380897+00:00"
+      "last_checked": "2026-07-12T02:25:52.458268+00:00"
     },
     "https://PPGECH": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-07-11T02:14:54.707624+00:00"
+      "last_checked": "2026-07-12T02:25:52.773815+00:00"
     },
     "https://ppgenf.ufam.edu.br/": {
       "status": "possible",
@@ -220,7 +220,7 @@
       ],
       "dates_found": [],
       "title": "Página inicial",
-      "last_checked": "2026-07-11T02:14:56.028676+00:00"
+      "last_checked": "2026-07-12T02:25:54.202443+00:00"
     },
     "https://ppgfis.ufam.edu.br": {
       "status": "possible",
@@ -232,7 +232,7 @@
       ],
       "dates_found": [],
       "title": "Página inicial",
-      "last_checked": "2026-07-11T02:14:57.301940+00:00"
+      "last_checked": "2026-07-12T02:25:55.783447+00:00"
     },
     "https://www.ppgg.ufam.edu.br/": {
       "status": "possible",
@@ -244,7 +244,7 @@
       ],
       "dates_found": [],
       "title": "PPG Geografia UFAM",
-      "last_checked": "2026-07-11T02:14:58.681726+00:00"
+      "last_checked": "2026-07-12T02:25:57.181668+00:00"
     },
     "https://www.ppge.ufam.edu.br": {
       "status": "possible",
@@ -256,7 +256,7 @@
       ],
       "dates_found": [],
       "title": "Página inicial",
-      "last_checked": "2026-07-11T02:15:01.541384+00:00"
+      "last_checked": "2026-07-12T02:25:59.679246+00:00"
     },
     "https://ppgic.ufam.edu.br/": {
       "status": "possible",
@@ -268,7 +268,7 @@
       ],
       "dates_found": [],
       "title": "Página inicial",
-      "last_checked": "2026-07-11T02:15:03.481382+00:00"
+      "last_checked": "2026-07-12T02:26:01.589751+00:00"
     },
     "https://www2.unifap.br/ppged/": {
       "status": "possible",
@@ -286,7 +286,7 @@
         "25/07/2026"
       ],
       "title": "Programa de Pós-Graduação em Educação – Programa de Pós-Graduação em Educação | UNIFAP",
-      "last_checked": "2026-07-11T02:15:05.724238+00:00"
+      "last_checked": "2026-07-12T02:26:03.762497+00:00"
     },
     "https://ppgeduc.propesp.ufpa.br/index.php/br/": {
       "status": "possible",
@@ -298,7 +298,7 @@
       ],
       "dates_found": [],
       "title": "PPGEDUC - Programa de Pós-Graduação em Educação e Cultura",
-      "last_checked": "2026-07-11T02:15:07.847787+00:00"
+      "last_checked": "2026-07-12T02:26:05.387788+00:00"
     },
     "https://ppgetno.propesp.ufpa.br/index.php/br/": {
       "status": "possible",
@@ -310,7 +310,7 @@
       ],
       "dates_found": [],
       "title": "PPGETNO - Programa de Pós-Graduação em Estudos em Etnodiversidade",
-      "last_checked": "2026-07-11T02:15:10.058931+00:00"
+      "last_checked": "2026-07-12T02:26:07.110789+00:00"
     },
     "https://www.ppgecm.propesp.ufpa.br/index.php/br/": {
       "status": "likely_open",
@@ -329,7 +329,7 @@
         "20/05/2026"
       ],
       "title": "PPGECM - Programa de Pós-Graduação em Educação em Ciências e Matemáticas",
-      "last_checked": "2026-07-11T02:15:11.611209+00:00"
+      "last_checked": "2026-07-12T02:26:09.094601+00:00"
     },
     "https://ppba.propesp.ufpa.br/index.php/br/": {
       "status": "likely_open",
@@ -348,7 +348,7 @@
         "10/11/2025"
       ],
       "title": "PPBA - Programa de Pós-Graduação em Biologia Ambiental",
-      "last_checked": "2026-07-11T02:15:13.125813+00:00"
+      "last_checked": "2026-07-12T02:26:10.943675+00:00"
     },
     "https://ppgsaam.propesp.ufpa.br/index.php/br/": {
       "status": "possible",
@@ -363,7 +363,7 @@
         "07/01/2026"
       ],
       "title": "PPGSAAM - Programa de Pós-Graduação em Saúde Animal na Amazônia",
-      "last_checked": "2026-07-11T02:15:14.807657+00:00"
+      "last_checked": "2026-07-12T02:26:12.590643+00:00"
     },
     "https://www.pplsa.propesp.ufpa.br/index.php/br/": {
       "status": "likely_open",
@@ -382,22 +382,22 @@
         "06/05/2026"
       ],
       "title": "PPLSA - Programa de Pós-Graduação em Linguagens e Saberes na Amazônia",
-      "last_checked": "2026-07-11T02:15:16.515405+00:00"
+      "last_checked": "2026-07-12T02:26:14.494581+00:00"
     },
     "https://ppgpam.unifesspa.edu.br/": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:15:22.748686+00:00"
+      "last_checked": "2026-07-12T02:26:20.676999+00:00"
     },
     "https://ppghistoria.unifesspa.edu.br": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:15:28.311667+00:00"
+      "last_checked": "2026-07-12T02:26:26.823108+00:00"
     },
     "https://ppgecm.unifesspa.edu.br": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:15:33.873126+00:00"
+      "last_checked": "2026-07-12T02:26:32.878121+00:00"
     },
     "https://ufrr.br/ppgcom/": {
       "status": "possible",
@@ -409,7 +409,7 @@
       ],
       "dates_found": [],
       "title": "Universidade Federal de Roraima",
-      "last_checked": "2026-07-11T02:15:36.225614+00:00"
+      "last_checked": "2026-07-12T02:26:35.102127+00:00"
     },
     "https://ufrr.br/ppgl/": {
       "status": "possible",
@@ -421,7 +421,7 @@
       ],
       "dates_found": [],
       "title": "Universidade Federal de Roraima",
-      "last_checked": "2026-07-11T02:15:37.609106+00:00"
+      "last_checked": "2026-07-12T02:26:36.436251+00:00"
     },
     "https://www.uft.edu.br/profiap": {
       "status": "possible",
@@ -433,7 +433,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Mestrado Profissional em Administração Pública em Rede Nacional (Profiap)",
-      "last_checked": "2026-07-11T02:15:40.299238+00:00"
+      "last_checked": "2026-07-12T02:26:39.165822+00:00"
     },
     "https://www.uft.edu.br/ppgdr": {
       "status": "possible",
@@ -445,7 +445,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Desenvolvimento Regional (PPGDR)",
-      "last_checked": "2026-07-11T02:15:41.457905+00:00"
+      "last_checked": "2026-07-12T02:26:40.431398+00:00"
     },
     "https://www.uft.edu.br/ppgletras": {
       "status": "possible",
@@ -457,7 +457,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Letras (PPGLetras)",
-      "last_checked": "2026-07-11T02:15:42.487997+00:00"
+      "last_checked": "2026-07-12T02:26:41.384939+00:00"
     },
     "https://www.uft.edu.br/campus/palmas/cursos/pos-graduacao/mestrados-e-doutorados/ppgcta": {
       "status": "possible",
@@ -469,7 +469,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Ciência e Tecnologia de Alimentos (PPGCTA)",
-      "last_checked": "2026-07-11T02:15:43.242293+00:00"
+      "last_checked": "2026-07-12T02:26:42.195158+00:00"
     },
     "https://www.uft.edu.br/ppgg": {
       "status": "possible",
@@ -481,7 +481,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Geografia (PPGG)",
-      "last_checked": "2026-07-11T02:15:44.210611+00:00"
+      "last_checked": "2026-07-12T02:26:43.166159+00:00"
     },
     "https://uesc.br": {
       "status": "possible",
@@ -493,17 +493,17 @@
       ],
       "dates_found": [],
       "title": "Uesc - Universidade Estadual de Santa Cruz",
-      "last_checked": "2026-07-11T02:15:45.350402+00:00"
+      "last_checked": "2026-07-12T02:26:44.451762+00:00"
     },
     "http://ppgmc.uesc.br": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-07-11T02:15:46.756077+00:00"
+      "last_checked": "2026-07-12T02:26:45.805386+00:00"
     },
     "https://ppgpv.uesc.br/pt/": {
       "status": "error",
       "error": "ssl_error",
-      "last_checked": "2026-07-11T02:15:48.518109+00:00"
+      "last_checked": "2026-07-12T02:26:47.633921+00:00"
     },
     "https://www.ppgcsuesc.com.br/": {
       "status": "possible",
@@ -515,7 +515,7 @@
       ],
       "dates_found": [],
       "title": "Início | PPGCS Programa de Mestrado em Ciências da Saúde",
-      "last_checked": "2026-07-11T02:15:49.254365+00:00"
+      "last_checked": "2026-07-12T02:26:48.407801+00:00"
     },
     "https://www.uesc.br/microbiologia/": {
       "status": "possible",
@@ -527,7 +527,7 @@
       ],
       "dates_found": [],
       "title": "Uesc - Universidade Estadual de Santa Cruz",
-      "last_checked": "2026-07-11T02:15:50.854455+00:00"
+      "last_checked": "2026-07-12T02:26:49.956196+00:00"
     },
     "https://www2.uesb.br/ppg/ppgef/": {
       "status": "possible",
@@ -545,7 +545,7 @@
         "17/11/2023"
       ],
       "title": "UESB – Programa de Pós-Graduação em Educação Física",
-      "last_checked": "2026-07-11T02:15:52.630433+00:00"
+      "last_checked": "2026-07-12T02:26:51.727059+00:00"
     },
     "https://www.uesc.br/ppgenf/": {
       "status": "possible",
@@ -557,7 +557,7 @@
       ],
       "dates_found": [],
       "title": "Uesc - Universidade Estadual de Santa Cruz",
-      "last_checked": "2026-07-11T02:15:53.262020+00:00"
+      "last_checked": "2026-07-12T02:26:52.203402+00:00"
     },
     "https://www.uesc.br/ppgl/": {
       "status": "likely_open",
@@ -570,7 +570,7 @@
       ],
       "dates_found": [],
       "title": "Uesc - Universidade Estadual de Santa Cruz",
-      "last_checked": "2026-07-11T02:15:53.906317+00:00"
+      "last_checked": "2026-07-12T02:26:52.851778+00:00"
     },
     "http://www.uesc.br/cursos/pos_graduacao/mestrado/ppgeconomia/index.php": {
       "status": "unknown",
@@ -578,7 +578,7 @@
       "keywords_found": [],
       "dates_found": [],
       "title": "",
-      "last_checked": "2026-07-11T02:15:54.809155+00:00"
+      "last_checked": "2026-07-12T02:26:53.630135+00:00"
     },
     "https://www.uesc.br": {
       "status": "possible",
@@ -590,17 +590,17 @@
       ],
       "dates_found": [],
       "title": "Uesc - Universidade Estadual de Santa Cruz",
-      "last_checked": "2026-07-11T02:15:55.464422+00:00"
+      "last_checked": "2026-07-12T02:26:54.289244+00:00"
     },
     "https://ppgca.uesc.br/": {
       "status": "error",
       "error": "ssl_error",
-      "last_checked": "2026-07-11T02:15:56.874156+00:00"
+      "last_checked": "2026-07-12T02:26:55.568133+00:00"
     },
     "https://ppgzoo.uesc.br/": {
       "status": "error",
       "error": "ssl_error",
-      "last_checked": "2026-07-11T02:15:58.155116+00:00"
+      "last_checked": "2026-07-12T02:26:57.504523+00:00"
     },
     "https://ppgsat.net": {
       "status": "likely_open",
@@ -613,7 +613,7 @@
       ],
       "dates_found": [],
       "title": "Home I PPGSAT UESC-UFSB",
-      "last_checked": "2026-07-11T02:16:00.720335+00:00"
+      "last_checked": "2026-07-12T02:26:58.574096+00:00"
     },
     "https://www.uesc.br/ppgh/": {
       "status": "possible",
@@ -625,7 +625,7 @@
       ],
       "dates_found": [],
       "title": "Uesc - Universidade Estadual de Santa Cruz",
-      "last_checked": "2026-07-11T02:16:01.197067+00:00"
+      "last_checked": "2026-07-12T02:26:59.048000+00:00"
     },
     "https://www.uesc.br/ppgecm/": {
       "status": "possible",
@@ -637,7 +637,7 @@
       ],
       "dates_found": [],
       "title": "Uesc - Universidade Estadual de Santa Cruz",
-      "last_checked": "2026-07-11T02:16:01.671791+00:00"
+      "last_checked": "2026-07-12T02:26:59.523406+00:00"
     },
     "https://www.ppggeneticauesc.com/": {
       "status": "possible",
@@ -655,7 +655,7 @@
         "01/01/2025"
       ],
       "title": "Mestrado e Doutorado | PPG o em Genética e Biologia Molecular | Ilhéus-Bahia",
-      "last_checked": "2026-07-11T02:16:02.275775+00:00"
+      "last_checked": "2026-07-12T02:27:00.234963+00:00"
     },
     "https://www.uesc.br/ppgeca/": {
       "status": "possible",
@@ -667,7 +667,7 @@
       ],
       "dates_found": [],
       "title": "Uesc - Universidade Estadual de Santa Cruz",
-      "last_checked": "2026-07-11T02:16:02.750585+00:00"
+      "last_checked": "2026-07-12T02:27:00.710058+00:00"
     },
     "https://ufsb.edu.br/ppger/": {
       "status": "possible",
@@ -684,7 +684,7 @@
         "28/12/2020"
       ],
       "title": "PPGER - PPGER",
-      "last_checked": "2026-07-11T02:16:06.510511+00:00"
+      "last_checked": "2026-07-12T02:27:05.455897+00:00"
     },
     "https://ufsb.edu.br/cfchs/pos-graduacao/ppges": {
       "status": "possible",
@@ -696,7 +696,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Estado e Sociedade - CF Ciências Humanas e Sociais",
-      "last_checked": "2026-07-11T02:16:08.353132+00:00"
+      "last_checked": "2026-07-12T02:27:07.914855+00:00"
     },
     "https://www.ufsb.edu.br/cftci/pos-graduacao/mestrado-em-engenharia-civil-e-ambiental": {
       "status": "possible",
@@ -708,27 +708,27 @@
       ],
       "dates_found": [],
       "title": "Mestrado em Engenharia Civil e Ambiental - CF em Tecno-Ciências e Inovação",
-      "last_checked": "2026-07-11T02:16:12.287905+00:00"
+      "last_checked": "2026-07-12T02:27:12.172193+00:00"
     },
     "https://sig.ufob.edu.br/sigaa/public/programa/portal.jsf?lc=pt_BR&id=920": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-07-11T02:16:13.464289+00:00"
+      "last_checked": "2026-07-12T02:27:13.253958+00:00"
     },
     "https://PPGH-UFOB": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-07-11T02:16:13.776627+00:00"
+      "last_checked": "2026-07-12T02:27:13.564802+00:00"
     },
     "https://ufob.edu.br/ppgact": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-07-11T02:16:15.113990+00:00"
+      "last_checked": "2026-07-12T02:27:14.858607+00:00"
     },
     "https://ufob.edu.br/ppgpi": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-07-11T02:16:15.757717+00:00"
+      "last_checked": "2026-07-12T02:27:15.486399+00:00"
     },
     "https://www2.uesb.br/ppg/ppggbc2/": {
       "status": "possible",
@@ -740,7 +740,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Genética, Biodiversidade e Conservação",
-      "last_checked": "2026-07-11T02:16:17.693410+00:00"
+      "last_checked": "2026-07-12T02:27:17.552830+00:00"
     },
     "https://www2.uesb.br/ppg/ppgcel/": {
       "status": "likely_open",
@@ -753,7 +753,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Letras: Cultura, Educação e Linguagens",
-      "last_checked": "2026-07-11T02:16:18.730238+00:00"
+      "last_checked": "2026-07-12T02:27:20.933958+00:00"
     },
     "https://www2.uesb.br/ppg/ppgagronomia/": {
       "status": "possible",
@@ -765,7 +765,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Agronomia",
-      "last_checked": "2026-07-11T02:16:19.876394+00:00"
+      "last_checked": "2026-07-12T02:27:22.054097+00:00"
     },
     "https://www2.uesb.br/ppg/ppged/": {
       "status": "possible",
@@ -777,7 +777,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Educação",
-      "last_checked": "2026-07-11T02:16:20.600293+00:00"
+      "last_checked": "2026-07-12T02:27:22.804928+00:00"
     },
     "https://www2.uesb.br/ppg/ppges/": {
       "status": "possible",
@@ -795,7 +795,7 @@
         "20/07/2026"
       ],
       "title": "Programa de Pós-Graduação em Enfermagem e Saúde",
-      "last_checked": "2026-07-11T02:16:21.745315+00:00"
+      "last_checked": "2026-07-12T02:27:23.860306+00:00"
     },
     "https://ppgl.in": {
       "status": "likely_open",
@@ -814,7 +814,7 @@
         "03/10/2024"
       ],
       "title": "PPGLin – Programa de Pós-graduação em Linguística",
-      "last_checked": "2026-07-11T02:16:24.157419+00:00"
+      "last_checked": "2026-07-12T02:27:26.145725+00:00"
     },
     "http://www2.uesb.br/ppg/ppz/": {
       "status": "possible",
@@ -826,7 +826,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Zootecnia",
-      "last_checked": "2026-07-11T02:16:25.526400+00:00"
+      "last_checked": "2026-07-12T02:27:27.813972+00:00"
     },
     "https://www2.uesb.br/ppg/ppgecfp/": {
       "status": "possible",
@@ -838,7 +838,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Educação Científica e Formação de Professores",
-      "last_checked": "2026-07-11T02:16:28.968467+00:00"
+      "last_checked": "2026-07-12T02:27:28.934170+00:00"
     },
     "http://www2.uesb.br/ppg/ppgen/": {
       "status": "possible",
@@ -850,7 +850,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Ensino",
-      "last_checked": "2026-07-11T02:16:30.349742+00:00"
+      "last_checked": "2026-07-12T02:27:30.331469+00:00"
     },
     "https://ufrb.edu.br/pgcienciasagrarias/": {
       "status": "possible",
@@ -868,7 +868,7 @@
         "12/02/2026"
       ],
       "title": "Programa de Pós-Graduação em Ciências Agrárias UFRB",
-      "last_checked": "2026-07-11T02:16:31.605412+00:00"
+      "last_checked": "2026-07-12T02:27:31.506575+00:00"
     },
     "https://www.ufrb.edu.br/ppgecid/": {
       "status": "possible",
@@ -886,7 +886,7 @@
         "07/08/2025"
       ],
       "title": "Programa de Pós Graduação em Educação Científica, Inclusão e Diversidade",
-      "last_checked": "2026-07-11T02:16:33.177771+00:00"
+      "last_checked": "2026-07-12T02:27:32.994201+00:00"
     },
     "https://www.ufrb.edu.br/mpgestaoppss/": {
       "status": "possible",
@@ -904,7 +904,7 @@
         "09/06/2026"
       ],
       "title": "Mestrado Profissional em Gestão de Políticas Públicas da UFRB",
-      "last_checked": "2026-07-11T02:16:33.743130+00:00"
+      "last_checked": "2026-07-12T02:27:33.590062+00:00"
     },
     "https://www.ufrb.edu.br/ppgap/": {
       "status": "likely_open",
@@ -923,7 +923,7 @@
         "24/11/2023"
       ],
       "title": "Programa de Pós-Graduação em Arqueologia e Patrimônio Cultural",
-      "last_checked": "2026-07-11T02:16:34.312722+00:00"
+      "last_checked": "2026-07-12T02:27:34.190160+00:00"
     },
     "https://www.ufrb.edu.br/ppgcom/en/": {
       "status": "possible",
@@ -933,7 +933,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Comunicação - Mídia e Formatos Narrativos",
-      "last_checked": "2026-07-11T02:16:34.911163+00:00"
+      "last_checked": "2026-07-12T02:27:34.844156+00:00"
     },
     "https://www.ufrb.edu.br/ppgeec/": {
       "status": "possible",
@@ -945,7 +945,7 @@
       ],
       "dates_found": [],
       "title": "Curso de Pós-graduação em Engenharia Elétrica e Computação - UFRB",
-      "last_checked": "2026-07-11T02:16:35.500347+00:00"
+      "last_checked": "2026-07-12T02:27:35.429725+00:00"
     },
     "https://www.ufrb.edu.br/ppgartes/": {
       "status": "possible",
@@ -963,7 +963,7 @@
         "19/12/2025"
       ],
       "title": "Curso de Pós Graduação em Artes - UFRB",
-      "last_checked": "2026-07-11T02:16:36.077754+00:00"
+      "last_checked": "2026-07-12T02:27:36.001006+00:00"
     },
     "https://www.ufrb.edu.br/pgrecvegetais/": {
       "status": "possible",
@@ -981,7 +981,7 @@
         "24/04/2026"
       ],
       "title": "Programa de Pós-Graduação em Recursos Genéticos Vegetais UFRB",
-      "last_checked": "2026-07-11T02:16:36.674367+00:00"
+      "last_checked": "2026-07-12T02:27:36.581565+00:00"
     },
     "https://www2.ufrb.edu.br/ppiz/": {
       "status": "possible",
@@ -999,7 +999,7 @@
         "23/07/2025"
       ],
       "title": "Programa de Pós-Graduação Integrado em Zootecnia - UFRB/CCAAB",
-      "last_checked": "2026-07-11T02:16:38.402750+00:00"
+      "last_checked": "2026-07-12T02:27:38.232838+00:00"
     },
     "https://ufrb.edu.br/mprofsaudenein/": {
       "status": "possible",
@@ -1017,7 +1017,7 @@
         "13/03/2026"
       ],
       "title": "Mestrado Profissional em Saúde da População Negra e Indígena",
-      "last_checked": "2026-07-11T02:16:39.322979+00:00"
+      "last_checked": "2026-07-12T02:27:39.117329+00:00"
     },
     "https://www.ufrb.edu.br/ppgpst/": {
       "status": "possible",
@@ -1035,12 +1035,12 @@
         "14/10/2025"
       ],
       "title": "Programa de Pós-Graduação em Política Social e Territórios",
-      "last_checked": "2026-07-11T02:16:39.902189+00:00"
+      "last_checked": "2026-07-12T02:27:39.688494+00:00"
     },
     "https://www.uefs.br/": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:16:47.867664+00:00"
+      "last_checked": "2026-07-12T02:27:44.704286+00:00"
     },
     "https://www.ppgsc.uefs.br": {
       "status": "unknown",
@@ -1048,12 +1048,12 @@
       "keywords_found": [],
       "dates_found": [],
       "title": "",
-      "last_checked": "2026-07-11T02:16:55.288885+00:00"
+      "last_checked": "2026-07-12T02:27:48.284868+00:00"
     },
     "https://www.ppgecea.uefs.br": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:17:04.043748+00:00"
+      "last_checked": "2026-07-12T02:27:53.066343+00:00"
     },
     "https://www.ppgm.uefs.br": {
       "status": "possible",
@@ -1065,7 +1065,7 @@
       ],
       "dates_found": [],
       "title": "Homepage - PPGM - UEFS",
-      "last_checked": "2026-07-11T02:17:07.984897+00:00"
+      "last_checked": "2026-07-12T02:27:58.206186+00:00"
     },
     "https://ppgel.uefs.br/": {
       "status": "possible",
@@ -1077,7 +1077,7 @@
       ],
       "dates_found": [],
       "title": "PPGEL – Colegiado do Mestrado em Estudo Linguísticos",
-      "last_checked": "2026-07-11T02:17:09.601003+00:00"
+      "last_checked": "2026-07-12T02:28:00.260535+00:00"
     },
     "https://ecoevol.uefs.br/": {
       "status": "possible",
@@ -1089,7 +1089,7 @@
       ],
       "dates_found": [],
       "title": "PPGECOEVOL – Programa de Pós-Graduação em Ecologia e Evolução – O Programa de Pós-Graduação em Ecologia e Evolução da Un",
-      "last_checked": "2026-07-11T02:17:11.214245+00:00"
+      "last_checked": "2026-07-12T02:28:01.805319+00:00"
     },
     "https://ppgels.uneb.br/": {
       "status": "likely_open",
@@ -1102,7 +1102,7 @@
       ],
       "dates_found": [],
       "title": "PPGELS | Programa de Pós-Programa de Pós-Graduação em Ensino, Linguagem e Sociedadeem História Regional e Local",
-      "last_checked": "2026-07-11T02:17:13.778079+00:00"
+      "last_checked": "2026-07-12T02:28:04.342977+00:00"
     },
     "https://ppgmsb.uneb.br/index.html": {
       "status": "likely_open",
@@ -1117,7 +1117,7 @@
         "01/09/2026"
       ],
       "title": "PPGMSB: Modelagem e SimulaÃ§Ã£o de Biossistemas",
-      "last_checked": "2026-07-11T02:17:15.380951+00:00"
+      "last_checked": "2026-07-12T02:28:06.059003+00:00"
     },
     "https://ppgeduf.uneb.br/": {
       "status": "possible",
@@ -1129,17 +1129,17 @@
       ],
       "dates_found": [],
       "title": "PPGEDUF | Programa de Pós-Graduação em Educação e Formação Docente",
-      "last_checked": "2026-07-11T02:17:17.649849+00:00"
+      "last_checked": "2026-07-12T02:28:08.342084+00:00"
     },
     "https://Gestec | Mestrado Profissional em Gestão e Tecnologia Aplicadas à Educação": {
       "status": "error",
       "error": "Failed to parse: https://Gestec | Mestrado Profissional em G",
-      "last_checked": "2026-07-11T02:17:17.950647+00:00"
+      "last_checked": "2026-07-12T02:28:08.642908+00:00"
     },
     "https://www.ppgel.une.br": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-07-11T02:17:18.426635+00:00"
+      "last_checked": "2026-07-12T02:28:09.103773+00:00"
     },
     "https://www.ppgeduc.uneb.br": {
       "status": "possible",
@@ -1151,7 +1151,7 @@
       ],
       "dates_found": [],
       "title": "PPGEduc | Programa de Pós-Graduação em Educação e Contemporaneidade",
-      "last_checked": "2026-07-11T02:17:20.135593+00:00"
+      "last_checked": "2026-07-12T02:28:11.375049+00:00"
     },
     "https://www.ppgccs.uneb.br": {
       "status": "possible",
@@ -1162,7 +1162,7 @@
       ],
       "dates_found": [],
       "title": "PPGCCS | Programa de Pós-Graduação em Ciências do Cuidar em Saúde",
-      "last_checked": "2026-07-11T02:17:24.546299+00:00"
+      "last_checked": "2026-07-12T02:28:15.374682+00:00"
     },
     "https://www.mepisco.uneb.br": {
       "status": "possible",
@@ -1177,7 +1177,7 @@
         "09/10/2025"
       ],
       "title": "MEPISCO | Mestrado Profissional em Saúde Coletiva",
-      "last_checked": "2026-07-11T02:17:32.731767+00:00"
+      "last_checked": "2026-07-12T02:28:23.909051+00:00"
     },
     "https://www.poscritica.uneb.br/": {
       "status": "possible",
@@ -1194,7 +1194,7 @@
         "10/09/2025"
       ],
       "title": "PÓS-CRÍTICA | UNEB",
-      "last_checked": "2026-07-11T02:17:34.988223+00:00"
+      "last_checked": "2026-07-12T02:28:26.166979+00:00"
     },
     "https://ppgesa.uneb.br/": {
       "status": "likely_open",
@@ -1207,7 +1207,7 @@
       ],
       "dates_found": [],
       "title": "PPGESA | Mestrado em Educação, Cultura e Territórios Semiáridos",
-      "last_checked": "2026-07-11T02:17:37.107752+00:00"
+      "last_checked": "2026-07-12T02:28:28.612834+00:00"
     },
     "https://www.mpies.uneb.br/": {
       "status": "likely_open",
@@ -1220,7 +1220,7 @@
       ],
       "dates_found": [],
       "title": "Mpies | Mestrado Profissional em Intervenção Educativa e Social",
-      "last_checked": "2026-07-11T02:17:41.653357+00:00"
+      "last_checked": "2026-07-12T02:28:32.438840+00:00"
     },
     "https://www.proet.uneb.br/": {
       "status": "possible",
@@ -1237,7 +1237,7 @@
         "18/05/2020"
       ],
       "title": "PROET | Programa de Pós-Graduação em Estudos Territoriais",
-      "last_checked": "2026-07-11T02:17:43.920974+00:00"
+      "last_checked": "2026-07-12T02:28:34.763100+00:00"
     },
     "https://ppgtel.uneb.br/": {
       "status": "possible",
@@ -1249,7 +1249,7 @@
       ],
       "dates_found": [],
       "title": "PPGTEL | Programa de Pós-Graduação em Tecnologias das Linguagens",
-      "last_checked": "2026-07-11T02:17:45.863499+00:00"
+      "last_checked": "2026-07-12T02:28:37.389594+00:00"
     },
     "https://portal.uneb.br/tag/ppgeja/": {
       "status": "possible",
@@ -1261,7 +1261,7 @@
       ],
       "dates_found": [],
       "title": "PPGEJA",
-      "last_checked": "2026-07-11T02:17:48.364365+00:00"
+      "last_checked": "2026-07-12T02:28:39.659340+00:00"
     },
     "https://ppgeafin.uneb.br/": {
       "status": "possible",
@@ -1273,7 +1273,7 @@
       ],
       "dates_found": [],
       "title": "PPGEAFIN | Programa de Pós-Graduação em Estudos africanos, Povos Indígenas e Culturas Negras",
-      "last_checked": "2026-07-11T02:17:50.401146+00:00"
+      "last_checked": "2026-07-12T02:28:41.582867+00:00"
     },
     "https://www.ppgecoh.uneb.br": {
       "status": "possible",
@@ -1285,7 +1285,7 @@
       ],
       "dates_found": [],
       "title": "PPGECOH | Mestrado em Ecologia Humana e Gestão Socioambiental",
-      "last_checked": "2026-07-11T02:17:53.661805+00:00"
+      "last_checked": "2026-07-12T02:28:44.791515+00:00"
     },
     "https://www.mped.uneb.br/": {
       "status": "possible",
@@ -1297,7 +1297,7 @@
       ],
       "dates_found": [],
       "title": "MPED | Programa de Pós-Graduação em Educação e Diversidade",
-      "last_checked": "2026-07-11T02:17:57.178005+00:00"
+      "last_checked": "2026-07-12T02:28:48.676024+00:00"
     },
     "https://www.pgqa.uneb.br": {
       "status": "likely_open",
@@ -1310,7 +1310,7 @@
       ],
       "dates_found": [],
       "title": "PGQA | Programa de Pós-Graduação em Química Aplicada",
-      "last_checked": "2026-07-11T02:17:59.214737+00:00"
+      "last_checked": "2026-07-12T02:28:50.686175+00:00"
     },
     "https://www.ppgedf.uneb.br": {
       "status": "possible",
@@ -1322,7 +1322,7 @@
       ],
       "dates_found": [],
       "title": "PPGEDF – Universidade do Estado da Bahia – UNEB",
-      "last_checked": "2026-07-11T02:18:03.465368+00:00"
+      "last_checked": "2026-07-12T02:28:55.473588+00:00"
     },
     "https://www.uece.br/ppcclis/": {
       "status": "possible",
@@ -1334,7 +1334,7 @@
       ],
       "dates_found": [],
       "title": "PROGRAMA DE PÓS-GRADUAÇÃO CUIDADOS CLÍNICOS EM ENFERMAGEM E SAÚDE - Modelo",
-      "last_checked": "2026-07-11T02:18:05.306228+00:00"
+      "last_checked": "2026-07-12T02:28:57.196176+00:00"
     },
     "https://www.uece.br/ppgcv": {
       "status": "unknown",
@@ -1342,7 +1342,7 @@
       "keywords_found": [],
       "dates_found": [],
       "title": "PPGCV - Só mais um site UNIVERSIDADE ESTADUAL DO CEARÁ sites",
-      "last_checked": "2026-07-11T02:18:06.736786+00:00"
+      "last_checked": "2026-07-12T02:28:58.318017+00:00"
     },
     "https://www.uece.br/ppgcn/": {
       "status": "possible",
@@ -1352,7 +1352,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Ciências Naturais - Programa de Pós-Graduação em Educação",
-      "last_checked": "2026-07-11T02:18:07.398566+00:00"
+      "last_checked": "2026-07-12T02:28:58.926968+00:00"
     },
     "https://www.uece.br/posla": {
       "status": "unknown",
@@ -1360,7 +1360,7 @@
       "keywords_found": [],
       "dates_found": [],
       "title": "PosLA  | Programa de Pós-Graduação em Linguística Aplicada - PosLA  | Programa de Pós-Graduação em Linguística Aplicada",
-      "last_checked": "2026-07-11T02:18:08.365656+00:00"
+      "last_checked": "2026-07-12T02:28:59.821143+00:00"
     },
     "https://uece.br/ppge": {
       "status": "possible",
@@ -1372,7 +1372,7 @@
       ],
       "dates_found": [],
       "title": "Período Eleitoral - UNIVERSIDADE ESTADUAL DO CEARÁ",
-      "last_checked": "2026-07-11T02:18:10.177608+00:00"
+      "last_checked": "2026-07-12T02:29:01.523894+00:00"
     },
     "https://www.uece.br/ppsac/": {
       "status": "possible",
@@ -1384,7 +1384,7 @@
       ],
       "dates_found": [],
       "title": "PPSAC – Programa de Pós-Graduação em Saúde Coletiva - Programa de Pós-Graduação em Saúde Coletiva",
-      "last_checked": "2026-07-11T02:18:10.818369+00:00"
+      "last_checked": "2026-07-12T02:29:02.136246+00:00"
     },
     "https://www.uece.br/ppgcf": {
       "status": "unknown",
@@ -1392,7 +1392,7 @@
       "keywords_found": [],
       "dates_found": [],
       "title": "PPGCF – Programa de Pós-Graduação em  Ciências Fisiológicas - Modelo",
-      "last_checked": "2026-07-11T02:18:11.936635+00:00"
+      "last_checked": "2026-07-12T02:29:03.016111+00:00"
     },
     "https://www.uece.br/ppgeen/": {
       "status": "unknown",
@@ -1400,7 +1400,7 @@
       "keywords_found": [],
       "dates_found": [],
       "title": "PPGEEN | Programa de Pós-Graduação Intercampi  em Educação e Ensino - Programa de Pós-Graduação em Educação",
-      "last_checked": "2026-07-11T02:18:12.577910+00:00"
+      "last_checked": "2026-07-12T02:29:03.628675+00:00"
     },
     "https://www.uece.br/ppgns": {
       "status": "possible",
@@ -1410,7 +1410,7 @@
       ],
       "dates_found": [],
       "title": "PPGNS | Programa de Pós-Graduação em Nutrição e Saúde - Modelo",
-      "last_checked": "2026-07-11T02:18:13.518122+00:00"
+      "last_checked": "2026-07-12T02:29:04.562889+00:00"
     },
     "https://ppgaf.ufc.br": {
       "status": "possible",
@@ -1422,7 +1422,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Agronomia/Fitotecnia – Só mais um site WordPress",
-      "last_checked": "2026-07-11T02:18:15.248550+00:00"
+      "last_checked": "2026-07-12T02:29:06.817664+00:00"
     },
     "https://ppgaud.ufc.br": {
       "status": "likely_open",
@@ -1435,12 +1435,12 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Arquitetura e Urbanismo e Design",
-      "last_checked": "2026-07-11T02:18:19.829010+00:00"
+      "last_checked": "2026-07-12T02:29:10.049629+00:00"
     },
     "https://ppgartes.ufc.br": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-07-11T02:18:20.486263+00:00"
+      "last_checked": "2026-07-12T02:29:11.118009+00:00"
     },
     "https://ppgbioquimica.ufc.br": {
       "status": "possible",
@@ -1452,7 +1452,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós Graduação em Bioquímica – Programa de Pós Graduação em Bioquímica",
-      "last_checked": "2026-07-11T02:18:23.434073+00:00"
+      "last_checked": "2026-07-12T02:29:14.196325+00:00"
     },
     "https://ppgb.ufc.br": {
       "status": "possible",
@@ -1464,7 +1464,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós Graduação em Biotecnologia – PPGB (Federal University of Ceara, Graduate Program in Biotechnology) – Pro",
-      "last_checked": "2026-07-11T02:18:25.288637+00:00"
+      "last_checked": "2026-07-12T02:29:16.283445+00:00"
     },
     "https://ppgcs.ufc.br/": {
       "status": "possible",
@@ -1476,7 +1476,7 @@
       ],
       "dates_found": [],
       "title": "Universidade Federal do Ceará PROGRAMA DE PÓS GRADUAÇÃO EM CIÊNCIAS DA SAÚDE – PPGCS – Universidade Federal do Ceará PRO",
-      "last_checked": "2026-07-11T02:18:27.333045+00:00"
+      "last_checked": "2026-07-12T02:29:18.844359+00:00"
     },
     "https://ppgsolos.ufc.br": {
       "status": "possible",
@@ -1488,7 +1488,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Ciência do Solo – Só mais um site WordPress",
-      "last_checked": "2026-07-11T02:18:29.372613+00:00"
+      "last_checked": "2026-07-12T02:29:21.841160+00:00"
     },
     "https://ppgcta@ufc.br": {
       "status": "likely_open",
@@ -1501,7 +1501,7 @@
       ],
       "dates_found": [],
       "title": "Portal da UFC - Universidade Federal do Ceará - Página Inicial",
-      "last_checked": "2026-07-11T02:18:32.634270+00:00"
+      "last_checked": "2026-07-12T02:29:24.953025+00:00"
     },
     "https://ppgcmt.ufc.br": {
       "status": "possible",
@@ -1513,7 +1513,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Ciências Marinhas Tropicais – PPGCMT",
-      "last_checked": "2026-07-11T02:18:34.739891+00:00"
+      "last_checked": "2026-07-12T02:29:26.777145+00:00"
     },
     "https://ppgern.ufc.br": {
       "status": "possible",
@@ -1524,7 +1524,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Ecologia e Recursos Naturais – Programa de Pós Graduação em Ecologia e Recursos Naturais",
-      "last_checked": "2026-07-11T02:18:37.945230+00:00"
+      "last_checked": "2026-07-12T02:29:30.729387+00:00"
     },
     "https://ppgenfermagem.ufc.br": {
       "status": "possible",
@@ -1536,7 +1536,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-graduação em Enfermagem UFC -",
-      "last_checked": "2026-07-11T02:18:39.583430+00:00"
+      "last_checked": "2026-07-12T02:29:32.464509+00:00"
     },
     "https://ppgea.ufc.br": {
       "status": "possible",
@@ -1554,7 +1554,7 @@
         "11/07/2025"
       ],
       "title": "Programa de Pós-graduação em Engenharia Agrícola – Postgraduate Program in Agricultural Engineering",
-      "last_checked": "2026-07-11T02:18:43.103208+00:00"
+      "last_checked": "2026-07-12T02:29:36.040247+00:00"
     },
     "https://pec.ufc.br": {
       "status": "possible",
@@ -1566,7 +1566,7 @@
       ],
       "dates_found": [],
       "title": "Início",
-      "last_checked": "2026-07-11T02:18:45.086754+00:00"
+      "last_checked": "2026-07-12T02:29:38.241654+00:00"
     },
     "https://ppgeec.ufc.br": {
       "status": "possible",
@@ -1578,7 +1578,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Engenharia Elétrica e Computação – PPGEEC – UFC",
-      "last_checked": "2026-07-11T02:18:47.915113+00:00"
+      "last_checked": "2026-07-12T02:29:41.567572+00:00"
     },
     "https://poet@ufc.br": {
       "status": "likely_open",
@@ -1591,7 +1591,7 @@
       ],
       "dates_found": [],
       "title": "Portal da UFC - Universidade Federal do Ceará - Página Inicial",
-      "last_checked": "2026-07-11T02:18:50.757823+00:00"
+      "last_checked": "2026-07-12T02:29:44.645758+00:00"
     },
     "https://ppgfilo.ufc.br": {
       "status": "possible",
@@ -1603,7 +1603,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Filosofia – Programa de Pós-Graduação em Filosofia",
-      "last_checked": "2026-07-11T02:18:52.488899+00:00"
+      "last_checked": "2026-07-12T02:29:46.394387+00:00"
     },
     "https://fisica.ufc.br/portal/pos": {
       "status": "possible",
@@ -1615,7 +1615,7 @@
       ],
       "dates_found": [],
       "title": "Departamento de Física – Universidade Federal do Ceará",
-      "last_checked": "2026-07-11T02:18:55.514496+00:00"
+      "last_checked": "2026-07-12T02:29:49.548002+00:00"
     },
     "https://ppggastronomia.ufc.br": {
       "status": "possible",
@@ -1627,12 +1627,12 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-graduação em Gastronomia – Só mais um site WordPress",
-      "last_checked": "2026-07-11T02:18:58.186369+00:00"
+      "last_checked": "2026-07-12T02:29:52.311949+00:00"
     },
     "https://ppggeografia.ufc.br": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-07-11T02:18:58.667261+00:00"
+      "last_checked": "2026-07-12T02:29:52.901409+00:00"
     },
     "https://ppgh.ufc.br": {
       "status": "likely_open",
@@ -1645,7 +1645,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós Graduação em História – Programa de Pós Graduação em História",
-      "last_checked": "2026-07-11T02:19:01.810446+00:00"
+      "last_checked": "2026-07-12T02:29:56.107014+00:00"
     },
     "https://ppgmm@ufc.br": {
       "status": "likely_open",
@@ -1658,7 +1658,7 @@
       ],
       "dates_found": [],
       "title": "Portal da UFC - Universidade Federal do Ceará - Página Inicial",
-      "last_checked": "2026-07-11T02:19:04.672613+00:00"
+      "last_checked": "2026-07-12T02:29:59.340847+00:00"
     },
     "https://ppgo.ufc.br": {
       "status": "possible",
@@ -1676,7 +1676,7 @@
         "17/11/2025"
       ],
       "title": "Programa de Pós-Graduação em Odontologia – Programa de Pós-Graduação em Odontologia",
-      "last_checked": "2026-07-11T02:19:07.607155+00:00"
+      "last_checked": "2026-07-12T02:30:03.657978+00:00"
     },
     "https://pgquim.ufc.br": {
       "status": "likely_open",
@@ -1689,7 +1689,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós Graduação em Química",
-      "last_checked": "2026-07-11T02:19:09.778143+00:00"
+      "last_checked": "2026-07-12T02:30:05.633617+00:00"
     },
     "https://saudepublica.ufc.br": {
       "status": "possible",
@@ -1701,7 +1701,7 @@
       ],
       "dates_found": [],
       "title": "Pós-Graduação em Saúde Pública – Saúde Pública",
-      "last_checked": "2026-07-11T02:19:19.234779+00:00"
+      "last_checked": "2026-07-12T02:30:10.265007+00:00"
     },
     "https://ppgsis.ufc.br": {
       "status": "possible",
@@ -1713,7 +1713,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Sistemática, Uso e Conservação da Biodiversidade (PPGSis) – Programa de Pós-Graduação em Si",
-      "last_checked": "2026-07-11T02:19:22.735547+00:00"
+      "last_checked": "2026-07-12T02:30:15.896047+00:00"
     },
     "https://www.ppgpdsa.uema.br/": {
       "status": "possible",
@@ -1725,7 +1725,7 @@
       ],
       "dates_found": [],
       "title": "PPGPDSA - Programa de Pós-Graduação de Defesa Sanitária Animal",
-      "last_checked": "2026-07-11T02:19:24.313826+00:00"
+      "last_checked": "2026-07-12T02:30:17.212251+00:00"
     },
     "https://www.ppgeo.uema.br/": {
       "status": "possible",
@@ -1737,7 +1737,7 @@
       ],
       "dates_found": [],
       "title": "PPGEO - Pós-Graduação em Geografia, Natureza e Dinâmica do Espaço",
-      "last_checked": "2026-07-11T02:19:25.764977+00:00"
+      "last_checked": "2026-07-12T02:30:18.869693+00:00"
     },
     "https://recursosnaturais.ufcg.edu.br/": {
       "status": "likely_open",
@@ -1750,7 +1750,7 @@
       ],
       "dates_found": [],
       "title": "PORTAL DO PROGRAMA DE PÓS-GRADUAÇÃO EM ENGENHARIA E GESTÃO DE RECURSOS NATURAIS",
-      "last_checked": "2026-07-11T02:19:27.759772+00:00"
+      "last_checked": "2026-07-12T02:30:20.710051+00:00"
     },
     "https://uaema.ufcg.edu.br": {
       "status": "possible",
@@ -1768,7 +1768,7 @@
         "04/06/2026"
       ],
       "title": "",
-      "last_checked": "2026-07-11T02:19:29.559222+00:00"
+      "last_checked": "2026-07-12T02:30:22.494117+00:00"
     },
     "https://www.ppgea.ufcg.edu.br": {
       "status": "likely_open",
@@ -1781,7 +1781,7 @@
       ],
       "dates_found": [],
       "title": "Notícias - Programa de Pós-Graduação em Engenharia Agrícola",
-      "last_checked": "2026-07-11T02:19:31.970775+00:00"
+      "last_checked": "2026-07-12T02:30:26.197749+00:00"
     },
     "https://sites.google.com/setor.ufcg.edu.br/ppgcf/in%C3%ADcio": {
       "status": "possible",
@@ -1791,7 +1791,7 @@
       ],
       "dates_found": [],
       "title": "PPGCF",
-      "last_checked": "2026-07-11T02:19:32.558664+00:00"
+      "last_checked": "2026-07-12T02:30:26.792747+00:00"
     },
     "https://w2.solucaoatrio.net.br/somos/upe-papgenf/index.php/pt/": {
       "status": "possible",
@@ -1803,7 +1803,7 @@
       ],
       "dates_found": [],
       "title": "PAPGENF / UPE - Principal",
-      "last_checked": "2026-07-11T02:19:34.857848+00:00"
+      "last_checked": "2026-07-12T02:30:28.598597+00:00"
     },
     "https://w2.solucaoatrio.net.br/somos/upe-hebiatria/index.php/pt/": {
       "status": "likely_open",
@@ -1823,7 +1823,7 @@
         "24/11/2020"
       ],
       "title": "Hebiatria / UPE - Principal",
-      "last_checked": "2026-07-11T02:19:36.711930+00:00"
+      "last_checked": "2026-07-12T02:30:30.453748+00:00"
     },
     "https://w2.solucaoatrio.net.br/somos/upe-ga-sds/index.php/pt/": {
       "status": "possible",
@@ -1835,7 +1835,7 @@
       ],
       "dates_found": [],
       "title": "",
-      "last_checked": "2026-07-11T02:19:38.491580+00:00"
+      "last_checked": "2026-07-12T02:30:32.031413+00:00"
     },
     "https://w2.solucaoatrio.net.br/somos/upe-ppgec/index.php/pt/": {
       "status": "possible",
@@ -1847,7 +1847,7 @@
       ],
       "dates_found": [],
       "title": "PPGEC / UPE - Principal",
-      "last_checked": "2026-07-11T02:19:39.890048+00:00"
+      "last_checked": "2026-07-12T02:30:33.819261+00:00"
     },
     "https://pecpoli.com.br/": {
       "status": "possible",
@@ -1865,7 +1865,7 @@
         "12/07/2006"
       ],
       "title": "PEC - Programa de Pós-Graduação em Engenharia Civil",
-      "last_checked": "2026-07-11T02:19:41.100761+00:00"
+      "last_checked": "2026-07-12T02:30:34.576026+00:00"
     },
     "https://www.ufpe.br/ppga": {
       "status": "likely_open",
@@ -1884,7 +1884,7 @@
         "31/05/2021"
       ],
       "title": "(PPGA) Programa de Pós-Graduação em Antropologia - UFPE",
-      "last_checked": "2026-07-11T02:19:44.769711+00:00"
+      "last_checked": "2026-07-12T02:30:37.939224+00:00"
     },
     "https://www.ufpe.br/ppgci": {
       "status": "likely_open",
@@ -1903,7 +1903,7 @@
         "06/08/2025"
       ],
       "title": "(PPGCI) Programa de Pós-Graduação em Ciência da Informação - UFPE",
-      "last_checked": "2026-07-11T02:19:46.710639+00:00"
+      "last_checked": "2026-07-12T02:30:39.878333+00:00"
     },
     "https://www.ufpe.br/ppgcf": {
       "status": "likely_open",
@@ -1922,7 +1922,7 @@
         "27/02/2019"
       ],
       "title": "(PPGCF) Programa de Pós-Graduação em Ciências Farmacêuticas - UFPE",
-      "last_checked": "2026-07-11T02:19:48.941079+00:00"
+      "last_checked": "2026-07-12T02:30:42.103783+00:00"
     },
     "https://www.ufpe.br/ppgecon": {
       "status": "likely_open",
@@ -1940,7 +1940,7 @@
         "27/03/2023"
       ],
       "title": "(PPGEcon) Programa de Pós-Graduação em Economia (Campus Agreste) - UFPE",
-      "last_checked": "2026-07-11T02:19:50.987666+00:00"
+      "last_checked": "2026-07-12T02:30:44.138488+00:00"
     },
     "https://www.ufpe.br/ppgeduc": {
       "status": "likely_open",
@@ -1958,12 +1958,12 @@
         "29/08/2024"
       ],
       "title": "(PPGEduc) Programa de Pós-Graduação em Educação Contemporânea - UFPE",
-      "last_checked": "2026-07-11T02:19:53.063052+00:00"
+      "last_checked": "2026-07-12T02:30:46.187471+00:00"
     },
     "https://www.ufpe.br/ppgecam": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:19:57.369369+00:00"
+      "last_checked": "2026-07-12T02:30:50.494127+00:00"
     },
     "https://www.ufpe.br/ppgepcaa": {
       "status": "likely_open",
@@ -1983,7 +1983,7 @@
         "01/10/2023"
       ],
       "title": "(PPGEPCAA) Programa de Pós-Graduação em Engenharia de Produção - UFPE",
-      "last_checked": "2026-07-11T02:20:00.067014+00:00"
+      "last_checked": "2026-07-12T02:30:53.527482+00:00"
     },
     "https://www.ufpe.br/ppgmedtrop": {
       "status": "likely_open",
@@ -2002,12 +2002,26 @@
         "30/06/2025"
       ],
       "title": "(PPGMedtrop) Programa de Pós-Graduação em Medicina Tropical - UFPE",
-      "last_checked": "2026-07-11T02:20:02.559812+00:00"
+      "last_checked": "2026-07-12T02:30:55.997497+00:00"
     },
     "https://www.ppad.ufrpe.br": {
-      "status": "error",
-      "error": "timeout",
-      "last_checked": "2026-07-11T02:20:08.213640+00:00"
+      "status": "likely_open",
+      "confidence": 0.6,
+      "keywords_found": [
+        "editais?\\s+abertos?",
+        "edital",
+        "inscri[cç][aã]o",
+        "mestrado"
+      ],
+      "dates_found": [
+        "11/12/2025",
+        "11/12/2025",
+        "11/12/2025",
+        "14/01/2026",
+        "14/05/2026"
+      ],
+      "title": "Welcome to PADR | PADR",
+      "last_checked": "2026-07-12T02:31:02.935570+00:00"
     },
     "https://pgmp.ufrpe.br/": {
       "status": "likely_open",
@@ -2026,7 +2040,7 @@
         "12/11/2025"
       ],
       "title": "Início | PGMP",
-      "last_checked": "2026-07-11T02:20:10.543942+00:00"
+      "last_checked": "2026-07-12T02:31:05.035356+00:00"
     },
     "https://ww2.pgb.ufrpe.br/": {
       "status": "likely_open",
@@ -2045,7 +2059,7 @@
         "02/07/2026"
       ],
       "title": "Welcome to PGB | PGB",
-      "last_checked": "2026-07-11T02:20:12.888113+00:00"
+      "last_checked": "2026-07-12T02:31:12.325324+00:00"
     },
     "https://www.ppgbea.ufrpe.br/": {
       "status": "likely_open",
@@ -2064,7 +2078,7 @@
         "08/07/2026"
       ],
       "title": "Welcome to PPGBEA | PPGBEA",
-      "last_checked": "2026-07-11T02:20:15.266370+00:00"
+      "last_checked": "2026-07-12T02:31:19.250797+00:00"
     },
     "https://www.pgs.ufrpe.br/": {
       "status": "likely_open",
@@ -2083,12 +2097,26 @@
         "10/07/2026"
       ],
       "title": "Welcome to PGS | PGS",
-      "last_checked": "2026-07-11T02:20:17.123681+00:00"
+      "last_checked": "2026-07-12T02:31:21.270891+00:00"
     },
     "https://www.ppgcf.ufrpe.br": {
-      "status": "error",
-      "error": "timeout",
-      "last_checked": "2026-07-11T02:20:22.640625+00:00"
+      "status": "likely_open",
+      "confidence": 0.6,
+      "keywords_found": [
+        "editais?\\s+abertos?",
+        "edital",
+        "processo\\s+seletivo",
+        "mestrado"
+      ],
+      "dates_found": [
+        "06/04/2026",
+        "08/04/2026",
+        "18/03/2026",
+        "09/03/2026",
+        "09/07/2026"
+      ],
+      "title": "Início | PPGCF",
+      "last_checked": "2026-07-12T02:31:23.398230+00:00"
     },
     "https://www.pgea.ufrpe.br": {
       "status": "likely_open",
@@ -2107,7 +2135,7 @@
         "07/07/2026"
       ],
       "title": "Início | PGEA",
-      "last_checked": "2026-07-11T02:20:24.474237+00:00"
+      "last_checked": "2026-07-12T02:31:25.495162+00:00"
     },
     "https://www.ppengfis.ufrpe.br/": {
       "status": "likely_open",
@@ -2127,7 +2155,7 @@
         "29/06/2026"
       ],
       "title": "Welcome to PPENGFIS | PPENGFIS",
-      "last_checked": "2026-07-11T02:20:26.377385+00:00"
+      "last_checked": "2026-07-12T02:31:32.131383+00:00"
     },
     "https://www.ppge.ufrpe.br": {
       "status": "likely_open",
@@ -2146,7 +2174,7 @@
         "22/06/2026"
       ],
       "title": "Welcome to PPGE | PPGE",
-      "last_checked": "2026-07-11T02:20:29.248042+00:00"
+      "last_checked": "2026-07-12T02:31:38.162273+00:00"
     },
     "https://www.progel.ufrpe.br/": {
       "status": "likely_open",
@@ -2165,12 +2193,12 @@
         "07/07/2026"
       ],
       "title": "Welcome to PROGEL | PROGEL",
-      "last_checked": "2026-07-11T02:20:31.101451+00:00"
+      "last_checked": "2026-07-12T02:31:44.971919+00:00"
     },
     "https://www.ufrpe.br/ppeamb": {
       "status": "error",
       "error": "http_404",
-      "last_checked": "2026-07-11T02:20:32.771860+00:00"
+      "last_checked": "2026-07-12T02:31:51.022553+00:00"
     },
     "https://www.pgetno.ufrpe.br": {
       "status": "likely_open",
@@ -2189,7 +2217,7 @@
         "04/03/2026"
       ],
       "title": "Welcome to PGETNO | PGETNO",
-      "last_checked": "2026-07-11T02:20:34.844798+00:00"
+      "last_checked": "2026-07-12T02:31:57.883076+00:00"
     },
     "https://www.ppgf.ufrpe.br/": {
       "status": "likely_open",
@@ -2208,7 +2236,7 @@
         "27/04/2026"
       ],
       "title": "Welcome to PPGF | PPGF",
-      "last_checked": "2026-07-11T02:20:36.254415+00:00"
+      "last_checked": "2026-07-12T02:31:59.227740+00:00"
     },
     "https://ww2.pgpv.ufrpe.br": {
       "status": "likely_open",
@@ -2227,7 +2255,7 @@
         "13/06/2026"
       ],
       "title": "Início | PGPV",
-      "last_checked": "2026-07-11T02:20:38.871466+00:00"
+      "last_checked": "2026-07-12T02:32:05.562111+00:00"
     },
     "https://ww2.pgpa.ufrpe.br/": {
       "status": "likely_open",
@@ -2246,7 +2274,7 @@
         "29/06/2026"
       ],
       "title": "Welcome to PGPA | PGPA",
-      "last_checked": "2026-07-11T02:20:40.062466+00:00"
+      "last_checked": "2026-07-12T02:32:06.727542+00:00"
     },
     "https://portais.univasf.edu.br/ppgef": {
       "status": "possible",
@@ -2264,7 +2292,7 @@
         "14/06/2024"
       ],
       "title": "O PPGEF — UNIVASF Universidade Federal do Vale do São Francisco",
-      "last_checked": "2026-07-11T02:20:43.658755+00:00"
+      "last_checked": "2026-07-12T02:32:10.225308+00:00"
     },
     "https://ufpi.br/": {
       "status": "possible",
@@ -2282,7 +2310,7 @@
         "18/06/2026"
       ],
       "title": "Página Inicial - UFPI",
-      "last_checked": "2026-07-11T02:20:45.354233+00:00"
+      "last_checked": "2026-07-12T02:32:11.875621+00:00"
     },
     "https://ufpi.br/floriano": {
       "status": "possible",
@@ -2294,7 +2322,7 @@
       ],
       "dates_found": [],
       "title": "Página Inicial Floriano - UFPI",
-      "last_checked": "2026-07-11T02:20:45.877006+00:00"
+      "last_checked": "2026-07-12T02:32:12.398328+00:00"
     },
     "https://portal.uern.br/propeg/posensino/": {
       "status": "possible",
@@ -2306,7 +2334,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Ensino",
-      "last_checked": "2026-07-11T02:20:51.833009+00:00"
+      "last_checked": "2026-07-12T02:32:18.732395+00:00"
     },
     "https://ppgca.ufersa.edu.br": {
       "status": "likely_open",
@@ -2319,7 +2347,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Ciência Animal – PPGCA",
-      "last_checked": "2026-07-11T02:20:53.216335+00:00"
+      "last_checked": "2026-07-12T02:32:20.285635+00:00"
     },
     "https://ppgfito.ufersa.edu.br/": {
       "status": "possible",
@@ -2337,7 +2365,7 @@
         "23/06/2003"
       ],
       "title": "Programa de Pós-Graduação em Fitotecnia – PPGFITO (Mestrado e Doutorado) – UFERSA",
-      "last_checked": "2026-07-11T02:20:54.660568+00:00"
+      "last_checked": "2026-07-12T02:32:21.572846+00:00"
     },
     "https://ppgats.ufersa.edu.br/": {
       "status": "possible",
@@ -2349,12 +2377,12 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-graduação em Ambiente, Tecnologia e Sociedade - PPGATS (Mestrado) | Programa de Pós-graduação em Ambient",
-      "last_checked": "2026-07-11T02:20:56.000543+00:00"
+      "last_checked": "2026-07-12T02:32:22.937918+00:00"
     },
     "https://www.ppgmsa.ufersa.edu.br": {
       "status": "error",
       "error": "ssl_error",
-      "last_checked": "2026-07-11T02:20:57.384822+00:00"
+      "last_checked": "2026-07-12T02:32:24.330659+00:00"
     },
     "https://ppgd.ufersa.edu.br/": {
       "status": "possible",
@@ -2366,27 +2394,27 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Direito - PPGD (Mestrado) | Site do nosso PPGD",
-      "last_checked": "2026-07-11T02:20:58.550897+00:00"
+      "last_checked": "2026-07-12T02:32:25.608634+00:00"
     },
     "https://Doutorado em Agroquímica": {
       "status": "error",
       "error": "Failed to parse: https://Doutorado em Agroquímica",
-      "last_checked": "2026-07-11T02:20:58.852141+00:00"
+      "last_checked": "2026-07-12T02:32:25.909908+00:00"
     },
     "https://sistemas.ifgoiano.edu.br/sgcursos/index.php?id_curso=MTI=&p=pos-graduacao": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-07-11T02:21:00.347616+00:00"
+      "last_checked": "2026-07-12T02:32:31.443779+00:00"
     },
     "https://sistemas.ifgoiano.edu.br/sgcursos/index.php?id_curso=Nw==&p=pos-graduacao": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-07-11T02:21:00.825869+00:00"
+      "last_checked": "2026-07-12T02:32:31.915475+00:00"
     },
     "https://sistemas.ifgoiano.edu.br/sgcursos/index.php?id_curso=MTA=&p=pos-graduacao#": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-07-11T02:21:01.304146+00:00"
+      "last_checked": "2026-07-12T02:32:32.377548+00:00"
     },
     "https://bioparasitohospedeiro.iptsp.ufg.br": {
       "status": "possible",
@@ -2404,7 +2432,7 @@
         "03/06/2026"
       ],
       "title": "PPGBRPH - IPTSP",
-      "last_checked": "2026-07-11T02:21:04.546789+00:00"
+      "last_checked": "2026-07-12T02:32:36.122198+00:00"
     },
     "https://cienciassaude.medicina.ufg.br": {
       "status": "possible",
@@ -2422,12 +2450,12 @@
         "30/03/2026"
       ],
       "title": "Medicina Cienciassaude",
-      "last_checked": "2026-07-11T02:21:07.738896+00:00"
+      "last_checked": "2026-07-12T02:32:38.848563+00:00"
     },
     "https://FE - PPGE": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-07-11T02:21:08.042335+00:00"
+      "last_checked": "2026-07-12T02:32:39.151921+00:00"
     },
     "https://pos.filosofia.ufg.br/": {
       "status": "possible",
@@ -2445,7 +2473,7 @@
         "22/04/2026"
       ],
       "title": "Filosofia - Pós-graduação",
-      "last_checked": "2026-07-11T02:21:10.711189+00:00"
+      "last_checked": "2026-07-12T02:32:42.015783+00:00"
     },
     "https://posgraduacao.if.ufg.br/": {
       "status": "likely_open",
@@ -2462,7 +2490,7 @@
         "30/07/2026"
       ],
       "title": "If Posgraduacao",
-      "last_checked": "2026-07-11T02:21:12.936063+00:00"
+      "last_checked": "2026-07-12T02:32:44.323213+00:00"
     },
     "https://ppgmtsp.iptsp.ufg.br/": {
       "status": "possible",
@@ -2480,7 +2508,7 @@
         "12/06/2026"
       ],
       "title": "PPGMTSP - IPTSP",
-      "last_checked": "2026-07-11T02:21:15.741310+00:00"
+      "last_checked": "2026-07-12T02:32:47.357014+00:00"
     },
     "https://ppgcc.inf.ufg.br/": {
       "status": "likely_open",
@@ -2499,7 +2527,7 @@
         "19/01/2026"
       ],
       "title": "Programa de Pós-graduação em Ciência da Comp.",
-      "last_checked": "2026-07-11T02:21:18.817201+00:00"
+      "last_checked": "2026-07-12T02:32:49.960119+00:00"
     },
     "https://ppgcta.agro.ufg.br/": {
       "status": "likely_open",
@@ -2518,12 +2546,12 @@
         "23/06/2026"
       ],
       "title": "Agro Ppgcta",
-      "last_checked": "2026-07-11T02:21:21.063723+00:00"
+      "last_checked": "2026-07-12T02:32:52.306878+00:00"
     },
     "https://ppgcom.fic@ufg.br/https://ppgcom.fic@ufg.br/": {
       "status": "error",
       "error": "http_404",
-      "last_checked": "2026-07-11T02:21:22.393704+00:00"
+      "last_checked": "2026-07-12T02:32:53.767727+00:00"
     },
     "https://ppgdr.face.ufg.br/": {
       "status": "likely_open",
@@ -2542,7 +2570,7 @@
         "08/12/2025"
       ],
       "title": "Programa Pós-Graduação em Desenvolvimento Regional",
-      "last_checked": "2026-07-11T02:21:24.267664+00:00"
+      "last_checked": "2026-07-12T02:32:55.753360+00:00"
     },
     "https://ppgda.direito.ufg.br/": {
       "status": "likely_open",
@@ -2560,7 +2588,7 @@
         "30/03/2026"
       ],
       "title": "Programa de Pós-Graduação em Direito Agrário",
-      "last_checked": "2026-07-11T02:21:27.020964+00:00"
+      "last_checked": "2026-07-12T02:32:58.683909+00:00"
     },
     "https://pos.direitoshumanos.ufg.br/": {
       "status": "possible",
@@ -2578,7 +2606,7 @@
         "03/07/2026"
       ],
       "title": "PPGIDH UFG",
-      "last_checked": "2026-07-11T02:21:28.898547+00:00"
+      "last_checked": "2026-07-12T02:33:01.021253+00:00"
     },
     "https://ppgecon.face.ufg.br/": {
       "status": "possible",
@@ -2596,7 +2624,7 @@
         "17/12/2025"
       ],
       "title": "PPGECON - Programa de Pós-Graduação em Economia",
-      "last_checked": "2026-07-11T02:21:30.839908+00:00"
+      "last_checked": "2026-07-12T02:33:02.954414+00:00"
     },
     "https://ppgenfs.fen.ufg.br/": {
       "status": "possible",
@@ -2614,7 +2642,7 @@
         "15/06/2026"
       ],
       "title": "Programa de Pós-Graduação em Enfermagem e Saúde",
-      "last_checked": "2026-07-11T02:21:34.071040+00:00"
+      "last_checked": "2026-07-12T02:33:05.814352+00:00"
     },
     "https://ppgeas.eeca.ufg.br/": {
       "status": "possible",
@@ -2632,7 +2660,7 @@
         "19/06/2026"
       ],
       "title": "PPGEAS - EECA",
-      "last_checked": "2026-07-11T02:21:36.033914+00:00"
+      "last_checked": "2026-07-12T02:33:08.420180+00:00"
     },
     "https://pos.historia.ufg.br/": {
       "status": "likely_open",
@@ -2652,7 +2680,7 @@
         "31/05/2026"
       ],
       "title": "Programa de Pós-Graduação em História (PPGH/UFG)",
-      "last_checked": "2026-07-11T02:21:38.578362+00:00"
+      "last_checked": "2026-07-12T02:33:10.951069+00:00"
     },
     "https://ppgnut.fanut.ufg.br/": {
       "status": "possible",
@@ -2670,7 +2698,7 @@
         "29/08/2025"
       ],
       "title": "Programa de Pós-Graduação em Nutrição e Saúde",
-      "last_checked": "2026-07-11T02:21:41.557002+00:00"
+      "last_checked": "2026-07-12T02:33:13.788115+00:00"
     },
     "https://posgraduacao.odonto.ufg.br/": {
       "status": "possible",
@@ -2688,7 +2716,7 @@
         "17/03/2026"
       ],
       "title": "PPGO",
-      "last_checked": "2026-07-11T02:21:44.320834+00:00"
+      "last_checked": "2026-07-12T02:33:16.638761+00:00"
     },
     "https://projetoecidade.fav.ufg.br/": {
       "status": "likely_open",
@@ -2707,7 +2735,7 @@
         "08/05/2026"
       ],
       "title": "FAV - Programa de Pós-Graduação Projeto e Cidade",
-      "last_checked": "2026-07-11T02:21:46.964541+00:00"
+      "last_checked": "2026-07-12T02:33:19.278412+00:00"
     },
     "https://ppggeo.ufj.edu.br/": {
       "status": "possible",
@@ -2717,7 +2745,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Geografia",
-      "last_checked": "2026-07-11T02:21:50.314072+00:00"
+      "last_checked": "2026-07-12T02:33:21.300109+00:00"
     },
     "https://ppgnh.unb.br/": {
       "status": "possible",
@@ -2729,7 +2757,7 @@
       ],
       "dates_found": [],
       "title": "ppgnh",
-      "last_checked": "2026-07-11T02:21:52.584661+00:00"
+      "last_checked": "2026-07-12T02:33:23.319874+00:00"
     },
     "https://pgla.unb.br/": {
       "status": "possible",
@@ -2741,7 +2769,7 @@
       ],
       "dates_found": [],
       "title": "PGLA",
-      "last_checked": "2026-07-11T02:21:55.058153+00:00"
+      "last_checked": "2026-07-12T02:33:25.641789+00:00"
     },
     "https://psto.unb.br/": {
       "status": "possible",
@@ -2759,7 +2787,7 @@
         "04/08/2026"
       ],
       "title": "PSTO – Programa de PÃ³s-GraduaÃ§Ã£o em Psicologia Social do Trabalho e das OrganizaÃ§Ãµes",
-      "last_checked": "2026-07-11T02:21:56.914136+00:00"
+      "last_checked": "2026-07-12T02:33:27.404767+00:00"
     },
     "https://cds.unb.br/": {
       "status": "possible",
@@ -2771,7 +2799,7 @@
       ],
       "dates_found": [],
       "title": "CDS – Centro de Desenvolvimento Sustentável",
-      "last_checked": "2026-07-11T02:21:59.331147+00:00"
+      "last_checked": "2026-07-12T02:33:30.464452+00:00"
     },
     "https://www.ppgav.unb.br/": {
       "status": "possible",
@@ -2783,7 +2811,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-graduação em Artes Visuais  - Início",
-      "last_checked": "2026-07-11T02:22:01.153449+00:00"
+      "last_checked": "2026-07-12T02:33:31.948225+00:00"
     },
     "https://caceres.unemat.br/faculdades/fach/stricto/ppggeo/": {
       "status": "possible",
@@ -2795,7 +2823,7 @@
       ],
       "dates_found": [],
       "title": "UNEMAT - Universidade do Estado de Mato Grosso | 45 anos de história",
-      "last_checked": "2026-07-11T02:22:02.986485+00:00"
+      "last_checked": "2026-07-12T02:33:33.626255+00:00"
     },
     "https://tangaradaserra.unemat.br/faculdades/facabes/stricto/ppgasp/": {
       "status": "possible",
@@ -2807,7 +2835,7 @@
       ],
       "dates_found": [],
       "title": "UNEMAT - Universidade do Estado de Mato Grosso | 45 anos de história",
-      "last_checked": "2026-07-11T02:22:04.680003+00:00"
+      "last_checked": "2026-07-12T02:33:35.294892+00:00"
     },
     "https://caceres.unemat.br/faculdades/facab/stricto/ppgca": {
       "status": "possible",
@@ -2819,7 +2847,7 @@
       ],
       "dates_found": [],
       "title": "UNEMAT - Universidade do Estado de Mato Grosso | 45 anos de história",
-      "last_checked": "2026-07-11T02:22:05.709412+00:00"
+      "last_checked": "2026-07-12T02:33:36.274808+00:00"
     },
     "https://caceres.unemat.br/faculdades/facel/stricto/ppgedu/": {
       "status": "possible",
@@ -2831,17 +2859,17 @@
       ],
       "dates_found": [],
       "title": "UNEMAT - Universidade do Estado de Mato Grosso | 45 anos de história",
-      "last_checked": "2026-07-11T02:22:06.593547+00:00"
+      "last_checked": "2026-07-12T02:33:37.131776+00:00"
     },
     "https://www.ufmt.br/curso/ppgas": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:22:11.540662+00:00"
+      "last_checked": "2026-07-12T02:33:42.026487+00:00"
     },
     "https://www.ufmt.br/curso/ppgel": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:22:16.168457+00:00"
+      "last_checked": "2026-07-12T02:33:46.628818+00:00"
     },
     "https://pgfa.ufmt.br": {
       "status": "possible",
@@ -2853,32 +2881,32 @@
       ],
       "dates_found": [],
       "title": "PPG em Física Ambiental",
-      "last_checked": "2026-07-11T02:22:22.214550+00:00"
+      "last_checked": "2026-07-12T02:33:49.061967+00:00"
     },
     "https://www.ufmt.br/curso/ppgec": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:22:26.852695+00:00"
+      "last_checked": "2026-07-12T02:33:53.692094+00:00"
     },
     "https://www.ufmt.br/curso/ppgcfa": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:22:31.491258+00:00"
+      "last_checked": "2026-07-12T02:33:58.328168+00:00"
     },
     "https://ufmt.br/curso/ppgd/pagina/institucional/4111": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:22:36.439629+00:00"
+      "last_checked": "2026-07-12T02:34:03.259343+00:00"
     },
     "https://ppge.ufmt.br/": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:22:41.239887+00:00"
+      "last_checked": "2026-07-12T02:34:08.181675+00:00"
     },
     "https://ppgeel.ufmt.br/": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:22:46.050601+00:00"
+      "last_checked": "2026-07-12T02:34:13.109380+00:00"
     },
     "https://ppgfil.org/": {
       "status": "possible",
@@ -2890,17 +2918,17 @@
       ],
       "dates_found": [],
       "title": "PPGFil – Programa de Pós-Graduação em Filosofia da UFMT",
-      "last_checked": "2026-07-11T02:22:46.584320+00:00"
+      "last_checked": "2026-07-12T02:34:13.674181+00:00"
     },
     "https://ufmt.br/curso/geografiacba": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:22:51.064961+00:00"
+      "last_checked": "2026-07-12T02:34:18.150728+00:00"
     },
     "https://www.ufmt.br/curso/ppgs": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:22:55.694071+00:00"
+      "last_checked": "2026-07-12T02:34:22.624765+00:00"
     },
     "https://www.uems.br/ppg/ppgdrs": {
       "status": "possible",
@@ -2912,7 +2940,7 @@
       ],
       "dates_found": [],
       "title": "UEMS:\n        Paginas",
-      "last_checked": "2026-07-11T02:22:58.364296+00:00"
+      "last_checked": "2026-07-12T02:34:25.096262+00:00"
     },
     "https://www.uems.br/ppg/ppges": {
       "status": "possible",
@@ -2924,7 +2952,7 @@
       ],
       "dates_found": [],
       "title": "UEMS:\n        Paginas",
-      "last_checked": "2026-07-11T02:23:00.155286+00:00"
+      "last_checked": "2026-07-12T02:34:26.804911+00:00"
     },
     "https://www.uems.br/ppg/pgedu": {
       "status": "possible",
@@ -2936,7 +2964,7 @@
       ],
       "dates_found": [],
       "title": "UEMS:\n        Paginas",
-      "last_checked": "2026-07-11T02:23:01.837362+00:00"
+      "last_checked": "2026-07-12T02:34:28.554661+00:00"
     },
     "https://www.uems.br/ppg/pgbsa": {
       "status": "possible",
@@ -2948,7 +2976,7 @@
       ],
       "dates_found": [],
       "title": "UEMS:\n        Paginas",
-      "last_checked": "2026-07-11T02:23:03.149266+00:00"
+      "last_checked": "2026-07-12T02:34:29.880706+00:00"
     },
     "https://portal.ufgd.edu.br/pos-graduacao/mestrado-doutorado-agronomia/index": {
       "status": "possible",
@@ -2966,7 +2994,7 @@
         "26/02/2023"
       ],
       "title": "Portal UFGD",
-      "last_checked": "2026-07-11T02:23:05.569418+00:00"
+      "last_checked": "2026-07-12T02:34:32.276851+00:00"
     },
     "https://portal.ufgd.edu.br/pos-graduacao/mestrado-fronteiras/index": {
       "status": "likely_open",
@@ -2985,7 +3013,7 @@
         "29/09/2023"
       ],
       "title": "Portal UFGD",
-      "last_checked": "2026-07-11T02:23:06.806588+00:00"
+      "last_checked": "2026-07-12T02:34:33.506780+00:00"
     },
     "https://www.utfpr.edu.br/cursos/programas-de-pos-graduacao/ppgqb-td": {
       "status": "possible",
@@ -2997,12 +3025,19 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Processos Químicos e Biotecnológicos (PPGQB-TD)",
-      "last_checked": "2026-07-11T02:23:09.792111+00:00"
+      "last_checked": "2026-07-12T02:34:36.071283+00:00"
     },
     "https://www.utfpr.edu.br/cursos/programas-de-pos-graduacao/ppgbiotec-multi": {
-      "status": "error",
-      "error": "timeout",
-      "last_checked": "2026-07-11T02:23:14.098973+00:00"
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [],
+      "title": "Programa de Pós-Graduação em Biotecnologia (PPGBIOTEC-DV/PG)",
+      "last_checked": "2026-07-12T02:34:37.441654+00:00"
     },
     "https://www.utfpr.edu.br/cursos/programas-de-pos-graduacao/ppz": {
       "status": "possible",
@@ -3020,7 +3055,7 @@
         "15/12/2021"
       ],
       "title": "Programa de Pós-Graduação em Zootecnia PPZ - Unioeste/UTFPR - Sede UTFPR (PPZ)",
-      "last_checked": "2026-07-11T02:23:16.176355+00:00"
+      "last_checked": "2026-07-12T02:34:38.912781+00:00"
     },
     "https://www.utfpr.edu.br/cursos/programas-de-pos-graduacao/ppgdr-pb": {
       "status": "possible",
@@ -3032,7 +3067,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Desenvolvimento Regional (PPGDR-PB)",
-      "last_checked": "2026-07-11T02:23:16.974210+00:00"
+      "last_checked": "2026-07-12T02:34:40.260066+00:00"
     },
     "https://ppgea.ld.utfpr.edu.br/": {
       "status": "possible",
@@ -3050,12 +3085,19 @@
         "17/03/2026"
       ],
       "title": "Programa de Pós-graduação em Engenharia Ambiental",
-      "last_checked": "2026-07-11T02:23:23.271982+00:00"
+      "last_checked": "2026-07-12T02:34:43.083070+00:00"
     },
     "https://www.utfpr.edu.br/cursos/programas-de-pos-graduacao/ppgep-pg": {
-      "status": "error",
-      "error": "timeout",
-      "last_checked": "2026-07-11T02:23:27.578755+00:00"
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "mestrado",
+        "doutorado",
+        "bolsas?"
+      ],
+      "dates_found": [],
+      "title": "Programa de Pós-Graduação em Engenharia de Produção (PPGEP-PG)",
+      "last_checked": "2026-07-12T02:34:44.019619+00:00"
     },
     "https://www.utfpr.edu.br/cursos/programas-de-pos-graduacao/ppgtca-md": {
       "status": "possible",
@@ -3067,19 +3109,12 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Tecnologias Computacionais para o Agronegócio (PPGTCA-MD)",
-      "last_checked": "2026-07-11T02:23:30.072402+00:00"
+      "last_checked": "2026-07-12T02:34:45.546278+00:00"
     },
     "https://www.utfpr.edu.br/cursos/programas-de-pos-graduacao/ppgsis-dv": {
-      "status": "possible",
-      "confidence": 0.4,
-      "keywords_found": [
-        "edital",
-        "processo\\s+seletivo",
-        "sele[cç][aã]o"
-      ],
-      "dates_found": [],
-      "title": "Programa de Pós-Graduação em Agroecossistemas (PPGSIS-DV)",
-      "last_checked": "2026-07-11T02:23:31.028727+00:00"
+      "status": "error",
+      "error": "timeout",
+      "last_checked": "2026-07-12T02:34:49.853209+00:00"
     },
     "https://www.utfpr.edu.br/cursos/programas-de-pos-graduacao/cpgei-ct": {
       "status": "possible",
@@ -3091,12 +3126,12 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Engenharia Elétrica e Informática Industrial (CPGEI-CT)",
-      "last_checked": "2026-07-11T02:23:32.425056+00:00"
+      "last_checked": "2026-07-12T02:34:51.890648+00:00"
     },
     "https://Programa de Pós-Graduação em Ciência e Tecnologia Ambiental (PPGCTA-CT)": {
       "status": "error",
       "error": "Failed to parse: https://Programa de Pós-Graduação em Ciênci",
-      "last_checked": "2026-07-11T02:23:32.728858+00:00"
+      "last_checked": "2026-07-12T02:34:52.195305+00:00"
     },
     "http://www.ppgep.ufpr.br": {
       "status": "possible",
@@ -3114,7 +3149,7 @@
         "25/06/2026"
       ],
       "title": "ENGENHARIA DE PRODUÇÃO",
-      "last_checked": "2026-07-11T02:23:36.534966+00:00"
+      "last_checked": "2026-07-12T02:34:55.842278+00:00"
     },
     "http://www.ppggi.ufpr.br": {
       "status": "possible",
@@ -3126,7 +3161,7 @@
       ],
       "dates_found": [],
       "title": "GESTÃO DA INFORMAÇÃO",
-      "last_checked": "2026-07-11T02:23:39.415070+00:00"
+      "last_checked": "2026-07-12T02:34:58.837345+00:00"
     },
     "https://www.ppgdts.ufpr.br": {
       "status": "possible",
@@ -3138,7 +3173,7 @@
       ],
       "dates_found": [],
       "title": "DESENVOLVIMENTO TERRITORIAL SUSTENTÁVEL",
-      "last_checked": "2026-07-11T02:23:42.590671+00:00"
+      "last_checked": "2026-07-12T02:35:01.771773+00:00"
     },
     "http://www.prppg.ufpr.br/site/ppgebb/": {
       "status": "possible",
@@ -3150,7 +3185,7 @@
       ],
       "dates_found": [],
       "title": "ENGENHARIA DE BIOPROCESSOS E BIOTECNOLOGIA",
-      "last_checked": "2026-07-11T02:23:44.690753+00:00"
+      "last_checked": "2026-07-12T02:35:03.755954+00:00"
     },
     "http://www.prppg.ufpr.br/site/ppgppu/": {
       "status": "possible",
@@ -3162,7 +3197,7 @@
       ],
       "dates_found": [],
       "title": "PLANEJAMENTO URBANO",
-      "last_checked": "2026-07-11T02:23:46.344933+00:00"
+      "last_checked": "2026-07-12T02:35:05.740685+00:00"
     },
     "http://www.prppg.ufpr.br/site/ppgcontabilidade/": {
       "status": "possible",
@@ -3174,7 +3209,7 @@
       ],
       "dates_found": [],
       "title": "CONTABILIDADE",
-      "last_checked": "2026-07-11T02:23:48.239381+00:00"
+      "last_checked": "2026-07-12T02:35:07.550321+00:00"
     },
     "http://www.prppg.ufpr.br/site/posalim/": {
       "status": "possible",
@@ -3192,7 +3227,7 @@
         "05/08/2026"
       ],
       "title": "ENGENHARIA DE ALIMENTOS",
-      "last_checked": "2026-07-11T02:23:50.134706+00:00"
+      "last_checked": "2026-07-12T02:35:09.492629+00:00"
     },
     "https://pos.uel.br/meel/": {
       "status": "possible",
@@ -3204,7 +3239,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-graduação em Engenharia Elétrica",
-      "last_checked": "2026-07-11T02:23:52.186317+00:00"
+      "last_checked": "2026-07-12T02:35:11.483986+00:00"
     },
     "https://pos.uel.br/fisica/": {
       "status": "likely_open",
@@ -3217,7 +3252,7 @@
       ],
       "dates_found": [],
       "title": "Pós-graduação em Física",
-      "last_checked": "2026-07-11T02:23:53.122222+00:00"
+      "last_checked": "2026-07-12T02:35:12.419654+00:00"
     },
     "https://www.ppedu.uel.br/pt/": {
       "status": "likely_open",
@@ -3230,7 +3265,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Educação da Universidade Estadual de Londrina - UEL - Início",
-      "last_checked": "2026-07-11T02:23:54.651226+00:00"
+      "last_checked": "2026-07-12T02:35:13.827451+00:00"
     },
     "https://pos.uel.br/patologiaexperimental/": {
       "status": "possible",
@@ -3248,7 +3283,7 @@
         "19/05/2025"
       ],
       "title": "Pós-graduação em Patologia Experimental – Só mais um site WordPress",
-      "last_checked": "2026-07-11T02:23:55.744269+00:00"
+      "last_checked": "2026-07-12T02:35:14.915948+00:00"
     },
     "https://pos.uel.br/cienciasdasaude/": {
       "status": "possible",
@@ -3260,7 +3295,7 @@
       ],
       "dates_found": [],
       "title": "Pós-graduação em Ciências da Saúde – Só mais um site WordPress",
-      "last_checked": "2026-07-11T02:23:56.506802+00:00"
+      "last_checked": "2026-07-12T02:35:15.683707+00:00"
     },
     "https://ppgeca.furg.br/": {
       "status": "possible",
@@ -3278,7 +3313,7 @@
         "20/01/2020"
       ],
       "title": "PPG-ECA - Programa de Pós-Graduação em Engenharia e Ciência de Alimentos",
-      "last_checked": "2026-07-11T02:23:59.455620+00:00"
+      "last_checked": "2026-07-12T02:35:18.211168+00:00"
     },
     "https://ppgcomp.furg.br/": {
       "status": "possible",
@@ -3296,7 +3331,7 @@
         "20/02/2025"
       ],
       "title": "Página inicial - Programa de Pós-Graduação em Computação",
-      "last_checked": "2026-07-11T02:24:01.337141+00:00"
+      "last_checked": "2026-07-12T02:35:21.025017+00:00"
     },
     "https://ppgletras.furg.br/": {
       "status": "possible",
@@ -3307,7 +3342,7 @@
       ],
       "dates_found": [],
       "title": "Início - Programa de Pós-Graduação em Letras",
-      "last_checked": "2026-07-11T02:24:02.876178+00:00"
+      "last_checked": "2026-07-12T02:35:22.504274+00:00"
     },
     "https://ppgbac.furg.br/": {
       "status": "possible",
@@ -3324,7 +3359,7 @@
         "02/07/2026"
       ],
       "title": "Início - Programa de Pós-Graduação em Biologia de Ambientes Aquáticos Continentais",
-      "last_checked": "2026-07-11T02:24:04.331963+00:00"
+      "last_checked": "2026-07-12T02:35:24.251890+00:00"
     },
     "https://ppgqta.furg.br/": {
       "status": "possible",
@@ -3336,7 +3371,7 @@
       ],
       "dates_found": [],
       "title": "Início - Programa de Pós-Graduação em Química Tecnológica e Ambiental",
-      "last_checked": "2026-07-11T02:24:05.734335+00:00"
+      "last_checked": "2026-07-12T02:35:25.920048+00:00"
     },
     "https://ppgcs.furg.br/": {
       "status": "possible",
@@ -3352,7 +3387,7 @@
         "03/12/2024"
       ],
       "title": "Início - Programa de Pós-Graduação em Ciências da Saúde",
-      "last_checked": "2026-07-11T02:24:07.486889+00:00"
+      "last_checked": "2026-07-12T02:35:27.918077+00:00"
     },
     "https://ppgaquicultura.furg.br/": {
       "status": "possible",
@@ -3370,12 +3405,12 @@
         "11/06/2026"
       ],
       "title": "Início - Programa de Pós-Graduação em Aquicultura",
-      "last_checked": "2026-07-11T02:24:09.337576+00:00"
+      "last_checked": "2026-07-12T02:35:29.726250+00:00"
     },
     "https://ppgdjs.furg.br/": {
       "status": "error",
       "error": "http_503",
-      "last_checked": "2026-07-11T02:24:10.928335+00:00"
+      "last_checked": "2026-07-12T02:35:31.486926+00:00"
     },
     "https://ppgcf.furg.br/": {
       "status": "possible",
@@ -3387,7 +3422,7 @@
       ],
       "dates_found": [],
       "title": "Início - Programa de Pós-Graduação em Ciências Fisiológicas",
-      "last_checked": "2026-07-11T02:24:13.175664+00:00"
+      "last_checked": "2026-07-12T02:35:33.306897+00:00"
     },
     "https://wp.ufpel.edu.br/ppgdtsa/": {
       "status": "possible",
@@ -3405,7 +3440,7 @@
         "02/04/2026"
       ],
       "title": "PPGDTSA – Programa de Pós Graduação em Desenvolvimento Territorial e Sistemas Agroindustriais",
-      "last_checked": "2026-07-11T02:24:16.257802+00:00"
+      "last_checked": "2026-07-12T02:35:37.093304+00:00"
     },
     "https://wp.ufpel.edu.br/ppgcem/": {
       "status": "possible",
@@ -3417,7 +3452,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Ciência e Engenharia de Materiais",
-      "last_checked": "2026-07-11T02:24:17.670095+00:00"
+      "last_checked": "2026-07-12T02:35:38.448957+00:00"
     },
     "https://wp.ufpel.edu.br/ppgeo/": {
       "status": "possible",
@@ -3429,7 +3464,7 @@
       ],
       "dates_found": [],
       "title": "PPGeo – Programa de Pós-Graduação em Geografia",
-      "last_checked": "2026-07-11T02:24:18.362760+00:00"
+      "last_checked": "2026-07-12T02:35:40.934472+00:00"
     },
     "https://wp.ufpel.edu.br/ppgveterinaria/": {
       "status": "possible",
@@ -3447,7 +3482,7 @@
         "18/03/2026"
       ],
       "title": "Programa de Pós-Graduação em Veterinária",
-      "last_checked": "2026-07-11T02:24:19.067054+00:00"
+      "last_checked": "2026-07-12T02:35:41.882195+00:00"
     },
     "https://wp.ufpel.edu.br/pgfisica/": {
       "status": "possible",
@@ -3465,7 +3500,7 @@
         "10/06/2026"
       ],
       "title": "",
-      "last_checked": "2026-07-11T02:24:19.909678+00:00"
+      "last_checked": "2026-07-12T02:35:42.895511+00:00"
     },
     "https://wp.ufpel.edu.br/ppga/": {
       "status": "likely_open",
@@ -3485,7 +3520,7 @@
         "02/06/2026"
       ],
       "title": "Progrma de Pós Graduação em Agronomia",
-      "last_checked": "2026-07-11T02:24:20.792891+00:00"
+      "last_checked": "2026-07-12T02:35:43.798689+00:00"
     },
     "https://wp.ufpel.edu.br/ppgemat": {
       "status": "possible",
@@ -3503,7 +3538,7 @@
         "04/04/2026"
       ],
       "title": "PPGEMAT – Programa de Pós-Graduação em Educação Matemática",
-      "last_checked": "2026-07-11T02:24:22.300173+00:00"
+      "last_checked": "2026-07-12T02:35:46.264642+00:00"
     },
     "https://wp.ufpel.edu.br/ppgl": {
       "status": "possible",
@@ -3515,27 +3550,55 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Letras (PPGL)",
-      "last_checked": "2026-07-11T02:24:23.624480+00:00"
+      "last_checked": "2026-07-12T02:35:47.586567+00:00"
     },
     "https://ufcspa.edu.br/vida-academica/pos-graduacao/mestrado-e-doutorado/ciencias-da-reabilitacao": {
-      "status": "error",
-      "error": "connection_error",
-      "last_checked": "2026-07-11T02:24:33.954761+00:00"
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "processo\\s+seletivo",
+        "sele[cç][aã]o",
+        "inscri[cç][oõ]es"
+      ],
+      "dates_found": [],
+      "title": "UFCSPA - Universidade Federal de Ciências da Saúde de Porto Alegre - Ciências da Reabilitação",
+      "last_checked": "2026-07-12T02:35:49.622322+00:00"
     },
     "https://ufcspa.edu.br/vida-academica/pos-graduacao/mestrado-e-doutorado/ciencias-da-saude": {
-      "status": "error",
-      "error": "connection_error",
-      "last_checked": "2026-07-11T02:24:44.276019+00:00"
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "processo\\s+seletivo",
+        "sele[cç][aã]o",
+        "mestrado"
+      ],
+      "dates_found": [],
+      "title": "UFCSPA - Universidade Federal de Ciências da Saúde de Porto Alegre - Ciências da Saúde",
+      "last_checked": "2026-07-12T02:35:50.297613+00:00"
     },
     "https://ufcspa.edu.br/vida-academica/pos-graduacao/mestrado-e-doutorado/hepatologia": {
-      "status": "error",
-      "error": "connection_error",
-      "last_checked": "2026-07-11T02:24:54.603442+00:00"
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "sele[cç][aã]o",
+        "mestrado",
+        "doutorado"
+      ],
+      "dates_found": [],
+      "title": "UFCSPA - Universidade Federal de Ciências da Saúde de Porto Alegre - Hepatologia",
+      "last_checked": "2026-07-12T02:35:51.032912+00:00"
     },
     "https://ufcspa.edu.br/vida-academica/pos-graduacao/mestrado-e-doutorado/patologia": {
-      "status": "error",
-      "error": "connection_error",
-      "last_checked": "2026-07-11T02:25:04.928441+00:00"
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "sele[cç][aã]o",
+        "mestrado",
+        "doutorado"
+      ],
+      "dates_found": [],
+      "title": "UFCSPA - Universidade Federal de Ciências da Saúde de Porto Alegre - Patologia",
+      "last_checked": "2026-07-12T02:35:51.700254+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgd": {
       "status": "possible",
@@ -3553,7 +3616,7 @@
         "22/04/2026"
       ],
       "title": "PPGD – Programa de Pós-Graduação em Direito – Campus Santa Maria",
-      "last_checked": "2026-07-11T02:25:07.840328+00:00"
+      "last_checked": "2026-07-12T02:35:53.688679+00:00"
     },
     "https://www.ufsm.br/ppgdch": {
       "status": "possible",
@@ -3571,7 +3634,7 @@
         "16/06/2026"
       ],
       "title": "PPGDCH – Programa de Pós-Graduação em Distúrbios da Comunicação Humana",
-      "last_checked": "2026-07-11T02:25:09.955796+00:00"
+      "last_checked": "2026-07-12T02:35:55.720315+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgep": {
       "status": "possible",
@@ -3589,7 +3652,7 @@
         "09/07/2026"
       ],
       "title": "PPGEP – Programa de Pós-Graduação em Engenharia de Produção",
-      "last_checked": "2026-07-11T02:25:11.987052+00:00"
+      "last_checked": "2026-07-12T02:35:56.381310+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/palmeira-das-missoes/ppgagr": {
       "status": "possible",
@@ -3607,7 +3670,7 @@
         "27/12/2023"
       ],
       "title": "PPGAGR – Programa de Pós-Graduação em Agronégocios",
-      "last_checked": "2026-07-11T02:25:14.322659+00:00"
+      "last_checked": "2026-07-12T02:35:58.069898+00:00"
     },
     "https://www.ufsm.br/": {
       "status": "possible",
@@ -3625,7 +3688,7 @@
         "17/07/2026"
       ],
       "title": "UFSM – Universidade Federal de Santa Maria",
-      "last_checked": "2026-07-11T02:25:15.098173+00:00"
+      "last_checked": "2026-07-12T02:35:58.752709+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgco": {
       "status": "possible",
@@ -3643,7 +3706,7 @@
         "09/07/2026"
       ],
       "title": "PPGCO – Programa de Pós-Graduação em Ciências Odontológicas",
-      "last_checked": "2026-07-11T02:25:16.243556+00:00"
+      "last_checked": "2026-07-12T02:36:00.225163+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppge": {
       "status": "possible",
@@ -3661,7 +3724,7 @@
         "16/06/2026"
       ],
       "title": "PPGE – Programa de Pós-Graduação em Educação – Campus Santa Maria",
-      "last_checked": "2026-07-11T02:25:18.044873+00:00"
+      "last_checked": "2026-07-12T02:36:02.039933+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgri": {
       "status": "possible",
@@ -3679,7 +3742,7 @@
         "19/06/2026"
       ],
       "title": "PPGRI – Programa de Pós-Graduação em Relações Internacionais – Campus Santa Maria",
-      "last_checked": "2026-07-11T02:25:19.474509+00:00"
+      "last_checked": "2026-07-12T02:36:03.956961+00:00"
     },
     "https://www.ufsm.br/ppged": {
       "status": "possible",
@@ -3697,32 +3760,32 @@
         "12/06/2026"
       ],
       "title": "PPGE&D – Programa de Pós-Graduação em Economia e Desenvolvimento",
-      "last_checked": "2026-07-11T02:25:20.528781+00:00"
+      "last_checked": "2026-07-12T02:36:06.180348+00:00"
     },
     "https://www.ufrgs.br/ppgcin/": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-07-11T02:25:25.493985+00:00"
+      "last_checked": "2026-07-12T02:36:11.108346+00:00"
     },
     "https://www.ufrgs.br/esefid/ppgcmh/": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-07-11T02:25:29.798360+00:00"
+      "last_checked": "2026-07-12T02:36:15.415826+00:00"
     },
     "https://www.ufrgs.br/ppgcv/": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-07-11T02:25:34.105489+00:00"
+      "last_checked": "2026-07-12T02:36:19.722834+00:00"
     },
     "https://www.ufrgs.br/ppgpservicosocial/": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-07-11T02:25:38.412895+00:00"
+      "last_checked": "2026-07-12T02:36:24.030154+00:00"
     },
     "https://www.ufrgs.br/posgea/": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-07-11T02:25:42.718445+00:00"
+      "last_checked": "2026-07-12T02:36:28.338967+00:00"
     },
     "https://cienciascontabeis.ufes.br/pt-br/pos-graduacao/PPGCC": {
       "status": "possible",
@@ -3734,7 +3797,7 @@
       ],
       "dates_found": [],
       "title": "Apresentação | Ciências Contábeis",
-      "last_checked": "2026-07-11T02:25:45.095827+00:00"
+      "last_checked": "2026-07-12T02:36:30.601179+00:00"
     },
     "https://engenhariacivil.ufes.br/pt-br/pos-graduacao/PPGEC": {
       "status": "possible",
@@ -3746,7 +3809,7 @@
       ],
       "dates_found": [],
       "title": "Apresentação | Engenharia Civil",
-      "last_checked": "2026-07-11T02:25:47.308913+00:00"
+      "last_checked": "2026-07-12T02:36:32.731824+00:00"
     },
     "https://saudecoletiva.ufes.br": {
       "status": "possible",
@@ -3764,7 +3827,7 @@
         "02/04/2026"
       ],
       "title": "Seja bem-vindo | Saúde Coletiva",
-      "last_checked": "2026-07-11T02:25:49.543422+00:00"
+      "last_checked": "2026-07-12T02:36:35.005076+00:00"
     },
     "http://www.educacao.ufes.br/": {
       "status": "likely_open",
@@ -3784,7 +3847,7 @@
         "16/12/2024"
       ],
       "title": "Seja bem-vindo | Educação",
-      "last_checked": "2026-07-11T02:25:58.840119+00:00"
+      "last_checked": "2026-07-12T02:36:39.616779+00:00"
     },
     "https://ele.ufes.br/": {
       "status": "possible",
@@ -3802,7 +3865,7 @@
         "09/12/2024"
       ],
       "title": "Seja bem-vindo | Engenharia Elétrica",
-      "last_checked": "2026-07-11T02:26:05.443507+00:00"
+      "last_checked": "2026-07-12T02:36:41.627308+00:00"
     },
     "https://engenhariaambiental.ufes.br/pt-br/pos-graduacao/PPGEA": {
       "status": "possible",
@@ -3814,7 +3877,7 @@
       ],
       "dates_found": [],
       "title": "Apresentação | Engenharia Ambiental",
-      "last_checked": "2026-07-11T02:26:07.921099+00:00"
+      "last_checked": "2026-07-12T02:36:43.208862+00:00"
     },
     "https://linguistica.ufes.br/": {
       "status": "possible",
@@ -3832,7 +3895,7 @@
         "6/07/2026"
       ],
       "title": "Seja bem-vindo | Linguística",
-      "last_checked": "2026-07-11T02:26:10.121361+00:00"
+      "last_checked": "2026-07-12T02:36:45.369945+00:00"
     },
     "https://direito.ufes.br/": {
       "status": "likely_open",
@@ -3851,7 +3914,7 @@
         "24/06/2026"
       ],
       "title": "Seja bem-vindo | Direito",
-      "last_checked": "2026-07-11T02:26:16.009469+00:00"
+      "last_checked": "2026-07-12T02:36:47.527141+00:00"
     },
     "https://filosofia.ufes.br": {
       "status": "likely_open",
@@ -3870,7 +3933,7 @@
         "01/04/2026"
       ],
       "title": "Seja bem-vindo | Filosofia",
-      "last_checked": "2026-07-11T02:26:18.085401+00:00"
+      "last_checked": "2026-07-12T02:36:49.778712+00:00"
     },
     "http://www.ppgoufu.com/": {
       "status": "possible",
@@ -3882,12 +3945,12 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-graduação em Odontologia da UFU",
-      "last_checked": "2026-07-11T02:26:20.545271+00:00"
+      "last_checked": "2026-07-12T02:36:51.730524+00:00"
     },
     "https://www.ppghi.inhis.ufu.br": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:26:26.988871+00:00"
+      "last_checked": "2026-07-12T02:36:57.936327+00:00"
     },
     "https://ppgmq.iciag.ufu.br/": {
       "status": "possible",
@@ -3905,7 +3968,7 @@
         "11/08/2025"
       ],
       "title": "Programa de Pós-graduação em Qualidade Ambiental |",
-      "last_checked": "2026-07-11T02:26:29.500793+00:00"
+      "last_checked": "2026-07-12T02:37:00.321344+00:00"
     },
     "https://ppgagro.iciag.ufu.br": {
       "status": "possible",
@@ -3923,7 +3986,7 @@
         "14/12/2025"
       ],
       "title": "Programa de Pós-graduação em Agronomia |",
-      "last_checked": "2026-07-11T02:26:32.227087+00:00"
+      "last_checked": "2026-07-12T02:37:02.647361+00:00"
     },
     "https://ppgcv.fmvz.ufu.br": {
       "status": "possible",
@@ -3941,7 +4004,7 @@
         "26/02/2026"
       ],
       "title": "Programa de Pós-graduação em Ciências Veterinárias |",
-      "last_checked": "2026-07-11T02:26:39.175030+00:00"
+      "last_checked": "2026-07-12T02:37:05.302486+00:00"
     },
     "http://www.ppgel.ileel.ufu.br/": {
       "status": "possible",
@@ -3959,7 +4022,7 @@
         "16/03/2026"
       ],
       "title": "Programa de Pós-graduação em Estudos Linguísticos |",
-      "last_checked": "2026-07-11T02:26:42.968876+00:00"
+      "last_checked": "2026-07-12T02:37:07.611942+00:00"
     },
     "https://ppgpsi.ip.ufu.br/": {
       "status": "likely_open",
@@ -3978,7 +4041,7 @@
         "28/08/2024"
       ],
       "title": "Programa de Pós-graduação |",
-      "last_checked": "2026-07-11T02:26:45.911477+00:00"
+      "last_checked": "2026-07-12T02:37:09.769348+00:00"
     },
     "http://www.cmdip.fadir.ufu.br/": {
       "status": "possible",
@@ -3996,7 +4059,7 @@
         "19/06/2026"
       ],
       "title": "Programa de Pós-graduação em Direito |",
-      "last_checked": "2026-07-11T02:26:50.601869+00:00"
+      "last_checked": "2026-07-12T02:37:13.425467+00:00"
     },
     "https://ppgeo.igesc.ufu.br/": {
       "status": "possible",
@@ -4014,7 +4077,7 @@
         "14/05/2026"
       ],
       "title": "Programa de Pós-Graduação em Geografia |",
-      "last_checked": "2026-07-11T02:26:52.894465+00:00"
+      "last_checked": "2026-07-12T02:37:16.060026+00:00"
     },
     "https://ppgfis.infis.ufu.br/": {
       "status": "possible",
@@ -4032,7 +4095,7 @@
         "06/07/2026"
       ],
       "title": "Programa de Pós-graduação em Física |",
-      "last_checked": "2026-07-11T02:26:55.435990+00:00"
+      "last_checked": "2026-07-12T02:37:18.427379+00:00"
     },
     "https://ppggb.ibtec.ufu.br/": {
       "status": "likely_open",
@@ -4051,7 +4114,7 @@
         "17/04/2026"
       ],
       "title": "Programa de Pós-graduação em Genética e Bioquímica |",
-      "last_checked": "2026-07-11T02:26:58.069939+00:00"
+      "last_checked": "2026-07-12T02:37:21.410100+00:00"
     },
     "https://ppgbiotec.ibtec.ufu.br/": {
       "status": "possible",
@@ -4069,7 +4132,7 @@
         "30/11/2018"
       ],
       "title": "Programa de Pós-graduação em Biotecnologia |",
-      "last_checked": "2026-07-11T02:27:00.088354+00:00"
+      "last_checked": "2026-07-12T02:37:23.868996+00:00"
     },
     "https://ppgfil.ifilo.ufu.br/": {
       "status": "likely_open",
@@ -4089,7 +4152,7 @@
         "21/01/2026"
       ],
       "title": "Programa de Pós-graduação em Filosofia |",
-      "last_checked": "2026-07-11T02:27:02.123930+00:00"
+      "last_checked": "2026-07-12T02:37:26.083567+00:00"
     },
     "https://www.ppge.ieri.ufu.br/": {
       "status": "possible",
@@ -4107,7 +4170,7 @@
         "01/07/2026"
       ],
       "title": "Programa de Pós-graduação em Economia |",
-      "last_checked": "2026-07-11T02:27:05.093831+00:00"
+      "last_checked": "2026-07-12T02:37:28.818598+00:00"
     },
     "https://coord.ppgau@faued.ufu.br": {
       "status": "possible",
@@ -4124,7 +4187,7 @@
         "09/03/2026"
       ],
       "title": "FAUeD | Faculdade de Arquitetura e Urbanismo e Design",
-      "last_checked": "2026-07-11T02:27:06.523079+00:00"
+      "last_checked": "2026-07-12T02:37:30.188174+00:00"
     },
     "https://ufsj.edu.br/ppgeog/about_us.php": {
       "status": "possible",
@@ -4142,7 +4205,7 @@
         "25/05/2026"
       ],
       "title": "UFSJ | Universidade Federal de São João del-Rei",
-      "last_checked": "2026-07-11T02:27:09.333569+00:00"
+      "last_checked": "2026-07-12T02:37:32.948706+00:00"
     },
     "https://ufsj.edu.br/ppgbiotec/": {
       "status": "possible",
@@ -4160,7 +4223,7 @@
         "31/07/2024"
       ],
       "title": "UFSJ | Universidade Federal de São João del-Rei",
-      "last_checked": "2026-07-11T02:27:10.637809+00:00"
+      "last_checked": "2026-07-12T02:37:34.199398+00:00"
     },
     "https://ufsj.edu.br/ppgfil/": {
       "status": "possible",
@@ -4178,7 +4241,7 @@
         "09/07/2026"
       ],
       "title": "UFSJ | Universidade Federal de São João del-Rei",
-      "last_checked": "2026-07-11T02:27:11.774292+00:00"
+      "last_checked": "2026-07-12T02:37:35.279168+00:00"
     },
     "https://ufsj.edu.br/ppgcm/": {
       "status": "possible",
@@ -4196,7 +4259,7 @@
         "23/02/2026"
       ],
       "title": "UFSJ | Universidade Federal de São João del-Rei",
-      "last_checked": "2026-07-11T02:27:12.614882+00:00"
+      "last_checked": "2026-07-12T02:37:36.373953+00:00"
     },
     "https://ufsj.edu.br/ppgcs/": {
       "status": "possible",
@@ -4214,7 +4277,7 @@
         "05/02/2025"
       ],
       "title": "UFSJ | Universidade Federal de São João del-Rei",
-      "last_checked": "2026-07-11T02:27:13.760242+00:00"
+      "last_checked": "2026-07-12T02:37:37.623430+00:00"
     },
     "https://www.ufsj.edu.br/ppbe": {
       "status": "possible",
@@ -4232,7 +4295,7 @@
         "04/05/2026"
       ],
       "title": "UFSJ | Universidade Federal de São João del-Rei",
-      "last_checked": "2026-07-11T02:27:16.066204+00:00"
+      "last_checked": "2026-07-12T02:37:39.768797+00:00"
     },
     "https://ufsj.edu.br/pgenf/": {
       "status": "possible",
@@ -4250,7 +4313,7 @@
         "03/07/2026"
       ],
       "title": "UFSJ | Universidade Federal de São João del-Rei",
-      "last_checked": "2026-07-11T02:27:17.233987+00:00"
+      "last_checked": "2026-07-12T02:37:41.028797+00:00"
     },
     "https://www.ufsj.edu.br/ppgmusi": {
       "status": "likely_open",
@@ -4269,7 +4332,7 @@
         "02/12/2025"
       ],
       "title": "UFSJ | Universidade Federal de São João del-Rei",
-      "last_checked": "2026-07-11T02:27:18.585125+00:00"
+      "last_checked": "2026-07-12T02:37:42.266428+00:00"
     },
     "https://ufsj.edu.br/mestradoeducacao/": {
       "status": "possible",
@@ -4287,12 +4350,12 @@
         "21/10/2025"
       ],
       "title": "UFSJ | Universidade Federal de São João del-Rei",
-      "last_checked": "2026-07-11T02:27:19.752683+00:00"
+      "last_checked": "2026-07-12T02:37:43.381267+00:00"
     },
     "https://httpas://ufsj.edu.br/fqmat": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-07-11T02:27:30.084316+00:00"
+      "last_checked": "2026-07-12T02:37:53.704211+00:00"
     },
     "https://www.uftm.edu.br/stricto-sensu/ppgas": {
       "status": "likely_open",
@@ -4305,7 +4368,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Atenção à Saúde",
-      "last_checked": "2026-07-11T02:27:31.908483+00:00"
+      "last_checked": "2026-07-12T02:37:55.427568+00:00"
     },
     "https://sistemas.uftm.edu.br/integrado/sitesCursos/ppgcf?idCurso=535&lang=pt-BR&pag=1": {
       "status": "possible",
@@ -4317,7 +4380,7 @@
       ],
       "dates_found": [],
       "title": "UFTM - Universidade Federal do Triângulo Mineiro",
-      "last_checked": "2026-07-11T02:27:33.296336+00:00"
+      "last_checked": "2026-07-12T02:37:56.836050+00:00"
     },
     "https://sistemas.uftm.edu.br/integrado/sitesCursos/mestrado_em_ciencia_e_tecnologia_de_materiais/?idCurso=545&lang=pt-BR&pag=1": {
       "status": "possible",
@@ -4329,7 +4392,7 @@
       ],
       "dates_found": [],
       "title": "UFTM - Universidade Federal do Triângulo Mineiro",
-      "last_checked": "2026-07-11T02:27:33.787290+00:00"
+      "last_checked": "2026-07-12T02:37:57.306894+00:00"
     },
     "https://sistemas.uftm.edu.br/integrado/sitesCursos/ppge/?idCurso=543&lang=pt-BR&pag=3": {
       "status": "unknown",
@@ -4337,7 +4400,7 @@
       "keywords_found": [],
       "dates_found": [],
       "title": "UFTM - Universidade Federal do Triângulo Mineiro",
-      "last_checked": "2026-07-11T02:27:34.275782+00:00"
+      "last_checked": "2026-07-12T02:37:57.776831+00:00"
     },
     "https://www.uftm.edu.br/stricto-sensu/ppgef": {
       "status": "likely_open",
@@ -4350,7 +4413,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Educação Física",
-      "last_checked": "2026-07-11T02:27:35.054397+00:00"
+      "last_checked": "2026-07-12T02:37:58.549130+00:00"
     },
     "https://sistemas.uftm.edu.br/integrado/sitesCursos/mestrado_em_fisica_e_quimica_biomolecular?idCurso=666&lang=pt-BR&pag=1": {
       "status": "possible",
@@ -4362,7 +4425,7 @@
       ],
       "dates_found": [],
       "title": "UFTM - Universidade Federal do Triângulo Mineiro",
-      "last_checked": "2026-07-11T02:27:35.544635+00:00"
+      "last_checked": "2026-07-12T02:37:59.020491+00:00"
     },
     "https://sistemas.uftm.edu.br/integrado/sitesCursos/ppgoc/?idCurso=615&lang=pt-BR&pag=1": {
       "status": "possible",
@@ -4374,7 +4437,7 @@
       ],
       "dates_found": [],
       "title": "UFTM - Universidade Federal do Triângulo Mineiro",
-      "last_checked": "2026-07-11T02:27:36.034804+00:00"
+      "last_checked": "2026-07-12T02:37:59.493343+00:00"
     },
     "https://sistemas.uftm.edu.br/integrado/sitesCursos/mestrado_em_psicologia/?idCurso=548&lang=pt-BR&pag=1": {
       "status": "possible",
@@ -4386,7 +4449,7 @@
       ],
       "dates_found": [],
       "title": "UFTM - Universidade Federal do Triângulo Mineiro",
-      "last_checked": "2026-07-11T02:27:36.523788+00:00"
+      "last_checked": "2026-07-12T02:37:59.964700+00:00"
     },
     "https://www.poseconomiaaplicada.ufv.br": {
       "status": "possible",
@@ -4398,7 +4461,7 @@
       ],
       "dates_found": [],
       "title": "Economia Aplicada | Pós-Graduação em",
-      "last_checked": "2026-07-11T02:27:41.147304+00:00"
+      "last_checked": "2026-07-12T02:38:04.309995+00:00"
     },
     "https://posengenhariacivil.ufv.br/": {
       "status": "possible",
@@ -4410,7 +4473,7 @@
       ],
       "dates_found": [],
       "title": "Engenharia Civil - Programa de Pós-Graduação Strictu Sensu em",
-      "last_checked": "2026-07-11T02:27:43.769410+00:00"
+      "last_checked": "2026-07-12T02:38:07.162281+00:00"
     },
     "https://extensao-rural.ufv.br/": {
       "status": "possible",
@@ -4422,7 +4485,7 @@
       ],
       "dates_found": [],
       "title": "Extensão Rural | Programa de Pós-Graduação em",
-      "last_checked": "2026-07-11T02:27:46.146535+00:00"
+      "last_checked": "2026-07-12T02:38:09.445433+00:00"
     },
     "https://www.posbioanimal.ufv.br": {
       "status": "possible",
@@ -4434,7 +4497,7 @@
       ],
       "dates_found": [],
       "title": "Biologia Animal | Pós-Graduação Stricto Sensu em",
-      "last_checked": "2026-07-11T02:27:50.360533+00:00"
+      "last_checked": "2026-07-12T02:38:13.436880+00:00"
     },
     "https://www.ppgcom.ufv.br": {
       "status": "possible",
@@ -4446,32 +4509,32 @@
       ],
       "dates_found": [],
       "title": "PPGCOM - Programa de Pós-Graduação em Comunicação e Regionalidades",
-      "last_checked": "2026-07-11T02:27:54.446911+00:00"
+      "last_checked": "2026-07-12T02:38:17.601893+00:00"
     },
     "https://sigaa.ufla.br/sigaa/public/programa/apresentacao.jsf?lc=pt_BR&id=1787": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:27:59.426541+00:00"
+      "last_checked": "2026-07-12T02:38:22.711326+00:00"
     },
     "https://sigaa.ufla.br/sigaa/public/programa/portal.jsf?lc=pt_BR&id=1798": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:28:04.394088+00:00"
+      "last_checked": "2026-07-12T02:38:27.298517+00:00"
     },
     "https://sigaa.ufla.br/sigaa/public/programa/portal.jsf?lc=pt_BR&id=1800": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:28:09.022779+00:00"
+      "last_checked": "2026-07-12T02:38:31.899234+00:00"
     },
     "https://sigaa.ufla.br/sigaa/public/programa/portal.jsf?lc=pt_BR&id=1799": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:28:13.497499+00:00"
+      "last_checked": "2026-07-12T02:38:36.502281+00:00"
     },
     "https://sigaa.ufla.br/sigaa/public/programa/portal.jsf?lc=pt_BR&id=3009": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:28:18.131238+00:00"
+      "last_checked": "2026-07-12T02:38:41.102488+00:00"
     },
     "https://prpg.ufla.br/_ppg/fisica/": {
       "status": "unknown",
@@ -4479,22 +4542,22 @@
       "keywords_found": [],
       "dates_found": [],
       "title": "Redirecionando...",
-      "last_checked": "2026-07-11T02:28:19.282993+00:00"
+      "last_checked": "2026-07-12T02:38:42.354299+00:00"
     },
     "https://sigaa.ufla.br/sigaa/public/programa/apresentacao.jsf?lc=pt_BR&id=1699": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:28:23.597658+00:00"
+      "last_checked": "2026-07-12T02:38:47.277037+00:00"
     },
     "https://sigaa.ufla.br/sigaa/public/programa/apresentacao.jsf?lc=pt_BR&id=1701": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:28:27.911108+00:00"
+      "last_checked": "2026-07-12T02:38:51.872447+00:00"
     },
     "https://sigaa.ufla.br/sigaa/public/programa/portal.jsf?lc=pt&id=2592": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:28:32.226105+00:00"
+      "last_checked": "2026-07-12T02:38:56.182966+00:00"
     },
     "https://www.unifal-mg.edu.br/ppgbiotec/": {
       "status": "likely_open",
@@ -4513,7 +4576,7 @@
         "03/12/2021"
       ],
       "title": "Programa de Pós-Graduação em Biotecnologia – PPGBIOTEC",
-      "last_checked": "2026-07-11T02:28:34.498365+00:00"
+      "last_checked": "2026-07-12T02:38:58.358272+00:00"
     },
     "https://www.unifal-mg.edu.br/ppgeo/": {
       "status": "likely_open",
@@ -4533,7 +4596,7 @@
         "21/11/2024"
       ],
       "title": "Programa de Pós-Graduação em Geografia – PPGEO – Universidade Federal de Alfenas",
-      "last_checked": "2026-07-11T02:28:35.960413+00:00"
+      "last_checked": "2026-07-12T02:38:59.851504+00:00"
     },
     "https://www.unifal-mg.edu.br/ppgeab/": {
       "status": "possible",
@@ -4545,7 +4608,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Estatística Aplicada e Biometria – PPGEAB",
-      "last_checked": "2026-07-11T02:28:36.879566+00:00"
+      "last_checked": "2026-07-12T02:39:00.774736+00:00"
     },
     "https://www.unifal-mg.edu.br/ppgcf/": {
       "status": "possible",
@@ -4557,104 +4620,47 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Ciências Farmacêuticas – PPGCF",
-      "last_checked": "2026-07-11T02:28:37.982585+00:00"
+      "last_checked": "2026-07-12T02:39:01.876733+00:00"
     },
     "https://pos.uemg.br/ppgartes": {
-      "status": "possible",
-      "confidence": 0.4,
-      "keywords_found": [
-        "edital",
-        "processo\\s+seletivo",
-        "sele[cç][aã]o"
-      ],
-      "dates_found": [],
-      "title": "PPGARTES - UEMG",
-      "last_checked": "2026-07-11T02:28:40.662708+00:00"
+      "status": "error",
+      "error": "http_403",
+      "last_checked": "2026-07-12T02:39:03.286490+00:00"
     },
     "https://pos.uemg.br/ppgbsh": {
-      "status": "possible",
-      "confidence": 0.4,
-      "keywords_found": [
-        "edital",
-        "processo\\s+seletivo",
-        "sele[cç][aã]o"
-      ],
-      "dates_found": [],
-      "title": "PPGBSH - UEMG",
-      "last_checked": "2026-07-11T02:28:42.399945+00:00"
+      "status": "error",
+      "error": "http_403",
+      "last_checked": "2026-07-12T02:39:03.751344+00:00"
     },
     "https://pos.uemg.br/ppgciamb": {
-      "status": "possible",
-      "confidence": 0.4,
-      "keywords_found": [
-        "edital",
-        "processo\\s+seletivo",
-        "sele[cç][aã]o"
-      ],
-      "dates_found": [],
-      "title": "PPGCIAMB - UEMG",
-      "last_checked": "2026-07-11T02:28:43.946046+00:00"
+      "status": "error",
+      "error": "http_403",
+      "last_checked": "2026-07-12T02:39:04.216345+00:00"
     },
     "https://pos.uemg.br/ppgd": {
-      "status": "possible",
-      "confidence": 0.4,
-      "keywords_found": [
-        "edital",
-        "processo\\s+seletivo",
-        "sele[cç][aã]o"
-      ],
-      "dates_found": [],
-      "title": "PPGD - UEMG",
-      "last_checked": "2026-07-11T02:28:46.416211+00:00"
+      "status": "error",
+      "error": "http_403",
+      "last_checked": "2026-07-12T02:39:04.682087+00:00"
     },
     "https://ppgeduc.fae@uemg.br": {
-      "status": "possible",
-      "confidence": 0.4,
-      "keywords_found": [
-        "edital",
-        "processo\\s+seletivo",
-        "sele[cç][aã]o"
-      ],
-      "dates_found": [],
-      "title": "UEMG - Universidade do Estado de Minas Gerais",
-      "last_checked": "2026-07-11T02:28:51.578765+00:00"
+      "status": "error",
+      "error": "http_403",
+      "last_checked": "2026-07-12T02:39:06.065133+00:00"
     },
     "https://pos.uemg.br/ppgdm": {
-      "status": "possible",
-      "confidence": 0.4,
-      "keywords_found": [
-        "edital",
-        "processo\\s+seletivo",
-        "mestrado"
-      ],
-      "dates_found": [],
-      "title": "PPGDM - UEMG",
-      "last_checked": "2026-07-11T02:28:53.319597+00:00"
+      "status": "error",
+      "error": "http_403",
+      "last_checked": "2026-07-12T02:39:06.529863+00:00"
     },
     "https://pos.uemg.br/ppgpm": {
-      "status": "likely_open",
-      "confidence": 0.6,
-      "keywords_found": [
-        "inscri[cç][oõ]es\\s+abertas",
-        "edital",
-        "processo\\s+seletivo",
-        "sele[cç][aã]o"
-      ],
-      "dates_found": [],
-      "title": "PPGPM - UEMG",
-      "last_checked": "2026-07-11T02:28:54.725960+00:00"
+      "status": "error",
+      "error": "http_403",
+      "last_checked": "2026-07-12T02:39:06.994872+00:00"
     },
     "https://pos.uemg.br/ppgdrma": {
-      "status": "possible",
-      "confidence": 0.4,
-      "keywords_found": [
-        "edital",
-        "processo\\s+seletivo",
-        "inscri[cç][oõ]es"
-      ],
-      "dates_found": [],
-      "title": "PPGDRMA - UEMG",
-      "last_checked": "2026-07-11T02:28:56.171838+00:00"
+      "status": "error",
+      "error": "http_403",
+      "last_checked": "2026-07-12T02:39:07.459958+00:00"
     },
     "https://www.ufmg.br/montesclaros/mestrado-em-alimentos-e-saude/": {
       "status": "possible",
@@ -4666,7 +4672,7 @@
       ],
       "dates_found": [],
       "title": "Mestrado em Alimentos e Saúde – CAMPUS MONTES CLAROS",
-      "last_checked": "2026-07-11T02:28:58.487365+00:00"
+      "last_checked": "2026-07-12T02:39:09.606217+00:00"
     },
     "http://pgbiologiacelular.icb.ufmg.br/": {
       "status": "likely_open",
@@ -4683,7 +4689,7 @@
         "15/11/2021"
       ],
       "title": "Programa de Pós-Graduação em Biologia Celular - ICB - UFMG",
-      "last_checked": "2026-07-11T02:29:01.562497+00:00"
+      "last_checked": "2026-07-12T02:39:11.904376+00:00"
     },
     "https://www.cctn.nuclear.ufmg.br/": {
       "status": "unknown",
@@ -4691,7 +4697,7 @@
       "keywords_found": [],
       "dates_found": [],
       "title": "Início - AeroCB VII",
-      "last_checked": "2026-07-11T02:29:06.258025+00:00"
+      "last_checked": "2026-07-12T02:39:16.176722+00:00"
     },
     "https://ppgem.eng.ufmg.br/": {
       "status": "possible",
@@ -4707,7 +4713,7 @@
         "17/12/2020"
       ],
       "title": "Programa de Pós-Graduação em Engenharia Metalúrgica, Materiais e de Minas",
-      "last_checked": "2026-07-11T02:29:08.119426+00:00"
+      "last_checked": "2026-07-12T02:39:17.981531+00:00"
     },
     "https://www.pggenetica.icb.ufmg.br/selecdown.php": {
       "status": "possible",
@@ -4719,7 +4725,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Genética - ICB - UFMG",
-      "last_checked": "2026-07-11T02:29:10.482089+00:00"
+      "last_checked": "2026-07-12T02:39:20.629661+00:00"
     },
     "https://posgrad.odonto.ufmg.br/": {
       "status": "possible",
@@ -4735,7 +4741,7 @@
         "27/05/2026"
       ],
       "title": "Colegiado de Pós-Graduação em Odontologia",
-      "last_checked": "2026-07-11T02:29:12.412074+00:00"
+      "last_checked": "2026-07-12T02:39:21.998627+00:00"
     },
     "https://www.ufmg.br/montesclaros/mestrado-em-producao-animal/": {
       "status": "possible",
@@ -4753,7 +4759,7 @@
         "03/09/2021"
       ],
       "title": "Mestrado em Produção Animal – CAMPUS MONTES CLAROS",
-      "last_checked": "2026-07-11T02:29:13.519000+00:00"
+      "last_checked": "2026-07-12T02:39:23.026146+00:00"
     },
     "https://biotec.nupeb.ufop.br/": {
       "status": "possible",
@@ -4765,7 +4771,7 @@
       ],
       "dates_found": [],
       "title": "https://biotec.nupeb.ufop.br/",
-      "last_checked": "2026-07-11T02:29:16.165886+00:00"
+      "last_checked": "2026-07-12T02:39:25.761509+00:00"
     },
     "https://fimat.ufop.br/": {
       "status": "possible",
@@ -4777,7 +4783,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Ciências",
-      "last_checked": "2026-07-11T02:29:19.167884+00:00"
+      "last_checked": "2026-07-12T02:39:28.715084+00:00"
     },
     "https://ppgcom.ufop.br/": {
       "status": "possible",
@@ -4789,7 +4795,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Comunicação",
-      "last_checked": "2026-07-11T02:29:21.799801+00:00"
+      "last_checked": "2026-07-12T02:39:31.012102+00:00"
     },
     "https://novosdireitos.ufop.br/": {
       "status": "possible",
@@ -4801,7 +4807,7 @@
       ],
       "dates_found": [],
       "title": "Novos Direitos",
-      "last_checked": "2026-07-11T02:29:23.901449+00:00"
+      "last_checked": "2026-07-12T02:39:33.453499+00:00"
     },
     "https://ppea.ufop.br/": {
       "status": "possible",
@@ -4813,7 +4819,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Economia Aplicada",
-      "last_checked": "2026-07-11T02:29:26.399465+00:00"
+      "last_checked": "2026-07-12T02:39:35.721193+00:00"
     },
     "https://ppgedmat.ufop.br/": {
       "status": "possible",
@@ -4825,7 +4831,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação",
-      "last_checked": "2026-07-11T02:29:28.951276+00:00"
+      "last_checked": "2026-07-12T02:39:38.764540+00:00"
     },
     "https://redemat.ufop.br/": {
       "status": "possible",
@@ -4843,7 +4849,7 @@
         "17/07/2026"
       ],
       "title": "REDE TEMÁTICA EM ENGENHARIA DE MATERIAIS",
-      "last_checked": "2026-07-11T02:29:31.418957+00:00"
+      "last_checked": "2026-07-12T02:39:41.135474+00:00"
     },
     "https://ppgep.ufop.br/": {
       "status": "possible",
@@ -4855,12 +4861,12 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Engenharia de Produção",
-      "last_checked": "2026-07-11T02:29:33.534737+00:00"
+      "last_checked": "2026-07-12T02:39:43.165260+00:00"
     },
     "https://ppgem.ufop.br/": {
       "status": "error",
       "error": "ssl_error",
-      "last_checked": "2026-07-11T02:29:35.013158+00:00"
+      "last_checked": "2026-07-12T02:39:44.718637+00:00"
     },
     "https://nugeo.ufop.br/": {
       "status": "possible",
@@ -4872,12 +4878,12 @@
       ],
       "dates_found": [],
       "title": "nugeo",
-      "last_checked": "2026-07-11T02:29:37.133487+00:00"
+      "last_checked": "2026-07-12T02:39:46.729010+00:00"
     },
     "https://proficam.ufop.br/": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-07-11T02:29:38.231932+00:00"
+      "last_checked": "2026-07-12T02:39:47.671739+00:00"
     },
     "https://www.ppgquimica.ufop.br/": {
       "status": "possible",
@@ -4889,22 +4895,22 @@
       ],
       "dates_found": [],
       "title": "PPGQUIM - UFOP",
-      "last_checked": "2026-07-11T02:29:40.617369+00:00"
+      "last_checked": "2026-07-12T02:39:50.163419+00:00"
     },
     "https://PPGCFAR - PROGRAMA DE PÓS GRADUAÇÃO EM CIÊNCIAS FARMACÊUTICAS": {
       "status": "error",
       "error": "Failed to parse: https://PPGCFAR - PROGRAMA DE PÓS GRADUAÇÃO",
-      "last_checked": "2026-07-11T02:29:40.918878+00:00"
+      "last_checked": "2026-07-12T02:39:50.464869+00:00"
     },
     "https://Processo seletivo - PPGER": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-07-11T02:29:41.222811+00:00"
+      "last_checked": "2026-07-12T02:39:50.768631+00:00"
     },
     "https://PPGAP - Programa de Pós-Graduação em Administração Pública": {
       "status": "error",
       "error": "Failed to parse: https://PPGAP - Programa de Pós-Graduação e",
-      "last_checked": "2026-07-11T02:29:41.524407+00:00"
+      "last_checked": "2026-07-12T02:39:51.071858+00:00"
     },
     "https://sgppg.com.br/ppg/ppgttep/43/": {
       "status": "possible",
@@ -4922,7 +4928,7 @@
         "05/03/2025"
       ],
       "title": "PPGTTeP - Programa de Pós-Graduação em Turismo e Territórios Protegidos",
-      "last_checked": "2026-07-11T02:29:43.470600+00:00"
+      "last_checked": "2026-07-12T02:39:52.875389+00:00"
     },
     "https://sgppg.com.br/ppg/ppgq-programa-de-pos-graduacao-em-quimica/9/": {
       "status": "possible",
@@ -4940,7 +4946,7 @@
         "26/10/2015"
       ],
       "title": "PPGQ - PROGRAMA DE PÓS-GRADUAÇÃO EM QUÍMICA",
-      "last_checked": "2026-07-11T02:29:44.004591+00:00"
+      "last_checked": "2026-07-12T02:39:53.404723+00:00"
     },
     "https://ppggeo.ict.ufvjm.edu.br/": {
       "status": "possible",
@@ -4950,7 +4956,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós Graduação em Geologia (PPGGEO) – Instituto de Ciência e Tecnologia (ICT) – Universidade Federal dos Vale",
-      "last_checked": "2026-07-11T02:29:46.367282+00:00"
+      "last_checked": "2026-07-12T02:39:55.304082+00:00"
     },
     "https://sgppg.com.br/ppg/ppgcs-programa-de-pos-graduacao-em-ciencias-da-saude/35/": {
       "status": "possible",
@@ -4968,12 +4974,12 @@
         "26/10/2015"
       ],
       "title": "PPGCS - Programa de Pós-Graduação em Ciências da Saúde",
-      "last_checked": "2026-07-11T02:29:46.891991+00:00"
+      "last_checked": "2026-07-12T02:39:55.829817+00:00"
     },
     "https://PPGPV - PROGRAMA DE PÓS-GRADUAÇÃO EM PRODUÇÃO VEGETAL": {
       "status": "error",
       "error": "Failed to parse: https://PPGPV - PROGRAMA DE PÓS-GRADUAÇÃO E",
-      "last_checked": "2026-07-11T02:29:47.193593+00:00"
+      "last_checked": "2026-07-12T02:39:56.133366+00:00"
     },
     "http://bit.ly/ppgreab_ufvjm": {
       "status": "possible",
@@ -4991,12 +4997,12 @@
         "11/07/2026"
       ],
       "title": "PPGREAB - PROGRAMA DE PÓS-GRADUAÇÃO EM REABILITAÇÃO E DESEMPENHO FUNCIONAL",
-      "last_checked": "2026-07-11T02:29:49.262708+00:00"
+      "last_checked": "2026-07-12T02:39:58.371759+00:00"
     },
     "https://www.ppgec.cefetmg.br": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-07-11T02:29:54.392727+00:00"
+      "last_checked": "2026-07-12T02:40:03.376930+00:00"
     },
     "https://posmat.cefetmg.br/": {
       "status": "possible",
@@ -5008,7 +5014,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Engenharia de Materiais",
-      "last_checked": "2026-07-11T02:29:57.318557+00:00"
+      "last_checked": "2026-07-12T02:40:06.693830+00:00"
     },
     "https://ppgmmc.cefetmg.br/": {
       "status": "possible",
@@ -5026,7 +5032,7 @@
         "29/07/2026"
       ],
       "title": "PROGRAMA DE PÓS-GRADUAÇÃO EM MODELAGEM MATEMÁTICA E COMPUTACIONAL",
-      "last_checked": "2026-07-11T02:30:00.189860+00:00"
+      "last_checked": "2026-07-12T02:40:09.698237+00:00"
     },
     "https://www.dppg.cefetmg.br/pos-graduacao/programas-stricto-sensu/programa-de-pos-graduacao-em-administracao/": {
       "status": "possible",
@@ -5038,12 +5044,12 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Administração | Diretoria de Pesquisa e Pós-Graduação",
-      "last_checked": "2026-07-11T02:30:02.097254+00:00"
+      "last_checked": "2026-07-12T02:40:11.714542+00:00"
     },
     "https://ppgmin.cefetmg.br/": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-07-11T02:30:02.588596+00:00"
+      "last_checked": "2026-07-12T02:40:12.489667+00:00"
     },
     "https://dippg.cefet-rj.br/ppdsp/": {
       "status": "possible",
@@ -5061,7 +5067,7 @@
         "15/12/2021"
       ],
       "title": "Página inicial",
-      "last_checked": "2026-07-11T02:30:05.746112+00:00"
+      "last_checked": "2026-07-12T02:40:15.433755+00:00"
     },
     "https://dippg.cefet-rj.br/pprer/": {
       "status": "possible",
@@ -5073,7 +5079,7 @@
       ],
       "dates_found": [],
       "title": "Página inicial",
-      "last_checked": "2026-07-11T02:30:07.810353+00:00"
+      "last_checked": "2026-07-12T02:40:17.440861+00:00"
     },
     "https://dippg.cefet-rj.br/pppro/": {
       "status": "likely_open",
@@ -5089,7 +5095,7 @@
         "13/11/2025"
       ],
       "title": "Página inicial",
-      "last_checked": "2026-07-11T02:30:09.835360+00:00"
+      "last_checked": "2026-07-12T02:40:19.414883+00:00"
     },
     "https://dippg.cefet-rj.br/ppeel/": {
       "status": "possible",
@@ -5101,7 +5107,7 @@
       ],
       "dates_found": [],
       "title": "Página inicial",
-      "last_checked": "2026-07-11T02:30:11.813776+00:00"
+      "last_checked": "2026-07-12T02:40:21.352918+00:00"
     },
     "https://cursos.ufrrj.br/posgraduacao/ppgfba/": {
       "status": "possible",
@@ -5119,7 +5125,7 @@
         "06/06/2026"
       ],
       "title": "UFRRJ - PPGFBA",
-      "last_checked": "2026-07-11T02:30:14.278313+00:00"
+      "last_checked": "2026-07-12T02:40:24.095125+00:00"
     },
     "https://ppg.unifesp.br/educacao/en/": {
       "status": "possible",
@@ -5137,7 +5143,7 @@
         "26/03/2026"
       ],
       "title": "Home - Programa de Pós-Graduação em Educação",
-      "last_checked": "2026-07-11T02:30:15.938787+00:00"
+      "last_checked": "2026-07-12T02:40:25.471916+00:00"
     },
     "https://ppg.unifesp.br/cienciacirurgica/": {
       "status": "possible",
@@ -5149,7 +5155,7 @@
       ],
       "dates_found": [],
       "title": "PPG em Ciência Cirúrgica Interdisciplinar - Home",
-      "last_checked": "2026-07-11T02:30:17.323239+00:00"
+      "last_checked": "2026-07-12T02:40:26.749757+00:00"
     },
     "https://ppgaai.unifesp.br/english": {
       "status": "possible",
@@ -5161,7 +5167,7 @@
       ],
       "dates_found": [],
       "title": "PPGAAI - English",
-      "last_checked": "2026-07-11T02:30:18.171559+00:00"
+      "last_checked": "2026-07-12T02:40:27.559631+00:00"
     },
     "https://ppg.unifesp.br/filosofia/": {
       "status": "likely_open",
@@ -5180,7 +5186,7 @@
         "02/07/2026"
       ],
       "title": "Início - Programa de Pós-Graduação em Filosofia",
-      "last_checked": "2026-07-11T02:30:19.094927+00:00"
+      "last_checked": "2026-07-12T02:40:28.448114+00:00"
     },
     "https://ppg.unifesp.br/eq/": {
       "status": "likely_open",
@@ -5196,12 +5202,12 @@
         "30/08/2024"
       ],
       "title": "Início - Programa de Pós Graduação em Engenharia Química - Campus Diadema - Unifesp",
-      "last_checked": "2026-07-11T02:30:20.429719+00:00"
+      "last_checked": "2026-07-12T02:40:29.305736+00:00"
     },
     "https://ppg.unifesp.br/evidencias/en/": {
       "status": "error",
       "error": "http_404",
-      "last_checked": "2026-07-11T02:30:21.117777+00:00"
+      "last_checked": "2026-07-12T02:40:29.938755+00:00"
     },
     "https://unifesp.br/campus/san7/home-ppgictmar-english": {
       "status": "possible",
@@ -5213,7 +5219,7 @@
       ],
       "dates_found": [],
       "title": "Home",
-      "last_checked": "2026-07-11T02:30:22.664121+00:00"
+      "last_checked": "2026-07-12T02:40:31.683118+00:00"
     },
     "https://www.ppgto.ufscar.br/pt-br/ppgto-programa-de-pos-graduacao-em-terapia-ocupacional": {
       "status": "possible",
@@ -5231,7 +5237,7 @@
         "11/09/2026"
       ],
       "title": "PPGTO - Programa de Pós-Graduação em Terapia Ocupacional — Português (Brasil)",
-      "last_checked": "2026-07-11T02:30:23.831205+00:00"
+      "last_checked": "2026-07-12T02:40:32.798368+00:00"
     },
     "https://www.ppgeps.ufscar.br/pt-br": {
       "status": "possible",
@@ -5243,7 +5249,7 @@
       ],
       "dates_found": [],
       "title": "PPGEPS - Programa de Pós-Graduação em Engenharia de Produção — Português (Brasil)",
-      "last_checked": "2026-07-11T02:30:24.956208+00:00"
+      "last_checked": "2026-07-12T02:40:33.791369+00:00"
     },
     "https://www.ppgees.ufscar.br/pt-br": {
       "status": "possible",
@@ -5255,7 +5261,7 @@
       ],
       "dates_found": [],
       "title": "PPGEEs - Programa de Pós Graduação em Educação Especial — Português (Brasil)",
-      "last_checked": "2026-07-11T02:30:25.957707+00:00"
+      "last_checked": "2026-07-12T02:40:34.933410+00:00"
     },
     "https://www.ppgep.ufscar.br/pt-br": {
       "status": "possible",
@@ -5273,7 +5279,7 @@
         "16/10/2025"
       ],
       "title": "Programa de Pós-Graduação em Engenharia de Produção - PPGEP — Português (Brasil)",
-      "last_checked": "2026-07-11T02:30:26.964440+00:00"
+      "last_checked": "2026-07-12T02:40:36.040927+00:00"
     },
     "https://www.ppgpur.ufscar.br/pt-br": {
       "status": "possible",
@@ -5289,7 +5295,7 @@
         "28/05/2026"
       ],
       "title": "PPGPUR - Programa de Pós-Graduação em Planejamento e Uso de Recursos Renováveis — Português (Brasil)",
-      "last_checked": "2026-07-11T02:30:27.982562+00:00"
+      "last_checked": "2026-07-12T02:40:37.159714+00:00"
     },
     "https://www.ppgec.ufscar.br/pt-br": {
       "status": "possible",
@@ -5307,7 +5313,7 @@
         "21/05/2026"
       ],
       "title": "PPGEC - Programa de Pós-Graduação em Economia — Português (Brasil)",
-      "last_checked": "2026-07-11T02:30:28.855719+00:00"
+      "last_checked": "2026-07-12T02:40:38.170571+00:00"
     },
     "https://www.ppgeu.ufscar.br/pt-br": {
       "status": "possible",
@@ -5322,7 +5328,7 @@
         "19/5/2026"
       ],
       "title": "PPGEU - Programa de Pós-Graduação em Engenharia Urbana — Português (Brasil)",
-      "last_checked": "2026-07-11T02:30:29.860532+00:00"
+      "last_checked": "2026-07-12T02:40:39.035809+00:00"
     },
     "https://www.ppgbma.ufscar.br/pt-br": {
       "status": "possible",
@@ -5334,12 +5340,12 @@
       ],
       "dates_found": [],
       "title": "PPGBMA - Programa de Pós-Graduação em Biotecnologia e Monitoramento Ambiental — Português (Brasil)",
-      "last_checked": "2026-07-11T02:30:30.999914+00:00"
+      "last_checked": "2026-07-12T02:40:40.074597+00:00"
     },
     "https://www.ppgedsorocaba.ufscar.br": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-07-11T02:30:31.642105+00:00"
+      "last_checked": "2026-07-12T02:40:40.608119+00:00"
     },
     "https://www.ppgl.ufscar.br/pt-br": {
       "status": "possible",
@@ -5354,7 +5360,7 @@
         "24/5/2026"
       ],
       "title": "Programa de Pós-graduação em Linguística — Português (Brasil)",
-      "last_checked": "2026-07-11T02:30:32.815241+00:00"
+      "last_checked": "2026-07-12T02:40:41.585863+00:00"
     },
     "https://www.ppgenf.ufscar.br/pt-br": {
       "status": "possible",
@@ -5366,12 +5372,12 @@
       ],
       "dates_found": [],
       "title": "PPGEnf - Programa de Pós-Graduação em Enfermagem — Português (Brasil)",
-      "last_checked": "2026-07-11T02:30:36.594391+00:00"
+      "last_checked": "2026-07-12T02:40:42.691835+00:00"
     },
     "https://Programa de Pós-Graduação em Ciências do Desenvolvimento Humano | Universidade Campus Higienópolis - Mackenzie": {
       "status": "error",
       "error": "Failed to parse: https://Programa de Pós-Graduação em Ciênci",
-      "last_checked": "2026-07-11T02:30:36.896141+00:00"
+      "last_checked": "2026-07-12T02:40:42.993444+00:00"
     },
     "https://www.feq.unicamp.br/pos-graduacao/sobre-a-pos-graduacao/": {
       "status": "likely_open",
@@ -5384,7 +5390,7 @@
       ],
       "dates_found": [],
       "title": "Sobre a Pós-Graduação - FEQ Unicamp",
-      "last_checked": "2026-07-11T02:30:39.581652+00:00"
+      "last_checked": "2026-07-12T02:40:46.164910+00:00"
     },
     "https://www.iqm.unicamp.br/pos-graduacao/": {
       "status": "possible",
@@ -5396,7 +5402,7 @@
       ],
       "dates_found": [],
       "title": "Pós-Graduação - IQ Unicamp",
-      "last_checked": "2026-07-11T02:30:43.089577+00:00"
+      "last_checked": "2026-07-12T02:40:49.288194+00:00"
     },
     "https://www.fenf.unicamp.br/pos-graduacao/": {
       "status": "possible",
@@ -5408,7 +5414,7 @@
       ],
       "dates_found": [],
       "title": "Pós-Graduação - FEnf - Faculdade de Enfermagem da Unicamp",
-      "last_checked": "2026-07-11T02:30:45.226411+00:00"
+      "last_checked": "2026-07-12T02:40:51.740966+00:00"
     },
     "https://portal.ige.unicamp.br/pos-graduacao/programas/geociencias": {
       "status": "possible",
@@ -5426,7 +5432,7 @@
         "11/12/2023"
       ],
       "title": "Programa de Pós-Graduação em Geociências (PPG-Geociências) | Instituto de Geociências",
-      "last_checked": "2026-07-11T02:30:46.928640+00:00"
+      "last_checked": "2026-07-12T02:40:53.658792+00:00"
     },
     "https://www.iar.unicamp.br/pos-graduacao-em-artes-da-cena/": {
       "status": "possible",
@@ -5438,7 +5444,7 @@
       ],
       "dates_found": [],
       "title": "Pós-graduação em Artes da Cena Instituto de Artes - Unicamp",
-      "last_checked": "2026-07-11T02:30:48.871397+00:00"
+      "last_checked": "2026-07-12T02:40:55.770531+00:00"
     },
     "https://www.fcf.unicamp.br/ppgcf/": {
       "status": "possible",
@@ -5450,7 +5456,7 @@
       ],
       "dates_found": [],
       "title": "Programa de Pós-Graduação em Ciências Farmacêuticas - Faculdade de Ciências Farmacêuticas - FCF",
-      "last_checked": "2026-07-11T02:30:51.348156+00:00"
+      "last_checked": "2026-07-12T02:40:58.087642+00:00"
     },
     "https://www.fecfau.unicamp.br/pos/ppgatc/arquitetura-tecnologia%3C-p%3E-e-cidade/": {
       "status": "possible",
@@ -5462,7 +5468,7 @@
       ],
       "dates_found": [],
       "title": "Site da FECFAU",
-      "last_checked": "2026-07-11T02:30:52.873851+00:00"
+      "last_checked": "2026-07-12T02:40:59.855707+00:00"
     },
     "https://www.feagri.unicamp.br/portal/": {
       "status": "possible",
@@ -5474,7 +5480,7 @@
       ],
       "dates_found": [],
       "title": "Home - FEAGRI - Faculdade de Engenharia Agrícola/Unicamp",
-      "last_checked": "2026-07-11T02:30:54.924241+00:00"
+      "last_checked": "2026-07-12T02:41:01.848099+00:00"
     },
     "https://www.fem.unicamp.br/pos-graduacao/ciencias-e-engenharia-de-petroleo/": {
       "status": "possible",
@@ -5486,7 +5492,7 @@
       ],
       "dates_found": [],
       "title": "PPG - Ciências e Engenharia de Petróleo - Pós-Graduação - Faculdade de Engenharia Mecânica",
-      "last_checked": "2026-07-11T02:30:56.946574+00:00"
+      "last_checked": "2026-07-12T02:41:03.658776+00:00"
     },
     "https://www.fem.unicamp.br/pos-graduacao/engenharia-mecanica-cpg/": {
       "status": "possible",
@@ -5498,7 +5504,7 @@
       ],
       "dates_found": [],
       "title": "PPG - Engenharia Mecânica - Pós-Graduação - Faculdade de Engenharia Mecânica",
-      "last_checked": "2026-07-11T02:30:58.360302+00:00"
+      "last_checked": "2026-07-12T02:41:04.736060+00:00"
     },
     "https://www.fem.unicamp.br/pos-graduacao/planejamento-de-sistemas-energeticos/": {
       "status": "possible",
@@ -5510,7 +5516,7 @@
       ],
       "dates_found": [],
       "title": "PPG - Planejamento de Sistemas Energéticos - Pós-Graduação - Faculdade de Engenharia Mecânica",
-      "last_checked": "2026-07-11T02:30:59.055985+00:00"
+      "last_checked": "2026-07-12T02:41:05.384091+00:00"
     },
     "https://fea.unicamp.br/pos-graduacao/engenharia-de-alimentos/": {
       "status": "possible",
@@ -5522,7 +5528,7 @@
       ],
       "dates_found": [],
       "title": "Engenharia de Alimentos - FEA Unicamp",
-      "last_checked": "2026-07-11T02:31:01.364635+00:00"
+      "last_checked": "2026-07-12T02:41:08.498277+00:00"
     },
     "https://fea.unicamp.br/pos-graduacao/ciencia-de-alimentos/": {
       "status": "possible",
@@ -5540,7 +5546,7 @@
         "06/07/2021"
       ],
       "title": "Ciência de Alimentos - FEA Unicamp",
-      "last_checked": "2026-07-11T02:31:03.048421+00:00"
+      "last_checked": "2026-07-12T02:41:10.161664+00:00"
     },
     "https://fea.unicamp.br/pos-graduacao/alimentos-e-nutricao/": {
       "status": "possible",
@@ -5558,7 +5564,7 @@
         "07/05/2024"
       ],
       "title": "Alimentos e Nutrição - FEA Unicamp",
-      "last_checked": "2026-07-11T02:31:04.753135+00:00"
+      "last_checked": "2026-07-12T02:41:11.856980+00:00"
     },
     "https://fea.unicamp.br/pos-graduacao/tecnologia-de-alimentos/": {
       "status": "possible",
@@ -5576,7 +5582,7 @@
         "22/02/2024"
       ],
       "title": "Tecnologia de Alimentos - FEA Unicamp",
-      "last_checked": "2026-07-11T02:31:06.438247+00:00"
+      "last_checked": "2026-07-12T02:41:13.526916+00:00"
     },
     "https://www.ib.unicamp.br/pos_animal/": {
       "status": "possible",
@@ -5594,7 +5600,7 @@
         "01/07/2025"
       ],
       "title": "Pós Graduação em Biologia Animal | Pós Graduação em Biologia Animal",
-      "last_checked": "2026-07-11T02:31:07.729125+00:00"
+      "last_checked": "2026-07-12T02:41:15.491172+00:00"
     },
     "https://www.fecfau.unicamp.br/pos/ppgec/o-programa/": {
       "status": "possible",
@@ -5612,7 +5618,7 @@
         "22/03/2023"
       ],
       "title": "Site da FECFAU",
-      "last_checked": "2026-07-11T02:31:08.544508+00:00"
+      "last_checked": "2026-07-12T02:41:16.309406+00:00"
     },
     "https://www.fee.unicamp.br/pos-graduacao/sobre-a-pos-graduacao/": {
       "status": "likely_open",
@@ -5625,7 +5631,7 @@
       ],
       "dates_found": [],
       "title": "Sobre a Pós-Graduação - FEEC Unicamp",
-      "last_checked": "2026-07-11T02:31:10.897478+00:00"
+      "last_checked": "2026-07-12T02:41:18.640575+00:00"
     },
     "https://www.ifch.unicamp.br/pos/antropologia": {
       "status": "likely_open",
@@ -5644,7 +5650,7 @@
         "12/06/2025"
       ],
       "title": "Antropologia | IFCH",
-      "last_checked": "2026-07-11T02:31:13.931380+00:00"
+      "last_checked": "2026-07-12T02:41:22.810135+00:00"
     },
     "https://www.fop.unicamp.br/cpg/ppg-co/": {
       "status": "possible",
@@ -5662,7 +5668,7 @@
         "31/08/2012"
       ],
       "title": "PPG-CO - Programa de Pós-Graduação em Clínica Odontológica - Coordenadoria de Pós-Graduação - FOP - Unicamp",
-      "last_checked": "2026-07-11T02:31:20.515287+00:00"
+      "last_checked": "2026-07-12T02:41:29.935072+00:00"
     },
     "https://portal.ige.unicamp.br/": {
       "status": "possible",
@@ -5680,7 +5686,7 @@
         "04/08/2026"
       ],
       "title": "| Instituto de Geociências",
-      "last_checked": "2026-07-11T02:31:22.151195+00:00"
+      "last_checked": "2026-07-12T02:41:31.714936+00:00"
     },
     "https://portal.fcm.unicamp.br/pos-graduacao/mestrado-doutorado-stricto-sensu/farmacologia/": {
       "status": "possible",
@@ -5692,7 +5698,7 @@
       ],
       "dates_found": [],
       "title": "Farmacologia - Mestrado/Doutorado - Pós-Graduação - Faculdade de Ciências Médicas - FCM",
-      "last_checked": "2026-07-11T02:31:23.808298+00:00"
+      "last_checked": "2026-07-12T02:41:33.140546+00:00"
     },
     "https://portal.fcm.unicamp.br/pos-graduacao/mestrado-doutorado-stricto-sensu/gerontologia/": {
       "status": "possible",
@@ -5704,7 +5710,7 @@
       ],
       "dates_found": [],
       "title": "Gerontologia - Mestrado/Doutorado - Pós-Graduação - Faculdade de Ciências Médicas - FCM",
-      "last_checked": "2026-07-11T02:31:25.145105+00:00"
+      "last_checked": "2026-07-12T02:41:33.877736+00:00"
     },
     "https://portal.fcm.unicamp.br/pos-graduacao/mestrado-doutorado-stricto-sensu/tocoginecologia/": {
       "status": "possible",
@@ -5716,7 +5722,7 @@
       ],
       "dates_found": [],
       "title": "Tocoginecologia - Mestrado/Doutorado - Pós-Graduação - Faculdade de Ciências Médicas - FCM",
-      "last_checked": "2026-07-11T02:31:26.552880+00:00"
+      "last_checked": "2026-07-12T02:41:34.894087+00:00"
     },
     "https://portal.fcm.unicamp.br/pos-graduacao/mestrado-doutorado-stricto-sensu/saude-da-crianca-e-do-adolescente/": {
       "status": "possible",
@@ -5728,7 +5734,7 @@
       ],
       "dates_found": [],
       "title": "Saúde da Criança e do Adolescente - Mestrado/Doutorado - Pós-Graduação - Faculdade de Ciências Médicas - FCM",
-      "last_checked": "2026-07-11T02:31:27.276917+00:00"
+      "last_checked": "2026-07-12T02:41:35.679929+00:00"
     },
     "https://www.iel.unicamp.br": {
       "status": "likely_open",
@@ -5748,7 +5754,7 @@
         "02/08/2026"
       ],
       "title": "IEL – Instituto de Estudos da Linguagem da Unicamp",
-      "last_checked": "2026-07-11T02:31:31.911637+00:00"
+      "last_checked": "2026-07-12T02:41:40.251098+00:00"
     },
     "https://www.labjor.unicamp.br/pos-graduacao/divulgacao-cientifica-e-cultural/informacoes-gerais/": {
       "status": "possible",
@@ -5760,7 +5766,7 @@
       ],
       "dates_found": [],
       "title": "Informações Gerais - Labjor - Unicamp",
-      "last_checked": "2026-07-11T02:31:34.373941+00:00"
+      "last_checked": "2026-07-12T02:41:43.476371+00:00"
     },
     "https://www.tupa.unesp.br/#!/pgad": {
       "status": "unknown",
@@ -5768,7 +5774,7 @@
       "keywords_found": [],
       "dates_found": [],
       "title": "Unesp - Faculdade de Ciências e Engenharia - Câmpus de Tupã",
-      "last_checked": "2026-07-11T02:31:36.186852+00:00"
+      "last_checked": "2026-07-12T02:41:44.874648+00:00"
     },
     "https://www.ibilce.unesp.br/#!/pos-graduacao/programas-de-pos-graduacao/quimica": {
       "status": "unknown",
@@ -5776,7 +5782,7 @@
       "keywords_found": [],
       "dates_found": [],
       "title": "Unesp - Instituto de Biociências, Letras e Ciências Exatas - Câmpus de São José do Rio Preto",
-      "last_checked": "2026-07-11T02:31:37.534008+00:00"
+      "last_checked": "2026-07-12T02:41:46.247634+00:00"
     },
     "https://www.fct.unesp.br/#!/pos-graduacao/--ciencias-cartograficas/": {
       "status": "unknown",
@@ -5784,7 +5790,7 @@
       "keywords_found": [],
       "dates_found": [],
       "title": "Unesp - Faculdade de Ciências e Tecnologia - Câmpus de Presidente Prudente",
-      "last_checked": "2026-07-11T02:31:38.994369+00:00"
+      "last_checked": "2026-07-12T02:41:47.542222+00:00"
     },
     "https://www.ibilce.unesp.br/#!/pos-graduacao/programas-de-pos-graduacao/engenharia-e-ciencia-de-alimentos/": {
       "status": "unknown",
@@ -5792,7 +5798,7 @@
       "keywords_found": [],
       "dates_found": [],
       "title": "Unesp - Instituto de Biociências, Letras e Ciências Exatas - Câmpus de São José do Rio Preto",
-      "last_checked": "2026-07-11T02:31:39.471796+00:00"
+      "last_checked": "2026-07-12T02:41:48.018679+00:00"
     },
     "https://www.marilia.unesp.br/#!/poscsch": {
       "status": "unknown",
@@ -5800,7 +5806,7 @@
       "keywords_found": [],
       "dates_found": [],
       "title": "Unesp - Faculdade de Filosofia e Ciências - Câmpus de Marília",
-      "last_checked": "2026-07-11T02:31:40.482793+00:00"
+      "last_checked": "2026-07-12T02:41:49.309949+00:00"
     },
     "https://www.fcav.unesp.br/#!/ensino/pos-graduacao-new/programas/stricto-sensu/ciencia-animal": {
       "status": "unknown",
@@ -5808,7 +5814,7 @@
       "keywords_found": [],
       "dates_found": [],
       "title": "Unesp - FCAV - Faculdade de Ciências Agrárias e Veterinárias - Câmpus de Jaboticabal",
-      "last_checked": "2026-07-11T02:31:41.612880+00:00"
+      "last_checked": "2026-07-12T02:41:50.607946+00:00"
     },
     "https://igce.rc.unesp.br/#!/pos-graduacao/programas-de-pos/educacao-matematica/": {
       "status": "unknown",
@@ -5816,10 +5822,148 @@
       "keywords_found": [],
       "dates_found": [],
       "title": "Unesp - Instituto de Geociências e Ciências Exatas - Câmpus de Rio Claro",
-      "last_checked": "2026-07-11T02:31:43.384007+00:00"
+      "last_checked": "2026-07-12T02:41:52.318497+00:00"
     }
   },
   "discovered": {
+    "https://mestrado-doutorado.fgv.br/": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='mestrado-doutorado.fgv.br', port=4",
+      "source": "web_search",
+      "query_used": "\"mestrado acadêmico vagas\" 2026",
+      "title": "Home | FGV | Mestrado e Doutorado",
+      "snippet": "Os cursos de Mestrado e Doutorado da Fundação Getulio Vargas (FGV) são referência de excelência no Brasil e no mundo, formando profissionais diferenciados e pesquisadores de alto nível, que …",
+      "last_checked": "2026-07-12T02:43:41.975074+00:00"
+    },
+    "https://pt.m.wikipedia.org/wiki/Mestrado": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "mestrado",
+        "doutorado",
+        "mestrado\\s+profissional"
+      ],
+      "dates_found": [],
+      "title": "Mestrado – Wikipédia, a enciclopédia livre",
+      "snippet": "O mestrado é um grau académico atribuído por uma instituição de ensino superior. Na hierarquia dos graus académicos este grau situa-se, em regra, na segunda posição ascendente.",
+      "source": "web_search",
+      "query_used": "\"mestrado acadêmico vagas\" 2026",
+      "last_checked": "2026-07-12T02:43:42.319944+00:00"
+    },
+    "https://www.uerj.br/pesquisa/cursos-de-pos-graduacao/": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "mestrado",
+        "doutorado",
+        "calend[aá]rio"
+      ],
+      "dates_found": [],
+      "title": "Cursos de Pós-Graduação - UERJ - Universidade do Estado do Rio de Janeiro",
+      "snippet": "A Universidade do Estado do Rio de Janeiro possui 74 Programas de Pós-graduação stricto sensu credenciados pela CAPES, oferecendo 50 cursos de mestrado acadêmico, 46 cursos de doutorado …",
+      "source": "web_search",
+      "query_used": "\"mestrado acadêmico vagas\" 2026",
+      "last_checked": "2026-07-12T02:43:45.961496+00:00"
+    },
+    "https://estacio.br/cursos/mestrado-doutorado": {
+      "status": "likely_open",
+      "confidence": 0.6,
+      "keywords_found": [
+        "inscreva-se",
+        "edital",
+        "edital\\s+mestrado",
+        "mestrado"
+      ],
+      "dates_found": [],
+      "title": "Mestrado e Doutorado | Estácio EaD, Semi e Presencial",
+      "snippet": "A Universidade Estácio de Sá oferece cinco programas de pós-graduação stricto sensu, dos quais quatro oferecem mestrado e doutorado avaliados com notas entre 4 e 5.",
+      "source": "web_search",
+      "query_used": "\"mestrado acadêmico vagas\" 2026",
+      "last_checked": "2026-07-12T02:43:46.345402+00:00"
+    },
+    "https://ufpr.br/mestrado-e-doutorado/": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "sele[cç][aã]o",
+        "mestrado"
+      ],
+      "dates_found": [],
+      "title": "Mestrado e Doutorado – Universidade Federal do Paraná",
+      "snippet": "A concepção de cada curso de mestrado ou doutorado deve demonstrar seus componentes, tais como objetivos, áreas de concentração, linhas de pesquisa e projetos de pesquisa, estrutura curricular, …",
+      "source": "web_search",
+      "query_used": "\"mestrado acadêmico vagas\" 2026",
+      "last_checked": "2026-07-12T02:43:48.761203+00:00"
+    },
+    "https://uem.mz/cursos-de-pos-graduacao/": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "inscri[cç][aã]o",
+        "mestrado",
+        "doutorado"
+      ],
+      "dates_found": [],
+      "title": "Cursos de Pós-graduação – Universidade Eduardo Mondlane",
+      "snippet": "O curso de pós-graduação compreendem o 2º e 3º ciclos de formação e conferem aos graduado o título académico de mestrado e doutorado, conforme estatui o artigo 22 e 23 da Lei do Ensino Superior.",
+      "source": "web_search",
+      "query_used": "\"mestrado acadêmico vagas\" 2026",
+      "last_checked": "2026-07-12T02:43:54.060595+00:00"
+    },
+    "https://www.enap.gov.br/pos-graduacao/mestrado/": {
+      "status": "likely_open",
+      "confidence": 0.6,
+      "keywords_found": [
+        "inscri[cç][aã]o\\s+aberta",
+        "edital",
+        "sele[cç][aã]o",
+        "inscri[cç][aã]o"
+      ],
+      "dates_found": [],
+      "title": "Mestrados",
+      "snippet": "Lato sensu ou stricto sensu? Quando se fala em pós-graduação, as referências que podem aparecer são especialização, MBA, mestrado e doutorado. Porém, esses cursos apresentam algumas …",
+      "source": "web_search",
+      "query_used": "\"mestrado acadêmico vagas\" 2026",
+      "last_checked": "2026-07-12T02:43:56.642570+00:00"
+    },
+    "https://prpg.unicamp.br/programas/stricto-sensu/mestrado-doutorado-academico/": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "mestrado",
+        "doutorado",
+        "calend[aá]rio"
+      ],
+      "dates_found": [
+        "11/08/2015",
+        "11/08/2015",
+        "11/08/2015",
+        "11/08/2015",
+        "11/08/2015"
+      ],
+      "title": "Mestrado e Doutorado Acadêmico - Stricto Sensu - Programas - PRPG - Pró-Reitoria de Pós-Graduação da Unicamp",
+      "snippet": "Aug 11, 2015 · Consistem em cursos de mestrado e doutorado acadêmicos, objetivando a formação de recursos humanos altamente qualificados, com vistas ao ensino, pesquisa e ao desenvolvimento …",
+      "source": "web_search",
+      "query_used": "\"mestrado acadêmico vagas\" 2026",
+      "last_checked": "2026-07-12T02:43:57.228331+00:00"
+    },
+    "https://portal.pucrs.br/ensino/mestrado-e-doutorado/": {
+      "status": "likely_open",
+      "confidence": 0.6,
+      "keywords_found": [
+        "inscri[cç][oõ]es\\s+abertas",
+        "sele[cç][aã]o",
+        "inscri[cç][oõ]es",
+        "mestrado"
+      ],
+      "dates_found": [],
+      "title": "Portal | Ensino | Mestrado e Doutorado | PUCRS",
+      "snippet": "Os cursos de pós-graduação em nível de Mestrado são oferecidos a candidatos diplomados em curso superior. São a possibilidade de aprofundar conhecimentos em uma determinada área dando …",
+      "source": "web_search",
+      "query_used": "\"mestrado acadêmico vagas\" 2026",
+      "last_checked": "2026-07-12T02:43:57.708009+00:00"
+    },
     "https://en.m.wikipedia.org/wiki/Brazil": {
       "status": "possible",
       "confidence": 0.4,
@@ -5830,79 +5974,88 @@
       ],
       "dates_found": [],
       "title": "Brazil - Wikipedia",
-      "snippet": "Brazil, [c] officially the Federative Republic of Brazil, [d] is the largest country in South America. It is also the world's fifth-largest country by area and the seventh-largest by population, with over 213 million …",
+      "snippet": "Brazil encompasses a wide range of tropical and subtropical landscapes, as well as wetlands, savannas, plateaus, and low mountains. It contains most of the Amazon basin, including the world's largest river …",
       "source": "web_search",
       "query_used": "\"Brazil university masters admissions\" 2026",
-      "last_checked": "2026-07-11T02:34:28.122460+00:00"
+      "last_checked": "2026-07-12T02:44:46.586454+00:00"
     },
-    "https://en.m.wikipedia.org/wiki/Geography_of_Brazil": {
+    "https://en.m.wikipedia.org/wiki/Flag_of_Brazil": {
       "status": "unknown",
       "confidence": 0.05,
       "keywords_found": [],
       "dates_found": [],
-      "title": "Geography of Brazil - Wikipedia",
-      "snippet": "Brazil has large deposits of oil, iron, bauxite, nickel, uranium, manganese ores, diamonds and other minerals. Due to the fact that most of it is located in the equatorial and subequatorial climatic zones …",
+      "title": "Flag of Brazil - Wikipedia",
+      "snippet": "A green field with a large yellow rhombus in the center, bearing a blue disk which forms a celestial globe depicting twenty-seven small white five-pointed stars spanned by a white equatorial curved band with …",
       "source": "web_search",
       "query_used": "\"Brazil university masters admissions\" 2026",
-      "last_checked": "2026-07-11T02:34:28.275973+00:00"
+      "last_checked": "2026-07-12T02:44:46.793278+00:00"
     },
-    "https://www.unicamp.br/en/": {
-      "status": "unknown",
-      "confidence": 0.05,
-      "keywords_found": [],
-      "dates_found": [],
-      "title": "Unicamp website",
-      "snippet": "Sumaré State Hospital is a benchmark in the training of healthcare professionals. A structure with more than two decades of …",
+    "https://www.fap.df.gov.br/editais-fapdf-2025/": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='www.fap.df.gov.br', port=443): Rea",
       "source": "web_search",
-      "query_used": "\"UNICAMP processo seletivo pós-graduação\" 2026",
-      "last_checked": "2026-07-11T02:36:20.747128+00:00"
+      "query_used": "\"edital mestrado open\" 2026",
+      "title": "Editais FAPDF 2025 - Fundação de Apoio à Pesquisa do Distrito ...",
+      "snippet": "Mar 12, 2025 · Instrução Nº 24 de 20 de março de 2026 – Instituir Comissão de seleção mista entre a Fundação de Apoio à Pesquisa do Distrito Federal/FAPDF e a Secretaria de Estado da Agricultura, …",
+      "last_checked": "2026-07-12T02:45:59.627192+00:00"
     },
-    "https://www.unicamp.br/": {
+    "https://www.fap.df.gov.br/editais-fapdf-20261": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='www.fap.df.gov.br', port=443): Rea",
+      "source": "web_search",
+      "query_used": "\"edital mestrado open\" 2026",
+      "title": "Editais FAPDF 2026 - Fundação de Apoio à Pesquisa do Distrito ...",
+      "snippet": "Jan 15, 2026 · EDITAL 07/2026 PROGRAMA FAPDF LEARNING - Programa de Fomento Estratégico nas macroáreas das linhas de pesquisas: BIO Learning, TECH Learning, GOV Learning e AGRO Learning",
+      "last_checked": "2026-07-12T02:46:06.016133+00:00"
+    },
+    "https://www.fap.df.gov.br/editais-fapdf-2024/": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='www.fap.df.gov.br', port=443): Rea",
+      "source": "web_search",
+      "query_used": "\"edital mestrado open\" 2026",
+      "title": "Editais FAPDF 2024 - Fundação de Apoio à Pesquisa do Distrito ...",
+      "snippet": "CHAMADA 01 – DEMANDA ESPONTÂNEA: Seleção pública de propostas de pesquisa científica, tecnológica e inovação – vinculada ao Edital 05/2024 – Programa de Pesquisa Básica",
+      "last_checked": "2026-07-12T02:46:12.371778+00:00"
+    },
+    "https://www.fap.df.gov.br/edital-ppsus/": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='www.fap.df.gov.br', port=443): Rea",
+      "source": "web_search",
+      "query_used": "\"edital mestrado open\" 2026",
+      "title": "Edital PPSUS - Fundação de Apoio à Pesquisa do Distrito ...",
+      "snippet": "Edital PPSUS Chamada Pública nº 04/2025 para Seleção de Projetos de Pesquisa Científica, Tecnológica e de Inovação que promovam a melhoria da qualidade da atenção à saúde no Distrito Federal . (2ª …",
+      "last_checked": "2026-07-12T02:46:18.726626+00:00"
+    },
+    "https://www.fap.df.gov.br/": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='www.fap.df.gov.br', port=443): Rea",
+      "source": "web_search",
+      "query_used": "\"edital mestrado open\" 2026",
+      "title": "Fundação de Apoio à Pesquisa do Distrito Federal",
+      "snippet": "Edital PPSUS Realiza 2025 Chamadas Nacionais 2025 Chamadas Internacionais 2025 Editais 2024 Editais FAPDF 2024 Chamadas Nacionais 2024 Chamadas Internacionais 2024 Realiza 2024 Editais 2023 …",
+      "last_checked": "2026-07-12T02:46:25.562707+00:00"
+    },
+    "https://www.fap.df.gov.br/realiza-2026": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='www.fap.df.gov.br', port=443): Rea",
+      "source": "web_search",
+      "query_used": "\"edital mestrado open\" 2026",
+      "title": "Realiza 2026 - Fundação de Apoio à Pesquisa do Distrito ...",
+      "snippet": "Jan 16, 2026 · RETIFICAÇÃO DO EDITAL 05/2026 – FAPDF REALIZA – SELEÇÃO PÚBLICA DE PROPOSTAS PARA APOIO À REALIZAÇÃO DE EVENTOS - FUNDAÇÃO DE APOIO À PESQUISA DO DISTRITO FEDERAL.",
+      "last_checked": "2026-07-12T02:46:32.034229+00:00"
+    },
+    "https://www.unb.bank/": {
       "status": "likely_open",
       "confidence": 0.6,
       "keywords_found": [
-        "inscri[cç][oõ]es\\s+abertas",
-        "inscri[cç][oõ]es",
-        "ingresso"
+        "apply\\s+now"
       ],
       "dates_found": [],
-      "title": "Portal Unicamp",
-      "snippet": "Hospital Estadual de Sumaré é referência na formação de profissionais da saúde Estrutura com mais de duas décadas …",
+      "title": "UNB Bank - Independently Owned Since 1906 | unb.bank",
+      "snippet": "UNB Bank is a full service community bank offering a wide array of lending and deposit products, with offices in Mount Carmel and …",
       "source": "web_search",
-      "query_used": "\"UNICAMP processo seletivo pós-graduação\" 2026",
-      "last_checked": "2026-07-11T02:36:21.230953+00:00"
-    },
-    "https://en.m.wikipedia.org/wiki/State_University_of_Campinas": {
-      "status": "possible",
-      "confidence": 0.4,
-      "keywords_found": [
-        "processo\\s+seletivo",
-        "mestrado",
-        "doutorado"
-      ],
-      "dates_found": [
-        "12/03/2016",
-        "16/11/2014",
-        "14/03/2014",
-        "12/03/2016",
-        "16/11/2014"
-      ],
-      "title": "State University of Campinas - Wikipedia",
-      "snippet": "Every year, Unicamp also hosts an open doors event (Unicamp de Portas Abertas, UPA), in which the main campus is visited …",
-      "source": "web_search",
-      "query_used": "\"UNICAMP processo seletivo pós-graduação\" 2026",
-      "last_checked": "2026-07-11T02:36:21.498774+00:00"
-    },
-    "https://www.unicamp.org/": {
-      "status": "unknown",
-      "confidence": 0.05,
-      "keywords_found": [],
-      "dates_found": [],
-      "title": "UCLA UniCamp",
-      "snippet": "UniCamp is an independently funded non-profit that connects UCLA with the community. Each year, UCLA UniCamp …",
-      "source": "web_search",
-      "query_used": "\"UNICAMP processo seletivo pós-graduação\" 2026",
-      "last_checked": "2026-07-11T02:36:21.959085+00:00"
+      "query_used": "\"UnB mestrado vagas abertas\" 2026",
+      "last_checked": "2026-07-12T02:47:33.160817+00:00"
     },
     "https://www2.unesp.br/": {
       "status": "possible",
@@ -5917,7 +6070,7 @@
       "snippet": "Unesp - Universidade Estadual Paulista Júlio de Mesquita Filho",
       "source": "web_search",
       "query_used": "\"UNESP edital mestrado inscrições\" 2026",
-      "last_checked": "2026-07-11T02:36:35.249180+00:00"
+      "last_checked": "2026-07-12T02:47:40.943990+00:00"
     },
     "https://en.wikipedia.org/wiki/São_Paulo_State_University": {
       "status": "possible",
@@ -5933,10 +6086,10 @@
         "14/01/2009"
       ],
       "title": "São Paulo State University - Wikipedia",
-      "snippet": "São Paulo State University (Unesp, Portuguese: Universidade Estadual Paulista \"Júlio de Mesquita Filho\") is a public university run by …",
+      "snippet": "São Paulo State University (Unesp, Portuguese: Universidade Estadual Paulista \"Júlio de Mesquita Filho\") is a public university run by the state government of São Paulo, Brazil. Unesp has a combined …",
       "source": "web_search",
       "query_used": "\"UNESP edital mestrado inscrições\" 2026",
-      "last_checked": "2026-07-11T02:36:35.628564+00:00"
+      "last_checked": "2026-07-12T02:47:41.753899+00:00"
     },
     "https://www2.unesp.br/portal#!/eng/academic-programs/": {
       "status": "unknown",
@@ -5944,10 +6097,10 @@
       "keywords_found": [],
       "dates_found": [],
       "title": "Unesp - Universidade Estadual Paulista - Portal",
-      "snippet": "Academic Programs Unesp offers 179 undergraduate programs with a duration of 4 to 6 years, and 118 graduate programs in nearly …",
+      "snippet": "Unesp offers 179 undergraduate programs with a duration of 4 to 6 years, and 118 graduate programs in nearly every knowledge areas and prepares students for 68 careers in our 24 campuses.",
       "source": "web_search",
       "query_used": "\"UNESP edital mestrado inscrições\" 2026",
-      "last_checked": "2026-07-11T02:36:35.806316+00:00"
+      "last_checked": "2026-07-12T02:47:41.931032+00:00"
     },
     "https://pt.wikipedia.org/wiki/Universidade_Estadual_Paulista": {
       "status": "possible",
@@ -5965,10 +6118,10 @@
         "16/09/2015"
       ],
       "title": "Universidade Estadual Paulista – Wikipédia, a enciclopédia livre",
-      "snippet": "Universidade Estadual Paulista \"Júlio de Mesquita Filho\" (Unesp) é uma universidade pública brasileira, com atuação no ensino, na …",
+      "snippet": "Universidade Estadual Paulista \"Júlio de Mesquita Filho\" (Unesp) é uma universidade pública brasileira, com atuação no ensino, na pesquisa e na extensão de serviços à comunidade. A instituição é uma …",
       "source": "web_search",
       "query_used": "\"UNESP edital mestrado inscrições\" 2026",
-      "last_checked": "2026-07-11T02:36:36.181327+00:00"
+      "last_checked": "2026-07-12T02:47:42.402360+00:00"
     }
   }
 }
