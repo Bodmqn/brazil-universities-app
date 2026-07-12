@@ -2,6 +2,16 @@ import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { api } from '../services/api'
 
+const progStatusColors = {
+  likely_open: 'bg-green-100 text-green-800',
+  possible: 'bg-yellow-100 text-yellow-800',
+  error: 'bg-red-100 text-red-800',
+  unknown: 'bg-gray-100 text-gray-500',
+}
+const progStatusLabels = {
+  likely_open: 'Open', possible: 'Possible', error: 'Error', unknown: 'Unknown',
+}
+
 function Field({ label, value, href }) {
   if (!value && value !== 0) return null;
   return (
@@ -21,11 +31,16 @@ function Field({ label, value, href }) {
 export default function UniversityDetail() {
   const { id } = useParams();
   const [data, setData] = useState(null);
+  const [programs, setPrograms] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    api.getUniversity(id).then(d => {
-      setData(d);
+    Promise.all([
+      api.getUniversity(id),
+      api.getPrograms({ university_id: id, per_page: 200 }),
+    ]).then(([uniData, progData]) => {
+      setData(uniData);
+      setPrograms(progData);
       setLoading(false);
     }).catch(() => setLoading(false));
   }, [id]);
@@ -35,8 +50,8 @@ export default function UniversityDetail() {
 
   const { university: uni, calls } = data;
   const openCalls = calls.filter(c => c.status === 'open');
-
   const statusColor = { open: 'bg-green-100 text-green-800', closed: 'bg-gray-100 text-gray-600', upcoming: 'bg-yellow-100 text-yellow-800' };
+  const openPrograms = programs?.data?.filter(p => p.scan_status === 'likely_open') || [];
 
   return (
     <div>
@@ -74,6 +89,59 @@ export default function UniversityDetail() {
             <Field label="English-taught Programmes" value={uni.english_programmes || 'None found'} />
           </div>
         </div>
+      </div>
+
+      <div className="bg-white rounded-xl border border-gray-200 p-6 mb-6">
+        <h2 className="text-lg font-semibold text-gray-900 mb-4">
+          Graduate Programs
+          {programs && <span className="text-gray-400 text-sm ml-2">({programs.total} total)</span>}
+        </h2>
+
+        {!programs || programs.data.length === 0 ? (
+          <p className="text-gray-400 text-sm">No program data available for this university.</p>
+        ) : (
+          <div className="overflow-x-auto">
+            <table className="w-full">
+              <thead className="bg-gray-50 border-b border-gray-200">
+                <tr>
+                  <th className="text-left px-3 py-2 text-xs font-medium text-gray-500 uppercase">Program</th>
+                  <th className="text-left px-3 py-2 text-xs font-medium text-gray-500 uppercase">Level</th>
+                  <th className="text-left px-3 py-2 text-xs font-medium text-gray-500 uppercase">City</th>
+                  <th className="text-left px-3 py-2 text-xs font-medium text-gray-500 uppercase">Start</th>
+                  <th className="text-left px-3 py-2 text-xs font-medium text-gray-500 uppercase">Duration</th>
+                  <th className="text-center px-3 py-2 text-xs font-medium text-gray-500 uppercase">Status</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100">
+                {programs.data.map(prog => (
+                  <tr key={prog.id} className="hover:bg-gray-50 transition-colors">
+                    <td className="px-3 py-2">
+                      <Link to={`/programs/${prog.id}`} className="font-medium text-gray-900 hover:text-green-700 text-sm">
+                        {prog.name}
+                      </Link>
+                    </td>
+                    <td className="px-3 py-2 text-xs text-gray-600">{prog.level}</td>
+                    <td className="px-3 py-2 text-xs text-gray-600">{prog.city}</td>
+                    <td className="px-3 py-2 text-xs text-gray-600">{prog.start_date || '-'}</td>
+                    <td className="px-3 py-2 text-xs text-gray-600">{prog.duration_months ? `${prog.duration_months}m` : '-'}</td>
+                    <td className="px-3 py-2 text-center">
+                      <span className={`px-2 py-0.5 rounded-full text-xs font-medium ${progStatusColors[prog.scan_status] || progStatusColors.unknown}`}>
+                        {progStatusLabels[prog.scan_status] || 'Unknown'}
+                      </span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
+        {programs && programs.total > 0 && (
+          <div className="mt-3">
+            <Link to={`/programs?university_id=${id}`} className="text-sm text-green-700 hover:underline">
+              View all {programs.total} programs &rarr;
+            </Link>
+          </div>
+        )}
       </div>
 
       <div className="bg-white rounded-xl border border-gray-200 p-6 mb-6">

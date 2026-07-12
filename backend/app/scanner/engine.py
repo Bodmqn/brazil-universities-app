@@ -1,16 +1,79 @@
-import re, httpx, asyncio, logging
+import re, httpx, asyncio, logging, json
 from datetime import datetime
 from bs4 import BeautifulSoup
 from sqlalchemy.orm import Session
 
 from ..database import SessionLocal
-from ..models import University, Call, ScanLog
+from ..models import University, Program, Call, ScanLog
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 
+SCAN_YEARS = [2027, 2028, 2029, 2030]
+
+STRONG_KEYWORDS = [
+    r"edital\s+aberto",
+    r"inscri[cç][oõ]es\s+abertas",
+    r"vagas\s+abertas",
+    r"processo\s+seletivo\s+aberto",
+    r"inscreva-se",
+    r"inscri[cç][aã]o\s+aberta",
+    r"candidaturas\s+abertas",
+    r"apply\s+now",
+    r"open\s+for\s+applications",
+    r"applications\s+open",
+]
+
+MEDIUM_KEYWORDS = [
+    r"mestrado",
+    r"doutorado",
+    r"p[oó]s[- ]gradua[cç][aã]o",
+    r"edital",
+    r"processo\s+seletivo",
+    r"sele[cç][aã]o",
+    r"selecao",
+    r"inscri[cç][oõ]es",
+    r"inscricoes",
+    r"vestibular",
+    r"calend[aá]rio",
+    r"cronograma",
+    r"resultado",
+    r"homologa[cç][aã]o",
+    r"matr[ií]cula",
+    r"ingresso",
+    r"admiss[aã]o",
+]
+
 SISU_MEC_URL = "https://sisu.mec.gov.br"
 SISU_CALENDAR_URL = "https://www.gov.br/mec/pt-br/sisu"
+
+
+def _score_page_text(text: str):
+    """Score page text using keyword tiers. Returns (status, confidence, keywords_found, dates_found)."""
+    strong_hits = []
+    medium_hits = []
+
+    for kw in STRONG_KEYWORDS:
+        if re.search(kw, text, re.IGNORECASE):
+            strong_hits.append(kw)
+
+    for kw in MEDIUM_KEYWORDS:
+        if re.search(kw, text, re.IGNORECASE):
+            medium_hits.append(kw)
+
+    dates_found = re.findall(r"\b\d{1,2}[/-]\d{1,2}[/-]\d{2,4}\b", text)
+
+    if strong_hits:
+        confidence = min(1.0, 0.5 + len(strong_hits) * 0.15)
+        return ("likely_open", confidence, strong_hits + medium_hits, dates_found)
+    elif medium_hits:
+        confidence = min(0.5, len(medium_hits) * 0.12)
+        return ("possible", confidence, medium_hits, dates_found)
+    else:
+        return ("unknown", 0.0, [], dates_found)
+
+
+# ── SISU ──────────────────────────────────────────────────────────────────
 
 async def scan_sisu_mec():
     """Check centralized SISU calendar for national calls."""
@@ -21,7 +84,7 @@ async def scan_sisu_mec():
             if resp.status_code == 200:
                 soup = BeautifulSoup(resp.text, "lxml")
                 text = soup.get_text().lower()
-                for year in [2027, 2028, 2029, 2030]:
+                for year in SCAN_YEARS:
                     pattern = rf"{year}.*?(?:inscri[cç][aã]o|vestibular|sisu|edital|abertura)"
                     if re.search(pattern, text, re.DOTALL):
                         results.append({
@@ -34,6 +97,8 @@ async def scan_sisu_mec():
         logger.error(f"SISU scan error: {e}")
     return results
 
+
+# ── UNIVERSITY-LEVEL SCANS ────────────────────────────────────────────────
 
 async def scan_university_sigaa(uni: University):
     """Check a university's SIGAA public portal for open selection processes."""
@@ -64,7 +129,7 @@ async def scan_university_sigaa(uni: University):
             soup = BeautifulSoup(resp.text, "lxml")
             page_text = soup.get_text().lower()
 
-            for year in [2027]:
+            for year in SCAN_YEARS:
                 if str(year) in page_text:
                     semester = None
                     if "1" in page_text or "primeiro" in page_text or "1º" in page_text:
@@ -108,7 +173,7 @@ async def scan_university_website(uni: University):
             soup = BeautifulSoup(resp.text, "lxml")
             page_text = soup.get_text().lower()
 
-            for year in [2027]:
+            for year in SCAN_YEARS:
                 if str(year) in page_text:
                     keywords = ["processo seletivo", "edital", "seleção", "selecao", "inscrições", "inscricoes", "vestibular", "mestrado", "doutorado"]
                     if any(kw in page_text for kw in keywords):
@@ -189,14 +254,82 @@ def save_scan_results(uni_id: int, results: list, error: str = None):
         db.close()
 
 
+# ── PROGRAM-LEVEL SCANNING ────────────────────────────────────────────────
+
+async def scan_single_program(prog: Program):
+    """Visit a program's URL and classify it for open applications."""
+    if not prog.url:
+        return
+
+    try:
+        async with httpx.AsyncClient(timeout=30, follow_redirects=True, verify=False) as client:
+            resp = await client.get(prog.url)
+            if resp.status_code != 200:
+                prog.scan_status = "error"
+                prog.scan_confidence = 0.0
+                prog.scan_keywords = "[]"
+                prog.scan_dates_found = "[]"
+                prog.scan_title = None
+                prog.scan_last_checked = datetime.now()
+                return
+
+            soup = BeautifulSoup(resp.text, "lxml")
+            page_text = soup.get_text().lower()
+            title_tag = soup.find("title")
+            page_title = title_tag.get_text(strip=True) if title_tag is not None else None
+
+            status, confidence, keywords, dates = _score_page_text(page_text)
+
+            prog.scan_status = status
+            prog.scan_confidence = confidence
+            prog.scan_keywords = json.dumps(keywords, ensure_ascii=False)
+            prog.scan_dates_found = json.dumps(dates, ensure_ascii=False)
+            prog.scan_title = page_title
+            prog.scan_last_checked = datetime.now()
+
+    except Exception as e:
+        logger.error(f"Program scan error for {prog.id} ({prog.url[:60]}...): {e}")
+        prog.scan_status = "error"
+        prog.scan_confidence = 0.0
+        prog.scan_keywords = "[]"
+        prog.scan_dates_found = "[]"
+        prog.scan_title = None
+        prog.scan_last_checked = datetime.now()
+
+
+async def scan_all_programs():
+    """Scan all programs for open application status."""
+    db: Session = SessionLocal()
+    try:
+        programs = db.query(Program).filter(Program.url.isnot(None), Program.url != "").all()
+        logger.info(f"Starting program scan: {len(programs)} programs...")
+
+        batch_size = 20
+        for i in range(0, len(programs), batch_size):
+            batch = programs[i:i + batch_size]
+            tasks = [scan_single_program(prog) for prog in batch]
+            await asyncio.gather(*tasks, return_exceptions=True)
+            db.commit()
+
+            logger.info(f"Program scan progress: {min(i + batch_size, len(programs))}/{len(programs)}")
+
+        # Log summary
+        statuses = db.query(Program.scan_status, db.bind.func.count(Program.id)).group_by(Program.scan_status).all()
+        summary = ", ".join(f"{s}: {c}" for s, c in statuses)
+        logger.info(f"Program scan complete. {summary}")
+    finally:
+        db.close()
+
+
+# ── FULL SCAN ─────────────────────────────────────────────────────────────
+
 async def run_full_scan():
-    """Scan all universities for open calls."""
+    """Scan all universities (calls) and programs (open status) for open applications."""
     db: Session = SessionLocal()
     try:
         universities = db.query(University).all()
         logger.info(f"Starting full scan of {len(universities)} universities...")
 
-        # Run scans in batches to avoid overwhelming servers
         batch_size = 10
         total_calls_found = 0
 
@@ -213,13 +346,16 @@ async def run_full_scan():
                     save_scan_results(batch[j].id, results)
                     total_calls_found += len(results)
 
-            logger.info(f"Progress: {min(i + batch_size, len(universities))}/{len(universities)}")
+            logger.info(f"University scan progress: {min(i + batch_size, len(universities))}/{len(universities)}")
 
-        # Also check SISU central
         sisu_calls = await scan_sisu_mec()
         logger.info(f"SISU central: {len(sisu_calls)} calls found")
         total_calls_found += len(sisu_calls)
 
-        logger.info(f"Full scan complete. Total calls detected: {total_calls_found}")
+        logger.info(f"University scan complete. Total calls detected: {total_calls_found}")
+
+        # Now scan all programs
+        await scan_all_programs()
+
     finally:
         db.close()

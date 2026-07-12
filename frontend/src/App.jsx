@@ -4,6 +4,8 @@ import Dashboard from './pages/Dashboard'
 import UniversityList from './pages/UniversityList'
 import UniversityDetail from './pages/UniversityDetail'
 import CallsPage from './pages/CallsPage'
+import ProgramList from './pages/ProgramList'
+import ProgramDetail from './pages/ProgramDetail'
 import { api } from './services/api'
 
 function NavLink({ to, children }) {
@@ -46,6 +48,7 @@ function App() {
             <nav className="flex items-center gap-1">
               <NavLink to="/">Dashboard</NavLink>
               <NavLink to="/universities">Universities</NavLink>
+              <NavLink to="/programs">Programs</NavLink>
               <NavLink to="/calls">Calls</NavLink>
               {stats && (
                 <span className="ml-4 px-3 py-1 bg-green-100 text-green-800 text-xs font-medium rounded-full">
@@ -62,6 +65,8 @@ function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/universities" element={<UniversityList />} />
           <Route path="/universities/:id" element={<UniversityDetail />} />
+          <Route path="/programs" element={<ProgramList />} />
+          <Route path="/programs/:id" element={<ProgramDetail />} />
           <Route path="/calls" element={<CallsPage />} />
         </Routes>
       </main>

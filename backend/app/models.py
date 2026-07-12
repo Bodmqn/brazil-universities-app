@@ -1,4 +1,5 @@
-from sqlalchemy import Column, Integer, String, Text, DateTime, ForeignKey, Float, Boolean
+from sqlalchemy import Column, Integer, String, Text, DateTime, ForeignKey, Float
+from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
 from .database import Base
 
@@ -27,6 +28,36 @@ class University(Base):
     int_office_url = Column(String(500))
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     updated_at = Column(DateTime(timezone=True), onupdate=func.now())
+
+    programs = relationship("Program", back_populates="university", lazy="dynamic")
+
+class Program(Base):
+    __tablename__ = "programs"
+
+    id = Column(Integer, primary_key=True, index=True)
+    university_id = Column(Integer, ForeignKey("universities.id"), nullable=False, index=True)
+    name = Column(String(500), nullable=False)
+    level = Column(String(50), nullable=False, comment="Mestrado / Doutorado / Mestrado/Doutorado")
+    url = Column(String(500))
+    city = Column(String(150))
+    campus = Column(String(300))
+    master_required = Column(String(10), comment="SIM if master's is prerequisite for doctorate")
+    start_date = Column(String(20), comment="DD/MM/YYYY")
+    duration_months = Column(Integer)
+    language_requirement = Column(String(300))
+
+    scan_status = Column(String(20), default="unknown", comment="likely_open / possible / error / unknown")
+    scan_confidence = Column(Float, default=0.0)
+    scan_keywords = Column(Text, comment="JSON array of matched keywords")
+    scan_dates_found = Column(Text, comment="JSON array of dates extracted")
+    scan_title = Column(String(500))
+    scan_last_checked = Column(DateTime(timezone=True))
+
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+    updated_at = Column(DateTime(timezone=True), onupdate=func.now())
+
+    university = relationship("University", back_populates="programs")
+
 
 class Call(Base):
     __tablename__ = "calls"
