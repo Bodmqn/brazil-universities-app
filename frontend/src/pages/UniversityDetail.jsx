@@ -1,30 +1,8 @@
 import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { loadData, getUniversity, getProgramsForUniversity, getCallsForUniversity } from '../services/data'
-
-const progStatusColors = {
-  likely_open: 'bg-green-100 text-green-800',
-  possible: 'bg-yellow-100 text-yellow-800',
-  error: 'bg-red-100 text-red-800',
-  unknown: 'bg-gray-100 text-gray-500',
-}
-const progStatusLabels = {
-  likely_open: 'Open', possible: 'Possible', error: 'Error', unknown: 'Unknown',
-}
-
-function Field({ label, value, href }) {
-  if (!value && value !== 0) return null
-  return (
-    <div className="py-2">
-      <span className="text-sm text-gray-500 block">{label}</span>
-      {href ? (
-        <a href={href} target="_blank" rel="noopener noreferrer" className="text-green-700 hover:underline font-medium break-all">{value}</a>
-      ) : (
-        <span className="text-gray-900 font-medium">{value}</span>
-      )}
-    </div>
-  )
-}
+import Field from '../components/Field'
+import StatusBadge from '../components/StatusBadge'
 
 export default function UniversityDetail() {
   const { id } = useParams()
@@ -115,9 +93,7 @@ export default function UniversityDetail() {
                     <td className="px-3 py-2 text-xs text-gray-600">{prog.start_date || '-'}</td>
                     <td className="px-3 py-2 text-xs text-gray-600">{prog.duration_months ? `${prog.duration_months}m` : '-'}</td>
                     <td className="px-3 py-2 text-center">
-                      <span className={`px-2 py-0.5 rounded-full text-xs font-medium ${progStatusColors[prog.scan_status] || progStatusColors.unknown}`}>
-                        {progStatusLabels[prog.scan_status] || 'Unknown'}
-                      </span>
+                      <StatusBadge status={prog.scan_status} />
                     </td>
                   </tr>
                 ))}

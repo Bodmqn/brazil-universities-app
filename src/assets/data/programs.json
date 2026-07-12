@@ -5580,5 +5580,4130 @@
         ]
       }
     ]
+  },
+  {
+    "region": "Norte",
+    "states": [
+      {
+        "uf": "PA",
+        "universities": [
+          {
+            "acronym": "UFPA",
+            "name": "Universidade Federal do Pará",
+            "city": "Belém",
+            "state": "PA",
+            "region": "Norte",
+            "programs": []
+          }
+        ]
+      },
+      {
+        "uf": "AC",
+        "universities": [
+          {
+            "acronym": "UFAC",
+            "name": "Universidade Federal do Acre",
+            "city": "Rio Branco",
+            "state": "AC",
+            "region": "Norte",
+            "programs": [
+              {
+                "level": "Doutorado",
+                "program": "Programa de Pós-Graduação em Ensino de Física",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ensino-de-fisica",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Programa de Pós-Graduação em Ensino de Física",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ensino-de-fisica",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Programa de Pós-Graduação em Ciência Florestal",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ciencia-florestal",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Programa de Pós-Graduação em Ciência Florestal",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ciencia-florestal",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Programa de Pós-Graduação em Ciência da Saúde na Amazônia Ocidental",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ciencia-da-saude-na-amazonia-ocidental",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Programa de Pós-Graduação em Ciência da Saúde na Amazônia Ocidental",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ciencia-da-saude-na-amazonia-ocidental",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Programa de Pós-Graduação em Ensino de Humanidades e Linguagens – PPEHL",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ensino-de-humanidades-e-linguagens-2013-ppehl",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Programa de Pós-Graduação em Ensino de Humanidades e Linguagens – PPEHL",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ensino-de-humanidades-e-linguagens-2013-ppehl",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Programa de Pós-Graduação em Ciência, Inovação e Tecnologia para a Amazônia",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/mestrado-em-ciencia-inovacao-e-tecnologia-para-a-amazonia-1",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Programa de Pós-Graduação em Ciência, Inovação e Tecnologia para a Amazônia",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/mestrado-em-ciencia-inovacao-e-tecnologia-para-a-amazonia-1",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Programa de Pós-Graduação em Engenharia Elétrica",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-engenharia-eletrica",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Programa de Pós-Graduação em Engenharia Elétrica",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-engenharia-eletrica",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Programa de Pós-Graduação em Agronomia: Produção Vegetal",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-agronomia-producao-vegetal",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Programa de Pós-Graduação em Agronomia: Produção Vegetal",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-agronomia-producao-vegetal",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Programa de Pós-Graduação em Sanidade e Produção Animal",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-sanidade-e-producao-animal",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Programa de Pós-Graduação em Sanidade e Produção Animal",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-sanidade-e-producao-animal",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Programa de Pós-Graduação em Ciência da Computação",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ciencia-da-computacao",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Programa de Pós-Graduação em Ciência da Computação",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ciencia-da-computacao",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Programa de Pós-Graduação em Biodiversidade e Biotecnologia da Rede Bionorte",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-biodiversidade-e-biotecnologia-da-rede-bionorte-1",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Programa de Pós-Graduação em Biodiversidade e Biotecnologia da Rede Bionorte",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-biodiversidade-e-biotecnologia-da-rede-bionorte-1",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Programa de Pós-Graduação em Saúde Coletiva",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/mestrado-em-saude-coletiva-2",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Programa de Pós-Graduação em Saúde Coletiva",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/mestrado-em-saude-coletiva-2",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Programa de Pós-Graduação em Matemática em Rede Nacional",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-matematica-em-rede-nacional",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Programa de Pós-Graduação em Matemática em Rede Nacional",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-matematica-em-rede-nacional",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Programa de Pós-Graduação em Artes Cênicas",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-artes-cenicas-1",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Programa de Pós-Graduação em Artes Cênicas",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-artes-cenicas-1",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Programa de Pós-Graduação em Letras: Linguagem e Identidade",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-letras-linguagem-e-identidade",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Programa de Pós-Graduação em Letras: Linguagem e Identidade",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-letras-linguagem-e-identidade",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Programa de Pós-Graduação em Ciências Ambientais - PPGCA",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ciencias-ambientais-ppgca",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Programa de Pós-Graduação em Ciências Ambientais - PPGCA",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ciencias-ambientais-ppgca",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Programa de Pós-Graduação em Ensino de Ciências e Matemática",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ensino-de-ciencias-e-matematica",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Programa de Pós-Graduação em Ensino de Ciências e Matemática",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ensino-de-ciencias-e-matematica",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Programa de Pós-Graduação em Desenvolvimento Regional",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-desenvolvimento-regional",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Programa de Pós-Graduação em Desenvolvimento Regional",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-desenvolvimento-regional",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Programa de Pós-Graduação em Ecologia e Manejo de Recursos Naturais",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ecologia-e-manejo-de-recursos-naturais",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Programa de Pós-Graduação em Ecologia e Manejo de Recursos Naturais",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ecologia-e-manejo-de-recursos-naturais",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Programa de Pós-Graduação em Educação",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-educacao",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Programa de Pós-Graduação em Educação",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-educacao",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Programa de Pós-Graduação em Geografia",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-geografia",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Programa de Pós-Graduação em Geografia",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-geografia",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Programa de Pós-Graduação em Letras",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-letras",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Programa de Pós-Graduação em Letras",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-letras",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Programa de Pós-Graduação Profissional em Ensino de História",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-historia",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Programa de Pós-Graduação Profissional em Ensino de História",
+                "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-historia",
+                "city": "Rio Branco",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "Centro-Oeste",
+    "states": [
+      {
+        "uf": "DF",
+        "universities": [
+          {
+            "acronym": "UNB",
+            "name": "Universidade de Brasília",
+            "city": "Brasília",
+            "state": "DF",
+            "region": "Centro-Oeste",
+            "programs": [
+              {
+                "level": "Doutorado",
+                "program": "ASSISTÊNCIA FARMACÊUTICA (EM REDE)",
+                "url": "https://fcts.unb.br/ppgasfar",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "ASSISTÊNCIA FARMACÊUTICA (EM REDE)",
+                "url": "https://fcts.unb.br/ppgasfar",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "BIOÉTICA",
+                "url": "https://fs.unb.br/pos-graduacao/bioetica",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "BIOÉTICA",
+                "url": "https://fs.unb.br/pos-graduacao/bioetica",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "CIÊNCIAS AMBIENTAIS",
+                "url": "http://ppgca.unb.br",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "CIÊNCIAS AMBIENTAIS",
+                "url": "http://ppgca.unb.br",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "CIÊNCIAS BIOLÓGICAS (BIOLOGIA MOLECULAR)",
+                "url": "https://ppgbiomol.com.br",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "CIÊNCIAS BIOLÓGICAS (BIOLOGIA MOLECULAR)",
+                "url": "https://ppgbiomol.com.br",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "CIÊNCIAS CONTÁBEIS",
+                "url": "http://ppgcont.unb.br",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "CIÊNCIAS CONTÁBEIS",
+                "url": "http://ppgcont.unb.br",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "CIÊNCIAS FARMACÊUTICAS",
+                "url": "http://ppgcf.unb.br",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "CIÊNCIAS FARMACÊUTICAS",
+                "url": "http://ppgcf.unb.br",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "COMUNICAÇÃO",
+                "url": "http://ppgcom.fac.unb.br",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "COMUNICAÇÃO",
+                "url": "http://ppgcom.fac.unb.br",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "DESENVOLVIMENTO, SOCIEDADE E COOPERAÇÃO INTERNACIONAL",
+                "url": "https://ppgdsci.unb.br",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "DESENVOLVIMENTO, SOCIEDADE E COOPERAÇÃO INTERNACIONAL",
+                "url": "https://ppgdsci.unb.br",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "ECONOMIA",
+                "url": "https://ppgeco.unb.br",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "ECONOMIA",
+                "url": "https://ppgeco.unb.br",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "ENFERMAGEM",
+                "url": "https://fs.unb.br/pos-graduacao/pos-enfermagem",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "ENFERMAGEM",
+                "url": "https://fs.unb.br/pos-graduacao/pos-enfermagem",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "GEOCIÊNCIAS APLICADAS E GEODINÂMICA",
+                "url": "http://ppggag.unb.br",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "GEOCIÊNCIAS APLICADAS E GEODINÂMICA",
+                "url": "http://ppggag.unb.br",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "GOVERNANÇA E INOVAÇÃO EM POLÍTICAS PÚBLICAS (Profissional)",
+                "url": "http://ppggipp.unb.br",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "GOVERNANÇA E INOVAÇÃO EM POLÍTICAS PÚBLICAS (Profissional)",
+                "url": "http://ppggipp.unb.br",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "INFORMÁTICA",
+                "url": "http://ppgi.unb.br",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "INFORMÁTICA",
+                "url": "http://ppgi.unb.br",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "MATEMÁTICA",
+                "url": "https://mat.unb.br/index.php/ensino/pos-graduacao/ppgmat-mestrado-e-doutorado",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "MATEMÁTICA",
+                "url": "https://mat.unb.br/index.php/ensino/pos-graduacao/ppgmat-mestrado-e-doutorado",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "MEIO AMBIENTE E DESENVOLVIMENTO RURAL",
+                "url": "https://ppgmader.unb.br/index.php/pt",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "MEIO AMBIENTE E DESENVOLVIMENTO RURAL",
+                "url": "https://ppgmader.unb.br/index.php/pt",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "NUTRIÇÃO HUMANA",
+                "url": "https://fs.unb.br/pos-graduacao/nutricao-humana",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "NUTRIÇÃO HUMANA",
+                "url": "https://fs.unb.br/pos-graduacao/nutricao-humana",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "ODONTOLOGIA",
+                "url": "https://fs.unb.br/pos-graduacao/pos-odontologia",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "ODONTOLOGIA",
+                "url": "https://fs.unb.br/pos-graduacao/pos-odontologia",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "POLÍTICAS PÚBLICAS PARA INFÂNCIA E JUVENTUDE (Profissional)",
+                "url": "http://ppgppij.unb.br",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "POLÍTICAS PÚBLICAS PARA INFÂNCIA E JUVENTUDE (Profissional)",
+                "url": "http://ppgppij.unb.br",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "PROFMAT (Profissional) (EM REDE)",
+                "url": "https://www.exatas.unb.br/index.php/pt/nossos-cursos/pos-graduacao/profmat",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "PROFMAT (Profissional) (EM REDE)",
+                "url": "https://www.exatas.unb.br/index.php/pt/nossos-cursos/pos-graduacao/profmat",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "SOCIOLOGIA",
+                "url": "https://ppgsol.unb.br",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "SOCIOLOGIA",
+                "url": "https://ppgsol.unb.br",
+                "city": "Brasília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uf": "GO",
+        "universities": [
+          {
+            "acronym": "UFG",
+            "name": "Universidade Federal de Goiás",
+            "city": "Goiânia",
+            "state": "GO",
+            "region": "Centro-Oeste",
+            "programs": [
+              {
+                "level": "Doutorado",
+                "program": "Geociências",
+                "url": "https://ppgea.fct.ufg.br",
+                "city": "Goiânia",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Geociências",
+                "url": "https://ppgea.fct.ufg.br",
+                "city": "Goiânia",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Doutorado - em associação UFPA, UFAM, UNIFAP e UFG",
+                "url": "https://ppgif.farmacia.ufg.br",
+                "city": "Goiânia",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Doutorado - em associação UFPA, UFAM, UNIFAP e UFG",
+                "url": "https://ppgif.farmacia.ufg.br",
+                "city": "Goiânia",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Ciência da Informação",
+                "url": "https://ppgci.fic.ufg.br",
+                "city": "Goiânia",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Ciência da Informação",
+                "url": "https://ppgci.fic.ufg.br",
+                "city": "Goiânia",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              }
+            ]
+          },
+          {
+            "acronym": "UEG",
+            "name": "Universidade Estadual de Goiás",
+            "city": "Anápolis",
+            "state": "GO",
+            "region": "Centro-Oeste",
+            "programs": [
+              {
+                "level": "Doutorado",
+                "program": "Engenharia Agrícola",
+                "url": "http://www.ueg.br/iacas/ppgea",
+                "city": "Anápolis",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Engenharia Agrícola",
+                "url": "http://www.ueg.br/iacas/ppgea",
+                "city": "Anápolis",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Produção Vegetal",
+                "url": "http://www.ueg.br/iacas/ppgpv",
+                "city": "Anápolis",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Produção Vegetal",
+                "url": "http://www.ueg.br/iacas/ppgpv",
+                "city": "Anápolis",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Ambiente e Sociedade",
+                "url": "http://www.ueg.br/ppgas",
+                "city": "Anápolis",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Ambiente e Sociedade",
+                "url": "http://www.ueg.br/ppgas",
+                "city": "Anápolis",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Gestão, Educação e Tecnologias",
+                "url": "http://www.ueg.br/ppget",
+                "city": "Anápolis",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Gestão, Educação e Tecnologias",
+                "url": "http://www.ueg.br/ppget",
+                "city": "Anápolis",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Ciências Moleculares",
+                "url": "http://www.ueg.br/iact/ppgq/mestrado",
+                "city": "Anápolis",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Ciências Moleculares",
+                "url": "http://www.ueg.br/iact/ppgq/mestrado",
+                "city": "Anápolis",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Educação",
+                "url": "http://www.ueg.br/prp/ppge",
+                "city": "Anápolis",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Educação",
+                "url": "http://www.ueg.br/prp/ppge",
+                "city": "Anápolis",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Educação, Linguagem e Tecnologias",
+                "url": "http://www.ueg.br/iael/ppgielt",
+                "city": "Anápolis",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Educação, Linguagem e Tecnologias",
+                "url": "http://www.ueg.br/iael/ppgielt",
+                "city": "Anápolis",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Geografia",
+                "url": "http://www.ueg.br/iael/ppgeo",
+                "city": "Anápolis",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Geografia",
+                "url": "http://www.ueg.br/iael/ppgeo",
+                "city": "Anápolis",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "História",
+                "url": "http://www.ueg.br/iael/ppghis",
+                "city": "Anápolis",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "História",
+                "url": "http://www.ueg.br/iael/ppghis",
+                "city": "Anápolis",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              }
+            ]
+          },
+          {
+            "acronym": "UFJ",
+            "name": "Universidade Federal de Jataí",
+            "city": "Jataí",
+            "state": "GO",
+            "region": "Centro-Oeste",
+            "programs": [
+              {
+                "level": "Doutorado",
+                "program": "ppgquimica.jatai.ufg.br",
+                "url": "https://ppgquimica.jatai.ufg.br",
+                "city": "Jataí",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "ppgquimica.jatai.ufg.br",
+                "url": "https://ppgquimica.jatai.ufg.br",
+                "city": "Jataí",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uf": "MS",
+        "universities": [
+          {
+            "acronym": "UFMS",
+            "name": "Universidade Federal de Mato Grosso do Sul",
+            "city": "Campo Grande",
+            "state": "MS",
+            "region": "Centro-Oeste",
+            "programs": []
+          }
+        ]
+      },
+      {
+        "uf": "MT",
+        "universities": [
+          {
+            "acronym": "UNEMAT",
+            "name": "Universidade do Estado de Mato Grosso",
+            "city": "Cáceres",
+            "state": "MT",
+            "region": "Centro-Oeste",
+            "programs": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "Nordeste",
+    "states": [
+      {
+        "uf": "CE",
+        "universities": [
+          {
+            "acronym": "UFCA",
+            "name": "Universidade Federal do Cariri",
+            "city": "Juazeiro do Norte",
+            "state": "CE",
+            "region": "Nordeste",
+            "programs": [
+              {
+                "level": "Doutorado",
+                "program": "Administração",
+                "url": "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/administracao",
+                "city": "Juazeiro do Norte",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Administração",
+                "url": "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/administracao",
+                "city": "Juazeiro do Norte",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Administração Pública",
+                "url": "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/administracao-publica",
+                "city": "Juazeiro do Norte",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Administração Pública",
+                "url": "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/administracao-publica",
+                "city": "Juazeiro do Norte",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Biblioteconomia",
+                "url": "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/biblioteconomia",
+                "city": "Juazeiro do Norte",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Biblioteconomia",
+                "url": "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/biblioteconomia",
+                "city": "Juazeiro do Norte",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Bioquímica e Biologia Molecular",
+                "url": "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/bioquimica-e-biologia-molecular-mestrado",
+                "city": "Juazeiro do Norte",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Bioquímica e Biologia Molecular",
+                "url": "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/bioquimica-e-biologia-molecular-mestrado",
+                "city": "Juazeiro do Norte",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Ciência e Engenharia de Materiais",
+                "url": "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/ciencia-e-engenharia-de-materiais",
+                "city": "Juazeiro do Norte",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Ciência e Engenharia de Materiais",
+                "url": "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/ciencia-e-engenharia-de-materiais",
+                "city": "Juazeiro do Norte",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Ciências da Saúde",
+                "url": "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/ciencias-da-saude",
+                "city": "Juazeiro do Norte",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Ciências da Saúde",
+                "url": "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/ciencias-da-saude",
+                "city": "Juazeiro do Norte",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Desenvolvimento Regional Sustentável",
+                "url": "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/desenvolvimento-regional-sustentavel",
+                "city": "Juazeiro do Norte",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Desenvolvimento Regional Sustentável",
+                "url": "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/desenvolvimento-regional-sustentavel",
+                "city": "Juazeiro do Norte",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Filosofia",
+                "url": "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/filosofia-2",
+                "city": "Juazeiro do Norte",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Filosofia",
+                "url": "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/filosofia-2",
+                "city": "Juazeiro do Norte",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Matemática",
+                "url": "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/matematica",
+                "city": "Juazeiro do Norte",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Matemática",
+                "url": "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/matematica",
+                "city": "Juazeiro do Norte",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Saúde da Família – PROFSAÚDE",
+                "url": "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/saude-da-familia",
+                "city": "Juazeiro do Norte",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Saúde da Família – PROFSAÚDE",
+                "url": "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/saude-da-familia",
+                "city": "Juazeiro do Norte",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Biblioteconomia",
+                "url": "https://www.ufca.edu.br/cursos/pos-graduacao/doutorado/biblioteconomia",
+                "city": "Juazeiro do Norte",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Bioquímica e Biologia Molecular",
+                "url": "https://www.ufca.edu.br/cursos/pos-graduacao/doutorado/bioquimica-e-biologia-molecular",
+                "city": "Juazeiro do Norte",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "Sudeste",
+    "states": [
+      {
+        "uf": "ES",
+        "universities": [
+          {
+            "acronym": "UFES",
+            "name": "Universidade Federal do Espírito Santo",
+            "city": "Vitória",
+            "state": "ES",
+            "region": "Sudeste",
+            "programs": [
+              {
+                "level": "Doutorado",
+                "program": "Administração (M D)",
+                "url": "http://www.administracao.ufes.br/pos-graduacao/PPGAdm",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Administração (M D)",
+                "url": "http://www.administracao.ufes.br/pos-graduacao/PPGAdm",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Agroquímica (M D)",
+                "url": "http://www.agroquimica.alegre.ufes.br/pos-graduacao/PPGAQ",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Agroquímica (M D)",
+                "url": "http://www.agroquimica.alegre.ufes.br/pos-graduacao/PPGAQ",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Arquitetura e Urbanismo (M D)",
+                "url": "http://www.arquitetura.ufes.br/pt-br/pos-graduacao/PPGAU",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Arquitetura e Urbanismo (M D)",
+                "url": "http://www.arquitetura.ufes.br/pt-br/pos-graduacao/PPGAU",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Artes (M D)",
+                "url": "http://www.artes.ufes.br/pt-br/pos-graduacao/PPGA",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Artes (M D)",
+                "url": "http://www.artes.ufes.br/pt-br/pos-graduacao/PPGA",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Assistência Farmacêutica em rede (M D)",
+                "url": "http://www.ufrgs.br/ppgasfar",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Assistência Farmacêutica em rede (M D)",
+                "url": "http://www.ufrgs.br/ppgasfar",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Astrofísica, Cosmologia e Gravitação (D)",
+                "url": "http://www.cosmologia.ufes.br/en/pos-graduacao/PPGCosmo",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Astrofísica, Cosmologia e Gravitação (D)",
+                "url": "http://www.cosmologia.ufes.br/en/pos-graduacao/PPGCosmo",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Bioquímica (M D)",
+                "url": "http://www.bioquimicaefarmacologia.ufes.br/pt-br/pos-graduacao/PPGBF",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Bioquímica (M D)",
+                "url": "http://www.bioquimicaefarmacologia.ufes.br/pt-br/pos-graduacao/PPGBF",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Biotecnologia (M D)",
+                "url": "http://www.biotecnologia.ufes.br/pt-br/pos-graduacao/PPGBIOTEC",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Biotecnologia (M D)",
+                "url": "http://www.biotecnologia.ufes.br/pt-br/pos-graduacao/PPGBIOTEC",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Ciência e Tecnologia de Alimentos (M D)",
+                "url": "http://www.cienciaetecnologiadealimentos.ufes.br/pos-graduacao/PCTA",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Ciência e Tecnologia de Alimentos (M D)",
+                "url": "http://www.cienciaetecnologiadealimentos.ufes.br/pos-graduacao/PCTA",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Ciências Biológicas: Biologia Animal (M D)",
+                "url": "http://www.cienciasbiologicas.ufes.br/pt-br/pos-graduacao/PPGBAN",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Ciências Biológicas: Biologia Animal (M D)",
+                "url": "http://www.cienciasbiologicas.ufes.br/pt-br/pos-graduacao/PPGBAN",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Ciências Contábeis (M D)",
+                "url": "http://www.cienciascontabeis.ufes.br/pos-graduacao/PPGCC",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Ciências Contábeis (M D)",
+                "url": "http://www.cienciascontabeis.ufes.br/pos-graduacao/PPGCC",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Ciências Farmacêuticas (M D)",
+                "url": "http://www.farmacia.vitoria.ufes.br/pt-br/pos-graduacao/PPGCFAR",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Ciências Farmacêuticas (M D)",
+                "url": "http://www.farmacia.vitoria.ufes.br/pt-br/pos-graduacao/PPGCFAR",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Ciências Fisiológicas (M D)",
+                "url": "http://www.cienciasfisiologicas.ufes.br/pt-br/pos-graduacao/PPGCF",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Ciências Fisiológicas (M D)",
+                "url": "http://www.cienciasfisiologicas.ufes.br/pt-br/pos-graduacao/PPGCF",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Ciências Florestais (M D)",
+                "url": "http://www.cienciasflorestais.ufes.br/pos-graduacao/PPGCFL",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Ciências Florestais (M D)",
+                "url": "http://www.cienciasflorestais.ufes.br/pos-graduacao/PPGCFL",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Ciências Odontológicas (M)",
+                "url": "http://www.odontologia.ufes.br/pt-br/pt-br/pos-graduacao/PPGCienciasOdontologicas",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Ciências Odontológicas (M)",
+                "url": "http://www.odontologia.ufes.br/pt-br/pt-br/pos-graduacao/PPGCienciasOdontologicas",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Ciências Sociais (M D)",
+                "url": "http://www.cienciassociais.ufes.br/pt-br/pos-graduacao/PGCS",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Ciências Sociais (M D)",
+                "url": "http://www.cienciassociais.ufes.br/pt-br/pos-graduacao/PGCS",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Ciências Veterinárias (M)",
+                "url": "http://www.cienciasveterinarias.ufes.br/pos-graduacao/PPGCV",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Ciências Veterinárias (M)",
+                "url": "http://www.cienciasveterinarias.ufes.br/pos-graduacao/PPGCV",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Comunicação e Territorialidades (M D)",
+                "url": "http://www.comunicacaosocial.ufes.br/pos-graduacao/POSCOM",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Comunicação e Territorialidades (M D)",
+                "url": "http://www.comunicacaosocial.ufes.br/pos-graduacao/POSCOM",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Direito (M)",
+                "url": "http://www.direito.ufes.br/pt-br/pos-graduacao/PPGDIR",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Direito (M)",
+                "url": "http://www.direito.ufes.br/pt-br/pos-graduacao/PPGDIR",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Doenças Infecciosas (M D)",
+                "url": "http://doencasinfecciosas.ufes.br/pos-graduacao/PPGDI",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Doenças Infecciosas (M D)",
+                "url": "http://doencasinfecciosas.ufes.br/pos-graduacao/PPGDI",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Educação (M D)",
+                "url": "http://www.educacao.ufes.br/pt-br/pos-graduacao/PPGE",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Educação (M D)",
+                "url": "http://www.educacao.ufes.br/pt-br/pos-graduacao/PPGE",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Educação - Mestrado Profissional (MP DP)",
+                "url": "http://www.educacao.ufes.br/pos-graduacao/PPGMPE",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Educação - Mestrado Profissional (MP DP)",
+                "url": "http://www.educacao.ufes.br/pos-graduacao/PPGMPE",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Educação Física (M D)",
+                "url": "http://www.educacaofisica.ufes.br/pt-br/pos-graduacao/PPGEF",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Educação Física (M D)",
+                "url": "http://www.educacaofisica.ufes.br/pt-br/pos-graduacao/PPGEF",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Energia (M D)",
+                "url": "https://energia.ufes.br/pt-br/pos-graduacao/PPGEN",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Energia (M D)",
+                "url": "https://energia.ufes.br/pt-br/pos-graduacao/PPGEN",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Enfermagem (MP)",
+                "url": "https://enfermagem.vitoria.ufes.br/pt-br/pos-graduacao/PPGENF",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Enfermagem (MP)",
+                "url": "https://enfermagem.vitoria.ufes.br/pt-br/pos-graduacao/PPGENF",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Engenharia Ambiental (M D)",
+                "url": "http://www.ambiental.ufes.br/pos-graduacao/PPGEA",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Engenharia Ambiental (M D)",
+                "url": "http://www.ambiental.ufes.br/pos-graduacao/PPGEA",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Engenharia Civil (M)",
+                "url": "http://www.civil.ufes.br/pos-graduacao/PPGEC",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Engenharia Civil (M)",
+                "url": "http://www.civil.ufes.br/pos-graduacao/PPGEC",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Engenharia Elétrica (M D)",
+                "url": "https://engenhariaeletrica.ufes.br/pt-br/pos-graduacao/PPGEE",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Engenharia Elétrica (M D)",
+                "url": "https://engenhariaeletrica.ufes.br/pt-br/pos-graduacao/PPGEE",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Engenharia Mecânica (M D)",
+                "url": "http://www.engenhariamecanica.ufes.br/pos-graduacao/PPGEM",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Engenharia Mecânica (M D)",
+                "url": "http://www.engenhariamecanica.ufes.br/pos-graduacao/PPGEM",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Engenharia Química (M)",
+                "url": "http://www.engenhariaquimica.alegre.ufes.br/pos-graduacao/PPEQ",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Engenharia Química (M)",
+                "url": "http://www.engenhariaquimica.alegre.ufes.br/pos-graduacao/PPEQ",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Ensino, Educação Básica e Formação de Professores (MP)",
+                "url": "http://www.ensinoeeducacao.alegre.ufes.br/pt-br/pos-graduacao/PPGEEDUC",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Ensino, Educação Básica e Formação de Professores (MP)",
+                "url": "http://www.ensinoeeducacao.alegre.ufes.br/pt-br/pos-graduacao/PPGEEDUC",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Filosofia (M D)",
+                "url": "http://www.filosofia.ufes.br/pt-br/pos-graduacao/PPGFil",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Filosofia (M D)",
+                "url": "http://www.filosofia.ufes.br/pt-br/pos-graduacao/PPGFil",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Física (M D)",
+                "url": "http://www.fisica.ufes.br/pos-graduacao/PPGFis",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Física (M D)",
+                "url": "http://www.fisica.ufes.br/pos-graduacao/PPGFis",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Genética e Melhoramento (M D)",
+                "url": "http://www.geneticaemelhoramento.ufes.br/pos-graduacao/PGGM",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Genética e Melhoramento (M D)",
+                "url": "http://www.geneticaemelhoramento.ufes.br/pos-graduacao/PGGM",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Geografia (M D)",
+                "url": "http://www.geografia.ufes.br/pt-br/pos-graduacao/PPGG",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Geografia (M D)",
+                "url": "http://www.geografia.ufes.br/pt-br/pos-graduacao/PPGG",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Gestão e Regulação de Recursos Hídricos em Rede Nacional (MP)",
+                "url": "http://profagua.ufes.br/pos-graduacao/PROF%C3%81GUA",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Gestão e Regulação de Recursos Hídricos em Rede Nacional (MP)",
+                "url": "http://profagua.ufes.br/pos-graduacao/PROF%C3%81GUA",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Gestão Pública (MP)",
+                "url": "https://gestaopublica.ufes.br/pt-br/pos-graduacao/PPGGP",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Gestão Pública (MP)",
+                "url": "https://gestaopublica.ufes.br/pt-br/pos-graduacao/PPGGP",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "História (M D)",
+                "url": "http://www.historia.ufes.br/pt-br/pos-graduacao/PPGHIS",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "História (M D)",
+                "url": "http://www.historia.ufes.br/pt-br/pos-graduacao/PPGHIS",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Informática (M D)",
+                "url": "http://www.informatica.ufes.br/pt-br/pos-graduacao/PPGI",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Informática (M D)",
+                "url": "http://www.informatica.ufes.br/pt-br/pos-graduacao/PPGI",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Letras (M D)",
+                "url": "http://www.letras.ufes.br/pos-graduacao/PPGL",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Letras (M D)",
+                "url": "http://www.letras.ufes.br/pos-graduacao/PPGL",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Matemática (M)",
+                "url": "http://www.matematica.ufes.br/pos-graduacao/PPGMAT",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Matemática (M)",
+                "url": "http://www.matematica.ufes.br/pos-graduacao/PPGMAT",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Matemática em rede nacional (MP)",
+                "url": "http://www.matematica.redenacional.ufes.br/pos-graduacao/PMPM",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Matemática em rede nacional (MP)",
+                "url": "http://www.matematica.redenacional.ufes.br/pos-graduacao/PMPM",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Oceanografia Ambiental (M D)",
+                "url": "http://www.oceanografia.ufes.br/pos-graduacao/PPGOAM",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Oceanografia Ambiental (M D)",
+                "url": "http://www.oceanografia.ufes.br/pos-graduacao/PPGOAM",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Psicologia (M D)",
+                "url": "http://www.psicologia.ufes.br/pos-graduacao/PPGP",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Psicologia (M D)",
+                "url": "http://www.psicologia.ufes.br/pos-graduacao/PPGP",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Psicologia Institucional (M D)",
+                "url": "http://www.psicologiainstitucional.ufes.br/pt-br/pos-graduacao/PPGPSI",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Psicologia Institucional (M D)",
+                "url": "http://www.psicologiainstitucional.ufes.br/pt-br/pos-graduacao/PPGPSI",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Saúde Coletiva (M D)",
+                "url": "http://www.saudecoletiva.ufes.br/pt-br/pos-graduacao/PPGSC",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Saúde Coletiva (M D)",
+                "url": "http://www.saudecoletiva.ufes.br/pt-br/pos-graduacao/PPGSC",
+                "city": "Vitória",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uf": "MG",
+        "universities": [
+          {
+            "acronym": "UFMG",
+            "name": "Universidade Federal de Minas Gerais",
+            "city": "Belo Horizonte",
+            "state": "MG",
+            "region": "Sudeste",
+            "programs": []
+          }
+        ]
+      },
+      {
+        "uf": "SP",
+        "universities": [
+          {
+            "acronym": "FAMEMA",
+            "name": "Faculdade de Medicina de Marília",
+            "city": "Marília",
+            "state": "SP",
+            "region": "Sudeste",
+            "programs": [
+              {
+                "level": "Doutorado",
+                "program": "Programa de Pós-Graduação em Saúde e Envelhecimento / Graduate Program in Health and Aging (PPGSE)",
+                "url": "https://www.famema.br/pos-graduacao-stricto-sensu/mestrado-academico",
+                "city": "Marília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Programa de Pós-Graduação em Saúde e Envelhecimento / Graduate Program in Health and Aging (PPGSE)",
+                "url": "https://www.famema.br/pos-graduacao-stricto-sensu/mestrado-academico",
+                "city": "Marília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Programa de Pós-Graduação em Ensino em Saúde",
+                "url": "https://www.famema.br/pos-graduacao-stricto-sensu/mestrado-profissional",
+                "city": "Marília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Programa de Pós-Graduação em Ensino em Saúde",
+                "url": "https://www.famema.br/pos-graduacao-stricto-sensu/mestrado-profissional",
+                "city": "Marília",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              }
+            ]
+          },
+          {
+            "acronym": "UNICAMP",
+            "name": "Universidade Estadual de Campinas",
+            "city": "Campinas",
+            "state": "SP",
+            "region": "Sudeste",
+            "programs": []
+          },
+          {
+            "acronym": "UNITAU",
+            "name": "Universidade de Taubaté",
+            "city": "Taubaté",
+            "state": "SP",
+            "region": "Sudeste",
+            "programs": [
+              {
+                "level": "Doutorado",
+                "program": "Doutorado em Ciências da Saúde",
+                "url": "https://www.unitau.br/pos-graduacao/doutorado-em-ciencias-da-saude",
+                "city": "Taubaté",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Doutorado em Ciências da Saúde",
+                "url": "https://www.unitau.br/pos-graduacao/doutorado-em-ciencias-da-saude",
+                "city": "Taubaté",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Doutorado em Planejamento e Desenvolvimento Regional",
+                "url": "https://www.unitau.br/pos-graduacao/doutorado-em-planejamento-e-desenvolvimento-regional",
+                "city": "Taubaté",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Doutorado em Planejamento e Desenvolvimento Regional",
+                "url": "https://www.unitau.br/pos-graduacao/doutorado-em-planejamento-e-desenvolvimento-regional",
+                "city": "Taubaté",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              }
+            ]
+          },
+          {
+            "acronym": "UFSCAR",
+            "name": "Universidade Federal de São Carlos",
+            "city": "São Carlos",
+            "state": "SP",
+            "region": "Sudeste",
+            "programs": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "region": "Sul",
+    "states": [
+      {
+        "uf": "RS",
+        "universities": [
+          {
+            "acronym": "UNIPAMPA",
+            "name": "Universidade Federal do Pampa",
+            "city": "Bagé",
+            "state": "RS",
+            "region": "Sul",
+            "programs": []
+          },
+          {
+            "acronym": "UFSM",
+            "name": "Universidade Federal de Santa Maria",
+            "city": "Santa Maria",
+            "state": "RS",
+            "region": "Sul",
+            "programs": [
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Administração",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgacc",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Administração",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgacc",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Administração Pública",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgapublica",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Administração Pública",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgapublica",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Agricultura de Precisão",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgap",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Agricultura de Precisão",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgap",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Agrobiologia",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgagrobio",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Agrobiologia",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgagrobio",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Agronomia",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgagro",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Agronomia",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgagro",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Arquitetura, Urbanismo e Paisagismo",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgaup",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Arquitetura, Urbanismo e Paisagismo",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgaup",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Artes Visuais",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgart",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Artes Visuais",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgart",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Artes da Cena",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/pgac",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Artes da Cena",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/pgac",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Biodiversidade Animal",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgba",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Biodiversidade Animal",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgba",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Ciência da Computação",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcc",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Ciência da Computação",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcc",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Ciência do Solo",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcs",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Ciência do Solo",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcs",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Ciência e Tecnologia Dos Alimentos",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcta",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Ciência e Tecnologia Dos Alimentos",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcta",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Ciências Biológicas - Bioquímica Toxicológica",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgbtox",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Ciências Biológicas - Bioquímica Toxicológica",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgbtox",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Ciências Biológicas: Farmacologia",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/pgfarmacologia",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Ciências Biológicas: Farmacologia",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/pgfarmacologia",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Ciências Farmacêuticas",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcf",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Ciências Farmacêuticas",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcf",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Ciências Sociais",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcsociais",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Ciências Sociais",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcsociais",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Ciências da Saúde",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/mpcs",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Ciências da Saúde",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/mpcs",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Ciências do Movimento e Reabilitação",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcmr",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Ciências do Movimento e Reabilitação",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcmr",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Comunicação",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/poscom",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Comunicação",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/poscom",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Distúrbios da Comunicação Humana",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgdch",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Distúrbios da Comunicação Humana",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgdch",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Economia e Desenvolvimento",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppged",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Economia e Desenvolvimento",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppged",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Educação Matemática e Ensino de Física",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgemef",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Educação Matemática e Ensino de Física",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgemef",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Educação Profissional e Tecnológica",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgept",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Educação Profissional e Tecnológica",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgept",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Educação em Ciências: Química da Vida e Saúde",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/pgeec",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Educação em Ciências: Química da Vida e Saúde",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/pgeec",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Enfermagem",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgenf",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Enfermagem",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgenf",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Engenharia Agrícola",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgea",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Engenharia Agrícola",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgea",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Engenharia Ambiental",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgeamb",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Engenharia Ambiental",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgeamb",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Engenharia Civil",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgec",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Engenharia Civil",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgec",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Engenharia Civil e Ambiental",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgecam",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Engenharia Civil e Ambiental",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgecam",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Engenharia Elétrica",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgee",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Engenharia Elétrica",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgee",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Engenharia Florestal",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgef",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Engenharia Florestal",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgef",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Engenharia Mecânica",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/pgmec",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Engenharia Mecânica",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/pgmec",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Engenharia Química",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgeq",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Engenharia Química",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgeq",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Ensino de História em Rede Nacional (profhistória)",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/profhistoria",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Ensino de História em Rede Nacional (profhistória)",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/profhistoria",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Extensão Rural",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgexr",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Extensão Rural",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgexr",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Filosofia",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgf",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Filosofia",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgf",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Física",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/pgfisica",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Física",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/pgfisica",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Geografia",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppggeo",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Geografia",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppggeo",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Gerontologia",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgeronto",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Gerontologia",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgeronto",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Gestão de Organizações Públicas",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgop",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Gestão de Organizações Públicas",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgop",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em História",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgh",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em História",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgh",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Letras",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgletras",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Letras",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgletras",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Matemática",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgmat",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Matemática",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgmat",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Medicina Veterinária",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgmv",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Medicina Veterinária",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgmv",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Meteorologia",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgmet",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Meteorologia",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgmet",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Patrimônio Cultural",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgpc",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Patrimônio Cultural",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgpc",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Políticas Públicas e Gestão Educacional",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/pppg",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Políticas Públicas e Gestão Educacional",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/pppg",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Psicologia",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgp",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Psicologia",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgp",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Química",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgq",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Química",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgq",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Saúde Coletiva",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgsc",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Saúde Coletiva",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgsc",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Serviço Social e Políticas Públicas",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgsspp",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Serviço Social e Políticas Públicas",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgsspp",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Tecnologias Educacionais em Rede",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgter",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Tecnologias Educacionais em Rede",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgter",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Zootecnia",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgz",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Zootecnia",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgz",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Agronomia - Agricultura e Ambiente",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/frederico-westphalen/ppgaaa",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Agronomia - Agricultura e Ambiente",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/frederico-westphalen/ppgaaa",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação em Ciência e Tecnologia Ambiental",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/frederico-westphalen/ppgctamb",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação em Ciência e Tecnologia Ambiental",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/frederico-westphalen/ppgctamb",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Pós-Graduação  em Gestão Educacional",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/espgestao",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Pós-Graduação  em Gestão Educacional",
+                "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/espgestao",
+                "city": "Santa Maria",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uf": "PR",
+        "universities": [
+          {
+            "acronym": "UFPR",
+            "name": "Universidade Federal do Paraná",
+            "city": "Curitiba",
+            "state": "PR",
+            "region": "Sul",
+            "programs": []
+          }
+        ]
+      },
+      {
+        "uf": "SC",
+        "universities": [
+          {
+            "acronym": "UFFS",
+            "name": "Universidade Federal da Fronteira Sul",
+            "city": "Chapecó",
+            "state": "SC",
+            "region": "Sul",
+            "programs": [
+              {
+                "level": "Doutorado",
+                "program": "História",
+                "url": "https://www.uffs.edu.br/uffs/mestrado/historia",
+                "city": "Chapecó",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "História",
+                "url": "https://www.uffs.edu.br/uffs/mestrado/historia",
+                "city": "Chapecó",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Enfermagem",
+                "url": "https://www.uffs.edu.br/uffs/programa-de-pos-graduacao-em-enfermagem/apresentacao",
+                "city": "Chapecó",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Enfermagem",
+                "url": "https://www.uffs.edu.br/uffs/programa-de-pos-graduacao-em-enfermagem/apresentacao",
+                "city": "Chapecó",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Interinstitucional em Educação Científica e Tecnológica (Encerrado)",
+                "url": "https://www.uffs.edu.br/uffs/doutorado/interinstitucional-em-educacao-cientifica-e-tecnologica-encerrado",
+                "city": "Chapecó",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Interinstitucional em Arquitetura (encerrado)",
+                "url": "https://www.uffs.edu.br/uffs/doutorado/interinstitucional-em-arquitetura-encerrado",
+                "city": "Chapecó",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Doutorado",
+                "program": "Apresentação",
+                "url": "https://www.uffs.edu.br/uffs/pos-graduacao/apresentacao",
+                "city": "Chapecó",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              },
+              {
+                "level": "Mestrado",
+                "program": "Apresentação",
+                "url": "https://www.uffs.edu.br/uffs/pos-graduacao/apresentacao",
+                "city": "Chapecó",
+                "campus": "",
+                "startDate": "",
+                "duration": "",
+                "languageRequirement": "",
+                "masterRequired": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

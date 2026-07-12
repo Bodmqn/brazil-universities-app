@@ -1,8 +1,9 @@
 {
-  "total_universities": 59,
-  "total_programs": 463,
+  "total_universities": 67,
+  "total_programs": 815,
   "by_region": {
     "Sudeste": 19,
+    "": 8,
     "Centro-Oeste": 8,
     "Nordeste": 17,
     "Sul": 8,
@@ -10,13 +11,18 @@
   },
   "by_category": {
     "": 4,
-    "Federal": 41,
-    "State": 14
+    "State": 16,
+    "Federal": 46,
+    "Municipal": 1
   },
   "by_scan_status": {
-    "possible": 252,
-    "likely_open": 63,
-    "unknown": 104,
-    "error": 44
+    "possible": 243,
+    "likely_open": 62,
+    "error": 54,
+    "unknown": 456
+  },
+  "by_level": {
+    "Mestrado": 637,
+    "Doutorado": 178
   }
 }

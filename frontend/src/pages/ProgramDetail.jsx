@@ -1,27 +1,8 @@
 import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { loadData, getProgram, getUniversity } from '../services/data'
-
-const statusConfig = {
-  likely_open: { label: 'Open', color: 'bg-green-100 text-green-800', dot: 'bg-green-500' },
-  possible: { label: 'Possible', color: 'bg-yellow-100 text-yellow-800', dot: 'bg-yellow-500' },
-  error: { label: 'Error', color: 'bg-red-100 text-red-800', dot: 'bg-red-500' },
-  unknown: { label: 'Unknown', color: 'bg-gray-100 text-gray-500', dot: 'bg-gray-400' },
-}
-
-function Field({ label, value, href }) {
-  if (!value && value !== 0) return null
-  return (
-    <div className="py-2">
-      <span className="text-sm text-gray-500 block">{label}</span>
-      {href ? (
-        <a href={href} target="_blank" rel="noopener noreferrer" className="text-green-700 hover:underline font-medium break-all">{value}</a>
-      ) : (
-        <span className="text-gray-900 font-medium">{value}</span>
-      )}
-    </div>
-  )
-}
+import Field from '../components/Field'
+import { StatusBadgeWithDot } from '../components/StatusBadge'
 
 export default function ProgramDetail() {
   const { id } = useParams()
@@ -37,7 +18,6 @@ export default function ProgramDetail() {
   if (!prog) return <div className="text-center py-12 text-gray-400">Program not found</div>
 
   const uni = getUniversity(prog.university_id)
-  const cfg = statusConfig[prog.scan_status] || statusConfig.unknown
 
   return (
     <div>
@@ -57,10 +37,7 @@ export default function ProgramDetail() {
               </p>
             )}
           </div>
-          <span className={`px-3 py-1 rounded-full text-sm font-medium inline-flex items-center gap-2 ${cfg.color}`}>
-            <span className={`w-2 h-2 rounded-full ${cfg.dot}`}></span>
-            {cfg.label}
-          </span>
+          <StatusBadgeWithDot status={prog.scan_status} />
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -72,7 +49,7 @@ export default function ProgramDetail() {
           <div>
             <Field label="Start Date" value={prog.start_date} />
             <Field label="Duration" value={prog.duration_months ? `${prog.duration_months} months` : null} />
-            <Field label="Master's Required for PhD" value={prog.master_required === 'SIM' ? 'Yes' : 'No'} />
+            <Field label="Master's Required for PhD" value={prog.master_required === 'SIM' ? 'Yes' : prog.master_required === '' ? 'Unknown' : 'No'} />
           </div>
           <div>
             <Field label="Language Requirement" value={prog.language_requirement} />

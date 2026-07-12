@@ -80,10 +80,9 @@ export default function Dashboard() {
         <div className="bg-white rounded-xl border border-gray-200 p-6">
           <h2 className="text-lg font-semibold text-gray-900 mb-4">Programs by Region</h2>
           <div className="space-y-3">
-            {REGIONS.map(r => {
-              const count = Object.values(stats.by_region || {})[REGIONS.indexOf(r)] || 0
-              return <Bar key={r} label={r} count={count} total={total} color={regionColors[r]} />
-            })}
+            {REGIONS.map(r => (
+              <Bar key={r} label={r} count={stats.by_region?.[r] || 0} total={total} color={regionColors[r]} />
+            ))}
           </div>
         </div>
         <div className="bg-white rounded-xl border border-gray-200 p-6">

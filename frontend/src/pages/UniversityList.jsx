@@ -1,34 +1,18 @@
-import { useEffect, useState } from 'react'
-import { Link, useSearchParams } from 'react-router-dom'
+import { useEffect, useRef, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { filterUniversities, loadData, getCalls, REGIONS, CATEGORIES, STATES } from '../services/data'
-
-function Badge({ children, color }) {
-  const colors = {
-    Federal: 'bg-blue-100 text-blue-800',
-    State: 'bg-orange-100 text-orange-800',
-    Municipal: 'bg-teal-100 text-teal-800',
-  }
-  return (
-    <span className={`inline-block px-2 py-0.5 rounded-full text-xs font-medium ${colors[children] || colors.Federal}`}>
-      {children}
-    </span>
-  )
-}
+import useFilterParams from '../hooks/useFilterParams'
+import Badge from '../components/Badge'
+import Pagination from '../components/Pagination'
 
 export default function UniversityList() {
-  const [searchParams, setSearchParams] = useSearchParams()
+  const { params, setParam, searchParams, setSearchParams } = useFilterParams({
+    category: '', region: '', state: '', search: '', has_calls: '', page: 'page',
+  })
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
-
-  const params = {
-    category: searchParams.get('category') || '',
-    region: searchParams.get('region') || '',
-    state: searchParams.get('state') || '',
-    search: searchParams.get('search') || '',
-    has_calls: searchParams.get('has_calls') || '',
-    page: parseInt(searchParams.get('page') || '1'),
-    per_page: 50,
-  }
+  const [localSearch, setLocalSearch] = useState(params.search)
+  const debounceRef = useRef(null)
 
   useEffect(() => {
     loadData().then(() => {
@@ -39,13 +23,15 @@ export default function UniversityList() {
     })
   }, [searchParams])
 
-  const setParam = (key, value) => {
-    const next = new URLSearchParams(searchParams)
-    if (value) next.set(key, value)
-    else next.delete(key)
-    next.set('page', '1')
-    setSearchParams(next)
-  }
+  useEffect(() => {
+    if (debounceRef.current) clearTimeout(debounceRef.current)
+    debounceRef.current = setTimeout(() => {
+      setParam('search', localSearch)
+    }, 300)
+    return () => { if (debounceRef.current) clearTimeout(debounceRef.current) }
+  }, [localSearch])
+
+  const clearFilters = () => setSearchParams({})
 
   const calls = getCalls()
   const openCallCounts = {}
@@ -66,8 +52,8 @@ export default function UniversityList() {
 
       <div className="bg-white rounded-xl border border-gray-200 p-4 mb-6">
         <div className="flex flex-wrap gap-3">
-          <input type="text" placeholder="Search name, acronym, city..." value={params.search}
-            onChange={e => setParam('search', e.target.value)}
+          <input type="text" placeholder="Search name, acronym, city..." value={localSearch}
+            onChange={e => setLocalSearch(e.target.value)}
             className="flex-1 min-w-[200px] px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-green-500"
           />
           <select value={params.region} onChange={e => setParam('region', e.target.value)} className="px-3 py-2 border border-gray-300 rounded-lg text-sm">
@@ -82,6 +68,11 @@ export default function UniversityList() {
             <option value="">All States</option>
             {STATES.map(s => <option key={s} value={s}>{s}</option>)}
           </select>
+          {(params.search || params.category || params.region || params.state) && (
+            <button onClick={clearFilters} className="px-3 py-2 text-sm text-red-600 hover:text-red-800 border border-red-200 rounded-lg hover:bg-red-50">
+              Clear
+            </button>
+          )}
         </div>
       </div>
 
@@ -133,17 +124,7 @@ export default function UniversityList() {
             </table>
           </div>
 
-          {data && data.total_pages > 1 && (
-            <div className="flex items-center justify-between px-4 py-3 border-t border-gray-100 bg-gray-50">
-              <span className="text-sm text-gray-500">Page {data.page} of {data.total_pages}</span>
-              <div className="flex gap-2">
-                <button disabled={data.page <= 1} onClick={() => setParam('page', String(data.page - 1))}
-                  className="px-3 py-1 text-sm rounded border border-gray-300 disabled:opacity-50 hover:bg-gray-100">Previous</button>
-                <button disabled={data.page >= data.total_pages} onClick={() => setParam('page', String(data.page + 1))}
-                  className="px-3 py-1 text-sm rounded border border-gray-300 disabled:opacity-50 hover:bg-gray-100">Next</button>
-              </div>
-            </div>
-          )}
+          <Pagination data={data} setParam={setParam} />
         </div>
       )}
     </div>

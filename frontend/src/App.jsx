@@ -78,6 +78,13 @@ function App() {
           <Route path="/programs" element={<ProgramList />} />
           <Route path="/programs/:id" element={<ProgramDetail />} />
           <Route path="/calls" element={<CallsPage />} />
+          <Route path="*" element={
+            <div className="text-center py-20">
+              <h1 className="text-4xl font-bold text-gray-300 mb-4">404</h1>
+              <p className="text-gray-500">Page not found</p>
+              <Link to="/" className="text-green-700 hover:underline mt-4 inline-block">Go home &rarr;</Link>
+            </div>
+          } />
         </Routes>
       </main>
 

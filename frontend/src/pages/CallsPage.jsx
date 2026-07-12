@@ -1,6 +1,8 @@
-import { useEffect, useState } from 'react'
-import { Link, useSearchParams } from 'react-router-dom'
-import { loadData, filterCalls, getUniversity, getProgramsForUniversity, REGIONS, STATES } from '../services/data'
+import { useEffect, useRef, useState } from 'react'
+import { Link } from 'react-router-dom'
+import { loadData, filterCalls, getUniversity, getCalls, REGIONS, STATES } from '../services/data'
+import useFilterParams from '../hooks/useFilterParams'
+import Pagination from '../components/Pagination'
 
 const statusColors = {
   open: 'bg-green-100 text-green-800',
@@ -9,19 +11,11 @@ const statusColors = {
 }
 
 export default function CallsPage() {
-  const [searchParams, setSearchParams] = useSearchParams()
+  const { params, setParam, searchParams, setSearchParams } = useFilterParams({
+    status: 'open', call_year: '', region: '', state: '', call_type: '', page: 'page',
+  })
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
-
-  const params = {
-    status: searchParams.get('status') || 'open',
-    call_year: searchParams.get('call_year') || '',
-    region: searchParams.get('region') || '',
-    state: searchParams.get('state') || '',
-    call_type: searchParams.get('call_type') || '',
-    page: parseInt(searchParams.get('page') || '1'),
-    per_page: 50,
-  }
 
   useEffect(() => {
     loadData().then(() => {
@@ -32,13 +26,10 @@ export default function CallsPage() {
     })
   }, [searchParams])
 
-  const setParam = (key, value) => {
-    const next = new URLSearchParams(searchParams)
-    if (value) next.set(key, value)
-    else next.delete(key)
-    next.set('page', '1')
-    setSearchParams(next)
-  }
+  const allYears = [...new Set(getCalls().map(c => c.call_year || new Date().getFullYear()))].sort().reverse()
+  const yearOptions = allYears.length > 0 ? allYears : [new Date().getFullYear(), new Date().getFullYear() + 1]
+  const hasFilters = params.status !== 'open' || params.call_year || params.call_type || params.region || params.state
+  const clearFilters = () => setSearchParams({})
 
   return (
     <div>
@@ -66,7 +57,7 @@ export default function CallsPage() {
           </select>
           <select value={params.call_year} onChange={e => setParam('call_year', e.target.value)} className="px-3 py-2 border border-gray-300 rounded-lg text-sm">
             <option value="">All Years</option>
-            {[2027, 2028, 2029, 2030].map(y => <option key={y} value={y}>{y}</option>)}
+            {yearOptions.map(y => <option key={y} value={y}>{y}</option>)}
           </select>
           <select value={params.call_type} onChange={e => setParam('call_type', e.target.value)} className="px-3 py-2 border border-gray-300 rounded-lg text-sm">
             <option value="">All Types</option>
@@ -83,6 +74,11 @@ export default function CallsPage() {
             <option value="">All States</option>
             {STATES.map(s => <option key={s} value={s}>{s}</option>)}
           </select>
+          {hasFilters && (
+            <button onClick={clearFilters} className="px-3 py-2 text-sm text-red-600 hover:text-red-800 border border-red-200 rounded-lg hover:bg-red-50">
+              Clear
+            </button>
+          )}
         </div>
       </div>
 
@@ -139,17 +135,7 @@ export default function CallsPage() {
             </table>
           </div>
 
-          {data && data.total_pages > 1 && (
-            <div className="flex items-center justify-between px-4 py-3 border-t border-gray-100 bg-gray-50">
-              <span className="text-sm text-gray-500">Page {data.page} of {data.total_pages}</span>
-              <div className="flex gap-2">
-                <button disabled={data.page <= 1} onClick={() => setParam('page', String(data.page - 1))}
-                  className="px-3 py-1 text-sm rounded border border-gray-300 disabled:opacity-50 hover:bg-gray-100">Previous</button>
-                <button disabled={data.page >= data.total_pages} onClick={() => setParam('page', String(data.page + 1))}
-                  className="px-3 py-1 text-sm rounded border border-gray-300 disabled:opacity-50 hover:bg-gray-100">Next</button>
-              </div>
-            </div>
-          )}
+          <Pagination data={data} setParam={setParam} />
         </div>
       ) : null}
     </div>

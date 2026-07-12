@@ -21,6 +21,14 @@ def save_json(data, name):
     print(f"  Wrote {path} ({len(data)} items)")
 
 
+def convert_to_iso(date_str):
+    if not date_str:
+        return None
+    m = re.match(r"(\d{1,2})/(\d{1,2})/(\d{4})", date_str.strip())
+    if m:
+        return f"{m.group(3)}-{m.group(2).zfill(2)}-{m.group(1).zfill(2)}"
+    return date_str
+
 def extract_duration(d):
     if not d:
         return None
@@ -114,7 +122,7 @@ def main():
                         "city": prog.get("city"),
                         "campus": prog.get("campus"),
                         "master_required": prog.get("masterRequired") or "",
-                        "start_date": prog.get("startDate"),
+                        "start_date": convert_to_iso(prog.get("startDate")),
                         "duration_months": extract_duration(prog.get("duration")),
                         "language_requirement": prog.get("languageRequirement"),
                         "scan_status": scan_info.get("status", "unknown"),
@@ -139,12 +147,17 @@ def main():
     for p in programs_flat:
         status_counts[p["scan_status"]] = status_counts.get(p["scan_status"], 0) + 1
 
+    level_counts = {}
+    for p in programs_flat:
+        level_counts[p["level"]] = level_counts.get(p["level"], 0) + 1
+
     summary = {
         "total_universities": len(universities),
         "total_programs": len(programs_flat),
         "by_region": {},
         "by_category": {},
         "by_scan_status": status_counts,
+        "by_level": level_counts,
     }
     for u in universities:
         r = u["region"]

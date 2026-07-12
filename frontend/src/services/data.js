@@ -249,5 +249,5 @@ export const STATES = [
   'AC','AL','AP','AM','BA','CE','DF','ES','GO','MA','MT','MS','MG','PA','PB','PR',
   'PE','PI','RJ','RN','RS','RO','RR','SC','SP','SE','TO',
 ]
-export const PROGRAM_LEVELS = ['Mestrado']
+export const PROGRAM_LEVELS = ['Mestrado', 'Doutorado', 'Mestrado/Doutorado']
 export const SCAN_STATUSES = ['likely_open', 'possible', 'error', 'unknown']
