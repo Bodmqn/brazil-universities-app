@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    container_name: brasil-universidades-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/data:/app/data
+      - universidades_db:/app
+    environment:
+      - DATABASE_URL=sqlite:////app/brasil_universidades.db
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    container_name: brasil-universidades-web
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  universidades_db:
