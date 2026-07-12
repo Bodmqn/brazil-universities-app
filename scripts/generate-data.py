@@ -46,8 +46,9 @@ def main():
         status_map_raw = sm.get("programs", {})
         print(f"  program-status.json: {sm.get('total_urls', '?')} URLs tracked")
 
-    # Load PDF scrape results to upgrade unknown→possible for programs with editais found
+    # Load PDF scrape results to upgrade unknown→possible and attach edital PDF URLs
     pdf_editais_found = set()
+    edital_urls = {}  # url -> {url, title}
     pdf_scrape_path = os.path.join(SRC_DATA, "pdf-scrape-results.json")
     if os.path.exists(pdf_scrape_path):
         pr = load_json(pdf_scrape_path)
@@ -56,7 +57,31 @@ def main():
             pdf_status = info.get("status", "")
             if pdf_status in ("found", "pdfs_found_but_no_metadata"):
                 pdf_editais_found.add(url)
-        print(f"  pdf-scrape-results.json: {len(pr_progs)} programs, {len(pdf_editais_found)} with editais found")
+                # Pick the best edital URL
+                best = None
+                # Prefer main PDFs
+                for p in info.get("pdfs", []):
+                    if p.get("is_main") and p.get("url"):
+                        best = p
+                        break
+                # Fall back to first PDF
+                if not best:
+                    for p in info.get("pdfs", []):
+                        if p.get("url"):
+                            best = p
+                            break
+                # Fall back to first edital link
+                if not best:
+                    for e in info.get("editais", []):
+                        if e.get("url"):
+                            best = e
+                            break
+                if best:
+                    edital_urls[url] = {
+                        "url": best["url"],
+                        "title": best.get("text", "") or "",
+                    }
+        print(f"  pdf-scrape-results.json: {len(pr_progs)} programs, {len(pdf_editais_found)} with editais found, {len(edital_urls)} with PDF URLs")
 
     master_path = os.path.join(ROOT_DATA, "brazil_universities_master.json")
     if not os.path.exists(master_path):
@@ -144,6 +169,8 @@ def main():
                     if scan_status == "unknown" and url in pdf_editais_found:
                         scan_status = "possible"
 
+                    edital = edital_urls.get(url, {})
+
                     programs_flat.append({
                         "id": prog_id_counter,
                         "university_id": uni_id,
@@ -167,6 +194,8 @@ def main():
                         "scan_keywords": scan_info.get("keywords_found", []),
                         "scan_dates_found": scan_info.get("dates_found", []),
                         "scan_title": scan_info.get("title"),
+                        "edital_url": edital.get("url", ""),
+                        "edital_title": edital.get("title", ""),
                     })
                     prog_id_counter += 1
 
