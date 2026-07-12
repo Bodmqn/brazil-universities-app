@@ -13280,7 +13280,7 @@
     "meta_start_date": "primeiro semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -13304,7 +13304,7 @@
     "meta_start_date": "primeiro semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -13328,7 +13328,7 @@
     "meta_start_date": "primeiro semestre de 2025",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -13352,7 +13352,7 @@
     "meta_start_date": "primeiro semestre de 2025",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -13376,11 +13376,18 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "sele[cç][aã]o",
+      "mestrado",
+      "calend[aá]rio"
+    ],
+    "scan_dates_found": [
+      "27/08/2020",
+      "26/11/2019"
+    ],
+    "scan_title": "PPGCSAO Ufac — Programa de Pós-Graduação em Ciências da Saúde na Amazônia Ocidental"
   },
   {
     "id": 469,
@@ -13400,11 +13407,18 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "sele[cç][aã]o",
+      "mestrado",
+      "calend[aá]rio"
+    ],
+    "scan_dates_found": [
+      "27/08/2020",
+      "26/11/2019"
+    ],
+    "scan_title": "PPGCSAO Ufac — Programa de Pós-Graduação em Ciências da Saúde na Amazônia Ocidental"
   },
   {
     "id": 470,
@@ -13424,7 +13438,7 @@
     "meta_start_date": "1º semestre letivo de 2027",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -13448,7 +13462,7 @@
     "meta_start_date": "1º semestre letivo de 2027",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -13472,11 +13486,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "sele[cç][aã]o",
+      "mestrado"
+    ],
+    "scan_dates_found": [
+      "16/06/2025",
+      "16/06/2025",
+      "16/06/2025",
+      "16/06/2025",
+      "16/06/2025"
+    ],
+    "scan_title": "Home — Ciência, Inovação e Tecnologia para a Amazônia"
   },
   {
     "id": 473,
@@ -13496,11 +13520,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "sele[cç][aã]o",
+      "mestrado"
+    ],
+    "scan_dates_found": [
+      "16/06/2025",
+      "16/06/2025",
+      "16/06/2025",
+      "16/06/2025",
+      "16/06/2025"
+    ],
+    "scan_title": "Home — Ciência, Inovação e Tecnologia para a Amazônia"
   },
   {
     "id": 474,
@@ -13521,10 +13555,10 @@
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "unknown",
-    "scan_confidence": 0.0,
+    "scan_confidence": 0.05,
     "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "home — Programa de Pós-Graduação em Engenharia Elétrica - PPGEE"
   },
   {
     "id": 475,
@@ -13545,10 +13579,10 @@
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "unknown",
-    "scan_confidence": 0.0,
+    "scan_confidence": 0.05,
     "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "home — Programa de Pós-Graduação em Engenharia Elétrica - PPGEE"
   },
   {
     "id": 476,
@@ -13568,7 +13602,7 @@
     "meta_start_date": "1º SEMESTRE DE 2025",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -13592,7 +13626,7 @@
     "meta_start_date": "1º SEMESTRE DE 2025",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -13616,7 +13650,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -13640,7 +13674,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -13664,7 +13698,7 @@
     "meta_start_date": "primeiro semestre de 2023",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -13688,7 +13722,7 @@
     "meta_start_date": "primeiro semestre de 2023",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -13712,11 +13746,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "doutorado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Programa de Pós-Graduação em Biodiversidade e Biotecnologia - Bionorte — Programa de Pós-Graduação em Biodiversidade e B"
   },
   {
     "id": 483,
@@ -13736,11 +13774,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "doutorado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Programa de Pós-Graduação em Biodiversidade e Biotecnologia - Bionorte — Programa de Pós-Graduação em Biodiversidade e B"
   },
   {
     "id": 484,
@@ -13760,11 +13802,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "inscri[cç][oõ]es\\s+abertas",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "17/11/2025",
+      "17/11/2025",
+      "28/07/2025",
+      "01/08/2025",
+      "26/04/2024"
+    ],
+    "scan_title": "Inicio — Programa de Pós-Graduação em Saúde Coletiva"
   },
   {
     "id": 485,
@@ -13784,11 +13837,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "inscri[cç][oõ]es\\s+abertas",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "17/11/2025",
+      "17/11/2025",
+      "28/07/2025",
+      "01/08/2025",
+      "26/04/2024"
+    ],
+    "scan_title": "Inicio — Programa de Pós-Graduação em Saúde Coletiva"
   },
   {
     "id": 486,
@@ -13808,11 +13872,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "mestrado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "PROFMAT — Programa de Pós-Graduação em Matemática em Rede Nacional"
   },
   {
     "id": 487,
@@ -13832,11 +13900,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "mestrado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "PROFMAT — Programa de Pós-Graduação em Matemática em Rede Nacional"
   },
   {
     "id": 488,
@@ -13856,11 +13928,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "PPGAC Ufac – Universidade Federal do Acre"
   },
   {
     "id": 489,
@@ -13880,11 +13956,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "PPGAC Ufac – Universidade Federal do Acre"
   },
   {
     "id": 490,
@@ -13905,10 +13985,10 @@
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "unknown",
-    "scan_confidence": 0.0,
+    "scan_confidence": 0.05,
     "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "WordPress.com"
   },
   {
     "id": 491,
@@ -13929,10 +14009,10 @@
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "unknown",
-    "scan_confidence": 0.0,
+    "scan_confidence": 0.05,
     "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "WordPress.com"
   },
   {
     "id": 492,
@@ -13952,7 +14032,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -13976,7 +14056,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14000,11 +14080,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "mestrado",
+      "calend[aá]rio",
+      "mestrado\\s+profissional"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Programa de Pós-Graduação Profissional em Ensino de Ciências e Matemática — Programa de Pós-Graduação em Ensino de Ciênc"
   },
   {
     "id": 495,
@@ -14024,11 +14108,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "mestrado",
+      "calend[aá]rio",
+      "mestrado\\s+profissional"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Programa de Pós-Graduação Profissional em Ensino de Ciências e Matemática — Programa de Pós-Graduação em Ensino de Ciênc"
   },
   {
     "id": 496,
@@ -14048,11 +14136,13 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.2,
+    "scan_keywords": [
+      "mestrado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Programa de Pós-Graduação em Desenvolvimento Regional"
   },
   {
     "id": 497,
@@ -14072,11 +14162,13 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.2,
+    "scan_keywords": [
+      "mestrado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Programa de Pós-Graduação em Desenvolvimento Regional"
   },
   {
     "id": 498,
@@ -14096,11 +14188,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "mestrado",
+      "doutorado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Programa de Pós-Graduação em Ecologia e Manejo de Recursos Naturais"
   },
   {
     "id": 499,
@@ -14120,11 +14216,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "mestrado",
+      "doutorado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Programa de Pós-Graduação em Ecologia e Manejo de Recursos Naturais"
   },
   {
     "id": 500,
@@ -14144,11 +14244,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "mestrado",
+      "mestrado\\s+acad[eê]mico"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Programa de Pós-Graduação em Educação - PPGE — Universidade Federal do Acre Programa de Pós-Graduação em Educação - PPGE"
   },
   {
     "id": 501,
@@ -14168,11 +14272,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "mestrado",
+      "mestrado\\s+acad[eê]mico"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Programa de Pós-Graduação em Educação - PPGE — Universidade Federal do Acre Programa de Pós-Graduação em Educação - PPGE"
   },
   {
     "id": 502,
@@ -14192,7 +14300,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14216,7 +14324,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14240,11 +14348,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "mestrado",
+      "mestrado\\s+profissional",
+      "capes"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "home — Programa de Pós-Graduação em Letras"
   },
   {
     "id": 505,
@@ -14264,11 +14376,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "mestrado",
+      "mestrado\\s+profissional",
+      "capes"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "home — Programa de Pós-Graduação em Letras"
   },
   {
     "id": 506,
@@ -14288,7 +14404,7 @@
     "meta_start_date": "Primeiro Semestre de 2024",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14312,7 +14428,7 @@
     "meta_start_date": "Primeiro Semestre de 2024",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14336,7 +14452,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14360,7 +14476,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14384,7 +14500,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14408,7 +14524,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14432,7 +14548,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14456,7 +14572,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14480,7 +14596,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14504,7 +14620,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14528,11 +14644,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "PPGCONT - Programa de Pós-graduação em Ciências Contábeis"
   },
   {
     "id": 517,
@@ -14552,11 +14672,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "PPGCONT - Programa de Pós-graduação em Ciências Contábeis"
   },
   {
     "id": 518,
@@ -14576,7 +14700,7 @@
     "meta_start_date": "SEGUNDO SEMESTRE LETIVO DE 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14600,7 +14724,7 @@
     "meta_start_date": "SEGUNDO SEMESTRE LETIVO DE 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14624,7 +14748,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14648,7 +14772,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14672,7 +14796,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14696,7 +14820,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14720,11 +14844,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "mestrado"
+    ],
+    "scan_dates_found": [
+      "07/11/2022",
+      "23/05/2022",
+      "07/11/2022",
+      "23/05/2022",
+      "07/11/2022"
+    ],
+    "scan_title": "PPGECO – Portal do Programa de Pós-graduação em Economia da UnB"
   },
   {
     "id": 525,
@@ -14744,11 +14878,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "mestrado"
+    ],
+    "scan_dates_found": [
+      "07/11/2022",
+      "23/05/2022",
+      "07/11/2022",
+      "23/05/2022",
+      "07/11/2022"
+    ],
+    "scan_title": "PPGECO – Portal do Programa de Pós-graduação em Economia da UnB"
   },
   {
     "id": 526,
@@ -14768,7 +14912,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14792,7 +14936,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14816,7 +14960,7 @@
     "meta_start_date": "1º SEMESTRE LETIVO DE 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14840,7 +14984,7 @@
     "meta_start_date": "1º SEMESTRE LETIVO DE 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14864,11 +15008,13 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.2,
+    "scan_keywords": [
+      "sigaa"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "PPGGIPP/FACE - Início"
   },
   {
     "id": 531,
@@ -14888,11 +15034,13 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.2,
+    "scan_keywords": [
+      "sigaa"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "PPGGIPP/FACE - Início"
   },
   {
     "id": 532,
@@ -14912,7 +15060,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14936,7 +15084,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -14960,11 +15108,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "mestrado",
+      "doutorado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "PPGMAT - Mestrado e Doutorado"
   },
   {
     "id": 535,
@@ -14984,11 +15136,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "mestrado",
+      "doutorado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "PPGMAT - Mestrado e Doutorado"
   },
   {
     "id": 536,
@@ -15008,7 +15164,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15032,7 +15188,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15056,7 +15212,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15080,7 +15236,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15104,7 +15260,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15128,7 +15284,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15152,11 +15308,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "inscri[cç][oõ]es"
+    ],
+    "scan_dates_found": [
+      "06/10/2026",
+      "06/10/2026",
+      "06/10/2026",
+      "06/10/2026",
+      "06/10/2026"
+    ],
+    "scan_title": "ppgppij"
   },
   {
     "id": 543,
@@ -15176,11 +15342,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "inscri[cç][oõ]es"
+    ],
+    "scan_dates_found": [
+      "06/10/2026",
+      "06/10/2026",
+      "06/10/2026",
+      "06/10/2026",
+      "06/10/2026"
+    ],
+    "scan_title": "ppgppij"
   },
   {
     "id": 544,
@@ -15200,11 +15376,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "mestrado",
+      "mestrado\\s+profissional",
+      "bolsas?"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Instituto de Ciências Exatas - PROFMAT"
   },
   {
     "id": 545,
@@ -15224,11 +15404,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "mestrado",
+      "mestrado\\s+profissional",
+      "bolsas?"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Instituto de Ciências Exatas - PROFMAT"
   },
   {
     "id": 546,
@@ -15248,7 +15432,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15272,7 +15456,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15296,7 +15480,7 @@
     "meta_start_date": "primeiro semestre letivo de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15320,7 +15504,7 @@
     "meta_start_date": "primeiro semestre letivo de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15344,7 +15528,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15368,7 +15552,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15392,7 +15576,7 @@
     "meta_start_date": "02/03/2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15416,7 +15600,7 @@
     "meta_start_date": "02/03/2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15440,11 +15624,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "06/07/2026",
+      "06/07/2026",
+      "06/07/2026",
+      "06/07/2026",
+      "02/07/2026"
+    ],
+    "scan_title": "::.Mestrado em Engenharia Agrícola.::"
   },
   {
     "id": 555,
@@ -15464,11 +15658,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "06/07/2026",
+      "06/07/2026",
+      "06/07/2026",
+      "06/07/2026",
+      "02/07/2026"
+    ],
+    "scan_title": "::.Mestrado em Engenharia Agrícola.::"
   },
   {
     "id": 556,
@@ -15488,11 +15692,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "sele[cç][aã]o",
+      "mestrado"
+    ],
+    "scan_dates_found": [
+      "06/07/2026",
+      "06/07/2026",
+      "06/07/2026",
+      "06/07/2026",
+      "02/07/2026"
+    ],
+    "scan_title": "::.Mestrado em Produção Vegetal.::"
   },
   {
     "id": 557,
@@ -15512,11 +15726,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "sele[cç][aã]o",
+      "mestrado"
+    ],
+    "scan_dates_found": [
+      "06/07/2026",
+      "06/07/2026",
+      "06/07/2026",
+      "06/07/2026",
+      "02/07/2026"
+    ],
+    "scan_title": "::.Mestrado em Produção Vegetal.::"
   },
   {
     "id": 558,
@@ -15536,7 +15760,7 @@
     "meta_start_date": "segundo semestre letivo de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15560,7 +15784,7 @@
     "meta_start_date": "segundo semestre letivo de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15584,7 +15808,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15608,7 +15832,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15632,11 +15856,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "06/07/2026",
+      "06/07/2026",
+      "06/07/2026",
+      "06/07/2026",
+      "02/07/2026"
+    ],
+    "scan_title": "::.Mestrado em Ciências Moleculares.::"
   },
   {
     "id": 563,
@@ -15656,11 +15890,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "06/07/2026",
+      "06/07/2026",
+      "06/07/2026",
+      "06/07/2026",
+      "02/07/2026"
+    ],
+    "scan_title": "::.Mestrado em Ciências Moleculares.::"
   },
   {
     "id": 564,
@@ -15680,7 +15924,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15704,7 +15948,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15728,11 +15972,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "sele[cç][aã]o",
+      "mestrado"
+    ],
+    "scan_dates_found": [
+      "06/07/2026",
+      "06/07/2026",
+      "06/07/2026",
+      "06/07/2026",
+      "02/07/2026"
+    ],
+    "scan_title": "::.PPGIELT.::"
   },
   {
     "id": 567,
@@ -15752,11 +16006,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "sele[cç][aã]o",
+      "mestrado"
+    ],
+    "scan_dates_found": [
+      "06/07/2026",
+      "06/07/2026",
+      "06/07/2026",
+      "06/07/2026",
+      "02/07/2026"
+    ],
+    "scan_title": "::.PPGIELT.::"
   },
   {
     "id": 568,
@@ -15776,7 +16040,7 @@
     "meta_start_date": "segundo semestre letivo de 2025",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15800,7 +16064,7 @@
     "meta_start_date": "segundo semestre letivo de 2025",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15824,7 +16088,7 @@
     "meta_start_date": "2º semestre de 2022",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15848,7 +16112,7 @@
     "meta_start_date": "2º semestre de 2022",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15872,7 +16136,7 @@
     "meta_start_date": "segundo semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15896,7 +16160,7 @@
     "meta_start_date": "segundo semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -15920,11 +16184,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "08/03/2026",
+      "27/03/2026",
+      "08/03/2026",
+      "27/03/2026",
+      "08/03/2026"
+    ],
+    "scan_title": "Administração – Universidade Federal do Cariri"
   },
   {
     "id": 575,
@@ -15944,11 +16218,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "08/03/2026",
+      "27/03/2026",
+      "08/03/2026",
+      "27/03/2026",
+      "08/03/2026"
+    ],
+    "scan_title": "Administração – Universidade Federal do Cariri"
   },
   {
     "id": 576,
@@ -15968,11 +16252,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "15/07/2024",
+      "13/03/2026",
+      "15/07/2024",
+      "13/03/2026",
+      "15/07/2024"
+    ],
+    "scan_title": "Administração Pública – Universidade Federal do Cariri"
   },
   {
     "id": 577,
@@ -15992,11 +16286,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "15/07/2024",
+      "13/03/2026",
+      "15/07/2024",
+      "13/03/2026",
+      "15/07/2024"
+    ],
+    "scan_title": "Administração Pública – Universidade Federal do Cariri"
   },
   {
     "id": 578,
@@ -16016,11 +16320,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "11/03/2024",
+      "31/03/2026",
+      "11/03/2024",
+      "31/03/2026",
+      "11/03/2024"
+    ],
+    "scan_title": "Biblioteconomia – Universidade Federal do Cariri"
   },
   {
     "id": 579,
@@ -16040,11 +16354,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "11/03/2024",
+      "31/03/2026",
+      "11/03/2024",
+      "31/03/2026",
+      "11/03/2024"
+    ],
+    "scan_title": "Biblioteconomia – Universidade Federal do Cariri"
   },
   {
     "id": 580,
@@ -16064,11 +16388,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "28/05/2024",
+      "30/05/2026",
+      "28/05/2024",
+      "30/05/2026",
+      "28/05/2024"
+    ],
+    "scan_title": "Bioquímica e Biologia Molecular – Universidade Federal do Cariri"
   },
   {
     "id": 581,
@@ -16088,11 +16422,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "28/05/2024",
+      "30/05/2026",
+      "28/05/2024",
+      "30/05/2026",
+      "28/05/2024"
+    ],
+    "scan_title": "Bioquímica e Biologia Molecular – Universidade Federal do Cariri"
   },
   {
     "id": 582,
@@ -16112,11 +16456,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "29/01/2025",
+      "15/05/2026",
+      "14/06/2025",
+      "29/01/2025",
+      "15/05/2026"
+    ],
+    "scan_title": "Ciência e Engenharia de Materiais – Universidade Federal do Cariri"
   },
   {
     "id": 583,
@@ -16136,11 +16490,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "29/01/2025",
+      "15/05/2026",
+      "14/06/2025",
+      "29/01/2025",
+      "15/05/2026"
+    ],
+    "scan_title": "Ciência e Engenharia de Materiais – Universidade Federal do Cariri"
   },
   {
     "id": 584,
@@ -16160,11 +16524,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "24/01/2025",
+      "13/05/2026",
+      "24/01/2025",
+      "13/05/2026",
+      "24/01/2025"
+    ],
+    "scan_title": "Ciências da Saúde – Universidade Federal do Cariri"
   },
   {
     "id": 585,
@@ -16184,11 +16558,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "24/01/2025",
+      "13/05/2026",
+      "24/01/2025",
+      "13/05/2026",
+      "24/01/2025"
+    ],
+    "scan_title": "Ciências da Saúde – Universidade Federal do Cariri"
   },
   {
     "id": 586,
@@ -16208,11 +16592,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "09/04/2026",
+      "04/01/2026",
+      "09/04/2026",
+      "04/01/2026",
+      "09/04/2026"
+    ],
+    "scan_title": "Desenvolvimento Regional Sustentável – Universidade Federal do Cariri"
   },
   {
     "id": 587,
@@ -16232,11 +16626,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "09/04/2026",
+      "04/01/2026",
+      "09/04/2026",
+      "04/01/2026",
+      "09/04/2026"
+    ],
+    "scan_title": "Desenvolvimento Regional Sustentável – Universidade Federal do Cariri"
   },
   {
     "id": 588,
@@ -16256,11 +16660,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "17/09/2024",
+      "06/02/2026",
+      "17/09/2024",
+      "06/02/2026",
+      "17/09/2024"
+    ],
+    "scan_title": "Filosofia – Universidade Federal do Cariri"
   },
   {
     "id": 589,
@@ -16280,11 +16694,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "17/09/2024",
+      "06/02/2026",
+      "17/09/2024",
+      "06/02/2026",
+      "17/09/2024"
+    ],
+    "scan_title": "Filosofia – Universidade Federal do Cariri"
   },
   {
     "id": 590,
@@ -16304,11 +16728,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "15/05/2026",
+      "04/02/2026",
+      "15/05/2026",
+      "04/02/2026",
+      "15/05/2026"
+    ],
+    "scan_title": "Matemática – Universidade Federal do Cariri"
   },
   {
     "id": 591,
@@ -16328,11 +16762,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "15/05/2026",
+      "04/02/2026",
+      "15/05/2026",
+      "04/02/2026",
+      "15/05/2026"
+    ],
+    "scan_title": "Matemática – Universidade Federal do Cariri"
   },
   {
     "id": 592,
@@ -16352,11 +16796,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "30/10/2023",
+      "12/03/2026",
+      "05/01/2026",
+      "30/10/2023",
+      "12/03/2026"
+    ],
+    "scan_title": "Saúde da Família – PROFSAÚDE – Universidade Federal do Cariri"
   },
   {
     "id": 593,
@@ -16376,11 +16830,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "30/10/2023",
+      "12/03/2026",
+      "05/01/2026",
+      "30/10/2023",
+      "12/03/2026"
+    ],
+    "scan_title": "Saúde da Família – PROFSAÚDE – Universidade Federal do Cariri"
   },
   {
     "id": 594,
@@ -16400,11 +16864,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "20/01/2026",
+      "29/03/2026",
+      "20/01/2026",
+      "29/03/2026",
+      "20/01/2026"
+    ],
+    "scan_title": "Biblioteconomia – Universidade Federal do Cariri"
   },
   {
     "id": 595,
@@ -16424,11 +16898,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "28/05/2024",
+      "30/05/2026",
+      "28/05/2024",
+      "30/05/2026",
+      "28/05/2024"
+    ],
+    "scan_title": "Bioquímica e Biologia Molecular – Universidade Federal do Cariri"
   },
   {
     "id": 596,
@@ -16448,7 +16932,7 @@
     "meta_start_date": "primeiro semestre letivo de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -16472,7 +16956,7 @@
     "meta_start_date": "primeiro semestre letivo de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -16496,7 +16980,7 @@
     "meta_start_date": "primeiro semestre letivo de 2020",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -16520,7 +17004,7 @@
     "meta_start_date": "primeiro semestre letivo de 2020",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -16544,11 +17028,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "mestrado",
+      "doutorado",
+      "calend[aá]rio"
+    ],
+    "scan_dates_found": [
+      "31/08/2012",
+      "31/08/2012",
+      "31/08/2012",
+      "31/08/2012",
+      "31/08/2012"
+    ],
+    "scan_title": "Apresentação | Arquitetura e Urbanismo"
   },
   {
     "id": 601,
@@ -16568,11 +17063,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "mestrado",
+      "doutorado",
+      "calend[aá]rio"
+    ],
+    "scan_dates_found": [
+      "31/08/2012",
+      "31/08/2012",
+      "31/08/2012",
+      "31/08/2012",
+      "31/08/2012"
+    ],
+    "scan_title": "Apresentação | Arquitetura e Urbanismo"
   },
   {
     "id": 602,
@@ -16592,7 +17098,7 @@
     "meta_start_date": "abril - 2022",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -16616,7 +17122,7 @@
     "meta_start_date": "abril - 2022",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -16640,11 +17146,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "sele[cç][aã]o",
+      "mestrado",
+      "doutorado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "PPGASFAR – Programa de Pós Graduação em Assistência Farmacêutica"
   },
   {
     "id": 605,
@@ -16664,11 +17174,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "sele[cç][aã]o",
+      "mestrado",
+      "doutorado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "PPGASFAR – Programa de Pós Graduação em Assistência Farmacêutica"
   },
   {
     "id": 606,
@@ -16688,7 +17202,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -16712,7 +17226,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -16736,7 +17250,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -16760,7 +17274,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -16784,7 +17298,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -16808,7 +17322,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -16832,7 +17346,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -16856,7 +17370,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -16880,11 +17394,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "mestrado",
+      "doutorado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Apresentação | Ciências Biológicas"
   },
   {
     "id": 615,
@@ -16904,11 +17422,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "mestrado",
+      "doutorado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Apresentação | Ciências Biológicas"
   },
   {
     "id": 616,
@@ -16928,7 +17450,7 @@
     "meta_start_date": "23/03/2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -16952,7 +17474,7 @@
     "meta_start_date": "23/03/2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -16976,11 +17498,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "mestrado",
+      "doutorado",
+      "calend[aá]rio"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Apresentação | Ciências Farmacêuticas"
   },
   {
     "id": 619,
@@ -17000,11 +17526,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "mestrado",
+      "doutorado",
+      "calend[aá]rio"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Apresentação | Ciências Farmacêuticas"
   },
   {
     "id": 620,
@@ -17024,11 +17554,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "mestrado",
+      "doutorado",
+      "calend[aá]rio"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Apresentação | Ciências Fisiológicas"
   },
   {
     "id": 621,
@@ -17048,11 +17582,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "mestrado",
+      "doutorado",
+      "calend[aá]rio"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Apresentação | Ciências Fisiológicas"
   },
   {
     "id": 622,
@@ -17072,11 +17610,17 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "mestrado",
+      "doutorado"
+    ],
+    "scan_dates_found": [
+      "26/07/2019"
+    ],
+    "scan_title": "Apresentação | Ciências Florestais"
   },
   {
     "id": 623,
@@ -17096,11 +17640,17 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "mestrado",
+      "doutorado"
+    ],
+    "scan_dates_found": [
+      "26/07/2019"
+    ],
+    "scan_title": "Apresentação | Ciências Florestais"
   },
   {
     "id": 624,
@@ -17120,7 +17670,7 @@
     "meta_start_date": "primeiro semestre letivo de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17144,7 +17694,7 @@
     "meta_start_date": "primeiro semestre letivo de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17168,7 +17718,7 @@
     "meta_start_date": "segundo semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17192,7 +17742,7 @@
     "meta_start_date": "segundo semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17216,7 +17766,7 @@
     "meta_start_date": "1º SEMESTRE DE 2024",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17240,7 +17790,7 @@
     "meta_start_date": "1º SEMESTRE DE 2024",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17264,11 +17814,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "mestrado",
+      "doutorado",
+      "calend[aá]rio"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Apresentação | Comunicação Social"
   },
   {
     "id": 631,
@@ -17288,11 +17842,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "mestrado",
+      "doutorado",
+      "calend[aá]rio"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Apresentação | Comunicação Social"
   },
   {
     "id": 632,
@@ -17312,7 +17870,7 @@
     "meta_start_date": "",
     "meta_language": "O processo seletivo do PPGDir-Ufes não se vincula nem se subordina a cronogramas das entidades certificadoras acima mencionadas",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17336,7 +17894,7 @@
     "meta_start_date": "",
     "meta_language": "O processo seletivo do PPGDir-Ufes não se vincula nem se subordina a cronogramas das entidades certificadoras acima mencionadas",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17360,11 +17918,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "sele[cç][aã]o",
+      "inscri[cç][aã]o",
+      "mestrado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Apresentação | Doenças Infecciosas"
   },
   {
     "id": 635,
@@ -17384,11 +17946,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "sele[cç][aã]o",
+      "inscri[cç][aã]o",
+      "mestrado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Apresentação | Doenças Infecciosas"
   },
   {
     "id": 636,
@@ -17408,7 +17974,7 @@
     "meta_start_date": "primeiro semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17432,7 +17998,7 @@
     "meta_start_date": "primeiro semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17456,7 +18022,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17480,7 +18046,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17504,11 +18070,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Apresentação | Educação Física"
   },
   {
     "id": 641,
@@ -17528,11 +18098,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Apresentação | Educação Física"
   },
   {
     "id": 642,
@@ -17552,7 +18126,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17576,7 +18150,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17600,7 +18174,7 @@
     "meta_start_date": "2º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17624,7 +18198,7 @@
     "meta_start_date": "2º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17648,7 +18222,7 @@
     "meta_start_date": "2° semestre letivo de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17672,7 +18246,7 @@
     "meta_start_date": "2° semestre letivo de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17696,7 +18270,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17720,7 +18294,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17744,7 +18318,7 @@
     "meta_start_date": "1º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17768,7 +18342,7 @@
     "meta_start_date": "1º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17792,11 +18366,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Apresentação | Engenharia Mecânica"
   },
   {
     "id": 653,
@@ -17816,11 +18394,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Apresentação | Engenharia Mecânica"
   },
   {
     "id": 654,
@@ -17840,7 +18422,7 @@
     "meta_start_date": "primeiro semestre letivo de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17864,7 +18446,7 @@
     "meta_start_date": "primeiro semestre letivo de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17888,7 +18470,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17912,7 +18494,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17936,7 +18518,7 @@
     "meta_start_date": "primeiro semestre letivo de 2024",
     "meta_language": "0",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17960,7 +18542,7 @@
     "meta_start_date": "primeiro semestre letivo de 2024",
     "meta_language": "0",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -17984,7 +18566,7 @@
     "meta_start_date": "segundo semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18008,7 +18590,7 @@
     "meta_start_date": "segundo semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18032,7 +18614,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18056,7 +18638,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18080,7 +18662,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18104,7 +18686,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18128,7 +18710,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18152,7 +18734,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18176,7 +18758,7 @@
     "meta_start_date": "segundo semestre letivo de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18200,7 +18782,7 @@
     "meta_start_date": "segundo semestre letivo de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18224,7 +18806,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18248,7 +18830,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18272,7 +18854,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18296,7 +18878,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18320,7 +18902,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18344,7 +18926,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18368,7 +18950,7 @@
     "meta_start_date": "10/03/2025",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18392,7 +18974,7 @@
     "meta_start_date": "10/03/2025",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18416,7 +18998,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18440,7 +19022,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18464,7 +19046,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18488,7 +19070,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18512,7 +19094,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18536,7 +19118,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18560,11 +19142,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "sele[cç][aã]o",
+      "inscri[cç][aã]o",
+      "mestrado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Apresentação | Psicologia Institucional"
   },
   {
     "id": 685,
@@ -18584,11 +19170,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "sele[cç][aã]o",
+      "inscri[cç][aã]o",
+      "mestrado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Apresentação | Psicologia Institucional"
   },
   {
     "id": 686,
@@ -18608,7 +19198,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18632,7 +19222,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18656,11 +19246,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "inscri[cç][oõ]es",
+      "mestrado",
+      "doutorado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Programa de Pós-Graduação em Saúde e Envelhecimento / Graduate Program in Health and Aging (PPGSE) – FAMEMA"
   },
   {
     "id": 689,
@@ -18680,11 +19274,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "inscri[cç][oõ]es",
+      "mestrado",
+      "doutorado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null
+    "scan_title": "Programa de Pós-Graduação em Saúde e Envelhecimento / Graduate Program in Health and Aging (PPGSE) – FAMEMA"
   },
   {
     "id": 690,
@@ -18704,7 +19302,7 @@
     "meta_start_date": "1º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18728,7 +19326,7 @@
     "meta_start_date": "1º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18752,11 +19350,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "likely_open",
+    "scan_confidence": 0.9,
+    "scan_keywords": [
+      "vagas\\s+abertas",
+      "inscreva-se",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "08/07/2026",
+      "08/07/2026",
+      "08/07/2026",
+      "08/07/2026"
+    ],
+    "scan_title": "Doutorado em Ciências da Saúde - 30 - Universidade de Taubaté - UNITAU"
   },
   {
     "id": 693,
@@ -18776,11 +19385,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "likely_open",
+    "scan_confidence": 0.9,
+    "scan_keywords": [
+      "vagas\\s+abertas",
+      "inscreva-se",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "08/07/2026",
+      "08/07/2026",
+      "08/07/2026",
+      "08/07/2026"
+    ],
+    "scan_title": "Doutorado em Ciências da Saúde - 30 - Universidade de Taubaté - UNITAU"
   },
   {
     "id": 694,
@@ -18800,11 +19420,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "vagas\\s+abertas",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "02/12/2025",
+      "08/07/2026",
+      "08/07/2026",
+      "08/07/2026"
+    ],
+    "scan_title": "Doutorado em Planejamento e Desenvolvimento Regional - 30 - Universidade de Taubaté - UNITAU"
   },
   {
     "id": 695,
@@ -18824,11 +19454,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "vagas\\s+abertas",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "02/12/2025",
+      "08/07/2026",
+      "08/07/2026",
+      "08/07/2026"
+    ],
+    "scan_title": "Doutorado em Planejamento e Desenvolvimento Regional - 30 - Universidade de Taubaté - UNITAU"
   },
   {
     "id": 696,
@@ -18848,11 +19488,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "10/06/2026",
+      "10/06/2026",
+      "10/06/2026",
+      "10/06/2026",
+      "28/02/2025"
+    ],
+    "scan_title": "PPGACC – Programa de Pós-Graduação em Administração e Ciências Contábeis"
   },
   {
     "id": 697,
@@ -18872,11 +19522,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "10/06/2026",
+      "10/06/2026",
+      "10/06/2026",
+      "10/06/2026",
+      "28/02/2025"
+    ],
+    "scan_title": "PPGACC – Programa de Pós-Graduação em Administração e Ciências Contábeis"
   },
   {
     "id": 698,
@@ -18896,7 +19556,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18920,7 +19580,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -18944,11 +19604,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "09/02/2026",
+      "14/05/2026",
+      "14/05/2026",
+      "14/05/2026",
+      "10/07/2026"
+    ],
+    "scan_title": "PPGAP – Programa de Pós-Graduação em Agricultura de Precisão"
   },
   {
     "id": 701,
@@ -18968,11 +19638,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "09/02/2026",
+      "14/05/2026",
+      "14/05/2026",
+      "14/05/2026",
+      "10/07/2026"
+    ],
+    "scan_title": "PPGAP – Programa de Pós-Graduação em Agricultura de Precisão"
   },
   {
     "id": 702,
@@ -18992,7 +19672,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19016,7 +19696,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19040,7 +19720,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19064,7 +19744,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19088,7 +19768,7 @@
     "meta_start_date": "2º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19112,7 +19792,7 @@
     "meta_start_date": "2º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19136,7 +19816,7 @@
     "meta_start_date": "1º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19160,7 +19840,7 @@
     "meta_start_date": "1º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19184,7 +19864,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19208,7 +19888,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19232,7 +19912,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19256,7 +19936,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19280,11 +19960,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "05/12/2025",
+      "26/06/2026",
+      "26/06/2026",
+      "26/06/2026",
+      "19/06/2026"
+    ],
+    "scan_title": "PPGCC – Programa de Pós-Graduação em Ciência da Computação"
   },
   {
     "id": 715,
@@ -19304,11 +19994,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "05/12/2025",
+      "26/06/2026",
+      "26/06/2026",
+      "26/06/2026",
+      "19/06/2026"
+    ],
+    "scan_title": "PPGCC – Programa de Pós-Graduação em Ciência da Computação"
   },
   {
     "id": 716,
@@ -19328,7 +20028,7 @@
     "meta_start_date": "primeiro semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19352,7 +20052,7 @@
     "meta_start_date": "primeiro semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19376,11 +20076,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "sele[cç][aã]o",
+      "inscri[cç][oõ]es"
+    ],
+    "scan_dates_found": [
+      "06/11/2025",
+      "10/10/2025",
+      "11/10/2024",
+      "21/05/2025",
+      "24/11/2022"
+    ],
+    "scan_title": "PPGCTA – Programa de Pós-Graduação em Ciência e Tecnologia dos Alimentos"
   },
   {
     "id": 719,
@@ -19400,11 +20110,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "sele[cç][aã]o",
+      "inscri[cç][oõ]es"
+    ],
+    "scan_dates_found": [
+      "06/11/2025",
+      "10/10/2025",
+      "11/10/2024",
+      "21/05/2025",
+      "24/11/2022"
+    ],
+    "scan_title": "PPGCTA – Programa de Pós-Graduação em Ciência e Tecnologia dos Alimentos"
   },
   {
     "id": 720,
@@ -19424,7 +20144,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19448,7 +20168,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19472,7 +20192,7 @@
     "meta_start_date": "janeiro - 2021",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19496,7 +20216,7 @@
     "meta_start_date": "janeiro - 2021",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19520,7 +20240,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19544,7 +20264,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19568,7 +20288,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19592,7 +20312,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19616,7 +20336,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19640,7 +20360,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19664,7 +20384,7 @@
     "meta_start_date": "1º semestre de 2016",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19688,7 +20408,7 @@
     "meta_start_date": "1º semestre de 2016",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19712,7 +20432,7 @@
     "meta_start_date": "primeiro semestre letivo de 2017",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19736,7 +20456,7 @@
     "meta_start_date": "primeiro semestre letivo de 2017",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19760,11 +20480,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "mestrado"
+    ],
+    "scan_dates_found": [
+      "29/06/2026",
+      "29/06/2026",
+      "18/06/2026",
+      "16/06/2026",
+      "16/06/2026"
+    ],
+    "scan_title": "PPGDCH – Programa de Pós-Graduação em Distúrbios da Comunicação Humana"
   },
   {
     "id": 735,
@@ -19784,11 +20514,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "mestrado"
+    ],
+    "scan_dates_found": [
+      "29/06/2026",
+      "29/06/2026",
+      "18/06/2026",
+      "16/06/2026",
+      "16/06/2026"
+    ],
+    "scan_title": "PPGDCH – Programa de Pós-Graduação em Distúrbios da Comunicação Humana"
   },
   {
     "id": 736,
@@ -19808,7 +20548,7 @@
     "meta_start_date": "2º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19832,7 +20572,7 @@
     "meta_start_date": "2º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19856,7 +20596,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19880,7 +20620,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -19904,11 +20644,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "mestrado",
+      "calend[aá]rio"
+    ],
+    "scan_dates_found": [
+      "11/06/2026",
+      "07/07/2026",
+      "07/07/2026",
+      "07/07/2026",
+      "06/07/2026"
+    ],
+    "scan_title": "PPGEPT – Programa de Pós-Graduação em Educação Profissional Tecnológica"
   },
   {
     "id": 741,
@@ -19928,11 +20678,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "mestrado",
+      "calend[aá]rio"
+    ],
+    "scan_dates_found": [
+      "11/06/2026",
+      "07/07/2026",
+      "07/07/2026",
+      "07/07/2026",
+      "06/07/2026"
+    ],
+    "scan_title": "PPGEPT – Programa de Pós-Graduação em Educação Profissional Tecnológica"
   },
   {
     "id": 742,
@@ -19952,11 +20712,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "mestrado",
+      "doutorado"
+    ],
+    "scan_dates_found": [
+      "09/06/2026",
+      "09/06/2026",
+      "09/06/2026",
+      "08/06/2026",
+      "08/06/2026"
+    ],
+    "scan_title": "PPgECi – Programa de Pós-Graduação em Educação em Ciências"
   },
   {
     "id": 743,
@@ -19976,11 +20746,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "mestrado",
+      "doutorado"
+    ],
+    "scan_dates_found": [
+      "09/06/2026",
+      "09/06/2026",
+      "09/06/2026",
+      "08/06/2026",
+      "08/06/2026"
+    ],
+    "scan_title": "PPgECi – Programa de Pós-Graduação em Educação em Ciências"
   },
   {
     "id": 744,
@@ -20000,7 +20780,7 @@
     "meta_start_date": "2º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20024,7 +20804,7 @@
     "meta_start_date": "2º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20048,7 +20828,7 @@
     "meta_start_date": "1º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20072,7 +20852,7 @@
     "meta_start_date": "1º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20096,7 +20876,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20120,7 +20900,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20144,7 +20924,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20168,7 +20948,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20192,7 +20972,7 @@
     "meta_start_date": "2º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20216,7 +20996,7 @@
     "meta_start_date": "2º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20240,7 +21020,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20264,7 +21044,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20288,7 +21068,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20312,7 +21092,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20336,7 +21116,7 @@
     "meta_start_date": "2º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20360,7 +21140,7 @@
     "meta_start_date": "2º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20384,7 +21164,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20408,7 +21188,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20432,11 +21212,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "sele[cç][aã]o",
+      "inscri[cç][oõ]es"
+    ],
+    "scan_dates_found": [
+      "03/12/2025",
+      "14/01/2026",
+      "23/02/2026",
+      "14/01/2026",
+      "14/01/2026"
+    ],
+    "scan_title": "Programa de Pós-Graduação em Ensino de História – Pós-graduação – Campus Santa Maria"
   },
   {
     "id": 763,
@@ -20456,11 +21246,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "sele[cç][aã]o",
+      "inscri[cç][oõ]es"
+    ],
+    "scan_dates_found": [
+      "03/12/2025",
+      "14/01/2026",
+      "23/02/2026",
+      "14/01/2026",
+      "14/01/2026"
+    ],
+    "scan_title": "Programa de Pós-Graduação em Ensino de História – Pós-graduação – Campus Santa Maria"
   },
   {
     "id": 764,
@@ -20480,7 +21280,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20504,7 +21304,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20528,7 +21328,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20552,7 +21352,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20576,7 +21376,7 @@
     "meta_start_date": "abril - 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20600,7 +21400,7 @@
     "meta_start_date": "abril - 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20624,7 +21424,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20648,7 +21448,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20672,7 +21472,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20696,7 +21496,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "error",
     "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20720,11 +21520,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "mestrado",
+      "doutorado"
+    ],
+    "scan_dates_found": [
+      "08/07/2026",
+      "03/07/2026",
+      "25/06/2026",
+      "24/06/2026",
+      "11/06/2026"
+    ],
+    "scan_title": "PPGOP – Programa de Pós-Graduação em Gestão de Organizações Públicas"
   },
   {
     "id": 775,
@@ -20744,11 +21554,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "mestrado",
+      "doutorado"
+    ],
+    "scan_dates_found": [
+      "08/07/2026",
+      "03/07/2026",
+      "25/06/2026",
+      "24/06/2026",
+      "11/06/2026"
+    ],
+    "scan_title": "PPGOP – Programa de Pós-Graduação em Gestão de Organizações Públicas"
   },
   {
     "id": 776,
@@ -20768,11 +21588,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "sele[cç][aã]o",
+      "mestrado",
+      "doutorado"
+    ],
+    "scan_dates_found": [
+      "22/04/2026",
+      "06/07/2026",
+      "07/07/2026",
+      "07/07/2026",
+      "07/07/2026"
+    ],
+    "scan_title": "PPGH – Programa de Pós-Graduação em História – Campus Santa Maria"
   },
   {
     "id": 777,
@@ -20792,11 +21622,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "sele[cç][aã]o",
+      "mestrado",
+      "doutorado"
+    ],
+    "scan_dates_found": [
+      "22/04/2026",
+      "06/07/2026",
+      "07/07/2026",
+      "07/07/2026",
+      "07/07/2026"
+    ],
+    "scan_title": "PPGH – Programa de Pós-Graduação em História – Campus Santa Maria"
   },
   {
     "id": 778,
@@ -20816,7 +21656,7 @@
     "meta_start_date": "1º Semestre Letivo de 2025",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20840,7 +21680,7 @@
     "meta_start_date": "1º Semestre Letivo de 2025",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20864,7 +21704,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20888,7 +21728,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20912,7 +21752,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20936,7 +21776,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20960,7 +21800,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -20984,7 +21824,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21008,7 +21848,7 @@
     "meta_start_date": "1º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21032,7 +21872,7 @@
     "meta_start_date": "1º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21056,7 +21896,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21080,7 +21920,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21104,7 +21944,7 @@
     "meta_start_date": "1º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21128,7 +21968,7 @@
     "meta_start_date": "1º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21152,7 +21992,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21176,7 +22016,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21200,7 +22040,7 @@
     "meta_start_date": "janeiro - 2020",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21224,7 +22064,7 @@
     "meta_start_date": "janeiro - 2020",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21248,7 +22088,7 @@
     "meta_start_date": "1 semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21272,7 +22112,7 @@
     "meta_start_date": "1 semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21296,11 +22136,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "31/07/2024",
+      "31/07/2024",
+      "31/07/2024",
+      "31/07/2024",
+      "31/07/2024"
+    ],
+    "scan_title": "PPGTER – Programa de Pós-Graduação em Tecnologias Educacionais em Rede"
   },
   {
     "id": 799,
@@ -21320,11 +22170,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "31/07/2024",
+      "31/07/2024",
+      "31/07/2024",
+      "31/07/2024",
+      "31/07/2024"
+    ],
+    "scan_title": "PPGTER – Programa de Pós-Graduação em Tecnologias Educacionais em Rede"
   },
   {
     "id": 800,
@@ -21344,7 +22204,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21368,7 +22228,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21392,7 +22252,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21416,7 +22276,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21440,7 +22300,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21464,7 +22324,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21488,7 +22348,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21512,7 +22372,7 @@
     "meta_start_date": "segundo semestre de 2010",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21536,7 +22396,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21560,7 +22420,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21584,7 +22444,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21608,7 +22468,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21632,7 +22492,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21656,7 +22516,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21680,7 +22540,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],
@@ -21704,7 +22564,7 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
+    "scan_status": "possible",
     "scan_confidence": 0,
     "scan_keywords": [],
     "scan_dates_found": [],

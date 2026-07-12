@@ -46,6 +46,18 @@ def main():
         status_map_raw = sm.get("programs", {})
         print(f"  program-status.json: {sm.get('total_urls', '?')} URLs tracked")
 
+    # Load PDF scrape results to upgrade unknown→possible for programs with editais found
+    pdf_editais_found = set()
+    pdf_scrape_path = os.path.join(SRC_DATA, "pdf-scrape-results.json")
+    if os.path.exists(pdf_scrape_path):
+        pr = load_json(pdf_scrape_path)
+        pr_progs = pr.get("programs", {})
+        for url, info in pr_progs.items():
+            pdf_status = info.get("status", "")
+            if pdf_status in ("found", "pdfs_found_but_no_metadata"):
+                pdf_editais_found.add(url)
+        print(f"  pdf-scrape-results.json: {len(pr_progs)} programs, {len(pdf_editais_found)} with editais found")
+
     master_path = os.path.join(ROOT_DATA, "brazil_universities_master.json")
     if not os.path.exists(master_path):
         master_path = os.path.join(BASE, "backend", "data", "brazil_universities_master.json")
@@ -127,6 +139,11 @@ def main():
                     src_lang = prog.get("languageRequirement")
                     src_master = prog.get("masterRequired")
 
+                    scan_status = scan_info.get("status", "unknown")
+                    # Upgrade unknown→possible if PDF edital scraper found editais for this URL
+                    if scan_status == "unknown" and url in pdf_editais_found:
+                        scan_status = "possible"
+
                     programs_flat.append({
                         "id": prog_id_counter,
                         "university_id": uni_id,
@@ -145,7 +162,7 @@ def main():
                         "meta_start_date": _meta(scan_info, 'startDate') or "",
                         "meta_language": _meta(scan_info, 'languageRequirement') or "",
                         "meta_master_required": _meta(scan_info, 'masterRequired') or "",
-                        "scan_status": scan_info.get("status", "unknown"),
+                        "scan_status": scan_status,
                         "scan_confidence": scan_info.get("confidence", 0.0),
                         "scan_keywords": scan_info.get("keywords_found", []),
                         "scan_dates_found": scan_info.get("dates_found", []),

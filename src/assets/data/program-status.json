@@ -1,11 +1,11 @@
 {
-  "last_run": "2026-07-12T21:25:01.788050+00:00",
-  "total_urls": 554,
+  "last_run": "2026-07-12T22:06:07.543845+00:00",
+  "total_urls": 629,
   "by_status": {
-    "possible": 281,
-    "likely_open": 79,
-    "error": 75,
-    "unknown": 119
+    "possible": 335,
+    "likely_open": 83,
+    "error": 90,
+    "unknown": 121
   },
   "programs": {
     "https://posgraduacao.uea.edu.br/hematologia/": {
@@ -9634,6 +9634,1001 @@
           "source": null
         }
       }
+    },
+    "http://doencasinfecciosas.ufes.br/pos-graduacao/PPGDI": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "sele[cç][aã]o",
+        "inscri[cç][aã]o",
+        "mestrado"
+      ],
+      "dates_found": [],
+      "title": "Apresentação | Doenças Infecciosas",
+      "last_checked": "2026-07-12T22:00:46.427732+00:00"
+    },
+    "http://ppgcont.unb.br": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [],
+      "title": "PPGCONT - Programa de Pós-graduação em Ciências Contábeis",
+      "last_checked": "2026-07-12T22:00:53.318936+00:00"
+    },
+    "http://ppggipp.unb.br": {
+      "status": "possible",
+      "confidence": 0.2,
+      "keywords_found": [
+        "sigaa"
+      ],
+      "dates_found": [],
+      "title": "PPGGIPP/FACE - Início",
+      "last_checked": "2026-07-12T22:00:56.979166+00:00"
+    },
+    "http://ppgi.unb.br": {
+      "status": "error",
+      "error": "http_404",
+      "last_checked": "2026-07-12T22:00:58.734807+00:00"
+    },
+    "http://ppgppij.unb.br": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "inscri[cç][oõ]es"
+      ],
+      "dates_found": [
+        "06/10/2026",
+        "06/10/2026",
+        "06/10/2026",
+        "06/10/2026",
+        "06/10/2026"
+      ],
+      "title": "ppgppij",
+      "last_checked": "2026-07-12T22:01:02.667105+00:00"
+    },
+    "http://www.arquitetura.ufes.br/pt-br/pos-graduacao/PPGAU": {
+      "status": "likely_open",
+      "confidence": 0.6,
+      "keywords_found": [
+        "editais?\\s+abertos?",
+        "mestrado",
+        "doutorado",
+        "calend[aá]rio"
+      ],
+      "dates_found": [
+        "31/08/2012",
+        "31/08/2012",
+        "31/08/2012",
+        "31/08/2012",
+        "31/08/2012"
+      ],
+      "title": "Apresentação | Arquitetura e Urbanismo",
+      "last_checked": "2026-07-12T22:01:08.912875+00:00"
+    },
+    "http://www.bioquimicaefarmacologia.ufes.br/pt-br/pos-graduacao/PPGBF": {
+      "status": "error",
+      "error": "http_404",
+      "last_checked": "2026-07-12T22:01:16.686132+00:00"
+    },
+    "http://www.cienciaetecnologiadealimentos.ufes.br/pos-graduacao/PCTA": {
+      "status": "error",
+      "error": "http_404",
+      "last_checked": "2026-07-12T22:01:21.092830+00:00"
+    },
+    "http://www.cienciasbiologicas.ufes.br/pt-br/pos-graduacao/PPGBAN": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "mestrado",
+        "doutorado"
+      ],
+      "dates_found": [],
+      "title": "Apresentação | Ciências Biológicas",
+      "last_checked": "2026-07-12T22:01:26.340554+00:00"
+    },
+    "http://www.cienciasfisiologicas.ufes.br/pt-br/pos-graduacao/PPGCF": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "mestrado",
+        "doutorado",
+        "calend[aá]rio"
+      ],
+      "dates_found": [],
+      "title": "Apresentação | Ciências Fisiológicas",
+      "last_checked": "2026-07-12T22:01:32.705877+00:00"
+    },
+    "http://www.cienciasflorestais.ufes.br/pos-graduacao/PPGCFL": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "processo\\s+seletivo",
+        "mestrado",
+        "doutorado"
+      ],
+      "dates_found": [
+        "26/07/2019"
+      ],
+      "title": "Apresentação | Ciências Florestais",
+      "last_checked": "2026-07-12T22:01:37.924403+00:00"
+    },
+    "http://www.comunicacaosocial.ufes.br/pos-graduacao/POSCOM": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "mestrado",
+        "doutorado",
+        "calend[aá]rio"
+      ],
+      "dates_found": [],
+      "title": "Apresentação | Comunicação Social",
+      "last_checked": "2026-07-12T22:01:42.833746+00:00"
+    },
+    "http://www.cosmologia.ufes.br/en/pos-graduacao/PPGCosmo": {
+      "status": "error",
+      "error": "http_404",
+      "last_checked": "2026-07-12T22:01:49.453669+00:00"
+    },
+    "http://www.educacao.ufes.br/pos-graduacao/PPGMPE": {
+      "status": "error",
+      "error": "http_404",
+      "last_checked": "2026-07-12T22:01:56.347696+00:00"
+    },
+    "http://www.educacaofisica.ufes.br/pt-br/pos-graduacao/PPGEF": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [],
+      "title": "Apresentação | Educação Física",
+      "last_checked": "2026-07-12T22:02:02.827709+00:00"
+    },
+    "http://www.engenhariamecanica.ufes.br/pos-graduacao/PPGEM": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [],
+      "title": "Apresentação | Engenharia Mecânica",
+      "last_checked": "2026-07-12T22:02:07.904562+00:00"
+    },
+    "http://www.farmacia.vitoria.ufes.br/pt-br/pos-graduacao/PPGCFAR": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "mestrado",
+        "doutorado",
+        "calend[aá]rio"
+      ],
+      "dates_found": [],
+      "title": "Apresentação | Ciências Farmacêuticas",
+      "last_checked": "2026-07-12T22:02:17.172232+00:00"
+    },
+    "http://www.geneticaemelhoramento.ufes.br/pos-graduacao/PGGM": {
+      "status": "error",
+      "error": "http_404",
+      "last_checked": "2026-07-12T22:02:22.003650+00:00"
+    },
+    "http://www.matematica.redenacional.ufes.br/pos-graduacao/PMPM": {
+      "status": "error",
+      "error": "http_404",
+      "last_checked": "2026-07-12T22:02:29.454632+00:00"
+    },
+    "http://www.oceanografia.ufes.br/pos-graduacao/PPGOAM": {
+      "status": "error",
+      "error": "http_404",
+      "last_checked": "2026-07-12T22:02:34.437331+00:00"
+    },
+    "http://www.psicologiainstitucional.ufes.br/pt-br/pos-graduacao/PPGPSI": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "sele[cç][aã]o",
+        "inscri[cç][aã]o",
+        "mestrado"
+      ],
+      "dates_found": [],
+      "title": "Apresentação | Psicologia Institucional",
+      "last_checked": "2026-07-12T22:02:39.533100+00:00"
+    },
+    "http://www.ueg.br/iacas/ppgea": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [
+        "06/07/2026",
+        "06/07/2026",
+        "06/07/2026",
+        "06/07/2026",
+        "02/07/2026"
+      ],
+      "title": "::.Mestrado em Engenharia Agrícola.::",
+      "last_checked": "2026-07-12T22:02:47.823265+00:00"
+    },
+    "http://www.ueg.br/iacas/ppgpv": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "sele[cç][aã]o",
+        "mestrado"
+      ],
+      "dates_found": [
+        "06/07/2026",
+        "06/07/2026",
+        "06/07/2026",
+        "06/07/2026",
+        "02/07/2026"
+      ],
+      "title": "::.Mestrado em Produção Vegetal.::",
+      "last_checked": "2026-07-12T22:02:50.106706+00:00"
+    },
+    "http://www.ueg.br/iact/ppgq/mestrado": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [
+        "06/07/2026",
+        "06/07/2026",
+        "06/07/2026",
+        "06/07/2026",
+        "02/07/2026"
+      ],
+      "title": "::.Mestrado em Ciências Moleculares.::",
+      "last_checked": "2026-07-12T22:02:52.237540+00:00"
+    },
+    "http://www.ueg.br/iael/ppgielt": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "sele[cç][aã]o",
+        "mestrado"
+      ],
+      "dates_found": [
+        "06/07/2026",
+        "06/07/2026",
+        "06/07/2026",
+        "06/07/2026",
+        "02/07/2026"
+      ],
+      "title": "::.PPGIELT.::",
+      "last_checked": "2026-07-12T22:02:54.419100+00:00"
+    },
+    "http://www.ufrgs.br/ppgasfar": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "sele[cç][aã]o",
+        "mestrado",
+        "doutorado"
+      ],
+      "dates_found": [],
+      "title": "PPGASFAR – Programa de Pós Graduação em Assistência Farmacêutica",
+      "last_checked": "2026-07-12T22:03:01.380687+00:00"
+    },
+    "https://fs.unb.br/pos-graduacao/bioetica": {
+      "status": "error",
+      "error": "http_404",
+      "last_checked": "2026-07-12T22:03:06.427109+00:00"
+    },
+    "https://fs.unb.br/pos-graduacao/nutricao-humana": {
+      "status": "error",
+      "error": "http_404",
+      "last_checked": "2026-07-12T22:03:07.886809+00:00"
+    },
+    "https://fs.unb.br/pos-graduacao/pos-enfermagem": {
+      "status": "error",
+      "error": "http_404",
+      "last_checked": "2026-07-12T22:03:09.316345+00:00"
+    },
+    "https://fs.unb.br/pos-graduacao/pos-odontologia": {
+      "status": "error",
+      "error": "http_404",
+      "last_checked": "2026-07-12T22:03:10.872273+00:00"
+    },
+    "https://mat.unb.br/index.php/ensino/pos-graduacao/ppgmat-mestrado-e-doutorado": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "processo\\s+seletivo",
+        "mestrado",
+        "doutorado"
+      ],
+      "dates_found": [],
+      "title": "PPGMAT - Mestrado e Doutorado",
+      "last_checked": "2026-07-12T22:03:16.587792+00:00"
+    },
+    "https://ppgeco.unb.br": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "mestrado"
+      ],
+      "dates_found": [
+        "07/11/2022",
+        "23/05/2022",
+        "07/11/2022",
+        "23/05/2022",
+        "07/11/2022"
+      ],
+      "title": "PPGECO – Portal do Programa de Pós-graduação em Economia da UnB",
+      "last_checked": "2026-07-12T22:03:20.443924+00:00"
+    },
+    "https://ppgmader.unb.br/index.php/pt": {
+      "status": "error",
+      "error": "connection_error",
+      "last_checked": "2026-07-12T22:03:21.300913+00:00"
+    },
+    "https://www.exatas.unb.br/index.php/pt/nossos-cursos/pos-graduacao/profmat": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "mestrado",
+        "mestrado\\s+profissional",
+        "bolsas?"
+      ],
+      "dates_found": [],
+      "title": "Instituto de Ciências Exatas - PROFMAT",
+      "last_checked": "2026-07-12T22:03:23.371172+00:00"
+    },
+    "https://www.famema.br/pos-graduacao-stricto-sensu/mestrado-academico": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "inscri[cç][oõ]es",
+        "mestrado",
+        "doutorado"
+      ],
+      "dates_found": [],
+      "title": "Programa de Pós-Graduação em Saúde e Envelhecimento / Graduate Program in Health and Aging (PPGSE) – FAMEMA",
+      "last_checked": "2026-07-12T22:03:27.202531+00:00"
+    },
+    "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/mestrado-em-ciencia-inovacao-e-tecnologia-para-a-amazonia-1": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "processo\\s+seletivo",
+        "sele[cç][aã]o",
+        "mestrado"
+      ],
+      "dates_found": [
+        "16/06/2025",
+        "16/06/2025",
+        "16/06/2025",
+        "16/06/2025",
+        "16/06/2025"
+      ],
+      "title": "Home — Ciência, Inovação e Tecnologia para a Amazônia",
+      "last_checked": "2026-07-12T22:03:33.125742+00:00"
+    },
+    "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/mestrado-em-saude-coletiva-2": {
+      "status": "likely_open",
+      "confidence": 0.6,
+      "keywords_found": [
+        "inscri[cç][oõ]es\\s+abertas",
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [
+        "17/11/2025",
+        "17/11/2025",
+        "28/07/2025",
+        "01/08/2025",
+        "26/04/2024"
+      ],
+      "title": "Inicio — Programa de Pós-Graduação em Saúde Coletiva",
+      "last_checked": "2026-07-12T22:03:36.488182+00:00"
+    },
+    "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-artes-cenicas-1": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [],
+      "title": "PPGAC Ufac – Universidade Federal do Acre",
+      "last_checked": "2026-07-12T22:03:42.858311+00:00"
+    },
+    "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-biodiversidade-e-biotecnologia-da-rede-bionorte-1": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "doutorado"
+      ],
+      "dates_found": [],
+      "title": "Programa de Pós-Graduação em Biodiversidade e Biotecnologia - Bionorte — Programa de Pós-Graduação em Biodiversidade e B",
+      "last_checked": "2026-07-12T22:03:47.028502+00:00"
+    },
+    "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ciencia-da-saude-na-amazonia-ocidental": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "sele[cç][aã]o",
+        "mestrado",
+        "calend[aá]rio"
+      ],
+      "dates_found": [
+        "27/08/2020",
+        "26/11/2019"
+      ],
+      "title": "PPGCSAO Ufac — Programa de Pós-Graduação em Ciências da Saúde na Amazônia Ocidental",
+      "last_checked": "2026-07-12T22:03:51.519604+00:00"
+    },
+    "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-desenvolvimento-regional": {
+      "status": "possible",
+      "confidence": 0.2,
+      "keywords_found": [
+        "mestrado"
+      ],
+      "dates_found": [],
+      "title": "Programa de Pós-Graduação em Desenvolvimento Regional",
+      "last_checked": "2026-07-12T22:03:56.027345+00:00"
+    },
+    "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ecologia-e-manejo-de-recursos-naturais": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "processo\\s+seletivo",
+        "mestrado",
+        "doutorado"
+      ],
+      "dates_found": [],
+      "title": "Programa de Pós-Graduação em Ecologia e Manejo de Recursos Naturais",
+      "last_checked": "2026-07-12T22:04:00.563031+00:00"
+    },
+    "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-educacao": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "processo\\s+seletivo",
+        "mestrado",
+        "mestrado\\s+acad[eê]mico"
+      ],
+      "dates_found": [],
+      "title": "Programa de Pós-Graduação em Educação - PPGE — Universidade Federal do Acre Programa de Pós-Graduação em Educação - PPGE",
+      "last_checked": "2026-07-12T22:04:04.871060+00:00"
+    },
+    "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-engenharia-eletrica": {
+      "status": "unknown",
+      "confidence": 0.05,
+      "keywords_found": [],
+      "dates_found": [],
+      "title": "home — Programa de Pós-Graduação em Engenharia Elétrica - PPGEE",
+      "last_checked": "2026-07-12T22:04:07.543756+00:00"
+    },
+    "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ensino-de-ciencias-e-matematica": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "mestrado",
+        "calend[aá]rio",
+        "mestrado\\s+profissional"
+      ],
+      "dates_found": [],
+      "title": "Programa de Pós-Graduação Profissional em Ensino de Ciências e Matemática — Programa de Pós-Graduação em Ensino de Ciênc",
+      "last_checked": "2026-07-12T22:04:09.694167+00:00"
+    },
+    "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-letras": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "mestrado",
+        "mestrado\\s+profissional",
+        "capes"
+      ],
+      "dates_found": [],
+      "title": "home — Programa de Pós-Graduação em Letras",
+      "last_checked": "2026-07-12T22:04:14.542532+00:00"
+    },
+    "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-letras-linguagem-e-identidade": {
+      "status": "unknown",
+      "confidence": 0.05,
+      "keywords_found": [],
+      "dates_found": [],
+      "title": "WordPress.com",
+      "last_checked": "2026-07-12T22:04:17.651100+00:00"
+    },
+    "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-matematica-em-rede-nacional": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "mestrado"
+      ],
+      "dates_found": [],
+      "title": "PROFMAT — Programa de Pós-Graduação em Matemática em Rede Nacional",
+      "last_checked": "2026-07-12T22:04:22.069293+00:00"
+    },
+    "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-sanidade-e-producao-animal": {
+      "status": "error",
+      "error": "http_404",
+      "last_checked": "2026-07-12T22:04:23.508987+00:00"
+    },
+    "https://www.ufca.edu.br/cursos/pos-graduacao/doutorado/biblioteconomia": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [
+        "20/01/2026",
+        "29/03/2026",
+        "20/01/2026",
+        "29/03/2026",
+        "20/01/2026"
+      ],
+      "title": "Biblioteconomia – Universidade Federal do Cariri",
+      "last_checked": "2026-07-12T22:04:27.865892+00:00"
+    },
+    "https://www.ufca.edu.br/cursos/pos-graduacao/doutorado/bioquimica-e-biologia-molecular": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [
+        "28/05/2024",
+        "30/05/2026",
+        "28/05/2024",
+        "30/05/2026",
+        "28/05/2024"
+      ],
+      "title": "Bioquímica e Biologia Molecular – Universidade Federal do Cariri",
+      "last_checked": "2026-07-12T22:04:32.859007+00:00"
+    },
+    "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/administracao": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [
+        "08/03/2026",
+        "27/03/2026",
+        "08/03/2026",
+        "27/03/2026",
+        "08/03/2026"
+      ],
+      "title": "Administração – Universidade Federal do Cariri",
+      "last_checked": "2026-07-12T22:04:38.260124+00:00"
+    },
+    "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/administracao-publica": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [
+        "15/07/2024",
+        "13/03/2026",
+        "15/07/2024",
+        "13/03/2026",
+        "15/07/2024"
+      ],
+      "title": "Administração Pública – Universidade Federal do Cariri",
+      "last_checked": "2026-07-12T22:04:41.884710+00:00"
+    },
+    "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/biblioteconomia": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [
+        "11/03/2024",
+        "31/03/2026",
+        "11/03/2024",
+        "31/03/2026",
+        "11/03/2024"
+      ],
+      "title": "Biblioteconomia – Universidade Federal do Cariri",
+      "last_checked": "2026-07-12T22:04:45.260033+00:00"
+    },
+    "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/bioquimica-e-biologia-molecular-mestrado": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [
+        "28/05/2024",
+        "30/05/2026",
+        "28/05/2024",
+        "30/05/2026",
+        "28/05/2024"
+      ],
+      "title": "Bioquímica e Biologia Molecular – Universidade Federal do Cariri",
+      "last_checked": "2026-07-12T22:04:50.148120+00:00"
+    },
+    "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/ciencia-e-engenharia-de-materiais": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [
+        "29/01/2025",
+        "15/05/2026",
+        "14/06/2025",
+        "29/01/2025",
+        "15/05/2026"
+      ],
+      "title": "Ciência e Engenharia de Materiais – Universidade Federal do Cariri",
+      "last_checked": "2026-07-12T22:04:52.852182+00:00"
+    },
+    "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/ciencias-da-saude": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [
+        "24/01/2025",
+        "13/05/2026",
+        "24/01/2025",
+        "13/05/2026",
+        "24/01/2025"
+      ],
+      "title": "Ciências da Saúde – Universidade Federal do Cariri",
+      "last_checked": "2026-07-12T22:04:57.890866+00:00"
+    },
+    "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/desenvolvimento-regional-sustentavel": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [
+        "09/04/2026",
+        "04/01/2026",
+        "09/04/2026",
+        "04/01/2026",
+        "09/04/2026"
+      ],
+      "title": "Desenvolvimento Regional Sustentável – Universidade Federal do Cariri",
+      "last_checked": "2026-07-12T22:05:02.128437+00:00"
+    },
+    "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/filosofia-2": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [
+        "17/09/2024",
+        "06/02/2026",
+        "17/09/2024",
+        "06/02/2026",
+        "17/09/2024"
+      ],
+      "title": "Filosofia – Universidade Federal do Cariri",
+      "last_checked": "2026-07-12T22:05:05.211130+00:00"
+    },
+    "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/matematica": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [
+        "15/05/2026",
+        "04/02/2026",
+        "15/05/2026",
+        "04/02/2026",
+        "15/05/2026"
+      ],
+      "title": "Matemática – Universidade Federal do Cariri",
+      "last_checked": "2026-07-12T22:05:09.213199+00:00"
+    },
+    "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/saude-da-familia": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [
+        "30/10/2023",
+        "12/03/2026",
+        "05/01/2026",
+        "30/10/2023",
+        "12/03/2026"
+      ],
+      "title": "Saúde da Família – PROFSAÚDE – Universidade Federal do Cariri",
+      "last_checked": "2026-07-12T22:05:15.522587+00:00"
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/pgeec": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "mestrado",
+        "doutorado"
+      ],
+      "dates_found": [
+        "09/06/2026",
+        "09/06/2026",
+        "09/06/2026",
+        "08/06/2026",
+        "08/06/2026"
+      ],
+      "title": "PPgECi – Programa de Pós-Graduação em Educação em Ciências",
+      "last_checked": "2026-07-12T22:05:22.117219+00:00"
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgacc": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [
+        "10/06/2026",
+        "10/06/2026",
+        "10/06/2026",
+        "10/06/2026",
+        "28/02/2025"
+      ],
+      "title": "PPGACC – Programa de Pós-Graduação em Administração e Ciências Contábeis",
+      "last_checked": "2026-07-12T22:05:24.269124+00:00"
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgap": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [
+        "09/02/2026",
+        "14/05/2026",
+        "14/05/2026",
+        "14/05/2026",
+        "10/07/2026"
+      ],
+      "title": "PPGAP – Programa de Pós-Graduação em Agricultura de Precisão",
+      "last_checked": "2026-07-12T22:05:28.901257+00:00"
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcc": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [
+        "05/12/2025",
+        "26/06/2026",
+        "26/06/2026",
+        "26/06/2026",
+        "19/06/2026"
+      ],
+      "title": "PPGCC – Programa de Pós-Graduação em Ciência da Computação",
+      "last_checked": "2026-07-12T22:05:32.107823+00:00"
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcta": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "processo\\s+seletivo",
+        "sele[cç][aã]o",
+        "inscri[cç][oõ]es"
+      ],
+      "dates_found": [
+        "06/11/2025",
+        "10/10/2025",
+        "11/10/2024",
+        "21/05/2025",
+        "24/11/2022"
+      ],
+      "title": "PPGCTA – Programa de Pós-Graduação em Ciência e Tecnologia dos Alimentos",
+      "last_checked": "2026-07-12T22:05:35.805600+00:00"
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgdch": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "mestrado"
+      ],
+      "dates_found": [
+        "29/06/2026",
+        "29/06/2026",
+        "18/06/2026",
+        "16/06/2026",
+        "16/06/2026"
+      ],
+      "title": "PPGDCH – Programa de Pós-Graduação em Distúrbios da Comunicação Humana",
+      "last_checked": "2026-07-12T22:05:39.318293+00:00"
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgept": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "processo\\s+seletivo",
+        "mestrado",
+        "calend[aá]rio"
+      ],
+      "dates_found": [
+        "11/06/2026",
+        "07/07/2026",
+        "07/07/2026",
+        "07/07/2026",
+        "06/07/2026"
+      ],
+      "title": "PPGEPT – Programa de Pós-Graduação em Educação Profissional Tecnológica",
+      "last_checked": "2026-07-12T22:05:41.842561+00:00"
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgeronto": {
+      "status": "error",
+      "error": "http_404",
+      "last_checked": "2026-07-12T22:05:44.985385+00:00"
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgh": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "sele[cç][aã]o",
+        "mestrado",
+        "doutorado"
+      ],
+      "dates_found": [
+        "22/04/2026",
+        "06/07/2026",
+        "07/07/2026",
+        "07/07/2026",
+        "07/07/2026"
+      ],
+      "title": "PPGH – Programa de Pós-Graduação em História – Campus Santa Maria",
+      "last_checked": "2026-07-12T22:05:48.670461+00:00"
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgop": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "processo\\s+seletivo",
+        "mestrado",
+        "doutorado"
+      ],
+      "dates_found": [
+        "08/07/2026",
+        "03/07/2026",
+        "25/06/2026",
+        "24/06/2026",
+        "11/06/2026"
+      ],
+      "title": "PPGOP – Programa de Pós-Graduação em Gestão de Organizações Públicas",
+      "last_checked": "2026-07-12T22:05:52.864087+00:00"
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgter": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [
+        "31/07/2024",
+        "31/07/2024",
+        "31/07/2024",
+        "31/07/2024",
+        "31/07/2024"
+      ],
+      "title": "PPGTER – Programa de Pós-Graduação em Tecnologias Educacionais em Rede",
+      "last_checked": "2026-07-12T22:05:56.701453+00:00"
+    },
+    "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/profhistoria": {
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "sele[cç][aã]o",
+        "inscri[cç][oõ]es"
+      ],
+      "dates_found": [
+        "03/12/2025",
+        "14/01/2026",
+        "23/02/2026",
+        "14/01/2026",
+        "14/01/2026"
+      ],
+      "title": "Programa de Pós-Graduação em Ensino de História – Pós-graduação – Campus Santa Maria",
+      "last_checked": "2026-07-12T22:06:00.845350+00:00"
+    },
+    "https://www.unitau.br/pos-graduacao/doutorado-em-ciencias-da-saude": {
+      "status": "likely_open",
+      "confidence": 0.9,
+      "keywords_found": [
+        "vagas\\s+abertas",
+        "inscreva-se",
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [
+        "08/07/2026",
+        "08/07/2026",
+        "08/07/2026",
+        "08/07/2026"
+      ],
+      "title": "Doutorado em Ciências da Saúde - 30 - Universidade de Taubaté - UNITAU",
+      "last_checked": "2026-07-12T22:06:05.616411+00:00"
+    },
+    "https://www.unitau.br/pos-graduacao/doutorado-em-planejamento-e-desenvolvimento-regional": {
+      "status": "likely_open",
+      "confidence": 0.6,
+      "keywords_found": [
+        "vagas\\s+abertas",
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [
+        "02/12/2025",
+        "08/07/2026",
+        "08/07/2026",
+        "08/07/2026"
+      ],
+      "title": "Doutorado em Planejamento e Desenvolvimento Regional - 30 - Universidade de Taubaté - UNITAU",
+      "last_checked": "2026-07-12T22:06:07.243056+00:00"
     }
   }
 }
