@@ -110,9 +110,23 @@ def main():
                         "int_office_url": master.get("int_office_url") if master else None,
                     }
 
+                def _meta(scan_info, field):
+                    md = scan_info.get('metadata', {})
+                    if md and field in md and md[field].get('value'):
+                        return md[field]['value']
+                    return None
+
                 for prog in uni_entry.get("programs", []):
                     url = (prog.get("url") or "").strip()
                     scan_info = status_map_raw.get(url, {})
+                    scan_meta = scan_info.get('metadata', {}) if scan_info else {}
+
+                    src_start = prog.get("startDate")
+                    src_dur = prog.get("duration")
+                    src_campus = prog.get("campus")
+                    src_lang = prog.get("languageRequirement")
+                    src_master = prog.get("masterRequired")
+
                     programs_flat.append({
                         "id": prog_id_counter,
                         "university_id": uni_id,
@@ -120,11 +134,16 @@ def main():
                         "level": prog.get("level", ""),
                         "url": url,
                         "city": prog.get("city"),
-                        "campus": prog.get("campus"),
-                        "master_required": prog.get("masterRequired") or "",
-                        "start_date": convert_to_iso(prog.get("startDate")),
-                        "duration_months": extract_duration(prog.get("duration")),
-                        "language_requirement": prog.get("languageRequirement"),
+                        "campus": src_campus or _meta(scan_info, 'campus') or "",
+                        "master_required": src_master or _meta(scan_info, 'masterRequired') or "",
+                        "start_date": convert_to_iso(src_start or _meta(scan_info, 'startDate')) if (src_start or _meta(scan_info, 'startDate')) else None,
+                        "duration_months": extract_duration(src_dur) if src_dur else (_meta(scan_info, 'duration') if _meta(scan_info, 'duration') else None),
+                        "language_requirement": src_lang or _meta(scan_info, 'languageRequirement') or "",
+                        "meta_campus": _meta(scan_info, 'campus') or "",
+                        "meta_duration": _meta(scan_info, 'duration') or "",
+                        "meta_start_date": _meta(scan_info, 'startDate') or "",
+                        "meta_language": _meta(scan_info, 'languageRequirement') or "",
+                        "meta_master_required": _meta(scan_info, 'masterRequired') or "",
                         "scan_status": scan_info.get("status", "unknown"),
                         "scan_confidence": scan_info.get("confidence", 0.0),
                         "scan_keywords": scan_info.get("keywords_found", []),

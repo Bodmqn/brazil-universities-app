@@ -22,6 +22,10 @@ DATA_DIR = os.path.join(BASE, "src", "assets", "data")
 PROGRAMS_FILE = os.path.join(DATA_DIR, "programs.json")
 STATUS_FILE = os.path.join(DATA_DIR, "program-status.json")
 
+# Deep-scrape metadata extraction
+sys.path.insert(0, os.path.join(BASE, "scraper"))
+from deep_scraper import extract_metadata
+
 STRONG_KEYWORDS = [
     r'edital\s+aberto',
     r'edital\s+mestrado\s+aberto',
@@ -203,14 +207,18 @@ def scan_programs(programs, limit=None):
                         print(f'    -> ERROR: {error}')
                     else:
                         score = score_page(html, url)
+                        soup = BeautifulSoup(html, 'lxml')
+                        meta = extract_metadata(soup)
                         results[url] = {
                             **score,
+                            'metadata': meta,
                             'last_checked': datetime.now(timezone.utc).isoformat(),
                         }
                         icon = {'likely_open': 'OPEN', 'possible': 'MAYBE', 'unknown': '?', 'error': 'ERR'}.get(
                             score['status'], '?'
                         )
-                        print(f'    -> [{icon}] {score["status"]} (conf: {score["confidence"]})')
+                        extracted = sum(1 for v in meta.values() if v['value'] is not None)
+                        print(f'    -> [{icon}] {score["status"]} (conf: {score["confidence"]}) | meta: {extracted}/5')
 
                     scanned += 1
                     if scanned % 50 == 0:

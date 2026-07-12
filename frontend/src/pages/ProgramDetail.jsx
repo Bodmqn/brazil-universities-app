@@ -12,12 +12,39 @@ export default function ProgramDetail() {
     loadData().then(() => setReady(true))
   }, [id])
 
+  function MetaTag() {
+    return <span className="ml-1 px-1.5 py-0.5 bg-yellow-100 text-yellow-700 rounded text-[10px] font-medium align-middle">scraped</span>
+  }
+
   if (!ready) return <div className="text-center py-12 text-gray-400">Loading...</div>
 
   const prog = getProgram(id)
   if (!prog) return <div className="text-center py-12 text-gray-400">Program not found</div>
 
   const uni = getUniversity(prog.university_id)
+
+  const hasMeta = prog.meta_campus || prog.meta_duration || prog.meta_start_date || prog.meta_language || prog.meta_master_required
+
+  function displayValue(src, meta) {
+    if (src) return src
+    if (meta) return { value: meta, meta: true }
+    return null
+  }
+
+  function renderField(label, srcValue, metaValue, opts = {}) {
+    const dv = displayValue(srcValue, metaValue)
+    if (!dv && !opts.always) return null
+    const val = dv?.meta ? dv.value : dv
+    if (!val && !opts.always) return null
+    return (
+      <div>
+        <span className="text-gray-500 text-sm">{label}: </span>
+        <span className="text-gray-900 text-sm">
+          {dv?.meta ? <>{val}<MetaTag /></> : val}
+        </span>
+      </div>
+    )
+  }
 
   return (
     <div>
@@ -44,17 +71,28 @@ export default function ProgramDetail() {
           <div>
             <Field label="Program URL" value={prog.url} href={prog.url} />
             <Field label="City" value={prog.city} />
-            <Field label="Campus" value={prog.campus} />
+            <Field label="Campus" value={prog.campus || (prog.meta_campus || null)} />
           </div>
           <div>
-            <Field label="Start Date" value={prog.start_date} />
-            <Field label="Duration" value={prog.duration_months ? `${prog.duration_months} months` : null} />
-            <Field label="Master's Required for PhD" value={prog.master_required === 'SIM' ? 'Yes' : prog.master_required === '' ? 'Unknown' : 'No'} />
+            <Field label="Start Date" value={prog.start_date || (prog.meta_start_date || null)} />
+            <Field label="Duration" value={prog.duration_months ? `${prog.duration_months} months` : (prog.meta_duration || null)} />
+            <Field label="Master's Required for PhD" value={
+              prog.master_required === 'SIM' ? 'Yes'
+              : prog.meta_master_required ? (prog.meta_master_required.toLowerCase().startsWith('s') ? 'Yes' : 'No')
+              : prog.master_required === '' ? 'Unknown'
+              : 'No'
+            } />
           </div>
           <div>
-            <Field label="Language Requirement" value={prog.language_requirement} />
+            <Field label="Language Requirement" value={prog.language_requirement || (prog.meta_language || null)} />
           </div>
         </div>
+
+        {hasMeta && (
+          <div className="mt-4 pt-4 border-t border-gray-100">
+            <p className="text-xs text-yellow-600 mb-2">Values marked <MetaTag /> were extracted from the program page by the scanner.</p>
+          </div>
+        )}
       </div>
 
       <div className="bg-white rounded-xl border border-gray-200 p-6 mb-6">
@@ -83,6 +121,18 @@ export default function ProgramDetail() {
                   {prog.scan_dates_found.map((d, i) => (
                     <span key={i} className="px-2 py-0.5 bg-blue-50 rounded text-xs text-blue-700">{d}</span>
                   ))}
+                </div>
+              </div>
+            )}
+            {hasMeta && (
+              <div className="mt-3 pt-3 border-t border-gray-100">
+                <span className="text-gray-500 font-medium">Extracted Metadata:</span>
+                <div className="mt-2 space-y-1">
+                  {renderField('Start Date', prog.start_date, prog.meta_start_date)}
+                  {renderField('Duration', prog.duration_months ? `${prog.duration_months} months` : null, prog.meta_duration)}
+                  {renderField('Campus', prog.campus, prog.meta_campus)}
+                  {renderField('Language', prog.language_requirement, prog.meta_language)}
+                  {renderField('Master Required', prog.master_required, prog.meta_master_required)}
                 </div>
               </div>
             )}
