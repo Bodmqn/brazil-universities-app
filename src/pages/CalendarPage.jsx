@@ -32,6 +32,8 @@ function daysUntil(date) {
 }
 
 function flattenPrograms(data, statusMap) {
+  const now = new Date();
+  const currentYear = now.getFullYear();
   const programs = [];
   for (const region of data || []) {
     for (const state of region.states || []) {
@@ -39,7 +41,7 @@ function flattenPrograms(data, statusMap) {
         for (let idx = 0; idx < (uni.programs || []).length; idx++) {
           const prog = uni.programs[idx];
           const date = parseStartDate(prog.startDate);
-          if (!date) continue;
+          if (!date || date.getFullYear() < currentYear) continue;
           const progUrl = normalizeUrl(prog.url);
           const s = statusMap?.[progUrl] || null;
           programs.push({
