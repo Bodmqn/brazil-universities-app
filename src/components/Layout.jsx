@@ -3,7 +3,12 @@ import { Link, Outlet, useLocation } from 'react-router-dom';
 import SearchBar from './SearchBar';
 
 function getInitialTheme() {
-  try { return localStorage.getItem('theme') || 'light'; } catch { return 'light'; }
+  try {
+    const stored = localStorage.getItem('theme');
+    if (stored) return stored;
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) return 'dark';
+    return 'light';
+  } catch { return 'light'; }
 }
 
 export default function Layout() {
@@ -52,6 +57,12 @@ export default function Layout() {
                 <polygon points="22,3 2,3 10,12.46 10,19 14,21 14,12.46" />
               </svg>
               Filtro
+            </Link>
+            <Link to="/comparar" className="nav-link nav-link-dash">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M16 3h5v5M8 3H3v5M16 21h5v-5M8 21H3v-5M21 3l-7 7M3 3l7 7M21 21l-7-7M3 21l7-7" />
+              </svg>
+              Comparar
             </Link>
             <Link to="/email" className="nav-link nav-link-dash">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

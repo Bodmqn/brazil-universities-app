@@ -1,0 +1,17 @@
+{
+  "name": "Universidades Brasileiras",
+  "short_name": "Unis BR",
+  "description": "Diretório de programas de pós-graduação em universidades brasileiras",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2e7d32",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

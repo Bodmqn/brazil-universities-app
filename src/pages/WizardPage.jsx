@@ -118,14 +118,8 @@ export default function WizardPage() {
     return allPrograms.filter(prog => {
       if (targetLevel.length > 0 && !targetLevel.includes(prog.level)) return false;
 
-      if (qualifications.includes('bachelor')) {
-        // Bachelor's qualifies for Masters
-        // Master's qualifies for both
-        // No bachelor = can't apply
-      } else {
-        if (!qualifications.includes('master')) {
-          // If user has neither bachelor nor master, still show but mark as partial
-        }
+      if (prog.level === 'Mestrado' && !qualifications.includes('bachelor') && !qualifications.includes('master')) {
+        return false;
       }
 
       if (prog.level === 'Doutorado' && !qualifications.includes('master') && !qualifications.includes('bachelor')) {

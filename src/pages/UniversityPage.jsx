@@ -26,10 +26,13 @@ function statusBadge(status) {
   );
 }
 
+const PROGRAMS_PER_PAGE = 20;
+
 export default function UniversityPage() {
   const { regionName: regionSlug, uniKey } = useParams();
   const { data, statusMap, loading, error } = usePrograms();
   const [showMoreInfo, setShowMoreInfo] = useState(false);
+  const [page, setPage] = useState(0);
 
   if (loading) return <div className="center-msg">Carregando...</div>;
   if (error) return <div className="center-msg">Erro ao carregar dados: {error}</div>;
@@ -55,6 +58,9 @@ export default function UniversityPage() {
   }
 
   if (!foundUni) return <div className="center-msg">Nenhum resultado encontrado</div>;
+
+  const totalPages = Math.ceil(foundUni.programs.length / PROGRAMS_PER_PAGE);
+  const paginatedProgs = foundUni.programs.slice(page * PROGRAMS_PER_PAGE, (page + 1) * PROGRAMS_PER_PAGE);
 
   const levels = [...new Set(foundUni.programs.map(p => p.level))];
   const hasRanking = foundUni.qsRanking || foundUni.theRanking;
@@ -193,14 +199,15 @@ export default function UniversityPage() {
             </tr>
           </thead>
           <tbody>
-            {foundUni.programs.map((prog, idx) => {
+            {paginatedProgs.map((prog, idx) => {
+              const realIdx = page * PROGRAMS_PER_PAGE + idx;
               const s = getStatus(prog.url, statusMap);
               return (
-                <tr key={idx}>
+                <tr key={realIdx}>
                   <td><span className="badge">{prog.level}</span></td>
                   <td className="prog-name">
                     <Link
-                      to={`/programa/${encodeURIComponent(foundRegion)}/${encodeURIComponent(foundUni.acronym || foundUni.name)}/${idx}`}
+                      to={`/programa/${encodeURIComponent(foundRegion)}/${encodeURIComponent(foundUni.acronym || foundUni.name)}/${realIdx}`}
                       className="prog-link"
                     >
                       {prog.program}
@@ -225,6 +232,27 @@ export default function UniversityPage() {
             })}
           </tbody>
         </table>
+        {totalPages > 1 && (
+          <div className="pagination">
+            <button
+              className="pagination-btn"
+              disabled={page === 0}
+              onClick={() => setPage(p => Math.max(0, p - 1))}
+            >
+              &laquo; Anterior
+            </button>
+            <span className="pagination-info">
+              P&aacute;gina {page + 1} de {totalPages}
+            </span>
+            <button
+              className="pagination-btn"
+              disabled={page >= totalPages - 1}
+              onClick={() => setPage(p => Math.min(totalPages - 1, p + 1))}
+            >
+              Pr&oacute;ximo &raquo;
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );

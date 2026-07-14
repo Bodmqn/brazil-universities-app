@@ -58,6 +58,11 @@ export default function ProgramPage() {
 
   if (!foundProg) return <div className="center-msg">Nenhum resultado encontrado</div>;
 
+  const currentIdx = parseInt(programIdx, 10);
+  const totalProgs = foundUni.programs.length;
+  const prevIdx = currentIdx > 0 ? currentIdx - 1 : null;
+  const nextIdx = currentIdx < totalProgs - 1 ? currentIdx + 1 : null;
+
   const s = getStatus(foundProg.url, statusMap);
 
   return (
@@ -136,6 +141,35 @@ export default function ProgramPage() {
             )}
           </span>
         </div>
+      </div>
+
+      <div className="pagination">
+        {prevIdx !== null ? (
+          <Link
+            to={`/programa/${encodeURIComponent(foundRegion)}/${encodeURIComponent(foundUni.acronym || foundUni.name)}/${prevIdx}`}
+            className="pagination-btn"
+          >
+            &laquo; Anterior
+          </Link>
+        ) : (
+          <span className="pagination-btn pagination-btn-disabled">&laquo; Anterior</span>
+        )}
+        <Link
+          to={`/universidade/${encodeURIComponent(foundRegion)}/${encodeURIComponent(foundUni.acronym || foundUni.name)}`}
+          className="pagination-back"
+        >
+          Voltar para {foundUni.acronym || foundUni.name}
+        </Link>
+        {nextIdx !== null ? (
+          <Link
+            to={`/programa/${encodeURIComponent(foundRegion)}/${encodeURIComponent(foundUni.acronym || foundUni.name)}/${nextIdx}`}
+            className="pagination-btn"
+          >
+            Pr&oacute;ximo &raquo;
+          </Link>
+        ) : (
+          <span className="pagination-btn pagination-btn-disabled">Pr&oacute;ximo &raquo;</span>
+        )}
       </div>
     </div>
   );

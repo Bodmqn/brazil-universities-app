@@ -11,7 +11,10 @@
     "parse:csv": "node scripts/parse-csv.js",
     "merge:sigaa": "node scripts/merge-sigaa.js",
     "merge:master": "node scripts/merge-master.js",
-    "merge:all": "node scripts/merge-sigaa.js && node scripts/merge-master.js"
+    "merge:all": "node scripts/merge-sigaa.js && node scripts/merge-master.js",
+    "enrich": "node scripts/enrich-universities.js",
+    "enrich:dry": "node scripts/enrich-universities.js --dry-run",
+    "validate": "node scripts/validate-programs.js"
   },
   "dependencies": {
     "papaparse": "^5.5.3",
