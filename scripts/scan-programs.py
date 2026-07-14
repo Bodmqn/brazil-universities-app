@@ -80,6 +80,17 @@ MEDIUM_KEYWORDS = [
     r'intake',
     r'admissions?',
     r'ingresso',
+    r'concurso',
+    r'resolu[cç][aã]o',
+    r'portaria',
+    r'regulamento',
+    r'abaixo',
+    r'anexo',
+    r'dispensa\s+de\s+concurso',
+    r'exame\s+de\s+qualifica[cç][aã]o',
+    r'banca\s+examinadora',
+    r'orientador',
+    r'projeto\s+de\s+pesquisa',
 ]
 
 DATE_PATTERN = re.compile(
@@ -96,8 +107,8 @@ SESSION.headers.update({
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
     'Accept-Language': 'pt-BR,pt;q=0.9,en;q=0.8',
 })
-TIMEOUT = 4
-MAX_RETRIES = 1
+TIMEOUT = 8
+MAX_RETRIES = 2
 
 
 def normalize_url(url):
@@ -177,6 +188,15 @@ def score_page(html, url):
     }
 
 
+def clean_spa_url(url):
+    if not url:
+        return None
+    cleaned = re.sub(r'#!/.*$', '', url)
+    if cleaned != url and cleaned.startswith('http'):
+        return cleaned
+    return None
+
+
 def scan_programs(programs, limit=None):
     results = {}
     seen_urls = set()
@@ -207,6 +227,18 @@ def scan_programs(programs, limit=None):
                         print(f'    -> ERROR: {error}')
                     else:
                         score = score_page(html, url)
+
+                        if score['status'] == 'unknown' and '#!' in url:
+                            cleaned = clean_spa_url(url)
+                            if cleaned:
+                                print(f'    -> SPA detected, retrying clean URL: {cleaned}')
+                                html2, err2 = fetch_page(cleaned)
+                                if not err2:
+                                    score2 = score_page(html2, cleaned)
+                                    if score2['status'] != 'unknown':
+                                        score = score2
+                                        print(f'    -> CLEAN URL gave: {score2["status"]} (conf: {score2["confidence"]})')
+
                         soup = BeautifulSoup(html, 'lxml')
                         meta = extract_metadata(soup)
                         results[url] = {

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { usePrograms } from '../hooks/usePrograms';
 import { regionName } from '../utils/regionName';
@@ -18,9 +18,28 @@ function matchesYear(text, year) {
   return text.includes(year);
 }
 
+function formatLastRun(iso) {
+  if (!iso) return null;
+  const d = new Date(iso);
+  return d.toLocaleDateString('pt-BR', { day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' });
+}
+
 export default function DashboardPage() {
   const [scanYear, setScanYear] = useState('2026');
   const { data, statusMap, discovered, loading, error, refreshStatus } = usePrograms();
+
+  const scanStats = useMemo(() => {
+    if (!statusMap) return null;
+    const counts = { likely_open: 0, possible: 0, error: 0, unknown: 0 };
+    for (const entry of Object.values(statusMap)) {
+      const s = entry?.status || 'unknown';
+      if (counts[s] !== undefined) counts[s]++;
+      else counts.unknown++;
+    }
+    return counts;
+  }, [statusMap]);
+
+  const totalScanned = scanStats ? scanStats.likely_open + scanStats.possible + scanStats.error + scanStats.unknown : 0;
 
   if (loading) return <div className="center-msg">Carregando...</div>;
   if (error) return <div className="center-msg">Erro ao carregar dados: {error}</div>;
@@ -64,7 +83,7 @@ export default function DashboardPage() {
   return (
     <div className="dashboard-page">
       <div className="breadcrumb">
-        <Link to="/">Início</Link>
+        <Link to="/">In&#237;cio</Link>
         <span> / </span>
         <span>Editais Abertos</span>
       </div>
@@ -73,6 +92,45 @@ export default function DashboardPage() {
       <p className="page-subtitle">
         {totalOpen} programas com editais abertos em {openUnis.length} universidades
       </p>
+
+      {scanStats && (
+        <div className="scan-status-overview">
+          <div className="scan-status-header">
+            <h3>Status do Scanner</h3>
+            {statusMap?.last_run && (
+              <span className="scan-last-run-label">
+                &#128337; &#218;ltima verifica&#231;&#227;o: {formatLastRun(statusMap.last_run)}
+              </span>
+            )}
+          </div>
+          <div className="scan-status-bar">
+            <div className="scan-bar-segment scan-bar-open" style={{ flex: scanStats.likely_open }}>
+              <span>{scanStats.likely_open}</span>
+              <label>Abertos</label>
+            </div>
+            <div className="scan-bar-segment scan-bar-possible" style={{ flex: scanStats.possible }}>
+              <span>{scanStats.possible}</span>
+              <label>Poss&#237;veis</label>
+            </div>
+            <div className="scan-bar-segment scan-bar-error" style={{ flex: scanStats.error }}>
+              <span>{scanStats.error}</span>
+              <label>Erros</label>
+            </div>
+            <div className="scan-bar-segment scan-bar-unknown" style={{ flex: scanStats.unknown }}>
+              <span>{scanStats.unknown}</span>
+              <label>Desconhecidos</label>
+            </div>
+          </div>
+          <p className="scan-status-total">{totalScanned} URLs verificadas</p>
+          {scanStats.unknown > 0 && (
+            <p className="scan-status-note">
+              Programas &quot;Desconhecidos&quot; s&#227;o p&#225;ginas que n&#227;o continham palavras-chave detect&#225;veis.
+              Muitos s&#227;o sites que dependem de JavaScript (SPAs) ou p&#225;ginas vazias.
+              O scanner tenta novamente com URLs limpas, mas alguns podem precisar de verifica&#231;&#227;o manual.
+            </p>
+          )}
+        </div>
+      )}
 
       <div className="scanner-toolbar">
         <div className="scanner-year-filter">
@@ -89,7 +147,7 @@ export default function DashboardPage() {
           <p style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>&#128225;</p>
           <p>Nenhum edital aberto encontrado no momento.</p>
           <p className="hint">
-            O scanner de editais verifica os sites periodicamente. Volte mais tarde.
+            Execute o scanner acima para verificar os sites dos programas.
           </p>
         </div>
       ) : (
@@ -139,7 +197,7 @@ export default function DashboardPage() {
             <>
               <h3 className="dash-section-title dash-section-title-discovered">Descobertas pela Web</h3>
               <p className="dash-section-subtitle">
-                Oportunidades encontradas pela busca na web que não estão no nosso banco de dados.
+                Oportunidades encontradas pela busca na web que n&#227;o est&#227;o no nosso banco de dados.
               </p>
               <div className="dashboard-list">
                 {discoveredList.map(([url, item], idx) => (
@@ -161,9 +219,9 @@ export default function DashboardPage() {
                       <div className="dash-card-stats">
                         <div className="dash-stat">
                           <span className={`dash-stat-num ${item.status === 'likely_open' ? 'open' : 'maybe'}`}>
-                            {item.status === 'likely_open' ? 'Alta' : 'Média'}
+                            {item.status === 'likely_open' ? 'Alta' : 'M&#233;dia'}
                           </span>
-                          <span className="dash-stat-label">Confiança</span>
+                          <span className="dash-stat-label">Confian&#231;a</span>
                         </div>
                       </div>
                     </div>

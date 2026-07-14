@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { regionName } from '../utils/regionName';
 import { usePrograms } from '../hooks/usePrograms';
@@ -16,7 +17,7 @@ function getStatus(url, statusMap) {
 
 function statusBadge(status) {
   if (!status || status === 'unknown') return null;
-  const labels = { likely_open: 'Edital Aberto', possible: 'Possível Edital', error: 'Erro' };
+  const labels = { likely_open: 'Edital Aberto', possible: 'Poss\u00edvel Edital', error: 'Erro' };
   const colors = { likely_open: 'status-open', possible: 'status-maybe', error: 'status-error' };
   return (
     <span className={`status-badge ${colors[status] || ''}`}>
@@ -28,6 +29,7 @@ function statusBadge(status) {
 export default function UniversityPage() {
   const { regionName: regionSlug, uniKey } = useParams();
   const { data, statusMap, loading, error } = usePrograms();
+  const [showMoreInfo, setShowMoreInfo] = useState(false);
 
   if (loading) return <div className="center-msg">Carregando...</div>;
   if (error) return <div className="center-msg">Erro ao carregar dados: {error}</div>;
@@ -55,11 +57,15 @@ export default function UniversityPage() {
   if (!foundUni) return <div className="center-msg">Nenhum resultado encontrado</div>;
 
   const levels = [...new Set(foundUni.programs.map(p => p.level))];
+  const hasRanking = foundUni.qsRanking || foundUni.theRanking;
+  const hasMoreInfo = foundUni.category || foundUni.mastersCount != null || foundUni.phdCount != null
+    || foundUni.englishProgrammes || foundUni.graduatePageUrl
+    || foundUni.intOfficeEmail || foundUni.intOfficePhone || foundUni.intOfficeUrl;
 
   return (
     <div className="university-page">
       <div className="breadcrumb">
-        <Link to="/">Início</Link>
+        <Link to="/">In&#237;cio</Link>
         <span> / </span>
         <Link to={`/regiao/${encodeURIComponent(foundRegion)}`}>{regionName(foundRegion)}</Link>
         <span> / </span>
@@ -79,16 +85,108 @@ export default function UniversityPage() {
         </div>
       </div>
 
+      {hasRanking && (
+        <div className="uni-rankings">
+          {foundUni.qsRanking && <span className="ranking-badge qs">QS: {foundUni.qsRanking}</span>}
+          {foundUni.theRanking && <span className="ranking-badge the">THE: {foundUni.theRanking}</span>}
+        </div>
+      )}
+
+      {foundUni.sigaaUrl && (
+        <div className="sigaa-info">
+          <span className={`sigaa-status ${foundUni.sigaaStatus === 'Working' ? 'sigaa-working' : 'sigaa-not-found'}`}>
+            {foundUni.sigaaStatus === 'Working' ? '\u2713 SIGAA Funcionando' : '\u2717 SIGAA N\u00e3o Encontrado'}
+          </span>
+          <a href={foundUni.sigaaUrl} target="_blank" rel="noopener noreferrer" className="web-link">
+            Acessar SIGAA
+          </a>
+          {foundUni.sigaaNotes && <span className="sigaa-notes">{foundUni.sigaaNotes}</span>}
+        </div>
+      )}
+
+      {hasMoreInfo && (
+        <div className="uni-more-info">
+          <button
+            className="uni-more-toggle"
+            onClick={() => setShowMoreInfo(v => !v)}
+          >
+            {showMoreInfo ? 'Ocultar Informa\u00e7\u00f5es \u25B2' : 'Mais Informa\u00e7\u00f5es \u25BC'}
+          </button>
+          {showMoreInfo && (
+            <div className="uni-more-details">
+              {foundUni.category && (
+                <div className="uni-detail-row">
+                  <span className="uni-detail-label">Tipo</span>
+                  <span className="uni-detail-value">{foundUni.category}</span>
+                </div>
+              )}
+              {foundUni.mastersCount != null && (
+                <div className="uni-detail-row">
+                  <span className="uni-detail-label">Programas de Mestrado</span>
+                  <span className="uni-detail-value">{foundUni.mastersCount}</span>
+                </div>
+              )}
+              {foundUni.phdCount != null && (
+                <div className="uni-detail-row">
+                  <span className="uni-detail-label">Programas de Doutorado</span>
+                  <span className="uni-detail-value">{foundUni.phdCount}</span>
+                </div>
+              )}
+              {foundUni.englishProgrammes && (
+                <div className="uni-detail-row">
+                  <span className="uni-detail-label">Programas em Ingl\u00eas</span>
+                  <span className="uni-detail-value">{foundUni.englishProgrammes}</span>
+                </div>
+              )}
+              {foundUni.graduatePageUrl && (
+                <div className="uni-detail-row">
+                  <span className="uni-detail-label">P\u00e1gina de P\u00f3s-Gradua\u00e7\u00e3o</span>
+                  <span className="uni-detail-value">
+                    <a href={foundUni.graduatePageUrl} target="_blank" rel="noopener noreferrer" className="web-link">
+                      Acessar
+                    </a>
+                  </span>
+                </div>
+              )}
+              {foundUni.website && (
+                <div className="uni-detail-row">
+                  <span className="uni-detail-label">Site Oficial</span>
+                  <span className="uni-detail-value">
+                    <a href={foundUni.website} target="_blank" rel="noopener noreferrer" className="web-link">
+                      Acessar
+                    </a>
+                  </span>
+                </div>
+              )}
+              {(foundUni.intOfficeEmail || foundUni.intOfficePhone || foundUni.intOfficeUrl) && (
+                <div className="uni-detail-row">
+                  <span className="uni-detail-label">Escrit\u00f3rio Internacional</span>
+                  <span className="uni-detail-value uni-int-office">
+                    {foundUni.intOfficeUrl && (
+                      <a href={foundUni.intOfficeUrl} target="_blank" rel="noopener noreferrer" className="web-link">
+                        Site
+                      </a>
+                    )}
+                    {foundUni.intOfficeEmail && <span>{foundUni.intOfficeEmail}</span>}
+                    {foundUni.intOfficePhone && <span>{foundUni.intOfficePhone}</span>}
+                  </span>
+                </div>
+              )}
+            </div>
+          )}
+        </div>
+      )}
+
       <div className="programs-table-wrap">
         <table className="programs-table">
           <thead>
             <tr>
-              <th>Nível</th>
+              <th>N&#237;vel</th>
               <th>Programa</th>
               <th>Cidade</th>
               <th>Campus</th>
-              <th>Início</th>
-              <th>Duração</th>
+              <th>In&#237;cio</th>
+              <th>Dura\u00e7\u00e3o</th>
               <th>Requisito de Idioma</th>
               <th>Editais Abertos</th>
               <th>Site</th>

@@ -1,0 +1,32 @@
+{
+  "languages": [
+    {
+      "name": "Portugu\u00eas",
+      "aliases": ["portugu\u00eas", "portugues", "portuguese", "pt-br", "brasileiro", "port", "pt"]
+    },
+    {
+      "name": "Ingl\u00eas",
+      "aliases": ["ingl\u00eas", "ingles", "english", "en", "americano", "ing"]
+    },
+    {
+      "name": "Espanhol",
+      "aliases": ["espanhol", "spanish", "es", "castelhano", "esp"]
+    },
+    {
+      "name": "Franc\u00eas",
+      "aliases": ["franc\u00eas", "frances", "french", "fr"]
+    },
+    {
+      "name": "Alem\u00e3o",
+      "aliases": ["alem\u00e3o", "alemao", "german", "de"]
+    },
+    {
+      "name": "Italiano",
+      "aliases": ["italiano", "italian", "it"]
+    },
+    {
+      "name": "Mandarim",
+      "aliases": ["mandarim", "mandarin", "chines", "chin\u00eas", "chinese", "zh"]
+    }
+  ]
+}

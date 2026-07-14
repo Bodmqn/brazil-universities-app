@@ -1,0 +1,19 @@
+{
+  "templates": {
+    "pt": {
+      "label": "Portugu\u00eas",
+      "subject": "Interesse em Programa de P\u00f3s-Gradua\u00e7\u00e3o em {{programName}} - {{universityName}}",
+      "body": "Prezado(a) {{professorName}},\n\nMeu nome \u00e9 {{studentName}}, {{country}} estudante de {{institution}}, venho por meio deste expressar meu interesse em ingressar no Programa de P\u00f3s-Gradua\u00e7\u00e3o em {{programName}} na {{universityName}}.\n\n{{#hasProfessor}}Gostaria de saber se h\u00e1 possibilidade de orienta\u00e7\u00e3o sob sua responsabilidade no referido programa.\n\n{{/hasProfessor}}{{#researchInterest}}Minha \u00e1rea de interesse de pesquisa \u00e9 {{researchInterest}}, e acredito que o programa oferece um ambiente excelente para o desenvolvimento deste trabalho.\n\n{{/researchInterest}}Estou anexo ao email o meu curr\u00edculo lattes e demais documentos necess\u00e1rios para an\u00e1lise.\n\nAgrade\u00e7o a aten\u00e7\u00e3o e permane\u00e7o \u00e0 disposi\u00e7\u00e3o para quaisquer esclarecimentos.\n\nAtenciosamente,\n{{studentName}}\n{{institution}}\n{{country}}"
+    },
+    "en": {
+      "label": "English",
+      "subject": "Interest in {{programName}} Graduate Program - {{universityName}}",
+      "body": "Dear {{professorName}},\n\nMy name is {{studentName}}, a {{country}} student from {{institution}}. I am writing to express my interest in joining the {{programName}} graduate program at {{universityName}}.\n\n{{#hasProfessor}}I would like to inquire about the possibility of supervision under your guidance in this program.\n\n{{/hasProfessor}}{{#researchInterest}}My research interest lies in {{researchInterest}}, and I believe the program provides an excellent environment for this work.\n\n{{/researchInterest}}I have attached my CV and other required documents for your review.\n\nThank you for your time and consideration. I remain available for any questions.\n\nBest regards,\n{{studentName}}\n{{institution}}\n{{country}}"
+    },
+    "bilingual": {
+      "label": "Bilíngue / Bilingual",
+      "subject": "Interesse em Programa de P\u00f3s-Gradua\u00e7\u00e3o / Interest in Graduate Program - {{programName}} - {{universityName}}",
+      "body": "Prezado(a) {{professorName}} / Dear {{professorName}},\n\nMeu nome \u00e9 {{studentName}}, estudante de {{institution}} ({{country}}). Venho expressar meu interesse em ingressar no Programa de P\u00f3s-Gradua\u00e7\u00e3o em {{programName}} na {{universityName}}.\n\nMy name is {{studentName}}, a student from {{institution}} ({{country}}). I am writing to express my interest in joining the {{programName}} graduate program at {{universityName}}.\n\n{{#hasProfessor}}Gostaria de saber se h\u00e1 possibilidade de orienta\u00e7\u00e3o / I would like to inquire about the possibility of supervision under your guidance.\n\n{{/hasProfessor}}{{#researchInterest}}Minha \u00e1rea de interesse \u00e9 {{researchInterest}} / My research interest lies in {{researchInterest}}.\n\n{{/researchInterest}}Agrade\u00e7o a aten\u00e7\u00e3o / Thank you for your consideration.\n\nAtenciosamente / Best regards,\n{{studentName}}\n{{institution}}\n{{country}}"
+    }
+  }
+}

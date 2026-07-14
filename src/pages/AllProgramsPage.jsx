@@ -4,29 +4,33 @@ import { regionName } from '../utils/regionName';
 import { usePrograms } from '../hooks/usePrograms';
 
 const PAGE_SIZE = 50;
+const MAX_COMPARE = 4;
 
 const COLUMNS = [
-  { key: 'region', label: 'Região', fixed: true },
+  { key: 'compare', label: '\u2610', fixed: true },
+  { key: 'region', label: 'Regi\u00e3o', fixed: true },
   { key: 'state', label: 'Estado', fixed: true },
   { key: 'university', label: 'Universidade', fixed: true },
   { key: 'acronym', label: 'Sigla' },
-  { key: 'level', label: 'Nível' },
+  { key: 'level', label: 'N\u00edvel' },
   { key: 'program', label: 'Nome do Programa', fixed: true },
   { key: 'city', label: 'Cidade' },
   { key: 'campus', label: 'Campus' },
-  { key: 'startDate', label: 'Início' },
-  { key: 'duration', label: 'Duração (meses)' },
+  { key: 'startDate', label: 'In\u00edcio' },
+  { key: 'duration', label: 'Dura\u00e7\u00e3o (meses)' },
   { key: 'languageRequirement', label: 'Requisito de Idioma' },
   { key: 'openCalls', label: 'Editais Abertos' },
   { key: 'url', label: 'Site' },
 ];
 
 const COL_WIDTHS = {
-  region: 100, state: 110, university: 230, acronym: 75,
+  compare: 36, region: 100, state: 110, university: 230, acronym: 75,
   level: 85, program: 260, city: 110, campus: 170,
   startDate: 80, duration: 70, languageRequirement: 200,
   openCalls: 100, url: 55,
 };
+
+
 
 function normalizeUrl(url) {
   if (!url) return '';
@@ -42,7 +46,7 @@ function getStatus(url, statusMap) {
 
 function statusBadge(status) {
   if (!status || status === 'unknown') return null;
-  const labels = { likely_open: 'Edital Aberto', possible: 'Possível Edital', error: 'Erro' };
+  const labels = { likely_open: 'Edital Aberto', possible: 'Poss\u00edvel Edital', error: 'Erro' };
   const colors = { likely_open: 'status-open', possible: 'status-maybe', error: 'status-error' };
   return (
     <span className={`status-badge ${colors[status] || ''}`}>
@@ -60,6 +64,7 @@ function flattenData(data, statusMap) {
           const prog = uni.programs[progIdx];
           const s = getStatus(prog.url, statusMap);
           rows.push({
+            id: `${uni.acronym || uni.name}-${prog.level}-${progIdx}`,
             region: region.name,
             state: state.name,
             university: uni.name,
@@ -77,6 +82,11 @@ function flattenData(data, statusMap) {
             url: prog.url,
             regionSlug: region.name.toLowerCase(),
             uniKey: uni.acronym || uni.name,
+            sigaaStatus: uni.sigaaStatus || null,
+            sigaaUrl: uni.sigaaUrl || null,
+            qsRanking: uni.qsRanking || null,
+            theRanking: uni.theRanking || null,
+            category: uni.category || null,
           });
         }
       }
@@ -85,8 +95,10 @@ function flattenData(data, statusMap) {
   return rows;
 }
 
-function renderCell(colKey, row, statusMap) {
+function renderCell(colKey, row) {
   switch (colKey) {
+    case 'compare':
+      return null;
     case 'region':
       return regionName(row.region);
     case 'state':
@@ -137,14 +149,6 @@ function renderCell(colKey, row, statusMap) {
   }
 }
 
-const COL_PICKER_LABELS = {
-  region: 'Região', state: 'Estado', university: 'Universidade',
-  acronym: 'Sigla', level: 'Nível', program: 'Nome do Programa',
-  city: 'Cidade', campus: 'Campus', startDate: 'Início',
-  duration: 'Duração', languageRequirement: 'Requisito de Idioma',
-  openCalls: 'Editais Abertos', url: 'Site',
-};
-
 export default function AllProgramsPage() {
   const { data, statusMap, loading, error } = usePrograms();
   const [sortKey, setSortKey] = useState(null);
@@ -153,6 +157,8 @@ export default function AllProgramsPage() {
   const [visibleCols, setVisibleCols] = useState(() => ['languageRequirement', 'url']);
   const [showColPicker, setShowColPicker] = useState(false);
   const [query, setQuery] = useState('');
+  const [compareList, setCompareList] = useState([]);
+  const [showCompare, setShowCompare] = useState(false);
   const pickerRef = useRef(null);
 
   const rows = useMemo(() => flattenData(data, statusMap), [data, statusMap]);
@@ -223,7 +229,12 @@ export default function AllProgramsPage() {
     return COLUMNS.filter(c => merged.has(c.key));
   }, [visibleCols]);
 
+  const compareRows = useMemo(() => {
+    return rows.filter(r => compareList.includes(r.id));
+  }, [rows, compareList]);
+
   function handleSort(key) {
+    if (key === 'compare') return;
     if (sortKey === key) {
       setSortAsc(a => !a);
     } else {
@@ -240,6 +251,19 @@ export default function AllProgramsPage() {
     );
   }
 
+  function toggleCompare(id) {
+    setCompareList(prev => {
+      if (prev.includes(id)) return prev.filter(i => i !== id);
+      if (prev.length >= MAX_COMPARE) return prev;
+      return [...prev, id];
+    });
+  }
+
+  function removeCompare(id) {
+    setCompareList(prev => prev.filter(i => i !== id));
+    if (compareList.length <= 1) setShowCompare(false);
+  }
+
   function goToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
@@ -247,27 +271,102 @@ export default function AllProgramsPage() {
   if (loading) return <div className="center-msg">Carregando...</div>;
   if (error) return <div className="center-msg">Erro ao carregar dados: {error}</div>;
 
-  const sortLabel = COLUMNS.find(c => c.key === sortKey)?.label || '';
-
   return (
     <div className="all-programs-page">
       <div className="breadcrumb">
-        <Link to="/">Início</Link>
+        <Link to="/">In&#237;cio</Link>
         <span> / </span>
         <span>Tabela Completa</span>
       </div>
 
       <h2 className="page-title">Tabela Completa de Programas</h2>
       <p className="page-subtitle">
-        {sorted.length} programas de pós-graduação listados
+        {sorted.length} programas de p\u00f3s-gradua\u00e7\u00e3o listados
         {query && <> &middot; <strong>{filtered.length}</strong> correspondentes</>}
       </p>
 
+      {compareList.length > 0 && (
+        <div className="compare-tray">
+          <span className="compare-tray-info">
+            <strong>{compareList.length}/{MAX_COMPARE}</strong> programas selecionados
+          </span>
+          <button
+            className="compare-btn"
+            disabled={compareList.length < 2}
+            onClick={() => setShowCompare(v => !v)}
+          >
+            {showCompare ? 'Fechar' : `Comparar (${compareList.length})`}
+          </button>
+          <button className="compare-clear" onClick={() => { setCompareList([]); setShowCompare(false); }}>
+            Limpar
+          </button>
+        </div>
+      )}
+
+      {showCompare && compareRows.length >= 2 && (
+        <div className="compare-section">
+          <h3 className="compare-title">Compara\u00e7\u00e3o de Programas</h3>
+          <div className="compare-table-wrap">
+            <table className="compare-table">
+              <thead>
+                <tr>
+                  <th className="compare-label-col">Campo</th>
+                  {compareRows.map(row => (
+                    <th key={row.id} className="compare-prog-col">
+                      <div className="compare-prog-header">
+                        <span translate="no">{row.acronym}</span>
+                        <button className="compare-remove" onClick={() => removeCompare(row.id)}>\u2715</button>
+                      </div>
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { key: 'university', label: 'Universidade' },
+                  { key: 'level', label: 'N\u00edvel' },
+                  { key: 'program', label: 'Programa' },
+                  { key: 'city', label: 'Cidade' },
+                  { key: 'startDate', label: 'In\u00edcio' },
+                  { key: 'duration', label: 'Dura\u00e7\u00e3o' },
+                  { key: 'languageRequirement', label: 'Idioma' },
+                  { key: 'category', label: 'Tipo' },
+                  { key: 'qsRanking', label: 'QS Ranking' },
+                  { key: 'openCalls', label: 'Edital' },
+                  { key: 'sigaaStatus', label: 'SIGAA' },
+                ].map(field => (
+                  <tr key={field.key}>
+                    <td className="compare-label-col">{field.label}</td>
+                    {compareRows.map(row => {
+                      let val = row[field.key];
+                      if (field.key === 'duration' && val) val = `${val} meses`;
+                      if (field.key === 'openCalls') return <td key={row.id}>{statusBadge(val)}</td>;
+                      if (field.key === 'sigaaStatus') {
+                        return (
+                          <td key={row.id}>
+                            {val ? (
+                              <span className={`sigaa-badge sigaa-${val === 'Working' ? 'working' : 'not-found'}`}>
+                                {val === 'Working' ? '\u2713' : '\u2717'}
+                              </span>
+                            ) : '-'}
+                          </td>
+                        );
+                      }
+                      return <td key={row.id}>{val || '-'}</td>;
+                    })}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+
       <div className="ap-toolbar">
         <div className="ap-toolbar-left">
-          <button className="ap-top-btn" onClick={goToTop}>⬆ Topo</button>
+          <button className="ap-top-btn" onClick={goToTop}>\u2B06 Topo</button>
           <span className="ap-page-info">
-            <strong>{startIdx + 1}–{endIdx}</strong> de {filtered.length}
+            <strong>{startIdx + 1}\u2013{endIdx}</strong> de {filtered.length}
           </span>
           <input
             className="ap-search-input"
@@ -283,15 +382,15 @@ export default function AllProgramsPage() {
             disabled={clampedPage <= 1}
             onClick={() => setPage(p => p - 1)}
           >
-            ◀
+            \u25C0
           </button>
-          <span className="ap-page-num">Página {clampedPage} de {totalPages}</span>
+          <span className="ap-page-num">P\u00e1gina {clampedPage} de {totalPages}</span>
           <button
             className="ap-page-btn"
             disabled={clampedPage >= totalPages}
             onClick={() => setPage(p => p + 1)}
           >
-            ▶
+            \u25B6
           </button>
         </div>
         <div className="ap-toolbar-right" ref={pickerRef}>
@@ -299,11 +398,11 @@ export default function AllProgramsPage() {
             className="ap-col-picker-btn"
             onClick={() => setShowColPicker(s => !s)}
           >
-            Colunas ▾
+            Colunas \u25BE
           </button>
           {showColPicker && (
             <div className="ap-col-picker-dropdown">
-              {COLUMNS.map(col => {
+              {COLUMNS.filter(c => c.key !== 'compare').map(col => {
                 const isVisible = visibleCols.includes(col.key);
                 return (
                   <div
@@ -312,7 +411,7 @@ export default function AllProgramsPage() {
                     onClick={() => toggleCol(col.key)}
                   >
                     <span className={`ap-col-check ${isVisible ? 'ap-col-checked' : ''}`}>
-                      {isVisible && '✓'}
+                      {isVisible && '\u2713'}
                     </span>
                     {col.label}
                     {col.fixed && <span className="ap-col-fixed-tag">fixa</span>}
@@ -338,12 +437,12 @@ export default function AllProgramsPage() {
                   <th
                     key={col.key}
                     data-col={col.key}
-                    className={`ap-th ${sortKey === col.key ? (sortAsc ? 'sorted-asc' : 'sorted-desc') : ''}`}
+                    className={`ap-th ${sortKey === col.key ? (sortAsc ? 'sorted-asc' : 'sorted-desc') : ''} ${col.key === 'compare' ? 'ap-th-compare' : ''}`}
                     onClick={() => handleSort(col.key)}
                   >
-                    {col.label}
+                    {col.key === 'compare' ? '\u2610' : col.label}
                     {sortKey === col.key && (
-                      <span className="sort-arrow">{sortAsc ? ' ▲' : ' ▼'}</span>
+                      <span className="sort-arrow">{sortAsc ? ' \u25B2' : ' \u25BC'}</span>
                     )}
                   </th>
                 ))}
@@ -360,10 +459,20 @@ export default function AllProgramsPage() {
             </colgroup>
             <tbody>
               {currentRows.map((row, idx) => (
-                <tr key={startIdx + idx}>
+                <tr key={startIdx + idx} className={compareList.includes(row.id) ? 'compare-selected' : ''}>
                   {displayCols.map(col => (
-                    <td key={col.key} data-col={col.key}>
-                      {renderCell(col.key, row, statusMap)}
+                    <td key={col.key} data-col={col.key} className={col.key === 'compare' ? 'ap-td-compare' : ''}>
+                      {col.key === 'compare' ? (
+                        <input
+                          type="checkbox"
+                          className="compare-checkbox"
+                          checked={compareList.includes(row.id)}
+                          disabled={!compareList.includes(row.id) && compareList.length >= MAX_COMPARE}
+                          onChange={() => toggleCompare(row.id)}
+                        />
+                      ) : (
+                        renderCell(col.key, row)
+                      )}
                     </td>
                   ))}
                 </tr>

@@ -7,6 +7,9 @@ import SearchPage from './pages/SearchPage';
 import DashboardPage from './pages/DashboardPage';
 import AllProgramsPage from './pages/AllProgramsPage';
 import ProgramPage from './pages/ProgramPage';
+import CalendarPage from './pages/CalendarPage';
+import WizardPage from './pages/WizardPage';
+import EmailPage from './pages/EmailPage';
 import ErrorBoundary from './components/ErrorBoundary';
 
 export default function App() {
@@ -22,6 +25,9 @@ export default function App() {
             <Route path="/editais" element={<DashboardPage />} />
             <Route path="/todos-programas" element={<AllProgramsPage />} />
             <Route path="/programa/:regionName/:uniKey/:programIdx" element={<ProgramPage />} />
+            <Route path="/calendario" element={<CalendarPage />} />
+            <Route path="/filtro" element={<WizardPage />} />
+            <Route path="/email" element={<EmailPage />} />
           </Route>
         </Routes>
       </BrowserRouter>

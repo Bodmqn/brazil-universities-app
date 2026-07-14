@@ -8,7 +8,10 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "parse:csv": "node scripts/parse-csv.js"
+    "parse:csv": "node scripts/parse-csv.js",
+    "merge:sigaa": "node scripts/merge-sigaa.js",
+    "merge:master": "node scripts/merge-master.js",
+    "merge:all": "node scripts/merge-sigaa.js && node scripts/merge-master.js"
   },
   "dependencies": {
     "papaparse": "^5.5.3",

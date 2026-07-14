@@ -41,5 +41,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          git add frontend/src/data/
+          git add frontend/src/data/ src/assets/data/program-status.json
           git diff --staged --quiet || (git commit -m "bot: update scan results and regenerate frontend data" && git push)
