@@ -71,8 +71,8 @@ function main() {
   console.log('=== Add CAPES Programs ===');
   if (DRY_RUN) console.log('  MODE: dry-run\n');
 
-  // Load sources
-  const rawCapes = readFileSync(CAPES_PATH, 'utf-8');
+  // Load sources — CAPES CSV is Latin-1 (ISO-8859-1) encoded
+  const rawCapes = readFileSync(CAPES_PATH, 'latin1');
   const capes = Papa.parse(rawCapes, { header: true, skipEmptyLines: true, trim: true });
   console.log(`CAPES: ${capes.data.length} program rows loaded`);
 
