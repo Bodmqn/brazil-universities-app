@@ -84,11 +84,11 @@ export default function EmailPage() {
     const template = emailTemplates.templates[templateLang];
     const vars = {
       studentName: studentName || '[Seu nome]',
-      institution: institution || '[Sua institui\u00e7\u00e3o]',
-      country: country || '[Seu pa\u00eds]',
+      institution: institution || '[Sua instituição]',
+      country: country || '[Seu país]',
       universityName: selectedProg.university,
       programName: selectedProg.program,
-      professorName: hasProfessor ? (professorName || '[Nome do professor]') : 'Respons\u00e1vel pelo Programa',
+      professorName: hasProfessor ? (professorName || '[Nome do professor]') : 'Responsável pelo Programa',
       researchInterest,
       hasProfessor,
     };
@@ -131,7 +131,7 @@ export default function EmailPage() {
 
       <h2 className="page-title">Gerador de Email para Professores</h2>
       <p className="page-subtitle">
-        Gere um email profissional para entrar em contato com orientadores de programas de p\u00f3s-gradua\u00e7\u00e3o
+        Gere um email profissional para entrar em contato com orientadores de programas de pós-graduação
       </p>
 
       <div className="email-layout">
@@ -161,7 +161,7 @@ export default function EmailPage() {
                     >
                       <strong translate="no">{p.acronym}</strong>
                       <span>{p.program}</span>
-                      <span className="email-dropdown-meta">{p.level} \u00b7 {p.city}</span>
+                      <span className="email-dropdown-meta">{p.level} · {p.city}</span>
                     </div>
                   ))}
                 </div>
@@ -170,23 +170,23 @@ export default function EmailPage() {
           </div>
 
           <div className="wizard-section">
-            <h3 className="wizard-section-title">Suas Informa\u00e7\u00f5es</h3>
+            <h3 className="wizard-section-title">Suas Informações</h3>
             <div className="email-inputs">
               <div className="email-field">
                 <label>Seu nome *</label>
                 <input type="text" value={studentName} onChange={e => setStudentName(e.target.value)} placeholder="Maria Silva" />
               </div>
               <div className="email-field">
-                <label>Institui\u00e7\u00e3o</label>
+                <label>Instituição</label>
                 <input type="text" value={institution} onChange={e => setInstitution(e.target.value)} placeholder="Universidade de ..." />
               </div>
               <div className="email-field">
-                <label>Pa\u00eds</label>
+                <label>País</label>
                 <input type="text" value={country} onChange={e => setCountry(e.target.value)} placeholder="Brasil" />
               </div>
               <div className="email-field">
-                <label>\u00c1rea de pesquisa</label>
-                <input type="text" value={researchInterest} onChange={e => setResearchInterest(e.target.value)} placeholder="Ci\u00eancias da Computa\u00e7\u00e3o, Educa\u00e7\u00e3o, ..." />
+                <label>Área de pesquisa</label>
+                <input type="text" value={researchInterest} onChange={e => setResearchInterest(e.target.value)} placeholder="Ciências da Computação, Educação, ..." />
               </div>
               <div className="email-field email-field-check">
                 <label>
@@ -233,9 +233,9 @@ export default function EmailPage() {
         {generated && (
           <div className="email-preview" ref={previewRef}>
             <div className="email-preview-header">
-              <h3>Email Gerado \u2014 {generated.lang}</h3>
+              <h3>Email Gerado — {generated.lang}</h3>
               <button className={`email-copy-btn ${copied ? 'copied' : ''}`} onClick={handleCopy}>
-                {copied ? '\u2713 Copiado!' : 'Copiar'}
+                {copied ? '✓ Copiado!' : 'Copiar'}
               </button>
             </div>
             <div className="email-preview-subject">

@@ -31,7 +31,7 @@ export default function Layout() {
             <img src="/logo.png" alt="Kehra W" className="logo-img" />
             <div>
               <h1>Universidades Brasileiras</h1>
-              <p className="subtitle">Programas de P\u00f3s-Gradua\u00e7\u00e3o (Mestrado e Doutorado)</p>
+              <p className="subtitle">Programas de Pós-Graduação (Mestrado e Doutorado)</p>
             </div>
           </Link>
           <div className="header-right">
@@ -50,7 +50,7 @@ export default function Layout() {
                 <line x1="8" y1="2" x2="8" y2="6" />
                 <line x1="3" y1="10" x2="21" y2="10" />
               </svg>
-              Calend\u00e1rio
+              Calendário
             </Link>
             <Link to="/filtro" className="nav-link nav-link-dash">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

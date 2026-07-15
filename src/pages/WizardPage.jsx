@@ -12,18 +12,18 @@ for (const lang of languagesData.languages) {
 }
 
 const QUALIFICATIONS = [
-  { id: 'bachelor', label: 'Tenho diploma de gradua\u00e7\u00e3o', labelEn: "I have a Bachelor's degree" },
+  { id: 'bachelor', label: 'Tenho diploma de graduação', labelEn: "I have a Bachelor's degree" },
   { id: 'master', label: 'Tenho diploma de mestrado', labelEn: "I have a Master's degree" },
-  { id: 'research', label: 'Tenho experi\u00eancia de pesquisa', labelEn: 'I have research experience' },
-  { id: 'publications', label: 'Tenho publica\u00e7\u00f5es acad\u00eamicas', labelEn: 'I have academic publications' },
+  { id: 'research', label: 'Tenho experiência de pesquisa', labelEn: 'I have research experience' },
+  { id: 'publications', label: 'Tenho publicações acadêmicas', labelEn: 'I have academic publications' },
 ];
 
 const LANGUAGES = [
-  { id: 'Portugu\u00eas', label: 'Portugu\u00eas' },
-  { id: 'Ingl\u00eas', label: 'Ingl\u00eas' },
+  { id: 'Português', label: 'Português' },
+  { id: 'Inglês', label: 'Inglês' },
   { id: 'Espanhol', label: 'Espanhol' },
-  { id: 'Franc\u00eas', label: 'Franc\u00eas' },
-  { id: 'Alem\u00e3o', label: 'Alem\u00e3o' },
+  { id: 'Francês', label: 'Francês' },
+  { id: 'Alemão', label: 'Alemão' },
   { id: 'Italiano', label: 'Italiano' },
   { id: 'Mandarim', label: 'Mandarim' },
 ];
@@ -85,7 +85,7 @@ function flattenPrograms(data, statusMap) {
 
 function statusBadge(status) {
   if (!status || status === 'unknown') return null;
-  const labels = { likely_open: 'Edital Aberto', possible: 'Poss\u00edvel Edital', error: 'Erro' };
+  const labels = { likely_open: 'Edital Aberto', possible: 'Possível Edital', error: 'Erro' };
   const colors = { likely_open: 'status-open', possible: 'status-maybe', error: 'status-error' };
   return (
     <span className={`status-badge ${colors[status] || ''}`}>
@@ -153,7 +153,7 @@ export default function WizardPage() {
 
       if (prog.level === 'Doutorado' && !hasMaster && hasBachelor) {
         compatibility = 'partial';
-        notes.push('Pode ser necess\u00e1rio mestrado pr\u00e9vio');
+        notes.push('Pode ser necessário mestrado prévio');
       }
       if (missingLangs.length > 0) {
         compatibility = 'partial';
@@ -185,12 +185,12 @@ export default function WizardPage() {
 
       <h2 className="page-title">Encontre o Programa Ideal</h2>
       <p className="page-subtitle">
-        Selecione o que voc\u00ea procura e o que j\u00e1 possui para encontrar programas compat\u00edveis
+        Selecione o que você procura e o que já possui para encontrar programas compatíveis
       </p>
 
       <div className="wizard-form">
         <div className="wizard-section">
-          <h3 className="wizard-section-title">O que voc\u00ea procura?</h3>
+          <h3 className="wizard-section-title">O que você procura?</h3>
           <div className="wizard-checkboxes">
             {['Mestrado', 'Doutorado'].map(level => (
               <label key={level} className="wizard-checkbox">
@@ -206,7 +206,7 @@ export default function WizardPage() {
         </div>
 
         <div className="wizard-section">
-          <h3 className="wizard-section-title">Sua forma\u00e7\u00e3o</h3>
+          <h3 className="wizard-section-title">Sua formação</h3>
           <div className="wizard-checkboxes">
             {QUALIFICATIONS.map(q => (
               <label key={q.id} className="wizard-checkbox">
@@ -222,7 +222,7 @@ export default function WizardPage() {
         </div>
 
         <div className="wizard-section">
-          <h3 className="wizard-section-title">Idiomas que voc\u00ea fala</h3>
+          <h3 className="wizard-section-title">Idiomas que você fala</h3>
           <div className="wizard-checkboxes">
             {LANGUAGES.map(lang => (
               <label key={lang.id} className="wizard-checkbox">
@@ -238,7 +238,7 @@ export default function WizardPage() {
         </div>
 
         <div className="wizard-section">
-          <h3 className="wizard-section-title">Prefer\u00eancias</h3>
+          <h3 className="wizard-section-title">Preferências</h3>
           <div className="wizard-prefs">
             <div className="wizard-pref-row">
               <label>Regi&#227;o:</label>
@@ -250,7 +250,7 @@ export default function WizardPage() {
               </select>
             </div>
             <div className="wizard-pref-row">
-              <label>Dura\u00e7\u00e3o m\u00e1xima: <strong>{maxDuration} meses</strong></label>
+              <label>Duração máxima: <strong>{maxDuration} meses</strong></label>
               <input
                 type="range"
                 min="12"
@@ -287,7 +287,7 @@ export default function WizardPage() {
 
           {enrichedResults.length === 0 ? (
             <div className="center-msg">
-              <p>Nenhum programa encontrado com esses crit\u00e9rios.</p>
+              <p>Nenhum programa encontrado com esses critérios.</p>
               <p className="hint">Tente ampliar seus filtros.</p>
             </div>
           ) : (
@@ -309,15 +309,15 @@ export default function WizardPage() {
                           to={`/universidade/${encodeURIComponent(prog.region)}/${encodeURIComponent(prog.uniKey)}`}
                           className="web-link"
                         >
-                          <strong translate="no">{prog.acronym}</strong> \u2014 {prog.university}
+                          <strong translate="no">{prog.acronym}</strong> — {prog.university}
                         </Link>
-                        <span>{regionName(prog.region)} \u00b7 {prog.state} \u00b7 {prog.city}</span>
+                        <span>{regionName(prog.region)} · {prog.state} · {prog.city}</span>
                       </div>
                     </div>
                     <div className="wizard-result-badges">
                       <span className={`compat-badge compat-${prog.compatibility}`}>
-                        {prog.compatibility === 'full' ? '\u2713 Completo' :
-                         prog.compatibility === 'partial' ? '\u26A0 Parcial' : '\u26A0 Baixa'}
+                        {prog.compatibility === 'full' ? '✓ Completo' :
+                         prog.compatibility === 'partial' ? '⚠ Parcial' : '⚠ Baixa'}
                       </span>
                       <span className="badge">{prog.level}</span>
                       {statusBadge(prog.openStatus)}

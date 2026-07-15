@@ -7,17 +7,17 @@ const PAGE_SIZE = 50;
 const MAX_COMPARE = 4;
 
 const COLUMNS = [
-  { key: 'compare', label: '\u2610', fixed: true },
-  { key: 'region', label: 'Regi\u00e3o', fixed: true },
+  { key: 'compare', label: '☐', fixed: true },
+  { key: 'region', label: 'Região', fixed: true },
   { key: 'state', label: 'Estado', fixed: true },
   { key: 'university', label: 'Universidade', fixed: true },
   { key: 'acronym', label: 'Sigla' },
-  { key: 'level', label: 'N\u00edvel' },
+  { key: 'level', label: 'Nível' },
   { key: 'program', label: 'Nome do Programa', fixed: true },
   { key: 'city', label: 'Cidade' },
   { key: 'campus', label: 'Campus' },
-  { key: 'startDate', label: 'In\u00edcio' },
-  { key: 'duration', label: 'Dura\u00e7\u00e3o (meses)' },
+  { key: 'startDate', label: 'Início' },
+  { key: 'duration', label: 'Duração (meses)' },
   { key: 'languageRequirement', label: 'Requisito de Idioma' },
   { key: 'openCalls', label: 'Editais Abertos' },
   { key: 'url', label: 'Site' },
@@ -46,7 +46,7 @@ function getStatus(url, statusMap) {
 
 function statusBadge(status) {
   if (!status || status === 'unknown') return null;
-  const labels = { likely_open: 'Edital Aberto', possible: 'Poss\u00edvel Edital', error: 'Erro' };
+  const labels = { likely_open: 'Edital Aberto', possible: 'Possível Edital', error: 'Erro' };
   const colors = { likely_open: 'status-open', possible: 'status-maybe', error: 'status-error' };
   return (
     <span className={`status-badge ${colors[status] || ''}`}>
@@ -281,7 +281,7 @@ export default function AllProgramsPage() {
 
       <h2 className="page-title">Tabela Completa de Programas</h2>
       <p className="page-subtitle">
-        {sorted.length} programas de p\u00f3s-gradua\u00e7\u00e3o listados
+        {sorted.length} programas de pós-graduação listados
         {query && <> &middot; <strong>{filtered.length}</strong> correspondentes</>}
       </p>
 
@@ -305,7 +305,7 @@ export default function AllProgramsPage() {
 
       {showCompare && compareRows.length >= 2 && (
         <div className="compare-section">
-          <h3 className="compare-title">Compara\u00e7\u00e3o de Programas</h3>
+          <h3 className="compare-title">Comparação de Programas</h3>
           <div className="compare-table-wrap">
             <table className="compare-table">
               <thead>
@@ -315,7 +315,7 @@ export default function AllProgramsPage() {
                     <th key={row.id} className="compare-prog-col">
                       <div className="compare-prog-header">
                         <span translate="no">{row.acronym}</span>
-                        <button className="compare-remove" onClick={() => removeCompare(row.id)}>\u2715</button>
+                        <button className="compare-remove" onClick={() => removeCompare(row.id)}>✕</button>
                       </div>
                     </th>
                   ))}
@@ -324,11 +324,11 @@ export default function AllProgramsPage() {
               <tbody>
                 {[
                   { key: 'university', label: 'Universidade' },
-                  { key: 'level', label: 'N\u00edvel' },
+                  { key: 'level', label: 'Nível' },
                   { key: 'program', label: 'Programa' },
                   { key: 'city', label: 'Cidade' },
-                  { key: 'startDate', label: 'In\u00edcio' },
-                  { key: 'duration', label: 'Dura\u00e7\u00e3o' },
+                  { key: 'startDate', label: 'Início' },
+                  { key: 'duration', label: 'Duração' },
                   { key: 'languageRequirement', label: 'Idioma' },
                   { key: 'category', label: 'Tipo' },
                   { key: 'qsRanking', label: 'QS Ranking' },
@@ -346,7 +346,7 @@ export default function AllProgramsPage() {
                           <td key={row.id}>
                             {val ? (
                               <span className={`sigaa-badge sigaa-${val === 'Working' ? 'working' : 'not-found'}`}>
-                                {val === 'Working' ? '\u2713' : '\u2717'}
+                                {val === 'Working' ? '✓' : '✗'}
                               </span>
                             ) : '-'}
                           </td>
@@ -364,9 +364,9 @@ export default function AllProgramsPage() {
 
       <div className="ap-toolbar">
         <div className="ap-toolbar-left">
-          <button className="ap-top-btn" onClick={goToTop}>\u2B06 Topo</button>
+          <button className="ap-top-btn" onClick={goToTop}>⬆ Topo</button>
           <span className="ap-page-info">
-            <strong>{startIdx + 1}\u2013{endIdx}</strong> de {filtered.length}
+            <strong>{startIdx + 1}–{endIdx}</strong> de {filtered.length}
           </span>
           <input
             className="ap-search-input"
@@ -382,15 +382,15 @@ export default function AllProgramsPage() {
             disabled={clampedPage <= 1}
             onClick={() => setPage(p => p - 1)}
           >
-            \u25C0
+            ◀
           </button>
-          <span className="ap-page-num">P\u00e1gina {clampedPage} de {totalPages}</span>
+          <span className="ap-page-num">Página {clampedPage} de {totalPages}</span>
           <button
             className="ap-page-btn"
             disabled={clampedPage >= totalPages}
             onClick={() => setPage(p => p + 1)}
           >
-            \u25B6
+            ▶
           </button>
         </div>
         <div className="ap-toolbar-right" ref={pickerRef}>
@@ -398,7 +398,7 @@ export default function AllProgramsPage() {
             className="ap-col-picker-btn"
             onClick={() => setShowColPicker(s => !s)}
           >
-            Colunas \u25BE
+            Colunas ▾
           </button>
           {showColPicker && (
             <div className="ap-col-picker-dropdown">
@@ -411,7 +411,7 @@ export default function AllProgramsPage() {
                     onClick={() => toggleCol(col.key)}
                   >
                     <span className={`ap-col-check ${isVisible ? 'ap-col-checked' : ''}`}>
-                      {isVisible && '\u2713'}
+                      {isVisible && '✓'}
                     </span>
                     {col.label}
                     {col.fixed && <span className="ap-col-fixed-tag">fixa</span>}
@@ -440,9 +440,9 @@ export default function AllProgramsPage() {
                     className={`ap-th ${sortKey === col.key ? (sortAsc ? 'sorted-asc' : 'sorted-desc') : ''} ${col.key === 'compare' ? 'ap-th-compare' : ''}`}
                     onClick={() => handleSort(col.key)}
                   >
-                    {col.key === 'compare' ? '\u2610' : col.label}
+                    {col.key === 'compare' ? '☐' : col.label}
                     {sortKey === col.key && (
-                      <span className="sort-arrow">{sortAsc ? ' \u25B2' : ' \u25BC'}</span>
+                      <span className="sort-arrow">{sortAsc ? ' ▲' : ' ▼'}</span>
                     )}
                   </th>
                 ))}

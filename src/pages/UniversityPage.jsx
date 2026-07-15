@@ -17,7 +17,7 @@ function getStatus(url, statusMap) {
 
 function statusBadge(status) {
   if (!status || status === 'unknown') return null;
-  const labels = { likely_open: 'Edital Aberto', possible: 'Poss\u00edvel Edital', error: 'Erro' };
+  const labels = { likely_open: 'Edital Aberto', possible: 'Possível Edital', error: 'Erro' };
   const colors = { likely_open: 'status-open', possible: 'status-maybe', error: 'status-error' };
   return (
     <span className={`status-badge ${colors[status] || ''}`}>
@@ -101,7 +101,7 @@ export default function UniversityPage() {
       {foundUni.sigaaUrl && (
         <div className="sigaa-info">
           <span className={`sigaa-status ${foundUni.sigaaStatus === 'Working' ? 'sigaa-working' : 'sigaa-not-found'}`}>
-            {foundUni.sigaaStatus === 'Working' ? '\u2713 SIGAA Funcionando' : '\u2717 SIGAA N\u00e3o Encontrado'}
+            {foundUni.sigaaStatus === 'Working' ? '✓ SIGAA Funcionando' : '✗ SIGAA Não Encontrado'}
           </span>
           <a href={foundUni.sigaaUrl} target="_blank" rel="noopener noreferrer" className="web-link">
             Acessar SIGAA
@@ -116,7 +116,7 @@ export default function UniversityPage() {
             className="uni-more-toggle"
             onClick={() => setShowMoreInfo(v => !v)}
           >
-            {showMoreInfo ? 'Ocultar Informa\u00e7\u00f5es \u25B2' : 'Mais Informa\u00e7\u00f5es \u25BC'}
+            {showMoreInfo ? 'Ocultar Informações ▲' : 'Mais Informações ▼'}
           </button>
           {showMoreInfo && (
             <div className="uni-more-details">
@@ -140,13 +140,13 @@ export default function UniversityPage() {
               )}
               {foundUni.englishProgrammes && (
                 <div className="uni-detail-row">
-                  <span className="uni-detail-label">Programas em Ingl\u00eas</span>
+                  <span className="uni-detail-label">Programas em Inglês</span>
                   <span className="uni-detail-value">{foundUni.englishProgrammes}</span>
                 </div>
               )}
               {foundUni.graduatePageUrl && (
                 <div className="uni-detail-row">
-                  <span className="uni-detail-label">P\u00e1gina de P\u00f3s-Gradua\u00e7\u00e3o</span>
+                  <span className="uni-detail-label">Página de Pós-Graduação</span>
                   <span className="uni-detail-value">
                     <a href={foundUni.graduatePageUrl} target="_blank" rel="noopener noreferrer" className="web-link">
                       Acessar
@@ -166,7 +166,7 @@ export default function UniversityPage() {
               )}
               {(foundUni.intOfficeEmail || foundUni.intOfficePhone || foundUni.intOfficeUrl) && (
                 <div className="uni-detail-row">
-                  <span className="uni-detail-label">Escrit\u00f3rio Internacional</span>
+                  <span className="uni-detail-label">Escritório Internacional</span>
                   <span className="uni-detail-value uni-int-office">
                     {foundUni.intOfficeUrl && (
                       <a href={foundUni.intOfficeUrl} target="_blank" rel="noopener noreferrer" className="web-link">
@@ -192,7 +192,7 @@ export default function UniversityPage() {
               <th>Cidade</th>
               <th>Campus</th>
               <th>In&#237;cio</th>
-              <th>Dura\u00e7\u00e3o</th>
+              <th>Duração</th>
               <th>Requisito de Idioma</th>
               <th>Editais Abertos</th>
               <th>Site</th>

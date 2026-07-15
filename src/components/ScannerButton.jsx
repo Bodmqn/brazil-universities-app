@@ -6,7 +6,7 @@ const STATUS_LABELS = {
   idle: 'Executar Scanner',
   triggering: 'Iniciando...',
   running: 'Escaneando sites dos programas...',
-  done: 'Conclu\u00eddo!',
+  done: 'Concluído!',
   error: 'Erro ao executar',
 };
 
@@ -132,9 +132,9 @@ function formatTimeAgo(iso) {
   const diff = Date.now() - new Date(iso).getTime();
   const mins = Math.floor(diff / 60000);
   if (mins < 1) return 'agora mesmo';
-  if (mins < 60) return `h\u00e1 ${mins} min`;
+  if (mins < 60) return `há ${mins} min`;
   const hours = Math.floor(mins / 60);
-  if (hours < 24) return `h\u00e1 ${hours}h`;
+  if (hours < 24) return `há ${hours}h`;
   const days = Math.floor(hours / 24);
-  return `h\u00e1 ${days}d`;
+  return `há ${days}d`;
 }

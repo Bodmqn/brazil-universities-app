@@ -4,7 +4,7 @@ import { regionName } from '../utils/regionName';
 import { usePrograms } from '../hooks/usePrograms';
 
 const MONTH_NAMES = [
-  'Janeiro', 'Fevereiro', 'Mar\u00e7o', 'Abril', 'Maio', 'Junho',
+  'Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho',
   'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'
 ];
 
@@ -69,7 +69,7 @@ function flattenPrograms(data, statusMap) {
 
 function statusBadge(status) {
   if (!status || status === 'unknown') return null;
-  const labels = { likely_open: 'Edital Aberto', possible: 'Poss\u00edvel Edital', error: 'Erro' };
+  const labels = { likely_open: 'Edital Aberto', possible: 'Possível Edital', error: 'Erro' };
   const colors = { likely_open: 'status-open', possible: 'status-maybe', error: 'status-error' };
   return (
     <span className={`status-badge ${colors[status] || ''}`}>
@@ -212,7 +212,7 @@ export default function CalendarPage() {
                             >
                               <strong translate="no">{prog.acronym}</strong>
                             </Link>
-                            {' \u00b7 '}{prog.city}
+                            {' · '}{prog.city}
                           </span>
                           <span>{prog.duration} meses</span>
                           {statusBadge(prog.openStatus)}
