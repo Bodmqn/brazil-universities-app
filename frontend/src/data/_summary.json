@@ -1,6 +1,6 @@
 {
   "total_universities": 115,
-  "total_programs": 2303,
+  "total_programs": 2406,
   "by_region": {
     "Sudeste": 33,
     "Centro-Oeste": 12,
@@ -15,15 +15,15 @@
     "Municipal": 1
   },
   "by_scan_status": {
-    "possible": 416,
-    "likely_open": 70,
-    "unknown": 1645,
-    "error": 172
+    "possible": 423,
+    "likely_open": 76,
+    "unknown": 1830,
+    "error": 77
   },
   "by_level": {
-    "Mestrado": 1380,
-    "Doutorado": 770,
-    "Mestrado Profissional": 144,
+    "Mestrado": 1393,
+    "Doutorado": 846,
+    "Mestrado Profissional": 158,
     "Doutorado Profissional": 9
   }
 }
