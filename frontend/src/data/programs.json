@@ -664,12 +664,13 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
     "scan_keywords": [
+      "inscri[cç][oõ]es\\s+abertas",
       "processo\\s+seletivo",
       "sele[cç][aã]o",
-      "mestrado"
+      "inscri[cç][oõ]es"
     ],
     "scan_dates_found": [],
     "scan_title": "Página inicial",
@@ -5190,11 +5191,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "mestrado",
+      "portaria"
+    ],
+    "scan_dates_found": [
+      "20/09/2021",
+      "20/09/2021",
+      "09/02/2021",
+      "09/02/2021",
+      "28/12/2020"
+    ],
+    "scan_title": "PPGER - PPGER",
     "edital_url": "",
     "edital_title": ""
   },
@@ -5211,16 +5222,20 @@
     "duration_months": 24,
     "language_requirement": "Português",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "Sosígenes Costa",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "sele[cç][aã]o",
+      "inscri[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "Programa de Pós-Graduação em Estado e Sociedade - CF Ciências Humanas e Sociais",
     "edital_url": "",
     "edital_title": ""
   },
@@ -5242,11 +5257,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "Mestrado em Engenharia Civil e Ambiental - CF em Tecno-Ciências e Inovação",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17457,16 +17476,27 @@
     "duration_months": 24,
     "language_requirement": "Português; Espanhol",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "Recife Campus Caruaru Campus Vitória Campus Centro Campus Sertão Sistema Integrado de Bibliotecas",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "chamada\\s+p[uú]blica",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "01/06/2021",
+      "01/06/2021",
+      "31/05/2021",
+      "31/05/2021",
+      "31/05/2021"
+    ],
+    "scan_title": "(PPGA) Programa de Pós-Graduação em Antropologia - UFPE",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17483,16 +17513,27 @@
     "duration_months": 24,
     "language_requirement": "Português; Inglês",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "Recife Campus Caruaru Campus Vitória Campus Centro Campus Sertão Sistema Integrado de Bibliotecas",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "chamada\\s+p[uú]blica",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "04/09/2025",
+      "04/09/2025",
+      "01/09/2025",
+      "07/08/2025",
+      "06/08/2025"
+    ],
+    "scan_title": "(PPGCI) Programa de Pós-Graduação em Ciência da Informação - UFPE",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17509,16 +17550,27 @@
     "duration_months": 24,
     "language_requirement": "Português; Inglês",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "Recife Campus Caruaru Campus Vitória Campus Centro Campus Sertão Sistema Integrado de Bibliotecas",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "chamada\\s+p[uú]blica",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "27/02/2019",
+      "27/02/2019",
+      "27/02/2019",
+      "27/02/2019",
+      "27/02/2019"
+    ],
+    "scan_title": "(PPGCF) Programa de Pós-Graduação em Ciências Farmacêuticas - UFPE",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17535,16 +17587,26 @@
     "duration_months": 24,
     "language_requirement": "Português; Espanhol",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "Recife Campus Caruaru Campus Vitória Campus Centro Campus Sertão Sistema Integrado de Bibliotecas",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "chamada\\s+p[uú]blica",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "06/08/2024",
+      "02/06/2023",
+      "03/04/2023",
+      "27/03/2023"
+    ],
+    "scan_title": "(PPGEcon) Programa de Pós-Graduação em Economia (Campus Agreste) - UFPE",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17561,16 +17623,26 @@
     "duration_months": 24,
     "language_requirement": "Português",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "Recife Campus Caruaru Campus Vitória Campus Centro Campus Sertão Sistema Integrado de Bibliotecas",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "chamada\\s+p[uú]blica",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "17/07/2025",
+      "11/06/2025",
+      "26/03/2025",
+      "29/08/2024"
+    ],
+    "scan_title": "(PPGEduc) Programa de Pós-Graduação em Educação Contemporânea - UFPE",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17587,16 +17659,27 @@
     "duration_months": 24,
     "language_requirement": "Português; Espanhol; Inglês",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "Recife Campus Caruaru Campus Vitória Campus Centro Campus Sertão Sistema Integrado de Bibliotecas",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "chamada\\s+p[uú]blica",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "03/09/2025",
+      "02/07/2025",
+      "27/06/2025",
+      "19/08/2024",
+      "05/08/2024"
+    ],
+    "scan_title": "(PPGECAM) Programa de Pós-Graduação em Engenharia Civil e Ambiental - UFPE",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17612,17 +17695,29 @@
     "start_date": "2027-03-01",
     "duration_months": 24,
     "language_requirement": "Português",
-    "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_application_deadline": "01/10/2023",
+    "meta_campus": "do PPGEP",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.9,
+    "scan_keywords": [
+      "inscri[cç][oõ]es\\s+abertas",
+      "chamada\\s+p[uú]blica",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "01/10/2023",
+      "01/10/2023",
+      "01/10/2023",
+      "01/10/2023",
+      "01/10/2023"
+    ],
+    "scan_title": "(PPGEPCAA) Programa de Pós-Graduação em Engenharia de Produção - UFPE",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17639,16 +17734,27 @@
     "duration_months": 24,
     "language_requirement": "Português; Espanhol",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "Recife Campus Caruaru Campus Vitória Campus Centro Campus Sertão Sistema Integrado de Bibliotecas",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "chamada\\s+p[uú]blica",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "30/06/2025",
+      "30/06/2025",
+      "30/06/2025",
+      "30/06/2025",
+      "30/06/2025"
+    ],
+    "scan_title": "(PPGMedtrop) Programa de Pós-Graduação em Medicina Tropical - UFPE",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17742,11 +17848,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "02/07/2026",
-      "02/07/2026",
-      "02/07/2026",
-      "02/07/2026",
-      "02/07/2026"
+      "16/07/2026",
+      "16/07/2026",
+      "16/07/2026",
+      "16/07/2026",
+      "16/07/2026"
     ],
     "scan_title": "Welcome to PGB | PGB",
     "edital_url": "",
@@ -17770,11 +17876,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "edital",
+      "inscri[cç][oõ]es",
+      "cronograma"
+    ],
+    "scan_dates_found": [
+      "08/07/2026",
+      "08/07/2026",
+      "08/07/2026",
+      "08/07/2026",
+      "08/07/2026"
+    ],
+    "scan_title": "Welcome to PPGBEA | PPGBEA",
     "edital_url": "",
     "edital_title": ""
   },
@@ -18049,11 +18166,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "27/04/2026",
+      "27/04/2026",
+      "27/04/2026",
+      "27/04/2026",
+      "27/04/2026"
+    ],
+    "scan_title": "Welcome to PPGF | PPGF",
     "edital_url": "",
     "edital_title": ""
   },
@@ -18075,11 +18203,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "edital",
+      "sele[cç][aã]o",
+      "inscri[cç][oõ]es"
+    ],
+    "scan_dates_found": [
+      "13/06/2026",
+      "13/06/2026",
+      "13/06/2026",
+      "13/06/2026",
+      "13/06/2026"
+    ],
+    "scan_title": "Início | PGPV",
     "edital_url": "",
     "edital_title": ""
   },
@@ -18313,11 +18452,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "16/01/2026",
-      "23/01/2026",
-      "30/01/2026",
       "15/07/2026",
-      "16/07/2026"
+      "16/07/2026",
+      "15/07/2026",
+      "16/07/2026",
+      "09/06/2015"
     ],
     "scan_title": "Página Inicial - UFPI",
     "edital_url": "",
@@ -18380,11 +18519,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "16/01/2026",
-      "23/01/2026",
-      "30/01/2026",
       "15/07/2026",
-      "16/07/2026"
+      "16/07/2026",
+      "15/07/2026",
+      "16/07/2026",
+      "09/06/2015"
     ],
     "scan_title": "Página Inicial - UFPI",
     "edital_url": "",
@@ -18417,11 +18556,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "16/01/2026",
-      "23/01/2026",
-      "30/01/2026",
       "15/07/2026",
-      "16/07/2026"
+      "16/07/2026",
+      "15/07/2026",
+      "16/07/2026",
+      "09/06/2015"
     ],
     "scan_title": "Página Inicial - UFPI",
     "edital_url": "",
@@ -18454,11 +18593,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "16/01/2026",
-      "23/01/2026",
-      "30/01/2026",
       "15/07/2026",
-      "16/07/2026"
+      "16/07/2026",
+      "15/07/2026",
+      "16/07/2026",
+      "09/06/2015"
     ],
     "scan_title": "Página Inicial - UFPI",
     "edital_url": "",
@@ -18491,11 +18630,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "16/01/2026",
-      "23/01/2026",
-      "30/01/2026",
       "15/07/2026",
-      "16/07/2026"
+      "16/07/2026",
+      "15/07/2026",
+      "16/07/2026",
+      "09/06/2015"
     ],
     "scan_title": "Página Inicial - UFPI",
     "edital_url": "",
@@ -18528,11 +18667,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "16/01/2026",
-      "23/01/2026",
-      "30/01/2026",
       "15/07/2026",
-      "16/07/2026"
+      "16/07/2026",
+      "15/07/2026",
+      "16/07/2026",
+      "09/06/2015"
     ],
     "scan_title": "Página Inicial - UFPI",
     "edital_url": "",
@@ -18565,11 +18704,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "16/01/2026",
-      "23/01/2026",
-      "30/01/2026",
       "15/07/2026",
-      "16/07/2026"
+      "16/07/2026",
+      "15/07/2026",
+      "16/07/2026",
+      "09/06/2015"
     ],
     "scan_title": "Página Inicial - UFPI",
     "edital_url": "",
@@ -18827,15 +18966,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "sele[cç][aã]o",
-      "mestrado",
-      "doutorado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Ensino",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -26343,9 +26478,9 @@
     "scan_dates_found": [
       "28/04/2026",
       "28/06/2026",
-      "28/06/2026",
       "13/06/2026",
-      "31/05/2026"
+      "31/05/2026",
+      "15/05/2026"
     ],
     "scan_title": "Programa de Pós-Graduação em História (PPGH/UFG)",
     "edital_url": "",
@@ -28374,8 +28509,8 @@
     "scan_confidence": 0.4,
     "scan_keywords": [
       "edital",
-      "inscri[cç][oõ]es",
-      "mestrado"
+      "inscri[cç][aã]o",
+      "inscri[cç][oõ]es"
     ],
     "scan_dates_found": [],
     "scan_title": "PPGFil – Programa de Pós-Graduação em Filosofia da UFMT",
@@ -28781,9 +28916,9 @@
     "scan_dates_found": [
       "28/03/2026",
       "28/03/2026",
-      "17/03/2026",
-      "17/03/2026",
-      "17/03/2026"
+      "16/07/2026",
+      "16/07/2026",
+      "16/07/2026"
     ],
     "scan_title": "Programa de Pós-graduação em Engenharia Ambiental",
     "edital_url": "",
@@ -29398,14 +29533,14 @@
     "meta_application_deadline": "",
     "meta_campus": "",
     "meta_duration": "",
-    "meta_start_date": "2° semestre de 2026",
+    "meta_start_date": "2º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "possible",
     "scan_confidence": 0.2,
     "scan_keywords": [
-      "inscri[cç][oõ]es",
-      "doutorado"
+      "doutorado",
+      "calend[aá]rio"
     ],
     "scan_dates_found": [],
     "scan_title": "Início - Programa de Pós-Graduação em Letras",
@@ -29721,8 +29856,8 @@
     "scan_confidence": 0.4,
     "scan_keywords": [
       "sele[cç][aã]o",
-      "mestrado",
-      "doutorado"
+      "inscri[cç][oõ]es",
+      "mestrado"
     ],
     "scan_dates_found": [
       "18/03/2026",
@@ -29893,15 +30028,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "sele[cç][aã]o",
-      "inscri[cç][oõ]es"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "UFCSPA - Universidade Federal de Ciências da Saúde de Porto Alegre - Ciências da Reabilitação",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -29923,15 +30054,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "UFCSPA - Universidade Federal de Ciências da Saúde de Porto Alegre - Ciências da Saúde",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -29953,15 +30080,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "sele[cç][aã]o",
-      "mestrado",
-      "doutorado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "UFCSPA - Universidade Federal de Ciências da Saúde de Porto Alegre - Hepatologia",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -29983,15 +30106,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "sele[cç][aã]o",
-      "mestrado",
-      "doutorado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "UFCSPA - Universidade Federal de Ciências da Saúde de Porto Alegre - Patologia",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -30506,10 +30625,10 @@
     ],
     "scan_dates_found": [
       "20/01/2026",
+      "16/07/2026",
       "13/07/2026",
       "13/07/2026",
-      "29/06/2026",
-      "12/06/2026"
+      "29/06/2026"
     ],
     "scan_title": "PPGAUP – Programa de Pós-Graduação em Arquitetura, Urbanismo e Paisagismo – Campus Santa Maria",
     "edital_url": "https://www.ufsm.br/app/uploads/sites/345/2025/09/VAGAS_CRONOGRAMA-2-janela_mestrado-1133_PPGAUP.pdf",
@@ -31108,11 +31227,11 @@
       "calend[aá]rio"
     ],
     "scan_dates_found": [
-      "11/06/2026",
-      "07/07/2026",
-      "07/07/2026",
-      "07/07/2026",
-      "06/07/2026"
+      "13/06/2026",
+      "16/07/2026",
+      "16/07/2026",
+      "16/07/2026",
+      "07/07/2026"
     ],
     "scan_title": "PPGEPT – Programa de Pós-Graduação em Educação Profissional Tecnológica",
     "edital_url": "https://www.ufsm.br/app/uploads/sites/511/2024/10/EDITGERAL_065_2024.pdf",
@@ -31321,13 +31440,13 @@
     "scan_keywords": [
       "edital",
       "sele[cç][aã]o",
-      "mestrado"
+      "inscri[cç][oõ]es"
     ],
     "scan_dates_found": [
-      "18/06/2026",
-      "18/06/2026",
-      "18/06/2026",
-      "18/06/2026",
+      "03/09/2024",
+      "03/09/2024",
+      "03/09/2024",
+      "03/09/2024",
       "03/09/2024"
     ],
     "scan_title": "PPGECAM – Programa de Pós-Graduação em Engenharia Civil e Ambiental – Campus Santa Maria",
@@ -31360,11 +31479,11 @@
       "inscri[cç][aã]o"
     ],
     "scan_dates_found": [
-      "15/05/2026",
+      "02/06/2026",
       "13/07/2026",
-      "15/07/2026",
-      "15/07/2026",
-      "13/07/2026"
+      "16/07/2026",
+      "16/07/2026",
+      "15/07/2026"
     ],
     "scan_title": "PPGEE – Programa de Pós-Graduação em Engenharia Elétrica",
     "edital_url": "https://www.ufsm.br/app/uploads/sites/345/2025/08/MEST_ENGELET_030_2025.pdf",
@@ -66120,10 +66239,10 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
+      "16/07/2026",
       "15/07/2026",
       "15/07/2026",
-      "15/07/2026",
-      "14/07/2026"
+      "15/07/2026"
     ],
     "scan_title": "Doutorado em Ciências da Saúde - 30 - Universidade de Taubaté - UNITAU",
     "edital_url": "https://www.unitau.br/arquivos-downloads/edital-vagas-remanescentes-processo-seletivo-mestrado-e-doutorado-ciencias-da-saude-turma-2026_2_taubate.pdf",
@@ -66157,7 +66276,7 @@
     ],
     "scan_dates_found": [
       "02/12/2025",
-      "15/07/2026",
+      "16/07/2026",
       "15/07/2026",
       "15/07/2026"
     ],
