@@ -78,11 +78,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "capes"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "PPGLA – Programa de Pós-Graduação em Letras e Artes",
     "edital_url": "",
     "edital_title": ""
   },
@@ -5541,22 +5545,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
-    "scan_keywords": [
-      "chamada\\s+p[uú]blica",
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "03/02/2026",
-      "03/02/2026",
-      "09/04/2025",
-      "09/04/2025",
-      "03/10/2024"
-    ],
-    "scan_title": "PPGLin – Programa de Pós-graduação em Linguística",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -26383,7 +26376,7 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "23/07/2026",
+      "25/07/2026",
       "18/07/2026",
       "28/04/2026",
       "28/06/2026",
@@ -26626,9 +26619,9 @@
     "scan_status": "possible",
     "scan_confidence": 0.4,
     "scan_keywords": [
+      "processo\\s+seletivo",
       "calend[aá]rio",
-      "sigaa",
-      "abaixo"
+      "sigaa"
     ],
     "scan_dates_found": [],
     "scan_title": "Programa de Pós-Graduação em Geografia",
@@ -27394,21 +27387,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "inscri[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "27/07/2026",
-      "07/08/2026",
-      "04/08/2026",
-      "31/08/2026",
-      "27/07/2026"
-    ],
-    "scan_title": "PSTO – Programa de PÃ³s-GraduaÃ§Ã£o em Psicologia Social do Trabalho e das OrganizaÃ§Ãµes",
+    "scan_status": "unknown",
+    "scan_confidence": 0.05,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": "Um momento, por favorâ¦",
     "edital_url": "",
     "edital_title": ""
   },
@@ -28043,26 +28026,22 @@
     "level": "Doutorado",
     "url": "https://ppgsol.unb.br",
     "city": "Brasília",
-    "campus": "Darcy Ribeiro Prédio do ICS",
+    "campus": "",
     "master_required": "",
     "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
-    "meta_campus": "Darcy Ribeiro Prédio do ICS",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
+    "scan_confidence": 0.05,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "PPGSol – Programa de Pós Graduação em Sociologia",
+    "scan_title": "Um momento, por favorâ¦",
     "edital_url": "https://ppgsol.unb.br/wp-content/uploads/2026/07/Edital_Mestrado_PPGSOL___2026.docx__2_.pdf",
     "edital_title": "Edital PPGSOL 007/2026 – Seleção de candidatos(as) para o curso de Mestrado Acadêmico – Ingresso 2027 – 03/07/2026"
   },
@@ -29269,21 +29248,16 @@
     "duration_months": 24,
     "language_requirement": "Português, Espanhol - nível básico A2.",
     "meta_application_deadline": "",
-    "meta_campus": "Cx",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
-    "scan_keywords": [
-      "inscri[cç][oõ]es\\s+abertas",
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Educação da Universidade Estadual de Londrina - UEL - Início",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -53840,11 +53814,11 @@
       "inscri[cç][oõ]es"
     ],
     "scan_dates_found": [
+      "30/07/2026",
       "04/08/2026",
       "14/08/2026",
-      "18/08/2026",
-      "25/08/2026",
-      "28/08/2026"
+      "14/08/2026",
+      "18/08/2026"
     ],
     "scan_title": "| Instituto de Geociências",
     "edital_url": "",
