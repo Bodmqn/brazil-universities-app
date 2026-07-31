@@ -78,11 +78,16 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "chamada\\s+p[uú]blica",
+      "edital",
+      "processo\\s+seletivo",
+      "vagas?"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "PPGLA – Programa de Pós-Graduação em Letras e Artes",
     "edital_url": "",
     "edital_title": ""
   },
@@ -692,21 +697,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
-    "scan_dates_found": [
-      "23/03/2026",
-      "25/07/2026",
-      "10/03/2026",
-      "23/03/2026",
-      "25/07/2026"
-    ],
-    "scan_title": "Programa de Pós-Graduação em Educação – Programa de Pós-Graduação em Educação | UNIFAP",
+    "scan_status": "unknown",
+    "scan_confidence": 0.05,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": "Radware Captcha Page",
     "edital_url": "",
     "edital_title": ""
   },
@@ -2425,9 +2420,9 @@
     "scan_status": "possible",
     "scan_confidence": 0.4,
     "scan_keywords": [
+      "inscri[cç][oõ]es",
       "mestrado",
-      "doutorado",
-      "calend[aá]rio"
+      "doutorado"
     ],
     "scan_dates_found": [],
     "scan_title": "Programa de Pós-Graduação em Ciência e Tecnologia de Alimentos (PPGCTA)",
@@ -5573,20 +5568,16 @@
     "duration_months": 24,
     "language_requirement": "Exige-se a proficiência em uma (01) língua estrangeira para os candidatos ao Mestrado. Serão aceitas proficiências na língua inglesa. No caso de candidatos estrangeiros cuja língua materna ou primeira língua não seja a portuguesa será exigido que a proficiência seja obrigatoriamente em língua portuguesa.",
     "meta_application_deadline": "",
-    "meta_campus": "Itapetinga",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Zootecnia",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -5668,11 +5659,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "03/06/2026",
+      "10/03/2026",
+      "18/02/2026",
+      "18/02/2026",
+      "12/02/2026"
+    ],
+    "scan_title": "Programa de Pós-Graduação em Ciências Agrárias UFRB",
     "edital_url": "",
     "edital_title": ""
   },
@@ -5694,11 +5695,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "07/08/2025",
+      "26/08/2025",
+      "07/08/2025",
+      "07/08/2025",
+      "07/08/2025"
+    ],
+    "scan_title": "Programa de Pós Graduação em Educação Científica, Inclusão e Diversidade",
     "edital_url": "",
     "edital_title": ""
   },
@@ -5720,11 +5731,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "mestrado",
+      "calend[aá]rio"
+    ],
+    "scan_dates_found": [
+      "09/06/2026",
+      "09/06/2026",
+      "09/06/2026",
+      "09/06/2026",
+      "09/06/2026"
+    ],
+    "scan_title": "Mestrado Profissional em Gestão de Políticas Públicas da UFRB",
     "edital_url": "",
     "edital_title": ""
   },
@@ -5746,11 +5767,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "inscri[cç][oõ]es\\s+abertas",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o",
+      "inscri[cç][oõ]es"
+    ],
+    "scan_dates_found": [
+      "20/03/2026",
+      "24/11/2023",
+      "24/11/2023",
+      "24/11/2023",
+      "24/11/2023"
+    ],
+    "scan_title": "Programa de Pós-Graduação em Arqueologia e Patrimônio Cultural",
     "edital_url": "",
     "edital_title": ""
   },
@@ -5772,11 +5804,13 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.2,
+    "scan_keywords": [
+      "calend[aá]rio"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "Programa de Pós-Graduação em Comunicação - Mídia e Formatos Narrativos",
     "edital_url": "",
     "edital_title": ""
   },
@@ -5798,11 +5832,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "Curso de Pós-graduação em Engenharia Elétrica e Computação - UFRB",
     "edital_url": "",
     "edital_title": ""
   },
@@ -5824,11 +5862,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "01/06/2026",
+      "18/03/2026",
+      "04/02/2026",
+      "08/01/2026",
+      "19/12/2025"
+    ],
+    "scan_title": "Curso de Pós Graduação em Artes - UFRB",
     "edital_url": "",
     "edital_title": ""
   },
@@ -5850,11 +5898,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "sele[cç][aã]o",
+      "mestrado"
+    ],
+    "scan_dates_found": [
+      "22/07/2026",
+      "08/06/2026",
+      "27/05/2026",
+      "08/05/2026",
+      "08/05/2026"
+    ],
+    "scan_title": "Programa de Pós-Graduação em Recursos Genéticos Vegetais UFRB",
     "edital_url": "",
     "edital_title": ""
   },
@@ -5876,11 +5934,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "mestrado",
+      "vagas?"
+    ],
+    "scan_dates_found": [
+      "23/07/2025",
+      "23/07/2025",
+      "23/07/2025",
+      "23/07/2025",
+      "23/07/2025"
+    ],
+    "scan_title": "Programa de Pós-Graduação Integrado em Zootecnia - UFRB/CCAAB",
     "edital_url": "",
     "edital_title": ""
   },
@@ -5902,11 +5970,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "sele[cç][aã]o",
+      "mestrado"
+    ],
+    "scan_dates_found": [
+      "13/03/2026",
+      "13/03/2026",
+      "13/03/2026",
+      "13/03/2026",
+      "13/03/2026"
+    ],
+    "scan_title": "Mestrado Profissional em Saúde da População Negra e Indígena",
     "edital_url": "",
     "edital_title": ""
   },
@@ -5928,11 +6006,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "30/07/2026",
+      "26/05/2026",
+      "26/05/2026",
+      "03/02/2026",
+      "03/11/2025"
+    ],
+    "scan_title": "Programa de Pós-Graduação em Política Social e Territórios",
     "edital_url": "",
     "edital_title": ""
   },
@@ -11851,9 +11939,9 @@
     ],
     "scan_dates_found": [
       "11/03/2024",
-      "31/03/2026",
+      "09/08/2026",
       "11/03/2024",
-      "31/03/2026",
+      "09/08/2026",
       "11/03/2024"
     ],
     "scan_title": "Biblioteconomia – Universidade Federal do Cariri",
@@ -11887,9 +11975,9 @@
     ],
     "scan_dates_found": [
       "11/03/2024",
-      "31/03/2026",
+      "09/08/2026",
       "11/03/2024",
-      "31/03/2026",
+      "09/08/2026",
       "11/03/2024"
     ],
     "scan_title": "Biblioteconomia – Universidade Federal do Cariri",
@@ -17622,7 +17710,7 @@
       "28/10/2025",
       "12/11/2025"
     ],
-    "scan_title": "Welcome to PGMP | PGMP",
+    "scan_title": "Início | PGMP",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17718,11 +17806,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "edital",
+      "processo\\s+seletivo",
+      "mestrado"
+    ],
+    "scan_dates_found": [
+      "27/07/2026",
+      "28/07/2026",
+      "28/07/2026",
+      "28/07/2026",
+      "28/07/2026"
+    ],
+    "scan_title": "Welcome to PGS | PGS",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17868,14 +17967,25 @@
     "meta_application_deadline": "",
     "meta_campus": "",
     "meta_duration": "",
-    "meta_start_date": "",
+    "meta_start_date": "segundo semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "edital",
+      "sigaa",
+      "capes"
+    ],
+    "scan_dates_found": [
+      "15/06/2026",
+      "15/06/2026",
+      "15/06/2026",
+      "23/07/2026",
+      "23/07/2026"
+    ],
+    "scan_title": "Welcome to PROGEL | PROGEL",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17949,11 +18059,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "27/04/2026",
+      "27/04/2026",
+      "27/04/2026",
+      "27/04/2026",
+      "27/04/2026"
+    ],
+    "scan_title": "Welcome to PPGF | PPGF",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17975,11 +18096,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "edital",
+      "sele[cç][aã]o",
+      "inscri[cç][oõ]es"
+    ],
+    "scan_dates_found": [
+      "30/07/2026",
+      "30/07/2026",
+      "30/07/2026",
+      "30/07/2026",
+      "30/07/2026"
+    ],
+    "scan_title": "Início | PGPV",
     "edital_url": "",
     "edital_title": ""
   },
@@ -18001,11 +18133,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "edital",
+      "sele[cç][aã]o",
+      "mestrado"
+    ],
+    "scan_dates_found": [
+      "29/07/2026",
+      "29/07/2026",
+      "29/07/2026",
+      "29/07/2026",
+      "29/07/2026"
+    ],
+    "scan_title": "Welcome to PGPA | PGPA",
     "edital_url": "",
     "edital_title": ""
   },
@@ -25804,9 +25947,9 @@
     "scan_dates_found": [
       "15/07/2026",
       "20/04/2026",
+      "04/08/2026",
       "28/07/2026",
-      "28/07/2026",
-      "24/06/2026"
+      "28/07/2026"
     ],
     "scan_title": "Filosofia - Pós-graduação",
     "edital_url": "",
@@ -25830,20 +25973,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
     "scan_keywords": [
+      "inscri[cç][oõ]es\\s+abertas",
       "edital",
       "processo\\s+seletivo",
       "inscri[cç][oõ]es"
     ],
-    "scan_dates_found": [
-      "30/07/2026",
-      "30/07/2026",
-      "30/07/2026",
-      "30/07/2026",
-      "30/07/2026"
-    ],
+    "scan_dates_found": [],
     "scan_title": "If Posgraduacao",
     "edital_url": "",
     "edital_title": ""
@@ -26085,7 +26223,7 @@
     ],
     "scan_dates_found": [
       "24/07/2026",
-      "24/07/2026",
+      "30/07/2026",
       "14/07/2026",
       "06/07/2026",
       "24/07/2026"
@@ -26230,10 +26368,10 @@
     ],
     "scan_dates_found": [
       "07/08/2026",
-      "28/07/2026",
+      "30/07/2026",
+      "30/07/2026",
       "25/07/2026",
-      "18/07/2026",
-      "28/04/2026"
+      "18/07/2026"
     ],
     "scan_title": "Programa de Pós-Graduação em História (PPGH/UFG)",
     "edital_url": "",
@@ -27713,7 +27851,7 @@
       "26/06/2024",
       "10/07/2026",
       "04/08/2026",
-      "03/07/2026"
+      "05/07/2024"
     ],
     "scan_title": "Pós Graduação em Informática - PPGI - Home",
     "edital_url": "",
@@ -28356,7 +28494,7 @@
     "scan_keywords": [
       "edital",
       "inscri[cç][aã]o",
-      "inscri[cç][oõ]es"
+      "mestrado"
     ],
     "scan_dates_found": [],
     "scan_title": "UEMS:\n        Paginas",
@@ -29590,12 +29728,13 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
     "scan_keywords": [
+      "inscri[cç][oõ]es\\s+abertas",
       "edital",
       "sele[cç][aã]o",
-      "mestrado"
+      "inscri[cç][oõ]es"
     ],
     "scan_dates_found": [],
     "scan_title": "PPGeo – Programa de Pós-Graduação em Geografia",
@@ -29624,8 +29763,8 @@
     "scan_confidence": 0.4,
     "scan_keywords": [
       "sele[cç][aã]o",
-      "inscri[cç][oõ]es",
-      "mestrado"
+      "mestrado",
+      "doutorado"
     ],
     "scan_dates_found": [
       "18/03/2026",
@@ -29689,7 +29828,7 @@
     "meta_application_deadline": "",
     "meta_campus": "UFPel",
     "meta_duration": "",
-    "meta_start_date": "",
+    "meta_start_date": "segundo semestre letivo de 2026",
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "likely_open",
@@ -29976,13 +30115,12 @@
     "meta_start_date": "2º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
     "scan_keywords": [
-      "inscri[cç][oõ]es\\s+abertas",
       "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
+      "sele[cç][aã]o",
+      "doutorado"
     ],
     "scan_dates_found": [
       "17/07/2026",
@@ -30046,7 +30184,7 @@
     "meta_application_deadline": "",
     "meta_campus": "FREDERICO",
     "meta_duration": "",
-    "meta_start_date": "",
+    "meta_start_date": "2º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "possible",
@@ -30061,7 +30199,7 @@
       "01/08/2026",
       "01/08/2026",
       "03/08/2026",
-      "07/08/2026"
+      "31/07/2026"
     ],
     "scan_title": "UFSM – Universidade Federal de Santa Maria",
     "edital_url": "",
@@ -30165,11 +30303,11 @@
       "calend[aá]rio"
     ],
     "scan_dates_found": [
-      "24/04/2026",
-      "26/05/2026",
-      "24/06/2026",
-      "24/06/2026",
-      "19/06/2026"
+      "13/05/2026",
+      "19/06/2026",
+      "30/07/2026",
+      "30/07/2026",
+      "24/06/2026"
     ],
     "scan_title": "PPGRI – Programa de Pós-Graduação em Relações Internacionais – Campus Santa Maria",
     "edital_url": "",
@@ -30280,22 +30418,32 @@
     "level": "Doutorado",
     "url": "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgap",
     "city": "Santa Maria",
-    "campus": "",
+    "campus": "Camobi",
     "master_required": "",
-    "start_date": null,
+    "start_date": "1º Semestre Letivo de 2026",
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "Camobi",
     "meta_duration": "",
-    "meta_start_date": "",
+    "meta_start_date": "1º Semestre Letivo de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "09/02/2026",
+      "22/06/2026",
+      "22/06/2026",
+      "22/06/2026",
+      "14/05/2026"
+    ],
+    "scan_title": "PPGAP – Programa de Pós-Graduação em Agricultura de Precisão",
     "edital_url": "https://www.ufsm.br/app/uploads/sites/526/2026/05/VAGAS_CRONOGRAMA-2-JANELA-assinado.pdf",
     "edital_title": "disponíveis aqui"
   },
@@ -30678,7 +30826,7 @@
       "inscri[cç][oõ]es\\s+abertas",
       "edital",
       "processo\\s+seletivo",
-      "sele[cç][aã]o"
+      "inscri[cç][aã]o"
     ],
     "scan_dates_found": [
       "18/06/2026",
@@ -30712,16 +30860,16 @@
     "scan_status": "possible",
     "scan_confidence": 0.4,
     "scan_keywords": [
-      "edital",
       "processo\\s+seletivo",
-      "sele[cç][aã]o"
+      "sele[cç][aã]o",
+      "inscri[cç][oõ]es"
     ],
     "scan_dates_found": [
       "04/09/2025",
       "04/09/2025",
       "04/09/2025",
       "04/09/2025",
-      "25/02/2026"
+      "30/07/2026"
     ],
     "scan_title": "PPGCF – Programa de Pós-Graduação em Ciências Farmacêuticas – Campus Santa Maria",
     "edital_url": "https://www.ufsm.br/app/uploads/sites/530/2026/02/Edital-Selecao-bolsista-2026-1.pdf",
@@ -31392,16 +31540,16 @@
     "scan_status": "possible",
     "scan_confidence": 0.4,
     "scan_keywords": [
-      "edital",
       "sele[cç][aã]o",
-      "inscri[cç][oõ]es"
+      "mestrado",
+      "doutorado"
     ],
     "scan_dates_found": [
-      "03/12/2025",
-      "14/01/2026",
+      "13/01/2026",
+      "30/07/2026",
+      "30/07/2026",
       "23/02/2026",
-      "14/01/2026",
-      "14/01/2026"
+      "13/01/2026"
     ],
     "scan_title": "Programa de Pós-Graduação em Ensino de História – Pós-graduação – Campus Santa Maria",
     "edital_url": "https://www.ufsm.br/app/uploads/sites/620/2026/01/EditalBolsas2026-Mestrado-ProfHistoria-1.pdf",
@@ -31470,11 +31618,11 @@
       "mestrado"
     ],
     "scan_dates_found": [
+      "30/07/2026",
       "22/07/2026",
       "08/07/2026",
       "07/07/2026",
-      "15/06/2026",
-      "29/05/2026"
+      "15/06/2026"
     ],
     "scan_title": "PPGF – Programa de Pós-Graduação em Filosofia",
     "edital_url": "https://www.ufsm.br/app/uploads/sites/556/2026/06/Edital_Selecao_Premio_Anpof_2026_PPGFil.pdf",
@@ -31650,11 +31798,11 @@
       "doutorado"
     ],
     "scan_dates_found": [
-      "09/06/2026",
+      "26/06/2026",
       "07/07/2026",
-      "13/07/2026",
-      "13/07/2026",
-      "07/07/2026"
+      "30/07/2026",
+      "30/07/2026",
+      "13/07/2026"
     ],
     "scan_title": "PPGH – Programa de Pós-Graduação em História – Campus Santa Maria",
     "edital_url": "https://www.ufsm.br/app/uploads/sites/510/2026/03/Edital-01-2026-Selecao-de-bolsas-INFORME-d.pdf",
@@ -31861,10 +32009,10 @@
       "mestrado"
     ],
     "scan_dates_found": [
-      "14/01/2026",
+      "30/07/2026",
+      "30/07/2026",
       "25/05/2026",
       "23/02/2026",
-      "14/01/2026",
       "23/02/2026"
     ],
     "scan_title": "PPPG – Programa de Pós-Graduação em Políticas Públicas e Gestão Educacional",
@@ -31982,13 +32130,13 @@
     "city": "Santa Maria",
     "campus": "Camobi",
     "master_required": "",
-    "start_date": null,
+    "start_date": "segundo semestre de 2026",
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
     "meta_campus": "Camobi",
     "meta_duration": "",
-    "meta_start_date": "",
+    "meta_start_date": "segundo semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "possible",
@@ -31999,10 +32147,10 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
+      "30/07/2026",
       "02/07/2026",
       "18/06/2026",
       "23/04/2026",
-      "20/03/2026",
       "20/03/2026"
     ],
     "scan_title": "Programa de Pós Graduação em Serviço Social e Políticas Públicas – Pós-graduação – Campus Santa Maria",
@@ -32927,11 +33075,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "mestrado",
+      "doutorado",
+      "calend[aá]rio"
+    ],
+    "scan_dates_found": [
+      "31/08/2012",
+      "31/08/2012",
+      "31/08/2012",
+      "31/08/2012",
+      "31/08/2012"
+    ],
+    "scan_title": "Apresentação | Arquitetura e Urbanismo",
     "edital_url": "",
     "edital_title": ""
   },
@@ -32953,11 +33112,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "mestrado",
+      "doutorado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "Apresentação | Artes",
     "edital_url": "https://artes.ufes.br/sites/artes.ufes.br/files/field/anexo/edital_colartes_2022_1.pdf",
     "edital_title": "Edital COLARTES 2022"
   },
@@ -33113,15 +33276,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "mestrado",
-      "doutorado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Apresentação | Ciências Biológicas",
+    "scan_title": null,
     "edital_url": "https://cienciasbiologicas.ufes.br/sites/cienciasbiologicas.ufes.br/files/field/anexo/deferimentos_das_inscricoes_mestrado_2026.docx_assinado.pdf",
     "edital_title": "Deferimentos das inscrições 21-05-2026"
   },
@@ -33162,26 +33321,22 @@
     "level": "Doutorado",
     "url": "http://www.farmacia.vitoria.ufes.br/pt-br/pos-graduacao/PPGCFAR",
     "city": "Vitória",
-    "campus": "Maruipe",
+    "campus": "",
     "master_required": "",
     "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
-    "meta_campus": "Maruipe",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "mestrado",
-      "doutorado",
-      "calend[aá]rio"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Apresentação | Ciências Farmacêuticas",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -33658,11 +33813,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "Apresentação | Engenharia Elétrica",
     "edital_url": "https://prppg.ufes.br/sites/prppg.ufes.br/files/field/anexo/edital_mestrado_ppgee_aluno_regular_2026_2_assinado.pdf#overlay-context=mestrado-2026",
     "edital_title": "Edital - Aluno Regular"
   },
@@ -33684,11 +33843,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "Apresentação | Engenharia Mecânica",
     "edital_url": "https://engenhariamecanica.ufes.br/sites/engenhariamecanica.ufes.br/files/field/anexo/edital_004_2026_ppgem_edital_bolsas_2026.02_final.pdf",
     "edital_title": "edital_004_2026_ppgem_edital_bolsas_2026.02_final.pdf"
   },
@@ -33800,15 +33963,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Apresentação | Física",
+    "scan_title": null,
     "edital_url": "https://fisica.ufes.br/sites/fisica.ufes.br/files/field/anexo/edital_01.2026-ppgfis_-mestrado_0.pdf",
     "edital_title": "https://fisica.ufes.br/sites/fisica.ufes.br/files/field/anexo/edital_01...."
   },
@@ -33922,11 +34081,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "Apresentação | Gestão Pública",
     "edital_url": "https://gestaopublica.ufes.br/sites/gestaopublica.ufes.br/files/field/anexo/minuta_edital_minter_ufes_ufac_gov_acre_-_28-04-2026.pdf",
     "edital_title": "Edital 02/2026 - Minter/Acre"
   },
@@ -33948,11 +34111,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "9/4/2003",
+      "23/6/2003",
+      "29/9/2011",
+      "30/9/2011",
+      "9/4/2003"
+    ],
+    "scan_title": "Apresentação | História",
     "edital_url": "https://historia.ufes.br/sites/historia.ufes.br/files/field/anexo/2._retificado_em_06.08_edital_n.4.2025_-_edital_de_selecao_do_mestrado.2026-1.pdf#overlay-context=pt-br/processo-seletivo-20261-mestrado-e-doutorado",
     "edital_title": "(Retificado em 06.08) Edital n.4.2025 - Edital de Seleção do Mestrado.2026-1"
   },
@@ -34040,11 +34213,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "sele[cç][aã]o",
+      "inscri[cç][aã]o",
+      "mestrado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "Apresentação | Matemática",
     "edital_url": "https://matematica.ufes.br/sites/matematica.ufes.br/files/field/anexo/oferta_2025-1.pdf",
     "edital_title": "Oferta e Calendário acadêmico PPGMAT-UFES 2025/1"
   },
@@ -34565,8 +34742,8 @@
       "12/05/2025",
       "18/05/2024",
       "16/08/2023",
-      "17/04/2026",
-      "30/04/2025"
+      "30/07/2026",
+      "17/04/2026"
     ],
     "scan_title": "Programa de Pós-graduação em Genética e Bioquímica |",
     "edital_url": "",
@@ -35489,11 +35666,17 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "31/07/2026"
+    ],
+    "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
     "edital_title": ""
   },
@@ -35510,16 +35693,26 @@
     "duration_months": 24,
     "language_requirement": "Portugês, espanhol",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "Auditório do DEC",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "sele[cç][aã]o",
+      "doutorado"
+    ],
+    "scan_dates_found": [
+      "25/06/2026",
+      "17/06/2026",
+      "09/06/2026",
+      "15/04/2026",
+      "07/04/2026"
+    ],
+    "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
     "edital_title": ""
   },
@@ -35541,11 +35734,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "sele[cç][aã]o",
+      "calend[aá]rio"
+    ],
+    "scan_dates_found": [
+      "28/07/2026",
+      "24/07/2026",
+      "13/07/2026",
+      "09/07/2026",
+      "09/07/2026"
+    ],
+    "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
     "edital_title": ""
   },
@@ -35562,16 +35765,26 @@
     "duration_months": 24,
     "language_requirement": "Português, espanhol",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "On",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "sele[cç][aã]o",
+      "doutorado"
+    ],
+    "scan_dates_found": [
+      "11/08/2026",
+      "30/07/2026",
+      "25/07/2026",
+      "24/07/2026",
+      "24/07/2026"
+    ],
+    "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
     "edital_title": ""
   },
@@ -35593,11 +35806,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "calend[aá]rio",
+      "sigaa",
+      "resolu[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "05/08/2026",
+      "11/08/2026",
+      "17/08/2026",
+      "05/08/2026",
+      "11/08/2026"
+    ],
+    "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
     "edital_title": ""
   },
@@ -35645,11 +35868,17 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "31/07/2026"
+    ],
+    "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
     "edital_title": ""
   },
@@ -35671,11 +35900,17 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "sele[cç][aã]o",
+      "mestrado"
+    ],
+    "scan_dates_found": [
+      "31/07/2026"
+    ],
+    "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
     "edital_title": ""
   },
@@ -35692,16 +35927,26 @@
     "duration_months": 24,
     "language_requirement": "Português, espanhol, inglês",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "remoto TÍTULO",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "mestrado",
+      "calend[aá]rio"
+    ],
+    "scan_dates_found": [
+      "27/08/2026",
+      "13/07/2026",
+      "13/07/2026",
+      "06/07/2026",
+      "25/06/2026"
+    ],
+    "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
     "edital_title": ""
   },
@@ -53196,21 +53441,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "inscri[cç][aã]o",
-      "mestrado",
-      "doutorado"
-    ],
-    "scan_dates_found": [
-      "11/09/2026",
-      "11/09/2026",
-      "11/09/2026",
-      "11/09/2026",
-      "11/09/2026"
-    ],
-    "scan_title": "PPGTO - Programa de Pós-Graduação em Terapia Ocupacional — Português (Brasil)",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -65977,10 +66212,10 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
+      "30/07/2026",
+      "30/07/2026",
       "29/07/2026",
-      "29/07/2026",
-      "28/07/2026",
-      "28/07/2026"
+      "29/07/2026"
     ],
     "scan_title": "Doutorado em Ciências da Saúde - 30 - Universidade de Taubaté - UNITAU",
     "edital_url": "https://www.unitau.br/arquivos-downloads/edital-vagas-remanescentes-processo-seletivo-mestrado-e-doutorado-ciencias-da-saude-turma-2026_2_taubate.pdf",
@@ -66014,9 +66249,9 @@
     ],
     "scan_dates_found": [
       "02/12/2025",
-      "29/07/2026",
-      "29/07/2026",
-      "28/07/2026"
+      "30/07/2026",
+      "30/07/2026",
+      "29/07/2026"
     ],
     "scan_title": "Doutorado em Planejamento e Desenvolvimento Regional - 30 - Universidade de Taubaté - UNITAU",
     "edital_url": "https://www.unitau.br/arquivos-downloads/selecao-de-aluno-especial-nos-programas-stricto-sensu-da-universidade-de-taubate_2025.pdf",
