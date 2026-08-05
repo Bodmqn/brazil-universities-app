@@ -15,9 +15,9 @@
     "Municipal": 1
   },
   "by_scan_status": {
-    "possible": 400,
-    "likely_open": 82,
-    "error": 91,
+    "error": 159,
+    "likely_open": 57,
+    "possible": 357,
     "unknown": 1833
   },
   "by_level": {
