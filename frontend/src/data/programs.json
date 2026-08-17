@@ -553,15 +553,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Página inicial",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -609,15 +605,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "mestrado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "PPG Geografia UFAM",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -665,16 +657,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
-    "scan_keywords": [
-      "inscri[cç][oõ]es\\s+abertas",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o",
-      "inscri[cç][oõ]es"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Página inicial",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -5672,21 +5659,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "sele[cç][aã]o",
-      "inscri[cç][oõ]es",
-      "calend[aá]rio"
-    ],
-    "scan_dates_found": [
-      "05/08/2026",
-      "31/07/2026",
-      "03/06/2026",
-      "10/03/2026",
-      "18/02/2026"
-    ],
-    "scan_title": "Programa de Pós-Graduação em Ciências Agrárias UFRB",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -5708,21 +5685,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "mestrado",
-      "calend[aá]rio"
-    ],
-    "scan_dates_found": [
-      "07/08/2025",
-      "26/08/2025",
-      "07/08/2025",
-      "07/08/2025",
-      "07/08/2025"
-    ],
-    "scan_title": "Programa de Pós Graduação em Educação Científica, Inclusão e Diversidade",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -5744,21 +5711,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "mestrado",
-      "calend[aá]rio"
-    ],
-    "scan_dates_found": [
-      "09/06/2026",
-      "09/06/2026",
-      "09/06/2026",
-      "09/06/2026",
-      "09/06/2026"
-    ],
-    "scan_title": "Mestrado Profissional em Gestão de Políticas Públicas da UFRB",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -5780,22 +5737,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
-    "scan_keywords": [
-      "inscri[cç][oõ]es\\s+abertas",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o",
-      "inscri[cç][oõ]es"
-    ],
-    "scan_dates_found": [
-      "20/03/2026",
-      "24/11/2023",
-      "24/11/2023",
-      "24/11/2023",
-      "24/11/2023"
-    ],
-    "scan_title": "Programa de Pós-Graduação em Arqueologia e Patrimônio Cultural",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -5817,13 +5763,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.2,
-    "scan_keywords": [
-      "calend[aá]rio"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Comunicação - Mídia e Formatos Narrativos",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -5845,15 +5789,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Curso de Pós-graduação em Engenharia Elétrica e Computação - UFRB",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -5875,21 +5815,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "01/06/2026",
-      "18/03/2026",
-      "04/02/2026",
-      "08/01/2026",
-      "19/12/2025"
-    ],
-    "scan_title": "Curso de Pós Graduação em Artes - UFRB",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -5911,21 +5841,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
-    "scan_dates_found": [
-      "22/07/2026",
-      "08/06/2026",
-      "27/05/2026",
-      "08/05/2026",
-      "08/05/2026"
-    ],
-    "scan_title": "Programa de Pós-Graduação em Recursos Genéticos Vegetais UFRB",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -5947,21 +5867,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "mestrado",
-      "vagas?"
-    ],
-    "scan_dates_found": [
-      "23/07/2025",
-      "23/07/2025",
-      "23/07/2025",
-      "23/07/2025",
-      "23/07/2025"
-    ],
-    "scan_title": "Programa de Pós-Graduação Integrado em Zootecnia - UFRB/CCAAB",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -5983,21 +5893,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
-    "scan_dates_found": [
-      "13/03/2026",
-      "13/03/2026",
-      "13/03/2026",
-      "13/03/2026",
-      "13/03/2026"
-    ],
-    "scan_title": "Mestrado Profissional em Saúde da População Negra e Indígena",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -6019,21 +5919,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "inscri[cç][oõ]es"
-    ],
-    "scan_dates_found": [
-      "14/08/2026",
-      "30/07/2026",
-      "26/05/2026",
-      "26/05/2026",
-      "03/02/2026"
-    ],
-    "scan_title": "Programa de Pós-Graduação em Política Social e Territórios",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -11799,11 +11689,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "08/03/2026",
+      "27/03/2026",
+      "08/03/2026",
+      "27/03/2026",
+      "08/03/2026"
+    ],
+    "scan_title": "Administração – Universidade Federal do Cariri",
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -11825,11 +11725,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "08/03/2026",
+      "27/03/2026",
+      "08/03/2026",
+      "27/03/2026",
+      "08/03/2026"
+    ],
+    "scan_title": "Administração – Universidade Federal do Cariri",
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -11851,11 +11761,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "15/07/2024",
+      "13/03/2026",
+      "15/07/2024",
+      "13/03/2026",
+      "15/07/2024"
+    ],
+    "scan_title": "Administração Pública – Universidade Federal do Cariri",
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -11877,11 +11797,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "15/07/2024",
+      "13/03/2026",
+      "15/07/2024",
+      "13/03/2026",
+      "15/07/2024"
+    ],
+    "scan_title": "Administração Pública – Universidade Federal do Cariri",
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -17668,11 +17598,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "12/11/2025",
+      "28/10/2025",
+      "12/11/2025",
+      "28/10/2025",
+      "12/11/2025"
+    ],
+    "scan_title": "Início | PGMP",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17731,11 +17672,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "edital",
+      "inscri[cç][oõ]es",
+      "cronograma"
+    ],
+    "scan_dates_found": [
+      "08/07/2026",
+      "08/07/2026",
+      "08/07/2026",
+      "08/07/2026",
+      "08/07/2026"
+    ],
+    "scan_title": "Welcome to PPGBEA | PPGBEA",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17857,23 +17809,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.9,
-    "scan_keywords": [
-      "inscri[cç][oõ]es\\s+abertas",
-      "editais?\\s+abertos?",
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "20/07/2026",
-      "20/07/2026",
-      "20/07/2026",
-      "20/07/2026",
-      "20/07/2026"
-    ],
-    "scan_title": "Welcome to PPENGFIS | PPENGFIS",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -26281,8 +26221,8 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
+      "16/08/2026",
       "10/08/2026",
-      "08/08/2026",
       "08/08/2026",
       "08/08/2026",
       "08/08/2026"
@@ -28595,15 +28535,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "bolsas?",
-      "ingresso",
-      "concurso"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Processos Químicos e Biotecnológicos (PPGQB-TD)",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -28625,15 +28561,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Biotecnologia (PPGBIOTEC-DV/PG)",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -28655,21 +28587,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
-    "scan_dates_found": [
-      "15/12/2021",
-      "15/12/2021",
-      "15/12/2021",
-      "15/12/2021",
-      "15/12/2021"
-    ],
-    "scan_title": "Programa de Pós-Graduação em Zootecnia PPZ - Unioeste/UTFPR - Sede UTFPR (PPZ)",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -28691,15 +28613,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Desenvolvimento Regional (PPGDR-PB)",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -28721,21 +28639,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "inscri[cç][oõ]es",
-      "mestrado",
-      "calend[aá]rio"
-    ],
-    "scan_dates_found": [
-      "28/03/2026",
-      "28/03/2026",
-      "16/07/2026",
-      "16/07/2026",
-      "16/07/2026"
-    ],
-    "scan_title": "Programa de Pós-graduação em Engenharia Ambiental",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -28757,15 +28665,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "bolsas?",
-      "ingresso",
-      "concurso"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Engenharia de Produção (PPGEP-PG)",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -28787,15 +28691,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Tecnologias Computacionais para o Agronegócio (PPGTCA-MD)",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -28812,20 +28712,16 @@
     "duration_months": 24,
     "language_requirement": "Inglês, Frances, Italiano, Espanhol",
     "meta_application_deadline": "",
-    "meta_campus": "Santa",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Agroecossistemas (PPGSIS-DV)",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -28842,20 +28738,16 @@
     "duration_months": 24,
     "language_requirement": "Portugues, Espanhol, Inglês",
     "meta_application_deadline": "",
-    "meta_campus": "Curitiba Sede Centro",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Engenharia Elétrica e Informática Industrial (CPGEI-CT)",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -39111,11 +39003,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "calend[aá]rio"
+    ],
+    "scan_dates_found": [
+      "06/06/2022",
+      "15/12/2021",
+      "03/02/2022",
+      "06/06/2022",
+      "15/12/2021"
+    ],
+    "scan_title": "Página inicial",
     "edital_url": "",
     "edital_title": ""
   },
@@ -39137,11 +39039,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "sele[cç][aã]o",
+      "mestrado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "Página inicial",
     "edital_url": "",
     "edital_title": ""
   },
@@ -39163,11 +39069,19 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.9,
+    "scan_keywords": [
+      "inscri[cç][oõ]es\\s+abertas",
+      "chamada\\s+p[uú]blica",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "13/11/2025"
+    ],
+    "scan_title": "Página inicial",
     "edital_url": "",
     "edital_title": ""
   },
@@ -39189,11 +39103,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "mestrado",
+      "calend[aá]rio"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "Página inicial",
     "edital_url": "",
     "edital_title": ""
   },
