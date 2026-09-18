@@ -4097,22 +4097,26 @@
     "level": "Doutorado",
     "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-letras-linguagem-e-identidade",
     "city": "Rio Branco",
-    "campus": "",
+    "campus": "sede da Ufac",
     "master_required": "",
     "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "sede da Ufac",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "",
     "edital_url": "",
     "edital_title": ""
   },
@@ -4123,22 +4127,26 @@
     "level": "Mestrado",
     "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-letras-linguagem-e-identidade",
     "city": "Rio Branco",
-    "campus": "",
+    "campus": "sede da Ufac",
     "master_required": "",
     "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "sede da Ufac",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "",
     "edital_url": "",
     "edital_title": ""
   },
@@ -18204,14 +18212,13 @@
     "language_requirement": "Português",
     "meta_application_deadline": "",
     "meta_campus": "Bom",
-    "meta_duration": "24",
+    "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
     "scan_keywords": [
-      "inscreva-se",
       "edital",
       "processo\\s+seletivo",
       "sele[cç][aã]o"
@@ -18265,14 +18272,13 @@
     "language_requirement": "Português",
     "meta_application_deadline": "",
     "meta_campus": "Bom",
-    "meta_duration": "24",
+    "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
     "scan_keywords": [
-      "inscreva-se",
       "edital",
       "processo\\s+seletivo",
       "sele[cç][aã]o"
@@ -18296,14 +18302,13 @@
     "language_requirement": "Português",
     "meta_application_deadline": "",
     "meta_campus": "Bom",
-    "meta_duration": "24",
+    "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
     "scan_keywords": [
-      "inscreva-se",
       "edital",
       "processo\\s+seletivo",
       "sele[cç][aã]o"
@@ -18327,14 +18332,13 @@
     "language_requirement": "Português",
     "meta_application_deadline": "",
     "meta_campus": "Bom",
-    "meta_duration": "24",
+    "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
     "scan_keywords": [
-      "inscreva-se",
       "edital",
       "processo\\s+seletivo",
       "sele[cç][aã]o"
@@ -18358,14 +18362,13 @@
     "language_requirement": "Português",
     "meta_application_deadline": "",
     "meta_campus": "Bom",
-    "meta_duration": "24",
+    "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
     "scan_keywords": [
-      "inscreva-se",
       "edital",
       "processo\\s+seletivo",
       "sele[cç][aã]o"
@@ -18389,14 +18392,13 @@
     "language_requirement": "Português",
     "meta_application_deadline": "",
     "meta_campus": "Bom",
-    "meta_duration": "24",
+    "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
     "scan_keywords": [
-      "inscreva-se",
       "edital",
       "processo\\s+seletivo",
       "sele[cç][aã]o"
@@ -18420,14 +18422,13 @@
     "language_requirement": "Português",
     "meta_application_deadline": "",
     "meta_campus": "Bom",
-    "meta_duration": "24",
+    "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
     "scan_keywords": [
-      "inscreva-se",
       "edital",
       "processo\\s+seletivo",
       "sele[cç][aã]o"
@@ -25778,9 +25779,9 @@
     "scan_dates_found": [
       "04/09/2026",
       "15/07/2026",
-      "16/09/2026",
-      "15/09/2026",
-      "04/09/2026"
+      "18/09/2026",
+      "22/09/2026",
+      "16/09/2026"
     ],
     "scan_title": "Filosofia - Pós-graduação",
     "edital_url": "",
@@ -27624,7 +27625,7 @@
     "scan_keywords": [
       "edital",
       "sele[cç][aã]o",
-      "mestrado"
+      "inscri[cç][oõ]es"
     ],
     "scan_dates_found": [],
     "scan_title": "ppggag – Programa de Pós-graduação em Geociências Aplicadas e Geodinâmica",
@@ -29734,7 +29735,7 @@
     "duration_months": 24,
     "language_requirement": "Português , espanhol e inglês",
     "meta_application_deadline": "",
-    "meta_campus": "Anglo",
+    "meta_campus": "ANGLO Universidade Federal de Pelotas",
     "meta_duration": "",
     "meta_start_date": "setembro",
     "meta_language": "",
@@ -29957,10 +29958,9 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
     "scan_keywords": [
-      "inscri[cç][oõ]es\\s+abertas",
       "edital",
       "sele[cç][aã]o",
       "inscri[cç][oõ]es"
@@ -30042,7 +30042,7 @@
       "28/09/2026",
       "18/09/2026",
       "18/09/2026",
-      "17/09/2026"
+      "22/09/2026"
     ],
     "scan_title": "UFSM – Universidade Federal de Santa Maria",
     "edital_url": "",
@@ -30919,11 +30919,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
+      "17/09/2026",
       "04/09/2026",
       "03/09/2026",
       "03/09/2026",
-      "31/08/2026",
-      "06/08/2026"
+      "31/08/2026"
     ],
     "scan_title": "PPGE&D – Programa de Pós-Graduação em Economia e Desenvolvimento",
     "edital_url": "https://www.ufsm.br/app/uploads/sites/533/2026/05/Edital_Geral_030-2025_-_Orientacoes_para_prova_assinado.pdf",
@@ -31262,13 +31262,13 @@
     "city": "Santa Maria",
     "campus": "Camobi",
     "master_required": "",
-    "start_date": "PRIMEIRO SEMESTRE DE 2026",
+    "start_date": "2º semestre de 2026",
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
     "meta_campus": "Camobi",
     "meta_duration": "",
-    "meta_start_date": "PRIMEIRO SEMESTRE DE 2026",
+    "meta_start_date": "2º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "possible",
@@ -31279,11 +31279,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
+      "26/06/2026",
       "06/08/2026",
+      "17/09/2026",
       "09/09/2026",
-      "09/09/2026",
-      "06/08/2026",
-      "06/08/2026"
+      "09/09/2026"
     ],
     "scan_title": "PPGEF – Programa de Pós-Graduação em Engenharia Florestal –  Campus Santa Maria",
     "edital_url": "https://www.ufsm.br/app/uploads/sites/555/2026/06/Calendario-prova-academica-ppgef-1.pdf",
@@ -31307,10 +31307,9 @@
     "meta_start_date": "2º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
     "scan_keywords": [
-      "inscri[cç][oõ]es\\s+abertas",
       "edital",
       "sele[cç][aã]o",
       "inscri[cç][oõ]es"
@@ -31444,13 +31443,13 @@
     "city": "Santa Maria",
     "campus": "Camobi",
     "master_required": "",
-    "start_date": "segundo semestre de 2026",
+    "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
     "meta_campus": "Camobi",
     "meta_duration": "",
-    "meta_start_date": "segundo semestre de 2026",
+    "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "possible",
@@ -31461,10 +31460,10 @@
       "doutorado"
     ],
     "scan_dates_found": [
+      "17/09/2026",
       "14/09/2026",
       "11/09/2026",
       "08/09/2026",
-      "04/09/2026",
       "04/09/2026"
     ],
     "scan_title": "PPGF – Programa de Pós-Graduação em Filosofia",
@@ -34552,9 +34551,9 @@
     "scan_dates_found": [
       "16/09/2026",
       "11/09/2026",
-      "10/02/2026",
       "16/09/2026",
-      "11/09/2026"
+      "11/09/2026",
+      "16/09/2026"
     ],
     "scan_title": "Programa de Pós-graduação em Física |",
     "edital_url": "",
@@ -35522,7 +35521,7 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "17/09/2026"
+      "18/09/2026"
     ],
     "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
@@ -35724,7 +35723,7 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "17/09/2026"
+      "18/09/2026"
     ],
     "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
@@ -35756,7 +35755,7 @@
       "mestrado"
     ],
     "scan_dates_found": [
-      "17/09/2026"
+      "18/09/2026"
     ],
     "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
@@ -36416,20 +36415,16 @@
     "duration_months": 24,
     "language_requirement": "Português ou espanhol (intermediário ou avançado)",
     "meta_application_deadline": "",
-    "meta_campus": "Morro do Cruzeiro Ouro Preto",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "mestrado",
-      "doutorado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Ciências",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -36481,15 +36476,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "doutorado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Novos Direitos",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -36541,15 +36532,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "doutorado",
-      "calend[aá]rio",
-      "bolsas?"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -36899,7 +36886,7 @@
       "edital"
     ],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós Graduação em Geologia (PPGGEO) – Instituto de Ciência e Tecnologia (ICT) – Universidade Federal dos Vale",
+    "scan_title": "Programa de Pós Graduação em Geociências (PPGGEO) – Instituto de Ciência e Tecnologia (ICT) – Universidade Federal dos V",
     "edital_url": "",
     "edital_title": ""
   },
@@ -53223,11 +53210,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "mestrado",
+      "doutorado",
+      "capes"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "Home",
     "edital_url": "",
     "edital_title": ""
   },
