@@ -105,24 +105,14 @@
     "meta_application_deadline": "",
     "meta_campus": "",
     "meta_duration": "",
-    "meta_start_date": "primeiro semestre letivo de 2026",
+    "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "sele[cç][aã]o",
-      "inscri[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "27/05/2026",
-      "06/03/2026",
-      "23/02/2026",
-      "13/02/2026",
-      "11/02/2026"
-    ],
-    "scan_title": "UEA - PROGRAMA DE PÓS-GRADUAÇÃO EM DIREITO AMBIENTAL",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -144,15 +134,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "mestrado",
-      "calend[aá]rio",
-      "capes"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Gestão e Regulação de Recursos Hídricos – PROFÁGUA",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -17760,22 +17746,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
-    "scan_keywords": [
-      "editais?\\s+abertos?",
-      "edital",
-      "processo\\s+seletivo",
-      "inscri[cç][oõ]es"
-    ],
-    "scan_dates_found": [
-      "21/09/2026",
-      "19/10/2026",
-      "11/09/2026",
-      "21/09/2026",
-      "19/10/2026"
-    ],
-    "scan_title": "Welcome to PPGBEA | PPGBEA",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -17834,11 +17809,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "09/09/2026",
+      "14/09/2026",
+      "18/09/2026",
+      "18/09/2026",
+      "18/09/2026"
+    ],
+    "scan_title": "Início | PPGCF",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17886,11 +17872,23 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.9,
+    "scan_keywords": [
+      "inscri[cç][oõ]es\\s+abertas",
+      "editais?\\s+abertos?",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "20/07/2026",
+      "20/07/2026",
+      "20/07/2026",
+      "20/07/2026",
+      "20/07/2026"
+    ],
+    "scan_title": "Welcome to PPENGFIS | PPENGFIS",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17938,11 +17936,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "edital",
+      "mestrado",
+      "resultado"
+    ],
+    "scan_dates_found": [
+      "27/08/2026",
+      "27/08/2026",
+      "27/08/2026",
+      "27/08/2026",
+      "27/08/2026"
+    ],
+    "scan_title": "Welcome to PROGEL | PROGEL",
     "edital_url": "",
     "edital_title": ""
   },
@@ -35573,11 +35582,17 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "21/09/2026"
+    ],
+    "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
     "edital_title": ""
   },
@@ -35594,16 +35609,26 @@
     "duration_months": 24,
     "language_requirement": "Portugês, espanhol",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "https",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "sele[cç][aã]o",
+      "mestrado"
+    ],
+    "scan_dates_found": [
+      "31/08/2026",
+      "24/08/2026",
+      "20/08/2026",
+      "17/06/2026",
+      "09/06/2026"
+    ],
+    "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
     "edital_title": ""
   },
@@ -35620,16 +35645,26 @@
     "duration_months": 24,
     "language_requirement": "Portugês, espanhol",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "Meet TÍTULO",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "sele[cç][aã]o",
+      "mestrado"
+    ],
+    "scan_dates_found": [
+      "28/07/2025",
+      "16/09/2026",
+      "10/08/2026",
+      "10/08/2026",
+      "28/07/2026"
+    ],
+    "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
     "edital_title": ""
   },
@@ -35646,16 +35681,26 @@
     "duration_months": 24,
     "language_requirement": "Português, espanhol",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "On",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "sele[cç][aã]o",
+      "mestrado"
+    ],
+    "scan_dates_found": [
+      "11/08/2026",
+      "30/07/2026",
+      "25/07/2026",
+      "24/07/2026",
+      "24/07/2026"
+    ],
+    "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
     "edital_title": ""
   },
@@ -35672,16 +35717,26 @@
     "duration_months": 24,
     "language_requirement": "Português, espanhol",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "google meet TÍTULO",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "mestrado",
+      "calend[aá]rio",
+      "sigaa"
+    ],
+    "scan_dates_found": [
+      "29/09/2026",
+      "21/08/2026",
+      "19/08/2026",
+      "14/08/2026",
+      "11/08/2026"
+    ],
+    "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
     "edital_title": ""
   },
@@ -35729,11 +35784,17 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "21/09/2026"
+    ],
+    "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
     "edital_title": ""
   },
@@ -35755,11 +35816,17 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "sele[cç][aã]o",
+      "mestrado"
+    ],
+    "scan_dates_found": [
+      "21/09/2026"
+    ],
+    "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
     "edital_title": ""
   },
@@ -35776,16 +35843,26 @@
     "duration_months": 24,
     "language_requirement": "Português, espanhol, inglês",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "ON LINE TÍTULO",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "29/09/2026",
+      "28/08/2026",
+      "27/08/2026",
+      "24/08/2026",
+      "05/08/2026"
+    ],
+    "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
     "edital_title": ""
   },
@@ -35942,11 +36019,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "PPGARTES - UEMG",
     "edital_url": "",
     "edital_title": ""
   },
@@ -35968,11 +36049,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "PPGBSH - UEMG",
     "edital_url": "",
     "edital_title": ""
   },
@@ -35994,11 +36079,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "mestrado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "PPGCIAMB - UEMG",
     "edital_url": "",
     "edital_title": ""
   },
@@ -36017,14 +36106,18 @@
     "meta_application_deadline": "",
     "meta_campus": "",
     "meta_duration": "",
-    "meta_start_date": "",
+    "meta_start_date": "1º Semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "PPGD - UEMG",
     "edital_url": "",
     "edital_title": ""
   },
@@ -36072,11 +36165,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "inscri[cç][oõ]es"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "PPGDM - UEMG",
     "edital_url": "",
     "edital_title": ""
   },
@@ -36098,11 +36195,16 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "inscri[cç][oõ]es\\s+abertas",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "PPGPM - UEMG",
     "edital_url": "",
     "edital_title": ""
   },
@@ -36115,20 +36217,24 @@
     "city": "Passos",
     "campus": "Passos",
     "master_required": "",
-    "start_date": null,
+    "start_date": "Segundo Semestre de 2021",
     "duration_months": 24,
     "language_requirement": "Inglês, espanhol e português. (Todos idiomas no nível avançado).",
     "meta_application_deadline": "",
     "meta_campus": "",
     "meta_duration": "",
-    "meta_start_date": "",
+    "meta_start_date": "Segundo Semestre de 2021",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "inscri[cç][oõ]es"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "PPGDRMA - UEMG",
     "edital_url": "",
     "edital_title": ""
   },
