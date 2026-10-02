@@ -1,11 +1,11 @@
 {
-  "last_run": "2026-10-01T04:31:19.867883+00:00",
+  "last_run": "2026-10-02T04:27:40.201175+00:00",
   "total_urls": 629,
   "by_status": {
     "possible": 444,
-    "likely_open": 70,
-    "error": 95,
-    "unknown": 20
+    "likely_open": 72,
+    "error": 92,
+    "unknown": 21
   },
   "programs": {
     "https://posgraduacao.uea.edu.br/hematologia/": {
@@ -50,7 +50,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:54:18.099107+00:00"
+      "last_checked": "2026-10-02T03:51:37.925644+00:00"
     },
     "https://posgraduacao.uea.edu.br/cienciashumanas/": {
       "status": "likely_open",
@@ -95,7 +95,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:54:18.727663+00:00"
+      "last_checked": "2026-10-02T03:51:38.558323+00:00"
     },
     "https://ppgla.uea.edu.br": {
       "status": "possible",
@@ -139,7 +139,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:54:20.301601+00:00"
+      "last_checked": "2026-10-02T03:51:40.453043+00:00"
     },
     "https://pos.uea.edu.br/direitoambiental": {
       "status": "possible",
@@ -189,7 +189,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:54:24.388829+00:00"
+      "last_checked": "2026-10-02T03:51:44.137450+00:00"
     },
     "https://pos.uea.edu.br/profagua/": {
       "status": "possible",
@@ -233,7 +233,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:54:26.536847+00:00"
+      "last_checked": "2026-10-02T03:51:46.175836+00:00"
     },
     "https://posgraduacao.uea.edu.br/ensinodeciencia/": {
       "status": "possible",
@@ -276,7 +276,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:54:28.166186+00:00"
+      "last_checked": "2026-10-02T03:51:47.670166+00:00"
     },
     "https://posgraduacao.uea.edu.br/ppged/": {
       "status": "possible",
@@ -320,7 +320,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:54:28.778118+00:00"
+      "last_checked": "2026-10-02T03:51:48.296852+00:00"
     },
     "https://posgraduacao.uea.edu.br/segurancapublica/": {
       "status": "likely_open",
@@ -365,7 +365,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:54:30.381875+00:00"
+      "last_checked": "2026-10-02T03:51:50.219985+00:00"
     },
     "https://posgraduacao.uea.edu.br/dermatologia/": {
       "status": "likely_open",
@@ -410,7 +410,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:54:34.288443+00:00"
+      "last_checked": "2026-10-02T03:51:53.192351+00:00"
     },
     "https://www.uea.edu.br/": {
       "status": "possible",
@@ -454,7 +454,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:54:36.459360+00:00"
+      "last_checked": "2026-10-02T03:51:55.505679+00:00"
     },
     "https://posgraduacao.uea.edu.br/biotecnologia/": {
       "status": "possible",
@@ -498,7 +498,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:54:39.475540+00:00"
+      "last_checked": "2026-10-02T03:51:58.177363+00:00"
     },
     "https://www.proensp.com.br/": {
       "status": "likely_open",
@@ -543,7 +543,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:54:40.172771+00:00"
+      "last_checked": "2026-10-02T03:51:59.087518+00:00"
     },
     "https://ppgsca.ufam.edu.br": {
       "status": "possible",
@@ -587,7 +587,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:54:42.299904+00:00"
+      "last_checked": "2026-10-02T03:52:00.792877+00:00"
     },
     "https://ppgcarp.ufam.edu.br": {
       "status": "possible",
@@ -631,7 +631,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:54:44.861604+00:00"
+      "last_checked": "2026-10-02T03:52:03.978254+00:00"
     },
     "https://ppgcts.ufam.edu.br": {
       "status": "possible",
@@ -673,16 +673,16 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:54:46.281241+00:00"
+      "last_checked": "2026-10-02T03:52:05.554555+00:00"
     },
     "https://ppgf@ufam.edu.br": {
       "status": "likely_open",
       "confidence": 0.6,
       "keywords_found": [
         "inscreva-se",
+        "edital",
         "sele[cç][aã]o",
-        "inscri[cç][oõ]es",
-        "vagas?"
+        "inscri[cç][oõ]es"
       ],
       "dates_found": [
         "30/09/2026",
@@ -724,12 +724,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:54:47.998301+00:00"
+      "last_checked": "2026-10-02T03:52:07.356561+00:00"
     },
     "https://PPGECH": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-10-01T03:54:48.305748+00:00"
+      "last_checked": "2026-10-02T03:52:07.663330+00:00"
     },
     "https://ppgenf.ufam.edu.br/": {
       "status": "possible",
@@ -773,7 +773,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:54:49.701025+00:00"
+      "last_checked": "2026-10-02T03:52:09.038802+00:00"
     },
     "https://ppgfis.ufam.edu.br": {
       "status": "possible",
@@ -817,7 +817,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:54:51.434937+00:00"
+      "last_checked": "2026-10-02T03:52:10.550584+00:00"
     },
     "https://www.ppgg.ufam.edu.br/": {
       "status": "possible",
@@ -861,7 +861,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:54:53.381179+00:00"
+      "last_checked": "2026-10-02T03:52:12.098291+00:00"
     },
     "https://www.ppge.ufam.edu.br": {
       "status": "possible",
@@ -905,7 +905,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:54:55.521386+00:00"
+      "last_checked": "2026-10-02T03:52:14.246704+00:00"
     },
     "https://ppgic.ufam.edu.br/": {
       "status": "likely_open",
@@ -950,7 +950,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:54:56.881471+00:00"
+      "last_checked": "2026-10-02T03:52:17.120424+00:00"
     },
     "https://www2.unifap.br/ppged/": {
       "status": "unknown",
@@ -990,7 +990,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:54:58.136727+00:00"
+      "last_checked": "2026-10-02T03:52:18.527822+00:00"
     },
     "https://ppgeduc.propesp.ufpa.br/index.php/br/": {
       "status": "possible",
@@ -1034,7 +1034,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:54:59.998781+00:00"
+      "last_checked": "2026-10-02T03:52:20.458916+00:00"
     },
     "https://ppgetno.propesp.ufpa.br/index.php/br/": {
       "status": "possible",
@@ -1078,7 +1078,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:55:01.591990+00:00"
+      "last_checked": "2026-10-02T03:52:21.871653+00:00"
     },
     "https://www.ppgecm.propesp.ufpa.br/index.php/br/": {
       "status": "likely_open",
@@ -1129,7 +1129,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:55:03.353476+00:00"
+      "last_checked": "2026-10-02T03:52:23.852982+00:00"
     },
     "https://ppba.propesp.ufpa.br/index.php/br/": {
       "status": "possible",
@@ -1179,7 +1179,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:55:05.173822+00:00"
+      "last_checked": "2026-10-02T03:52:25.611293+00:00"
     },
     "https://ppgsaam.propesp.ufpa.br/index.php/br/": {
       "status": "possible",
@@ -1223,7 +1223,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:55:07.430803+00:00"
+      "last_checked": "2026-10-02T03:52:27.617633+00:00"
     },
     "https://www.pplsa.propesp.ufpa.br/index.php/br/": {
       "status": "likely_open",
@@ -1274,22 +1274,22 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:55:09.082646+00:00"
+      "last_checked": "2026-10-02T03:52:29.389558+00:00"
     },
     "https://ppgpam.unifesspa.edu.br/": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T03:55:39.514175+00:00"
+      "last_checked": "2026-10-02T03:53:00.571443+00:00"
     },
     "https://ppghistoria.unifesspa.edu.br": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T03:56:09.374282+00:00"
+      "last_checked": "2026-10-02T03:53:30.542165+00:00"
     },
     "https://ppgecm.unifesspa.edu.br": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T03:56:39.776825+00:00"
+      "last_checked": "2026-10-02T03:53:59.807068+00:00"
     },
     "https://ufrr.br/ppgcom/": {
       "status": "possible",
@@ -1333,7 +1333,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:56:41.829115+00:00"
+      "last_checked": "2026-10-02T03:54:01.864933+00:00"
     },
     "https://ufrr.br/ppgl/": {
       "status": "possible",
@@ -1377,7 +1377,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:56:43.321308+00:00"
+      "last_checked": "2026-10-02T03:54:03.400113+00:00"
     },
     "https://www.uft.edu.br/profiap": {
       "status": "possible",
@@ -1421,7 +1421,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:56:45.578071+00:00"
+      "last_checked": "2026-10-02T03:54:05.962306+00:00"
     },
     "https://www.uft.edu.br/ppgdr": {
       "status": "possible",
@@ -1465,7 +1465,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:56:46.801515+00:00"
+      "last_checked": "2026-10-02T03:54:06.795660+00:00"
     },
     "https://www.uft.edu.br/ppgletras": {
       "status": "possible",
@@ -1509,7 +1509,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:56:47.738245+00:00"
+      "last_checked": "2026-10-02T03:54:07.919758+00:00"
     },
     "https://www.uft.edu.br/campus/palmas/cursos/pos-graduacao/mestrados-e-doutorados/ppgcta": {
       "status": "possible",
@@ -1553,7 +1553,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:56:48.533360+00:00"
+      "last_checked": "2026-10-02T03:54:08.689044+00:00"
     },
     "https://www.uft.edu.br/ppgg": {
       "status": "possible",
@@ -1597,7 +1597,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:56:49.517364+00:00"
+      "last_checked": "2026-10-02T03:54:09.712503+00:00"
     },
     "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ensino-de-fisica": {
       "status": "possible",
@@ -1647,7 +1647,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:56:52.052578+00:00"
+      "last_checked": "2026-10-02T03:54:12.397042+00:00"
     },
     "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ciencia-florestal": {
       "status": "possible",
@@ -1694,7 +1694,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:56:54.942867+00:00"
+      "last_checked": "2026-10-02T03:54:13.626501+00:00"
     },
     "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ciencia-da-saude-na-amazonia-ocidental": {
       "status": "possible",
@@ -1744,7 +1744,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:56:55.953079+00:00"
+      "last_checked": "2026-10-02T03:54:14.837003+00:00"
     },
     "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ensino-de-humanidades-e-linguagens-2013-ppehl": {
       "status": "possible",
@@ -1788,7 +1788,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:56:59.327674+00:00"
+      "last_checked": "2026-10-02T03:54:16.824412+00:00"
     },
     "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/mestrado-em-ciencia-inovacao-e-tecnologia-para-a-amazonia-1": {
       "status": "possible",
@@ -1838,7 +1838,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:01.387898+00:00"
+      "last_checked": "2026-10-02T03:54:20.395078+00:00"
     },
     "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-engenharia-eletrica": {
       "status": "unknown",
@@ -1878,7 +1878,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:02.748123+00:00"
+      "last_checked": "2026-10-02T03:54:22.103899+00:00"
     },
     "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-agronomia-producao-vegetal": {
       "status": "possible",
@@ -1928,12 +1928,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:05.428160+00:00"
+      "last_checked": "2026-10-02T03:54:24.703397+00:00"
     },
     "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-sanidade-e-producao-animal": {
       "status": "error",
       "error": "http_404",
-      "last_checked": "2026-10-01T03:57:06.225125+00:00"
+      "last_checked": "2026-10-02T03:54:25.593310+00:00"
     },
     "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ciencia-da-computacao": {
       "status": "possible",
@@ -1981,7 +1981,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:09.313371+00:00"
+      "last_checked": "2026-10-02T03:54:29.195869+00:00"
     },
     "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-biodiversidade-e-biotecnologia-da-rede-bionorte-1": {
       "status": "possible",
@@ -2025,7 +2025,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:12.224489+00:00"
+      "last_checked": "2026-10-02T03:54:31.232505+00:00"
     },
     "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/mestrado-em-saude-coletiva-2": {
       "status": "likely_open",
@@ -2076,7 +2076,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:15.769107+00:00"
+      "last_checked": "2026-10-02T03:54:34.820709+00:00"
     },
     "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-matematica-em-rede-nacional": {
       "status": "possible",
@@ -2120,7 +2120,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:18.396398+00:00"
+      "last_checked": "2026-10-02T03:54:35.827889+00:00"
     },
     "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-artes-cenicas-1": {
       "status": "possible",
@@ -2164,12 +2164,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:25.300263+00:00"
+      "last_checked": "2026-10-02T03:54:39.101337+00:00"
     },
     "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-letras-linguagem-e-identidade": {
       "status": "error",
       "error": "http_429",
-      "last_checked": "2026-10-01T03:57:25.930267+00:00"
+      "last_checked": "2026-10-02T03:54:39.795928+00:00"
     },
     "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ciencias-ambientais-ppgca": {
       "status": "possible",
@@ -2218,12 +2218,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:27.238656+00:00"
+      "last_checked": "2026-10-02T03:54:42.004023+00:00"
     },
     "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ensino-de-ciencias-e-matematica": {
       "status": "error",
       "error": "http_404",
-      "last_checked": "2026-10-01T03:57:28.018612+00:00"
+      "last_checked": "2026-10-02T03:54:42.883745+00:00"
     },
     "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-desenvolvimento-regional": {
       "status": "possible",
@@ -2265,7 +2265,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:30.676630+00:00"
+      "last_checked": "2026-10-02T03:54:45.860713+00:00"
     },
     "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ecologia-e-manejo-de-recursos-naturais": {
       "status": "possible",
@@ -2309,7 +2309,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:33.287966+00:00"
+      "last_checked": "2026-10-02T03:54:48.749091+00:00"
     },
     "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-educacao": {
       "status": "possible",
@@ -2353,7 +2353,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:36.091018+00:00"
+      "last_checked": "2026-10-02T03:54:51.741561+00:00"
     },
     "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-geografia": {
       "status": "possible",
@@ -2403,7 +2403,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:37.621997+00:00"
+      "last_checked": "2026-10-02T03:54:54.676094+00:00"
     },
     "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-letras": {
       "status": "possible",
@@ -2447,7 +2447,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:40.356592+00:00"
+      "last_checked": "2026-10-02T03:54:56.249492+00:00"
     },
     "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-historia": {
       "status": "possible",
@@ -2497,7 +2497,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:43.629031+00:00"
+      "last_checked": "2026-10-02T03:54:59.682070+00:00"
     },
     "https://uesc.br": {
       "status": "possible",
@@ -2547,7 +2547,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:44.709499+00:00"
+      "last_checked": "2026-10-02T03:55:00.815893+00:00"
     },
     "http://ppgmc.uesc.br": {
       "status": "possible",
@@ -2591,7 +2591,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:46.695657+00:00"
+      "last_checked": "2026-10-02T03:55:02.757728+00:00"
     },
     "https://ppgpv.uesc.br/pt/": {
       "status": "possible",
@@ -2635,7 +2635,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:47.825663+00:00"
+      "last_checked": "2026-10-02T03:55:04.250811+00:00"
     },
     "https://www.ppgcsuesc.com.br/": {
       "status": "possible",
@@ -2679,7 +2679,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:48.410875+00:00"
+      "last_checked": "2026-10-02T03:55:04.900992+00:00"
     },
     "https://www.uesc.br/microbiologia/": {
       "status": "possible",
@@ -2723,7 +2723,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:49.903893+00:00"
+      "last_checked": "2026-10-02T03:55:06.286027+00:00"
     },
     "https://www2.uesb.br/ppg/ppgef/": {
       "status": "possible",
@@ -2773,7 +2773,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:53.757121+00:00"
+      "last_checked": "2026-10-02T03:55:07.932016+00:00"
     },
     "https://www.uesc.br/ppgenf/": {
       "status": "possible",
@@ -2817,7 +2817,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:54.261120+00:00"
+      "last_checked": "2026-10-02T03:55:08.439775+00:00"
     },
     "https://www.uesc.br/ppgl/": {
       "status": "likely_open",
@@ -2862,7 +2862,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:54.999905+00:00"
+      "last_checked": "2026-10-02T03:55:09.192869+00:00"
     },
     "http://www.uesc.br/cursos/pos_graduacao/mestrado/ppgeconomia/index.php": {
       "status": "unknown",
@@ -2902,7 +2902,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:55.700888+00:00"
+      "last_checked": "2026-10-02T03:55:10.043349+00:00"
     },
     "https://www.uesc.br": {
       "status": "possible",
@@ -2952,7 +2952,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:56.374000+00:00"
+      "last_checked": "2026-10-02T03:55:10.587690+00:00"
     },
     "https://ppgca.uesc.br/": {
       "status": "likely_open",
@@ -2997,7 +2997,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:57:58.779926+00:00"
+      "last_checked": "2026-10-02T03:55:12.566653+00:00"
     },
     "https://ppgzoo.uesc.br/": {
       "status": "possible",
@@ -3040,7 +3040,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:00.888667+00:00"
+      "last_checked": "2026-10-02T03:55:14.676282+00:00"
     },
     "https://ppgsat.net": {
       "status": "likely_open",
@@ -3085,7 +3085,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:02.757361+00:00"
+      "last_checked": "2026-10-02T03:55:16.939891+00:00"
     },
     "https://www.uesc.br/ppgh/": {
       "status": "unknown",
@@ -3125,7 +3125,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:03.192130+00:00"
+      "last_checked": "2026-10-02T03:55:17.384864+00:00"
     },
     "https://www.uesc.br/ppgecm/": {
       "status": "possible",
@@ -3169,15 +3169,15 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:03.690431+00:00"
+      "last_checked": "2026-10-02T03:55:17.890587+00:00"
     },
     "https://www.ppggeneticauesc.com/": {
       "status": "possible",
       "confidence": 0.4,
       "keywords_found": [
-        "edital",
-        "processo\\s+seletivo",
-        "sele[cç][aã]o"
+        "sele[cç][aã]o",
+        "mestrado",
+        "doutorado"
       ],
       "dates_found": [
         "01/01/2026",
@@ -3219,7 +3219,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:04.470554+00:00"
+      "last_checked": "2026-10-02T03:55:18.835653+00:00"
     },
     "https://www.uesc.br/ppgeca/": {
       "status": "possible",
@@ -3263,7 +3263,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:04.968500+00:00"
+      "last_checked": "2026-10-02T03:55:19.340670+00:00"
     },
     "https://ufsb.edu.br/ppger/": {
       "status": "possible",
@@ -3313,7 +3313,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:11.302173+00:00"
+      "last_checked": "2026-10-02T03:55:36.519464+00:00"
     },
     "https://ufsb.edu.br/cfchs/pos-graduacao/ppges": {
       "status": "possible",
@@ -3357,7 +3357,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:15.163810+00:00"
+      "last_checked": "2026-10-02T03:55:39.587174+00:00"
     },
     "https://www.ufsb.edu.br/cftci/pos-graduacao/mestrado-em-engenharia-civil-e-ambiental": {
       "status": "possible",
@@ -3401,27 +3401,27 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:20.993347+00:00"
+      "last_checked": "2026-10-02T03:55:44.056799+00:00"
     },
     "https://sig.ufob.edu.br/sigaa/public/programa/portal.jsf?lc=pt_BR&id=920": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-10-01T03:58:21.876324+00:00"
+      "last_checked": "2026-10-02T03:55:45.051536+00:00"
     },
     "https://PPGH-UFOB": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-10-01T03:58:22.183679+00:00"
+      "last_checked": "2026-10-02T03:55:45.358232+00:00"
     },
     "https://ufob.edu.br/ppgact": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-10-01T03:58:23.254091+00:00"
+      "last_checked": "2026-10-02T03:55:46.486107+00:00"
     },
     "https://ufob.edu.br/ppgpi": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-10-01T03:58:23.807477+00:00"
+      "last_checked": "2026-10-02T03:55:47.079660+00:00"
     },
     "https://www2.uesb.br/ppg/ppggbc2/": {
       "status": "possible",
@@ -3465,7 +3465,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:27.858514+00:00"
+      "last_checked": "2026-10-02T03:55:48.952880+00:00"
     },
     "https://www2.uesb.br/ppg/ppgcel/": {
       "status": "likely_open",
@@ -3510,7 +3510,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:28.842128+00:00"
+      "last_checked": "2026-10-02T03:55:49.993723+00:00"
     },
     "https://www2.uesb.br/ppg/ppgagronomia/": {
       "status": "possible",
@@ -3554,7 +3554,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:29.940961+00:00"
+      "last_checked": "2026-10-02T03:55:51.114418+00:00"
     },
     "https://www2.uesb.br/ppg/ppged/": {
       "status": "possible",
@@ -3604,20 +3604,20 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:30.977466+00:00"
+      "last_checked": "2026-10-02T03:55:52.164075+00:00"
     },
     "https://www2.uesb.br/ppg/ppges/": {
       "status": "possible",
       "confidence": 0.4,
       "keywords_found": [
-        "edital",
         "sele[cç][aã]o",
-        "mestrado"
+        "calend[aá]rio",
+        "cronograma"
       ],
       "dates_found": [
         "14/09/2026",
         "14/09/2026",
-        "14/09/2026",
+        "05/10/2026",
         "14/09/2026",
         "14/09/2026"
       ],
@@ -3654,7 +3654,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:32.062830+00:00"
+      "last_checked": "2026-10-02T03:55:53.310687+00:00"
     },
     "https://ppgl.in": {
       "status": "likely_open",
@@ -3705,7 +3705,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:34.751572+00:00"
+      "last_checked": "2026-10-02T03:55:55.524801+00:00"
     },
     "http://www2.uesb.br/ppg/ppz/": {
       "status": "possible",
@@ -3749,7 +3749,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:39.271729+00:00"
+      "last_checked": "2026-10-02T03:55:56.920379+00:00"
     },
     "https://www2.uesb.br/ppg/ppgecfp/": {
       "status": "possible",
@@ -3793,7 +3793,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:40.286499+00:00"
+      "last_checked": "2026-10-02T03:55:57.974191+00:00"
     },
     "http://www2.uesb.br/ppg/ppgen/": {
       "status": "possible",
@@ -3837,7 +3837,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:41.427791+00:00"
+      "last_checked": "2026-10-02T03:55:59.155992+00:00"
     },
     "https://ufrb.edu.br/pgcienciasagrarias/": {
       "status": "possible",
@@ -3887,7 +3887,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:42.566210+00:00"
+      "last_checked": "2026-10-02T03:56:00.336386+00:00"
     },
     "https://www.ufrb.edu.br/ppgecid/": {
       "status": "possible",
@@ -3931,7 +3931,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:43.894930+00:00"
+      "last_checked": "2026-10-02T03:56:01.756076+00:00"
     },
     "https://www.ufrb.edu.br/mpgestaoppss/": {
       "status": "possible",
@@ -3981,7 +3981,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:44.464149+00:00"
+      "last_checked": "2026-10-02T03:56:02.327783+00:00"
     },
     "https://www.ufrb.edu.br/ppgap/": {
       "status": "likely_open",
@@ -4032,7 +4032,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:45.034450+00:00"
+      "last_checked": "2026-10-02T03:56:02.918507+00:00"
     },
     "https://www.ufrb.edu.br/ppgcom/en/": {
       "status": "possible",
@@ -4076,7 +4076,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:45.665938+00:00"
+      "last_checked": "2026-10-02T03:56:03.581683+00:00"
     },
     "https://www.ufrb.edu.br/ppgeec/": {
       "status": "possible",
@@ -4120,7 +4120,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:46.244809+00:00"
+      "last_checked": "2026-10-02T03:56:04.168152+00:00"
     },
     "https://www.ufrb.edu.br/ppgartes/": {
       "status": "possible",
@@ -4170,7 +4170,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:46.802660+00:00"
+      "last_checked": "2026-10-02T03:56:04.745121+00:00"
     },
     "https://www.ufrb.edu.br/pgrecvegetais/": {
       "status": "possible",
@@ -4220,7 +4220,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:47.403916+00:00"
+      "last_checked": "2026-10-02T03:56:05.357125+00:00"
     },
     "https://www2.ufrb.edu.br/ppiz/": {
       "status": "possible",
@@ -4270,7 +4270,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:48.743537+00:00"
+      "last_checked": "2026-10-02T03:56:06.722691+00:00"
     },
     "https://ufrb.edu.br/mprofsaudenein/": {
       "status": "possible",
@@ -4320,7 +4320,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:49.579363+00:00"
+      "last_checked": "2026-10-02T03:56:07.602392+00:00"
     },
     "https://www.ufrb.edu.br/ppgpst/": {
       "status": "possible",
@@ -4370,12 +4370,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:58:50.145705+00:00"
+      "last_checked": "2026-10-02T03:56:08.195586+00:00"
     },
     "https://www.uefs.br/": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T03:59:19.531797+00:00"
+      "last_checked": "2026-10-02T03:56:37.665833+00:00"
     },
     "https://www.ppgsc.uefs.br": {
       "status": "unknown",
@@ -4415,12 +4415,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:59:22.436785+00:00"
+      "last_checked": "2026-10-02T03:56:40.471342+00:00"
     },
     "https://www.ppgecea.uefs.br": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T03:59:51.623499+00:00"
+      "last_checked": "2026-10-02T03:57:09.619242+00:00"
     },
     "https://www.ppgm.uefs.br": {
       "status": "possible",
@@ -4464,7 +4464,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:59:55.688950+00:00"
+      "last_checked": "2026-10-02T03:57:13.805329+00:00"
     },
     "https://ppgel.uefs.br/": {
       "status": "possible",
@@ -4508,7 +4508,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:59:57.803897+00:00"
+      "last_checked": "2026-10-02T03:57:15.884210+00:00"
     },
     "https://ecoevol.uefs.br/": {
       "status": "possible",
@@ -4552,7 +4552,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T03:59:59.809126+00:00"
+      "last_checked": "2026-10-02T03:57:17.336598+00:00"
     },
     "https://ppgels.uneb.br/": {
       "status": "likely_open",
@@ -4597,7 +4597,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:00:02.398999+00:00"
+      "last_checked": "2026-10-02T03:57:19.990297+00:00"
     },
     "https://ppgmsb.uneb.br/index.html": {
       "status": "likely_open",
@@ -4644,7 +4644,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:00:03.979528+00:00"
+      "last_checked": "2026-10-02T03:57:21.669534+00:00"
     },
     "https://ppgeduf.uneb.br/": {
       "status": "possible",
@@ -4688,17 +4688,17 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:00:06.218712+00:00"
+      "last_checked": "2026-10-02T03:57:29.150556+00:00"
     },
     "https://Gestec | Mestrado Profissional em Gestão e Tecnologia Aplicadas à Educação": {
       "status": "error",
       "error": "Failed to parse: Host 'Gestec | Mestrado Profissional em Ges",
-      "last_checked": "2026-10-01T04:00:06.519718+00:00"
+      "last_checked": "2026-10-02T03:57:29.451467+00:00"
     },
     "https://www.ppgel.une.br": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-10-01T04:00:06.932588+00:00"
+      "last_checked": "2026-10-02T03:57:29.886366+00:00"
     },
     "https://www.ppgeduc.uneb.br": {
       "status": "possible",
@@ -4742,7 +4742,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:00:11.060742+00:00"
+      "last_checked": "2026-10-02T03:57:32.925800+00:00"
     },
     "https://www.ppgccs.uneb.br": {
       "status": "possible",
@@ -4785,7 +4785,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:00:14.394696+00:00"
+      "last_checked": "2026-10-02T03:57:36.603769+00:00"
     },
     "https://www.mepisco.uneb.br": {
       "status": "possible",
@@ -4828,7 +4828,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:00:18.065322+00:00"
+      "last_checked": "2026-10-02T03:57:40.201104+00:00"
     },
     "https://www.poscritica.uneb.br/": {
       "status": "possible",
@@ -4877,7 +4877,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:00:20.247310+00:00"
+      "last_checked": "2026-10-02T03:57:42.222522+00:00"
     },
     "https://ppgesa.uneb.br/": {
       "status": "likely_open",
@@ -4922,7 +4922,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:00:22.428889+00:00"
+      "last_checked": "2026-10-02T03:57:44.415664+00:00"
     },
     "https://www.mpies.uneb.br/": {
       "status": "likely_open",
@@ -4967,7 +4967,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:00:24.666615+00:00"
+      "last_checked": "2026-10-02T03:57:46.546637+00:00"
     },
     "https://www.proet.uneb.br/": {
       "status": "possible",
@@ -5016,7 +5016,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:00:26.910698+00:00"
+      "last_checked": "2026-10-02T03:57:48.771562+00:00"
     },
     "https://ppgtel.uneb.br/": {
       "status": "possible",
@@ -5060,7 +5060,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:00:29.937313+00:00"
+      "last_checked": "2026-10-02T03:57:51.027823+00:00"
     },
     "https://portal.uneb.br/tag/ppgeja/": {
       "status": "possible",
@@ -5104,7 +5104,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:00:32.127166+00:00"
+      "last_checked": "2026-10-02T03:57:53.530421+00:00"
     },
     "https://ppgeafin.uneb.br/": {
       "status": "possible",
@@ -5148,7 +5148,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:00:34.140879+00:00"
+      "last_checked": "2026-10-02T03:57:55.552821+00:00"
     },
     "https://www.ppgecoh.uneb.br": {
       "status": "possible",
@@ -5192,7 +5192,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:00:37.308667+00:00"
+      "last_checked": "2026-10-02T03:57:58.860471+00:00"
     },
     "https://www.mped.uneb.br/": {
       "status": "possible",
@@ -5236,7 +5236,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:00:40.443946+00:00"
+      "last_checked": "2026-10-02T03:58:02.102577+00:00"
     },
     "https://www.pgqa.uneb.br": {
       "status": "likely_open",
@@ -5281,7 +5281,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:00:42.247555+00:00"
+      "last_checked": "2026-10-02T03:58:04.034010+00:00"
     },
     "https://www.ppgedf.uneb.br": {
       "status": "possible",
@@ -5325,7 +5325,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:00:59.170109+00:00"
+      "last_checked": "2026-10-02T03:58:11.750032+00:00"
     },
     "https://www.uece.br/ppcclis/": {
       "status": "possible",
@@ -5369,7 +5369,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:00.623761+00:00"
+      "last_checked": "2026-10-02T03:58:13.170343+00:00"
     },
     "https://www.uece.br/ppgcv": {
       "status": "unknown",
@@ -5409,7 +5409,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:01.821456+00:00"
+      "last_checked": "2026-10-02T03:58:14.233351+00:00"
     },
     "https://www.uece.br/ppgcn/": {
       "status": "unknown",
@@ -5449,7 +5449,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:02.757697+00:00"
+      "last_checked": "2026-10-02T03:58:15.057024+00:00"
     },
     "https://www.uece.br/posla": {
       "status": "possible",
@@ -5493,7 +5493,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:03.779775+00:00"
+      "last_checked": "2026-10-02T03:58:15.952061+00:00"
     },
     "https://uece.br/ppge": {
       "status": "possible",
@@ -5536,7 +5536,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:05.294705+00:00"
+      "last_checked": "2026-10-02T03:58:17.763353+00:00"
     },
     "https://www.uece.br/ppsac/": {
       "status": "possible",
@@ -5580,7 +5580,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:06.191834+00:00"
+      "last_checked": "2026-10-02T03:58:18.390498+00:00"
     },
     "https://www.uece.br/ppgcf": {
       "status": "unknown",
@@ -5620,7 +5620,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:07.167524+00:00"
+      "last_checked": "2026-10-02T03:58:19.432168+00:00"
     },
     "https://www.uece.br/ppgeen/": {
       "status": "unknown",
@@ -5660,7 +5660,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:07.756741+00:00"
+      "last_checked": "2026-10-02T03:58:20.052862+00:00"
     },
     "https://www.uece.br/ppgns": {
       "status": "possible",
@@ -5702,7 +5702,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:08.727375+00:00"
+      "last_checked": "2026-10-02T03:58:20.923274+00:00"
     },
     "https://ppgaf.ufc.br": {
       "status": "possible",
@@ -5713,7 +5713,7 @@
         "sele[cç][aã]o"
       ],
       "dates_found": [],
-      "title": "Programa de Pós-Graduação em Agronomia/Fitotecnia – Só mais um site WordPress",
+      "title": "Programa de Pós-Graduação em Agronomia/Fitotecnia",
       "metadata": {
         "applicationDeadline": {
           "value": null,
@@ -5746,7 +5746,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:10.621921+00:00"
+      "last_checked": "2026-10-02T03:58:22.422703+00:00"
     },
     "https://ppgaud.ufc.br": {
       "status": "likely_open",
@@ -5791,7 +5791,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:12.383736+00:00"
+      "last_checked": "2026-10-02T03:58:24.029767+00:00"
     },
     "https://ppgartes.ufc.br": {
       "status": "possible",
@@ -5833,7 +5833,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:14.043419+00:00"
+      "last_checked": "2026-10-02T03:58:26.383455+00:00"
     },
     "https://ppgbioquimica.ufc.br": {
       "status": "possible",
@@ -5875,7 +5875,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:15.912776+00:00"
+      "last_checked": "2026-10-02T03:58:27.760794+00:00"
     },
     "https://ppgb.ufc.br": {
       "status": "possible",
@@ -5919,7 +5919,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:17.748789+00:00"
+      "last_checked": "2026-10-02T03:58:29.359957+00:00"
     },
     "https://ppgcs.ufc.br/": {
       "status": "possible",
@@ -5963,7 +5963,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:19.472197+00:00"
+      "last_checked": "2026-10-02T03:58:30.997570+00:00"
     },
     "https://ppgsolos.ufc.br": {
       "status": "possible",
@@ -6007,7 +6007,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:21.088780+00:00"
+      "last_checked": "2026-10-02T03:58:32.462717+00:00"
     },
     "https://ppgcta@ufc.br": {
       "status": "possible",
@@ -6051,7 +6051,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:22.370057+00:00"
+      "last_checked": "2026-10-02T03:58:33.905989+00:00"
     },
     "https://ppgcmt.ufc.br": {
       "status": "possible",
@@ -6095,7 +6095,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:24.080702+00:00"
+      "last_checked": "2026-10-02T03:58:35.275337+00:00"
     },
     "https://ppgern.ufc.br": {
       "status": "possible",
@@ -6144,7 +6144,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:25.633401+00:00"
+      "last_checked": "2026-10-02T03:58:36.689185+00:00"
     },
     "https://ppgenfermagem.ufc.br": {
       "status": "possible",
@@ -6188,7 +6188,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:28.818988+00:00"
+      "last_checked": "2026-10-02T03:58:38.251935+00:00"
     },
     "https://ppgea.ufc.br": {
       "status": "possible",
@@ -6238,7 +6238,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:30.951436+00:00"
+      "last_checked": "2026-10-02T03:58:39.941349+00:00"
     },
     "https://pec.ufc.br": {
       "status": "possible",
@@ -6282,18 +6282,14 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:32.688414+00:00"
+      "last_checked": "2026-10-02T03:58:41.541404+00:00"
     },
     "https://ppgeec.ufc.br": {
-      "status": "possible",
-      "confidence": 0.4,
-      "keywords_found": [
-        "edital",
-        "sele[cç][aã]o",
-        "mestrado"
-      ],
+      "status": "unknown",
+      "confidence": 0.05,
+      "keywords_found": [],
       "dates_found": [],
-      "title": "Programa de Pós-Graduação em Engenharia Elétrica e Computação – PPGEEC – UFC",
+      "title": "",
       "metadata": {
         "applicationDeadline": {
           "value": null,
@@ -6311,9 +6307,9 @@
           "source": null
         },
         "campus": {
-          "value": "Sobral",
-          "confidence": 0.8,
-          "source": "c[âa]mpus\\s+de\\s+([A-Z][a-zà-ù]+(?:\\s+(?:de|da|do|dos|das)\\s+[A-Z][a-zà-ù]+)*)"
+          "value": null,
+          "confidence": 0.0,
+          "source": null
         },
         "languageRequirement": {
           "value": null,
@@ -6326,7 +6322,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:34.332558+00:00"
+      "last_checked": "2026-10-02T03:58:42.879792+00:00"
     },
     "https://poet@ufc.br": {
       "status": "possible",
@@ -6370,7 +6366,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:35.489643+00:00"
+      "last_checked": "2026-10-02T03:58:44.075165+00:00"
     },
     "https://ppgfilo.ufc.br": {
       "status": "possible",
@@ -6381,7 +6377,7 @@
         "sele[cç][aã]o"
       ],
       "dates_found": [],
-      "title": "Programa de Pós-Graduação em Filosofia – Programa de Pós-Graduação em Filosofia",
+      "title": "Programa de Pós-Graduação em Filosofia",
       "metadata": {
         "applicationDeadline": {
           "value": null,
@@ -6414,7 +6410,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:37.151554+00:00"
+      "last_checked": "2026-10-02T03:58:45.429814+00:00"
     },
     "https://fisica.ufc.br/portal/pos": {
       "status": "possible",
@@ -6458,7 +6454,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:40.213371+00:00"
+      "last_checked": "2026-10-02T03:58:48.459451+00:00"
     },
     "https://ppggastronomia.ufc.br": {
       "status": "possible",
@@ -6502,12 +6498,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:41.986610+00:00"
+      "last_checked": "2026-10-02T03:58:49.810733+00:00"
     },
     "https://ppggeografia.ufc.br": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-10-01T04:01:42.523586+00:00"
+      "last_checked": "2026-10-02T03:58:50.263066+00:00"
     },
     "https://ppgh.ufc.br": {
       "status": "possible",
@@ -6551,7 +6547,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:44.087624+00:00"
+      "last_checked": "2026-10-02T03:58:51.760163+00:00"
     },
     "https://ppgmm@ufc.br": {
       "status": "possible",
@@ -6595,7 +6591,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:44.956849+00:00"
+      "last_checked": "2026-10-02T03:58:52.648385+00:00"
     },
     "https://ppgo.ufc.br": {
       "status": "possible",
@@ -6639,7 +6635,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:46.673584+00:00"
+      "last_checked": "2026-10-02T03:58:54.124587+00:00"
     },
     "https://pgquim.ufc.br": {
       "status": "possible",
@@ -6683,23 +6679,63 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:01:48.239577+00:00"
+      "last_checked": "2026-10-02T03:58:55.493890+00:00"
     },
     "https://saudepublica.ufc.br": {
-      "status": "error",
-      "error": "connection_error",
-      "last_checked": "2026-10-01T04:01:58.556596+00:00"
-    },
-    "https://ppgsis.ufc.br": {
       "status": "possible",
       "confidence": 0.4,
       "keywords_found": [
+        "sele[cç][aã]o",
+        "mestrado",
+        "doutorado"
+      ],
+      "dates_found": [],
+      "title": "Pós-Graduação em Saúde Pública – Saúde Pública",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      },
+      "last_checked": "2026-10-02T03:58:59.421999+00:00"
+    },
+    "https://ppgsis.ufc.br": {
+      "status": "likely_open",
+      "confidence": 0.6,
+      "keywords_found": [
+        "call\\s+for\\s+applications",
         "edital",
         "processo\\s+seletivo",
         "sele[cç][aã]o"
       ],
       "dates_found": [],
-      "title": "Programa de Pós-Graduação em Sistemática, Uso e Conservação da Biodiversidade (PPGSis) – Programa de Pós-Graduação em Si",
+      "title": "Programa de Pós-Graduação em Sistemática, Uso e Conservação da Biodiversidade (PPGSis)",
       "metadata": {
         "applicationDeadline": {
           "value": null,
@@ -6732,7 +6768,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:02:00.344377+00:00"
+      "last_checked": "2026-10-02T03:59:00.887685+00:00"
     },
     "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/administracao": {
       "status": "possible",
@@ -6743,11 +6779,11 @@
         "sele[cç][aã]o"
       ],
       "dates_found": [
-        "08/03/2026",
+        "01/10/2026",
         "30/11/2026",
-        "08/03/2026",
+        "01/10/2026",
         "30/11/2026",
-        "08/03/2026"
+        "01/10/2026"
       ],
       "title": "Administração – Universidade Federal do Cariri",
       "metadata": {
@@ -6782,7 +6818,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:02:05.978633+00:00"
+      "last_checked": "2026-10-02T03:59:04.133059+00:00"
     },
     "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/administracao-publica": {
       "status": "possible",
@@ -6832,7 +6868,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:02:09.799707+00:00"
+      "last_checked": "2026-10-02T03:59:06.550155+00:00"
     },
     "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/biblioteconomia": {
       "status": "possible",
@@ -6882,7 +6918,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:02:13.407230+00:00"
+      "last_checked": "2026-10-02T03:59:08.914578+00:00"
     },
     "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/bioquimica-e-biologia-molecular-mestrado": {
       "status": "possible",
@@ -6932,7 +6968,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:02:18.193093+00:00"
+      "last_checked": "2026-10-02T03:59:11.388563+00:00"
     },
     "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/ciencia-e-engenharia-de-materiais": {
       "status": "possible",
@@ -6982,7 +7018,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:02:20.472648+00:00"
+      "last_checked": "2026-10-02T03:59:13.665432+00:00"
     },
     "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/ciencias-da-saude": {
       "status": "possible",
@@ -7032,7 +7068,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:02:24.112270+00:00"
+      "last_checked": "2026-10-02T03:59:16.136007+00:00"
     },
     "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/desenvolvimento-regional-sustentavel": {
       "status": "possible",
@@ -7082,7 +7118,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:02:27.998331+00:00"
+      "last_checked": "2026-10-02T03:59:18.668785+00:00"
     },
     "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/filosofia-2": {
       "status": "possible",
@@ -7132,7 +7168,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:02:31.245257+00:00"
+      "last_checked": "2026-10-02T03:59:21.033034+00:00"
     },
     "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/matematica": {
       "status": "possible",
@@ -7182,7 +7218,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:02:34.980260+00:00"
+      "last_checked": "2026-10-02T03:59:23.394846+00:00"
     },
     "https://www.ufca.edu.br/cursos/pos-graduacao/mestrado-e-doutorado/saude-da-familia": {
       "status": "possible",
@@ -7232,7 +7268,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:02:37.232838+00:00"
+      "last_checked": "2026-10-02T03:59:25.564527+00:00"
     },
     "https://www.ufca.edu.br/cursos/pos-graduacao/doutorado/biblioteconomia": {
       "status": "possible",
@@ -7282,7 +7318,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:02:40.890336+00:00"
+      "last_checked": "2026-10-02T03:59:27.986852+00:00"
     },
     "https://www.ufca.edu.br/cursos/pos-graduacao/doutorado/bioquimica-e-biologia-molecular": {
       "status": "possible",
@@ -7332,7 +7368,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:02:45.183712+00:00"
+      "last_checked": "2026-10-02T03:59:30.410617+00:00"
     },
     "https://www.ppgpdsa.uema.br/": {
       "status": "possible",
@@ -7376,7 +7412,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:03:07.305151+00:00"
+      "last_checked": "2026-10-02T03:59:42.200835+00:00"
     },
     "https://www.ppgeo.uema.br/": {
       "status": "possible",
@@ -7420,7 +7456,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:03:08.462935+00:00"
+      "last_checked": "2026-10-02T03:59:45.809008+00:00"
     },
     "https://recursosnaturais.ufcg.edu.br/": {
       "status": "likely_open",
@@ -7465,12 +7501,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:03:10.013847+00:00"
+      "last_checked": "2026-10-02T03:59:47.547166+00:00"
     },
     "https://uaema.ufcg.edu.br": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T04:03:39.821242+00:00"
+      "last_checked": "2026-10-02T04:00:17.464483+00:00"
     },
     "https://www.ppgea.ufcg.edu.br": {
       "status": "likely_open",
@@ -7515,7 +7551,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:03:42.088924+00:00"
+      "last_checked": "2026-10-02T04:00:19.413371+00:00"
     },
     "https://sites.google.com/setor.ufcg.edu.br/ppgcf/in%C3%ADcio": {
       "status": "possible",
@@ -7557,27 +7593,27 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:03:42.853768+00:00"
+      "last_checked": "2026-10-02T04:00:20.129257+00:00"
     },
     "https://w2.solucaoatrio.net.br/somos/upe-papgenf/index.php/pt/": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-10-01T04:03:43.314499+00:00"
+      "last_checked": "2026-10-02T04:00:20.605288+00:00"
     },
     "https://w2.solucaoatrio.net.br/somos/upe-hebiatria/index.php/pt/": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-10-01T04:03:43.663110+00:00"
+      "last_checked": "2026-10-02T04:00:20.943251+00:00"
     },
     "https://w2.solucaoatrio.net.br/somos/upe-ga-sds/index.php/pt/": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-10-01T04:03:44.000067+00:00"
+      "last_checked": "2026-10-02T04:00:21.283201+00:00"
     },
     "https://w2.solucaoatrio.net.br/somos/upe-ppgec/index.php/pt/": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-10-01T04:03:44.337210+00:00"
+      "last_checked": "2026-10-02T04:00:21.624008+00:00"
     },
     "https://pecpoli.com.br/": {
       "status": "possible",
@@ -7627,47 +7663,47 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:03:44.978283+00:00"
+      "last_checked": "2026-10-02T04:00:22.313604+00:00"
     },
     "https://www.ufpe.br/ppga": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T04:04:13.778402+00:00"
+      "last_checked": "2026-10-02T04:00:51.443255+00:00"
     },
     "https://www.ufpe.br/ppgci": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T04:04:42.847939+00:00"
+      "last_checked": "2026-10-02T04:01:20.044779+00:00"
     },
     "https://www.ufpe.br/ppgcf": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T04:05:11.889305+00:00"
+      "last_checked": "2026-10-02T04:01:49.156146+00:00"
     },
     "https://www.ufpe.br/ppgecon": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T04:05:40.689296+00:00"
+      "last_checked": "2026-10-02T04:02:18.007521+00:00"
     },
     "https://www.ufpe.br/ppgeduc": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T04:06:09.257459+00:00"
+      "last_checked": "2026-10-02T04:02:46.770603+00:00"
     },
     "https://www.ufpe.br/ppgecam": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T04:06:38.371597+00:00"
+      "last_checked": "2026-10-02T04:03:15.890477+00:00"
     },
     "https://www.ufpe.br/ppgepcaa": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T04:07:07.863079+00:00"
+      "last_checked": "2026-10-02T04:03:45.027125+00:00"
     },
     "https://www.ufpe.br/ppgmedtrop": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T04:07:36.889586+00:00"
+      "last_checked": "2026-10-02T04:04:13.640748+00:00"
     },
     "https://www.ppad.ufrpe.br": {
       "status": "likely_open",
@@ -7680,10 +7716,10 @@
       ],
       "dates_found": [
         "14/09/2026",
-        "14/09/2026",
-        "14/09/2026",
-        "14/09/2026",
-        "14/09/2026"
+        "01/10/2026",
+        "01/10/2026",
+        "01/10/2026",
+        "01/10/2026"
       ],
       "title": "Welcome to PADR | PADR",
       "metadata": {
@@ -7718,7 +7754,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:07:43.055413+00:00"
+      "last_checked": "2026-10-02T04:04:24.313662+00:00"
     },
     "https://pgmp.ufrpe.br/": {
       "status": "likely_open",
@@ -7769,7 +7805,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:07:52.288127+00:00"
+      "last_checked": "2026-10-02T04:04:26.076115+00:00"
     },
     "https://ww2.pgb.ufrpe.br/": {
       "status": "likely_open",
@@ -7820,12 +7856,58 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:08:02.721846+00:00"
+      "last_checked": "2026-10-02T04:04:27.823502+00:00"
     },
     "https://www.ppgbea.ufrpe.br/": {
-      "status": "error",
-      "error": "connection_error",
-      "last_checked": "2026-10-01T04:08:13.044105+00:00"
+      "status": "likely_open",
+      "confidence": 0.6,
+      "keywords_found": [
+        "editais?\\s+abertos?",
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [
+        "21/09/2026",
+        "19/10/2026",
+        "21/09/2026",
+        "11/09/2026",
+        "21/09/2026"
+      ],
+      "title": "Welcome to PPGBEA | PPGBEA",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      },
+      "last_checked": "2026-10-02T04:04:29.590478+00:00"
     },
     "https://www.pgs.ufrpe.br/": {
       "status": "likely_open",
@@ -7876,7 +7958,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:08:23.948703+00:00"
+      "last_checked": "2026-10-02T04:04:35.746270+00:00"
     },
     "https://www.ppgcf.ufrpe.br": {
       "status": "likely_open",
@@ -7927,7 +8009,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:08:25.701067+00:00"
+      "last_checked": "2026-10-02T04:04:37.477369+00:00"
     },
     "https://www.pgea.ufrpe.br": {
       "status": "likely_open",
@@ -7978,7 +8060,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:08:35.828024+00:00"
+      "last_checked": "2026-10-02T04:04:39.130031+00:00"
     },
     "https://www.ppengfis.ufrpe.br/": {
       "status": "likely_open",
@@ -8030,12 +8112,58 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:08:42.613298+00:00"
+      "last_checked": "2026-10-02T04:04:40.748729+00:00"
     },
     "https://www.ppge.ufrpe.br": {
-      "status": "error",
-      "error": "connection_error",
-      "last_checked": "2026-10-01T04:08:52.924789+00:00"
+      "status": "likely_open",
+      "confidence": 0.6,
+      "keywords_found": [
+        "editais?\\s+abertos?",
+        "edital",
+        "sele[cç][aã]o",
+        "inscri[cç][oõ]es"
+      ],
+      "dates_found": [
+        "15/09/2026",
+        "15/09/2026",
+        "15/09/2026",
+        "15/09/2026",
+        "15/09/2026"
+      ],
+      "title": "Welcome to PPGE | PPGE",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "primeiro semestre letivo de 2027",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      },
+      "last_checked": "2026-10-02T04:04:41.958605+00:00"
     },
     "https://www.progel.ufrpe.br/": {
       "status": "likely_open",
@@ -8086,17 +8214,63 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:08:58.771482+00:00"
+      "last_checked": "2026-10-02T04:04:47.459649+00:00"
     },
     "https://www.ufrpe.br/ppeamb": {
       "status": "error",
       "error": "http_404",
-      "last_checked": "2026-10-01T04:09:03.881624+00:00"
+      "last_checked": "2026-10-02T04:04:48.554723+00:00"
     },
     "https://www.pgetno.ufrpe.br": {
-      "status": "error",
-      "error": "connection_error",
-      "last_checked": "2026-10-01T04:09:14.192786+00:00"
+      "status": "likely_open",
+      "confidence": 0.6,
+      "keywords_found": [
+        "editais?\\s+abertos?",
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [
+        "30/08/2024",
+        "30/08/2024",
+        "30/09/2026",
+        "30/09/2026",
+        "30/09/2026"
+      ],
+      "title": "Welcome to PGETNO | PGETNO",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": "Ativo",
+          "confidence": 0.8,
+          "source": "c[âa]mpus\\s+([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)\\s*[-–—]"
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      },
+      "last_checked": "2026-10-02T04:04:50.291407+00:00"
     },
     "https://www.ppgf.ufrpe.br/": {
       "status": "likely_open",
@@ -8147,7 +8321,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:09:15.455466+00:00"
+      "last_checked": "2026-10-02T04:04:51.804447+00:00"
     },
     "https://ww2.pgpv.ufrpe.br": {
       "status": "likely_open",
@@ -8198,7 +8372,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:09:17.147304+00:00"
+      "last_checked": "2026-10-02T04:04:53.358382+00:00"
     },
     "https://ww2.pgpa.ufrpe.br/": {
       "status": "likely_open",
@@ -8249,7 +8423,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:09:22.113892+00:00"
+      "last_checked": "2026-10-02T04:04:54.383096+00:00"
     },
     "https://portais.univasf.edu.br/ppgef": {
       "status": "possible",
@@ -8299,7 +8473,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:09:25.176197+00:00"
+      "last_checked": "2026-10-02T04:04:56.460229+00:00"
     },
     "https://ufpi.br/": {
       "status": "possible",
@@ -8343,7 +8517,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:09:28.089837+00:00"
+      "last_checked": "2026-10-02T04:04:59.124888+00:00"
     },
     "https://ufpi.br/floriano": {
       "status": "possible",
@@ -8387,51 +8561,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:09:29.538812+00:00"
+      "last_checked": "2026-10-02T04:05:00.977411+00:00"
     },
     "https://portal.uern.br/propeg/posensino/": {
-      "status": "possible",
-      "confidence": 0.4,
-      "keywords_found": [
-        "sele[cç][aã]o",
-        "mestrado",
-        "doutorado"
-      ],
-      "dates_found": [],
-      "title": "Programa de Pós-Graduação em Ensino",
-      "metadata": {
-        "applicationDeadline": {
-          "value": null,
-          "confidence": 0.0,
-          "source": null
-        },
-        "startDate": {
-          "value": null,
-          "confidence": 0.0,
-          "source": null
-        },
-        "duration": {
-          "value": null,
-          "confidence": 0.0,
-          "source": null
-        },
-        "campus": {
-          "value": null,
-          "confidence": 0.0,
-          "source": null
-        },
-        "languageRequirement": {
-          "value": null,
-          "confidence": 0.0,
-          "source": null
-        },
-        "masterRequired": {
-          "value": null,
-          "confidence": 0.0,
-          "source": null
-        }
-      },
-      "last_checked": "2026-10-01T04:09:35.147982+00:00"
+      "status": "error",
+      "error": "http_503",
+      "last_checked": "2026-10-02T04:05:23.608694+00:00"
     },
     "https://ppgca.ufersa.edu.br": {
       "status": "possible",
@@ -8475,7 +8610,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:09:36.408102+00:00"
+      "last_checked": "2026-10-02T04:05:24.836491+00:00"
     },
     "https://ppgfito.ufersa.edu.br/": {
       "status": "possible",
@@ -8525,7 +8660,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:09:37.657681+00:00"
+      "last_checked": "2026-10-02T04:05:26.459293+00:00"
     },
     "https://ppgats.ufersa.edu.br/": {
       "status": "possible",
@@ -8569,12 +8704,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:09:38.818120+00:00"
+      "last_checked": "2026-10-02T04:05:28.562637+00:00"
     },
     "https://www.ppgmsa.ufersa.edu.br": {
       "status": "error",
       "error": "http_404",
-      "last_checked": "2026-10-01T04:09:39.913558+00:00"
+      "last_checked": "2026-10-02T04:05:29.739150+00:00"
     },
     "https://ppgd.ufersa.edu.br/": {
       "status": "possible",
@@ -8618,41 +8753,40 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:09:41.073859+00:00"
+      "last_checked": "2026-10-02T04:05:30.745797+00:00"
     },
     "https://Doutorado em Agroquímica": {
       "status": "error",
       "error": "Failed to parse: Host 'Doutorado em Agroquímica' contains in",
-      "last_checked": "2026-10-01T04:09:41.375432+00:00"
+      "last_checked": "2026-10-02T04:05:31.047107+00:00"
     },
     "https://sistemas.ifgoiano.edu.br/sgcursos/index.php?id_curso=MTI=&p=pos-graduacao": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-10-01T04:09:42.534790+00:00"
+      "last_checked": "2026-10-02T04:05:32.074605+00:00"
     },
     "https://sistemas.ifgoiano.edu.br/sgcursos/index.php?id_curso=Nw==&p=pos-graduacao": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-10-01T04:09:42.967415+00:00"
+      "last_checked": "2026-10-02T04:05:32.520481+00:00"
     },
     "https://sistemas.ifgoiano.edu.br/sgcursos/index.php?id_curso=MTA=&p=pos-graduacao#": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-10-01T04:09:43.406419+00:00"
+      "last_checked": "2026-10-02T04:05:32.966092+00:00"
     },
     "https://bioparasitohospedeiro.iptsp.ufg.br": {
-      "status": "likely_open",
-      "confidence": 0.6,
+      "status": "possible",
+      "confidence": 0.4,
       "keywords_found": [
-        "inscri[cç][oõ]es\\s+abertas",
         "edital",
         "sele[cç][aã]o",
         "inscri[cç][oõ]es"
       ],
       "dates_found": [
+        "29/09/2026",
         "30/09/2026",
         "28/09/2026",
-        "25/09/2026",
         "25/09/2026",
         "25/09/2026"
       ],
@@ -8689,7 +8823,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:09:57.011217+00:00"
+      "last_checked": "2026-10-02T04:05:35.634926+00:00"
     },
     "https://cienciassaude.medicina.ufg.br": {
       "status": "possible",
@@ -8700,11 +8834,11 @@
         "inscri[cç][oõ]es"
       ],
       "dates_found": [
+        "01/10/2026",
         "30/09/2026",
         "24/09/2026",
         "21/09/2026",
-        "21/09/2026",
-        "14/09/2026"
+        "21/09/2026"
       ],
       "title": "Medicina Cienciassaude",
       "metadata": {
@@ -8739,12 +8873,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:10:01.436523+00:00"
+      "last_checked": "2026-10-02T04:05:37.643293+00:00"
     },
     "https://FE - PPGE": {
       "status": "error",
       "error": "Failed to parse: Host 'FE - PPGE' contains invalid character",
-      "last_checked": "2026-10-01T04:10:01.737955+00:00"
+      "last_checked": "2026-10-02T04:05:37.946780+00:00"
     },
     "https://pos.filosofia.ufg.br/": {
       "status": "possible",
@@ -8794,7 +8928,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:10:04.017977+00:00"
+      "last_checked": "2026-10-02T04:05:40.134637+00:00"
     },
     "https://posgraduacao.if.ufg.br/": {
       "status": "possible",
@@ -8804,11 +8938,7 @@
         "processo\\s+seletivo",
         "sele[cç][aã]o"
       ],
-      "dates_found": [
-        "01/10/2026",
-        "01/10/2026",
-        "01/10/2026"
-      ],
+      "dates_found": [],
       "title": "If Posgraduacao",
       "metadata": {
         "applicationDeadline": {
@@ -8842,7 +8972,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:10:18.842190+00:00"
+      "last_checked": "2026-10-02T04:05:42.396379+00:00"
     },
     "https://ppgmtsp.iptsp.ufg.br/": {
       "status": "possible",
@@ -8853,10 +8983,10 @@
         "inscri[cç][oõ]es"
       ],
       "dates_found": [
+        "29/09/2026",
         "30/09/2026",
         "28/09/2026",
         "25/09/2026",
-        "22/09/2026",
         "12/06/2026"
       ],
       "title": "PPGMTSP - IPTSP",
@@ -8892,7 +9022,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:10:21.288220+00:00"
+      "last_checked": "2026-10-02T04:05:45.541893+00:00"
     },
     "https://ppgcc.inf.ufg.br/": {
       "status": "possible",
@@ -8905,9 +9035,9 @@
       "dates_found": [
         "25/09/2026",
         "23/09/2026",
-        "19/09/2026",
         "04/09/2026",
-        "24/08/2026"
+        "24/08/2026",
+        "04/08/2026"
       ],
       "title": "Programa de Pós-graduação em Ciência da Comp.",
       "metadata": {
@@ -8942,7 +9072,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:10:33.886393+00:00"
+      "last_checked": "2026-10-02T04:05:48.354218+00:00"
     },
     "https://ppgcta.agro.ufg.br/": {
       "status": "likely_open",
@@ -8993,12 +9123,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:10:35.793870+00:00"
+      "last_checked": "2026-10-02T04:05:50.100869+00:00"
     },
     "https://ppgcom.fic@ufg.br/https://ppgcom.fic@ufg.br/": {
       "status": "error",
       "error": "http_404",
-      "last_checked": "2026-10-01T04:10:36.922174+00:00"
+      "last_checked": "2026-10-02T04:05:51.803292+00:00"
     },
     "https://ppgdr.face.ufg.br/": {
       "status": "possible",
@@ -9048,7 +9178,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:10:38.536414+00:00"
+      "last_checked": "2026-10-02T04:05:53.438498+00:00"
     },
     "https://ppgda.direito.ufg.br/": {
       "status": "possible",
@@ -9097,7 +9227,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:10:41.146391+00:00"
+      "last_checked": "2026-10-02T04:05:55.291086+00:00"
     },
     "https://pos.direitoshumanos.ufg.br/": {
       "status": "possible",
@@ -9147,7 +9277,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:10:49.048745+00:00"
+      "last_checked": "2026-10-02T04:06:00.045101+00:00"
     },
     "https://ppgecon.face.ufg.br/": {
       "status": "possible",
@@ -9197,7 +9327,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:10:50.608291+00:00"
+      "last_checked": "2026-10-02T04:06:08.502082+00:00"
     },
     "https://ppgenfs.fen.ufg.br/": {
       "status": "possible",
@@ -9247,7 +9377,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:10:53.520550+00:00"
+      "last_checked": "2026-10-02T04:06:11.141035+00:00"
     },
     "https://ppgeas.eeca.ufg.br/": {
       "status": "possible",
@@ -9297,7 +9427,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:10:55.648773+00:00"
+      "last_checked": "2026-10-02T04:06:12.979031+00:00"
     },
     "https://pos.historia.ufg.br/": {
       "status": "likely_open",
@@ -9349,7 +9479,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:10:57.919878+00:00"
+      "last_checked": "2026-10-02T04:06:15.098812+00:00"
     },
     "https://ppgnut.fanut.ufg.br/": {
       "status": "possible",
@@ -9399,7 +9529,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:11:11.908303+00:00"
+      "last_checked": "2026-10-02T04:06:28.001380+00:00"
     },
     "https://posgraduacao.odonto.ufg.br/": {
       "status": "possible",
@@ -9449,14 +9579,9 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:11:14.626390+00:00"
+      "last_checked": "2026-10-02T04:06:56.644950+00:00"
     },
     "https://projetoecidade.fav.ufg.br/": {
-      "status": "error",
-      "error": "connection_error",
-      "last_checked": "2026-10-01T04:11:51.096814+00:00"
-    },
-    "https://ppgea.fct.ufg.br": {
       "status": "possible",
       "confidence": 0.4,
       "keywords_found": [
@@ -9465,10 +9590,13 @@
         "sele[cç][aã]o"
       ],
       "dates_found": [
-        "26/09/2026",
-        "22/06/2026"
+        "21/09/2026",
+        "27/08/2026",
+        "02/09/2026",
+        "22/07/2026",
+        "30/06/2026"
       ],
-      "title": "Programa de Pós-graduação em Geociências",
+      "title": "FAV - Programa de Pós-Graduação Projeto e Cidade",
       "metadata": {
         "applicationDeadline": {
           "value": null,
@@ -9476,9 +9604,9 @@
           "source": null
         },
         "startDate": {
-          "value": "primeiro semestre de 2027",
-          "confidence": 0.65,
-          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+          "value": null,
+          "confidence": 0.0,
+          "source": null
         },
         "duration": {
           "value": null,
@@ -9501,7 +9629,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:11:52.917816+00:00"
+      "last_checked": "2026-10-02T04:07:09.533923+00:00"
+    },
+    "https://ppgea.fct.ufg.br": {
+      "status": "error",
+      "error": "timeout",
+      "last_checked": "2026-10-02T04:07:39.843444+00:00"
     },
     "https://ppgif.farmacia.ufg.br": {
       "status": "possible",
@@ -9551,7 +9684,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:05.393304+00:00"
+      "last_checked": "2026-10-02T04:07:51.844412+00:00"
     },
     "https://ppgci.fic.ufg.br": {
       "status": "possible",
@@ -9599,7 +9732,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:07.246454+00:00"
+      "last_checked": "2026-10-02T04:07:54.200952+00:00"
     },
     "https://ppggeo.ufj.edu.br/": {
       "status": "likely_open",
@@ -9644,7 +9777,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:09.005510+00:00"
+      "last_checked": "2026-10-02T04:07:55.862946+00:00"
     },
     "https://ppgquimica.jatai.ufg.br": {
       "status": "likely_open",
@@ -9689,7 +9822,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:11.115070+00:00"
+      "last_checked": "2026-10-02T04:07:59.800734+00:00"
     },
     "http://www.ueg.br/iacas/ppgea": {
       "status": "possible",
@@ -9739,7 +9872,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:14.166846+00:00"
+      "last_checked": "2026-10-02T04:08:02.778874+00:00"
     },
     "http://www.ueg.br/iacas/ppgpv": {
       "status": "possible",
@@ -9789,7 +9922,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:15.528017+00:00"
+      "last_checked": "2026-10-02T04:08:04.426077+00:00"
     },
     "http://www.ueg.br/ppgas": {
       "status": "likely_open",
@@ -9840,7 +9973,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:16.850750+00:00"
+      "last_checked": "2026-10-02T04:08:06.080069+00:00"
     },
     "http://www.ueg.br/ppget": {
       "status": "possible",
@@ -9890,7 +10023,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:18.205027+00:00"
+      "last_checked": "2026-10-02T04:08:07.773415+00:00"
     },
     "http://www.ueg.br/iact/ppgq/mestrado": {
       "status": "possible",
@@ -9940,7 +10073,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:19.562303+00:00"
+      "last_checked": "2026-10-02T04:08:09.519083+00:00"
     },
     "http://www.ueg.br/prp/ppge": {
       "status": "possible",
@@ -9990,7 +10123,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:20.839559+00:00"
+      "last_checked": "2026-10-02T04:08:11.108336+00:00"
     },
     "http://www.ueg.br/iael/ppgielt": {
       "status": "possible",
@@ -10040,7 +10173,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:22.176980+00:00"
+      "last_checked": "2026-10-02T04:08:12.554853+00:00"
     },
     "http://www.ueg.br/iael/ppgeo": {
       "status": "likely_open",
@@ -10092,7 +10225,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:23.500612+00:00"
+      "last_checked": "2026-10-02T04:08:13.976440+00:00"
     },
     "http://www.ueg.br/iael/ppghis": {
       "status": "likely_open",
@@ -10143,7 +10276,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:24.901756+00:00"
+      "last_checked": "2026-10-02T04:08:15.434635+00:00"
     },
     "https://ppgnh.unb.br/": {
       "status": "possible",
@@ -10187,7 +10320,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:26.599742+00:00"
+      "last_checked": "2026-10-02T04:08:17.230172+00:00"
     },
     "https://pgla.unb.br/": {
       "status": "possible",
@@ -10231,7 +10364,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:28.565265+00:00"
+      "last_checked": "2026-10-02T04:08:19.505107+00:00"
     },
     "https://psto.unb.br/": {
       "status": "possible",
@@ -10281,7 +10414,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:30.511986+00:00"
+      "last_checked": "2026-10-02T04:08:21.342810+00:00"
     },
     "https://cds.unb.br/": {
       "status": "possible",
@@ -10325,7 +10458,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:34.071981+00:00"
+      "last_checked": "2026-10-02T04:08:23.455216+00:00"
     },
     "https://www.ppgav.unb.br/": {
       "status": "possible",
@@ -10369,17 +10502,17 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:37.456517+00:00"
+      "last_checked": "2026-10-02T04:08:27.431930+00:00"
     },
     "https://fcts.unb.br/ppgasfar": {
       "status": "error",
       "error": "http_404",
-      "last_checked": "2026-10-01T04:12:39.412069+00:00"
+      "last_checked": "2026-10-02T04:08:29.081998+00:00"
     },
     "https://fs.unb.br/pos-graduacao/bioetica": {
       "status": "error",
       "error": "http_404",
-      "last_checked": "2026-10-01T04:12:41.973693+00:00"
+      "last_checked": "2026-10-02T04:08:31.520577+00:00"
     },
     "http://ppgca.unb.br": {
       "status": "possible",
@@ -10423,7 +10556,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:44.236231+00:00"
+      "last_checked": "2026-10-02T04:08:33.623038+00:00"
     },
     "https://ppgbiomol.com.br": {
       "status": "possible",
@@ -10467,7 +10600,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:45.994708+00:00"
+      "last_checked": "2026-10-02T04:08:35.241636+00:00"
     },
     "http://ppgcont.unb.br": {
       "status": "possible",
@@ -10511,7 +10644,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:48.252948+00:00"
+      "last_checked": "2026-10-02T04:08:37.625092+00:00"
     },
     "http://ppgcf.unb.br": {
       "status": "possible",
@@ -10555,7 +10688,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:50.180091+00:00"
+      "last_checked": "2026-10-02T04:08:39.524687+00:00"
     },
     "http://ppgcom.fac.unb.br": {
       "status": "possible",
@@ -10599,7 +10732,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:52.334386+00:00"
+      "last_checked": "2026-10-02T04:08:41.487373+00:00"
     },
     "https://ppgdsci.unb.br": {
       "status": "likely_open",
@@ -10650,17 +10783,17 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:53.580169+00:00"
+      "last_checked": "2026-10-02T04:08:49.874408+00:00"
     },
     "https://ppgeco.unb.br": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-10-01T04:12:54.486241+00:00"
+      "last_checked": "2026-10-02T04:08:50.332846+00:00"
     },
     "https://fs.unb.br/pos-graduacao/pos-enfermagem": {
       "status": "error",
       "error": "http_404",
-      "last_checked": "2026-10-01T04:12:55.433239+00:00"
+      "last_checked": "2026-10-02T04:08:51.220493+00:00"
     },
     "http://ppggag.unb.br": {
       "status": "possible",
@@ -10704,7 +10837,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:57.405960+00:00"
+      "last_checked": "2026-10-02T04:08:53.218796+00:00"
     },
     "http://ppggipp.unb.br": {
       "status": "possible",
@@ -10747,7 +10880,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:12:59.057835+00:00"
+      "last_checked": "2026-10-02T04:08:54.693134+00:00"
     },
     "http://ppgi.unb.br": {
       "status": "possible",
@@ -10761,8 +10894,8 @@
         "05/07/2024",
         "20/09/2026",
         "15/09/2026",
-        "20/09/2026",
-        "15/09/2026"
+        "14/08/2026",
+        "21/08/2026"
       ],
       "title": "Pós Graduação em Informática - PPGI - Home",
       "metadata": {
@@ -10797,7 +10930,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:13:00.934581+00:00"
+      "last_checked": "2026-10-02T04:08:56.537963+00:00"
     },
     "https://mat.unb.br/index.php/ensino/pos-graduacao/ppgmat-mestrado-e-doutorado": {
       "status": "possible",
@@ -10841,22 +10974,22 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:13:03.310156+00:00"
+      "last_checked": "2026-10-02T04:08:58.433909+00:00"
     },
     "https://ppgmader.unb.br/index.php/pt": {
       "status": "error",
       "error": "http_404",
-      "last_checked": "2026-10-01T04:13:09.432925+00:00"
+      "last_checked": "2026-10-02T04:09:04.126429+00:00"
     },
     "https://fs.unb.br/pos-graduacao/nutricao-humana": {
       "status": "error",
       "error": "http_404",
-      "last_checked": "2026-10-01T04:13:10.365263+00:00"
+      "last_checked": "2026-10-02T04:09:05.006070+00:00"
     },
     "https://fs.unb.br/pos-graduacao/pos-odontologia": {
       "status": "error",
       "error": "http_404",
-      "last_checked": "2026-10-01T04:13:11.199829+00:00"
+      "last_checked": "2026-10-02T04:09:05.858956+00:00"
     },
     "http://ppgppij.unb.br": {
       "status": "possible",
@@ -10906,7 +11039,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:13:13.408731+00:00"
+      "last_checked": "2026-10-02T04:09:07.894305+00:00"
     },
     "https://www.exatas.unb.br/index.php/pt/nossos-cursos/pos-graduacao/profmat": {
       "status": "possible",
@@ -10950,7 +11083,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:13:15.650464+00:00"
+      "last_checked": "2026-10-02T04:09:09.809067+00:00"
     },
     "https://ppgsol.unb.br": {
       "status": "possible",
@@ -10994,7 +11127,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:13:18.101782+00:00"
+      "last_checked": "2026-10-02T04:09:11.667174+00:00"
     },
     "https://caceres.unemat.br/faculdades/fach/stricto/ppggeo/": {
       "status": "possible",
@@ -11038,7 +11171,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:13:19.565960+00:00"
+      "last_checked": "2026-10-02T04:09:13.135802+00:00"
     },
     "https://tangaradaserra.unemat.br/faculdades/facabes/stricto/ppgasp/": {
       "status": "possible",
@@ -11082,7 +11215,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:13:21.048121+00:00"
+      "last_checked": "2026-10-02T04:09:14.549456+00:00"
     },
     "https://caceres.unemat.br/faculdades/facab/stricto/ppgca": {
       "status": "possible",
@@ -11126,7 +11259,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:13:22.040142+00:00"
+      "last_checked": "2026-10-02T04:09:15.589657+00:00"
     },
     "https://caceres.unemat.br/faculdades/facel/stricto/ppgedu/": {
       "status": "possible",
@@ -11170,47 +11303,86 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:13:23.070809+00:00"
+      "last_checked": "2026-10-02T04:09:16.690621+00:00"
     },
     "https://www.ufmt.br/curso/ppgas": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T04:13:52.364554+00:00"
+      "last_checked": "2026-10-02T04:09:45.971888+00:00"
     },
     "https://www.ufmt.br/curso/ppgel": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T04:14:21.458116+00:00"
+      "last_checked": "2026-10-02T04:10:15.118214+00:00"
     },
     "https://pgfa.ufmt.br": {
-      "status": "error",
-      "error": "timeout",
-      "last_checked": "2026-10-01T04:14:50.872319+00:00"
+      "status": "possible",
+      "confidence": 0.4,
+      "keywords_found": [
+        "edital",
+        "processo\\s+seletivo",
+        "sele[cç][aã]o"
+      ],
+      "dates_found": [],
+      "title": "PPG em Física Ambiental",
+      "metadata": {
+        "applicationDeadline": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "startDate": {
+          "value": "primeiro semestre de 2027",
+          "confidence": 0.65,
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+        },
+        "duration": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "campus": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "languageRequirement": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        },
+        "masterRequired": {
+          "value": null,
+          "confidence": 0.0,
+          "source": null
+        }
+      },
+      "last_checked": "2026-10-02T04:10:17.640983+00:00"
     },
     "https://www.ufmt.br/curso/ppgec": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T04:15:20.012250+00:00"
+      "last_checked": "2026-10-02T04:10:45.993471+00:00"
     },
     "https://www.ufmt.br/curso/ppgcfa": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T04:15:49.157917+00:00"
+      "last_checked": "2026-10-02T04:11:15.144221+00:00"
     },
     "https://ufmt.br/curso/ppgd/pagina/institucional/4111": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T04:16:18.289398+00:00"
+      "last_checked": "2026-10-02T04:11:44.088084+00:00"
     },
     "https://ppge.ufmt.br/": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T04:16:47.611616+00:00"
+      "last_checked": "2026-10-02T04:12:13.216018+00:00"
     },
     "https://ppgeel.ufmt.br/": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T04:17:16.888492+00:00"
+      "last_checked": "2026-10-02T04:12:42.219266+00:00"
     },
     "https://ppgfil.org/": {
       "status": "possible",
@@ -11254,17 +11426,17 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:17:17.403625+00:00"
+      "last_checked": "2026-10-02T04:12:43.051015+00:00"
     },
     "https://ufmt.br/curso/geografiacba": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T04:17:46.399797+00:00"
+      "last_checked": "2026-10-02T04:13:11.759141+00:00"
     },
     "https://www.ufmt.br/curso/ppgs": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T04:18:15.455816+00:00"
+      "last_checked": "2026-10-02T04:13:40.459253+00:00"
     },
     "https://www.uems.br/ppg/ppgdrs": {
       "status": "possible",
@@ -11308,7 +11480,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:18:17.237018+00:00"
+      "last_checked": "2026-10-02T04:13:42.533847+00:00"
     },
     "https://www.uems.br/ppg/ppges": {
       "status": "possible",
@@ -11352,7 +11524,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:18:18.069752+00:00"
+      "last_checked": "2026-10-02T04:13:43.373098+00:00"
     },
     "https://www.uems.br/ppg/pgedu": {
       "status": "possible",
@@ -11396,7 +11568,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:18:18.982988+00:00"
+      "last_checked": "2026-10-02T04:13:44.260300+00:00"
     },
     "https://www.uems.br/ppg/pgbsa": {
       "status": "possible",
@@ -11440,7 +11612,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:18:19.828791+00:00"
+      "last_checked": "2026-10-02T04:13:45.118603+00:00"
     },
     "https://portal.ufgd.edu.br/pos-graduacao/mestrado-doutorado-agronomia/index": {
       "status": "possible",
@@ -11490,7 +11662,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:18:22.235434+00:00"
+      "last_checked": "2026-10-02T04:13:47.184684+00:00"
     },
     "https://portal.ufgd.edu.br/pos-graduacao/mestrado-fronteiras/index": {
       "status": "likely_open",
@@ -11541,7 +11713,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:18:23.569404+00:00"
+      "last_checked": "2026-10-02T04:13:48.543305+00:00"
     },
     "https://www.utfpr.edu.br/cursos/programas-de-pos-graduacao/ppgqb-td": {
       "status": "possible",
@@ -11585,7 +11757,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:18:29.825319+00:00"
+      "last_checked": "2026-10-02T04:13:51.427863+00:00"
     },
     "https://www.utfpr.edu.br/cursos/programas-de-pos-graduacao/ppgbiotec-multi": {
       "status": "possible",
@@ -11629,7 +11801,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:18:31.008565+00:00"
+      "last_checked": "2026-10-02T04:13:52.987222+00:00"
     },
     "https://www.utfpr.edu.br/cursos/programas-de-pos-graduacao/ppz": {
       "status": "possible",
@@ -11679,7 +11851,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:18:32.272493+00:00"
+      "last_checked": "2026-10-02T04:13:54.216019+00:00"
     },
     "https://www.utfpr.edu.br/cursos/programas-de-pos-graduacao/ppgdr-pb": {
       "status": "possible",
@@ -11723,7 +11895,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:18:33.173932+00:00"
+      "last_checked": "2026-10-02T04:13:55.476296+00:00"
     },
     "https://ppgea.ld.utfpr.edu.br/": {
       "status": "possible",
@@ -11773,7 +11945,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:18:36.771479+00:00"
+      "last_checked": "2026-10-02T04:13:59.395414+00:00"
     },
     "https://www.utfpr.edu.br/cursos/programas-de-pos-graduacao/ppgep-pg": {
       "status": "possible",
@@ -11817,7 +11989,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:18:38.100532+00:00"
+      "last_checked": "2026-10-02T04:14:00.881029+00:00"
     },
     "https://www.utfpr.edu.br/cursos/programas-de-pos-graduacao/ppgtca-md": {
       "status": "possible",
@@ -11861,7 +12033,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:18:50.739111+00:00"
+      "last_checked": "2026-10-02T04:14:02.254933+00:00"
     },
     "https://www.utfpr.edu.br/cursos/programas-de-pos-graduacao/ppgsis-dv": {
       "status": "possible",
@@ -11905,7 +12077,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:18:55.350649+00:00"
+      "last_checked": "2026-10-02T04:14:03.657369+00:00"
     },
     "https://www.utfpr.edu.br/cursos/programas-de-pos-graduacao/cpgei-ct": {
       "status": "possible",
@@ -11949,12 +12121,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:18:56.703723+00:00"
+      "last_checked": "2026-10-02T04:14:05.170413+00:00"
     },
     "https://Programa de Pós-Graduação em Ciência e Tecnologia Ambiental (PPGCTA-CT)": {
       "status": "error",
       "error": "Failed to parse: Host 'Programa de Pós-Graduação em Ciência ",
-      "last_checked": "2026-10-01T04:18:57.007633+00:00"
+      "last_checked": "2026-10-02T04:14:05.471810+00:00"
     },
     "http://www.ppgep.ufpr.br": {
       "status": "possible",
@@ -12004,7 +12176,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:01.229845+00:00"
+      "last_checked": "2026-10-02T04:14:10.372414+00:00"
     },
     "http://www.ppggi.ufpr.br": {
       "status": "possible",
@@ -12048,7 +12220,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:05.095892+00:00"
+      "last_checked": "2026-10-02T04:14:15.703201+00:00"
     },
     "https://www.ppgdts.ufpr.br": {
       "status": "possible",
@@ -12092,7 +12264,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:07.640421+00:00"
+      "last_checked": "2026-10-02T04:14:19.008229+00:00"
     },
     "http://www.prppg.ufpr.br/site/ppgebb/": {
       "status": "possible",
@@ -12136,7 +12308,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:10.829291+00:00"
+      "last_checked": "2026-10-02T04:14:22.040034+00:00"
     },
     "http://www.prppg.ufpr.br/site/ppgppu/": {
       "status": "possible",
@@ -12180,7 +12352,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:13.107549+00:00"
+      "last_checked": "2026-10-02T04:14:24.834893+00:00"
     },
     "http://www.prppg.ufpr.br/site/ppgcontabilidade/": {
       "status": "possible",
@@ -12224,7 +12396,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:15.525394+00:00"
+      "last_checked": "2026-10-02T04:14:28.206946+00:00"
     },
     "http://www.prppg.ufpr.br/site/posalim/": {
       "status": "possible",
@@ -12274,7 +12446,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:18.151674+00:00"
+      "last_checked": "2026-10-02T04:14:32.536182+00:00"
     },
     "https://pos.uel.br/meel/": {
       "status": "possible",
@@ -12318,7 +12490,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:20.000756+00:00"
+      "last_checked": "2026-10-02T04:14:34.601648+00:00"
     },
     "https://pos.uel.br/fisica/": {
       "status": "likely_open",
@@ -12363,7 +12535,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:20.972218+00:00"
+      "last_checked": "2026-10-02T04:14:35.608684+00:00"
     },
     "https://www.ppedu.uel.br/pt/": {
       "status": "likely_open",
@@ -12408,7 +12580,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:22.372384+00:00"
+      "last_checked": "2026-10-02T04:14:37.443446+00:00"
     },
     "https://pos.uel.br/patologiaexperimental/": {
       "status": "possible",
@@ -12458,7 +12630,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:23.606746+00:00"
+      "last_checked": "2026-10-02T04:14:38.702049+00:00"
     },
     "https://pos.uel.br/cienciasdasaude/": {
       "status": "possible",
@@ -12502,7 +12674,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:24.385841+00:00"
+      "last_checked": "2026-10-02T04:14:39.489600+00:00"
     },
     "https://ppgeca.furg.br/": {
       "status": "possible",
@@ -12552,7 +12724,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:26.436725+00:00"
+      "last_checked": "2026-10-02T04:14:43.709448+00:00"
     },
     "https://ppgcomp.furg.br/": {
       "status": "possible",
@@ -12602,7 +12774,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:29.906113+00:00"
+      "last_checked": "2026-10-02T04:14:46.737299+00:00"
     },
     "https://ppgletras.furg.br/": {
       "status": "possible",
@@ -12644,7 +12816,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:31.714199+00:00"
+      "last_checked": "2026-10-02T04:14:48.890896+00:00"
     },
     "https://ppgbac.furg.br/": {
       "status": "possible",
@@ -12688,7 +12860,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:34.477605+00:00"
+      "last_checked": "2026-10-02T04:14:50.640448+00:00"
     },
     "https://ppgqta.furg.br/": {
       "status": "possible",
@@ -12732,7 +12904,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:36.931030+00:00"
+      "last_checked": "2026-10-02T04:14:52.264053+00:00"
     },
     "https://ppgcs.furg.br/": {
       "status": "possible",
@@ -12781,7 +12953,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:38.514321+00:00"
+      "last_checked": "2026-10-02T04:14:54.457054+00:00"
     },
     "https://ppgaquicultura.furg.br/": {
       "status": "possible",
@@ -12831,7 +13003,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:40.206891+00:00"
+      "last_checked": "2026-10-02T04:14:56.596949+00:00"
     },
     "https://ppgdjs.furg.br/": {
       "status": "possible",
@@ -12880,7 +13052,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:42.837157+00:00"
+      "last_checked": "2026-10-02T04:14:58.662927+00:00"
     },
     "https://ppgcf.furg.br/": {
       "status": "possible",
@@ -12924,7 +13096,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:44.997508+00:00"
+      "last_checked": "2026-10-02T04:15:00.944347+00:00"
     },
     "https://wp.ufpel.edu.br/ppgdtsa/": {
       "status": "possible",
@@ -12968,7 +13140,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:47.913475+00:00"
+      "last_checked": "2026-10-02T04:15:03.730925+00:00"
     },
     "https://wp.ufpel.edu.br/ppgcem/": {
       "status": "possible",
@@ -13014,7 +13186,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:49.704132+00:00"
+      "last_checked": "2026-10-02T04:15:05.142016+00:00"
     },
     "https://wp.ufpel.edu.br/ppgeo/": {
       "status": "possible",
@@ -13058,7 +13230,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:50.542894+00:00"
+      "last_checked": "2026-10-02T04:15:06.078016+00:00"
     },
     "https://wp.ufpel.edu.br/ppgveterinaria/": {
       "status": "possible",
@@ -13108,7 +13280,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:51.479662+00:00"
+      "last_checked": "2026-10-02T04:15:08.715802+00:00"
     },
     "https://wp.ufpel.edu.br/pgfisica/": {
       "status": "possible",
@@ -13158,7 +13330,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:52.443881+00:00"
+      "last_checked": "2026-10-02T04:15:09.723028+00:00"
     },
     "https://wp.ufpel.edu.br/ppga/": {
       "status": "possible",
@@ -13208,7 +13380,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:53.401180+00:00"
+      "last_checked": "2026-10-02T04:15:10.604125+00:00"
     },
     "https://wp.ufpel.edu.br/ppgemat": {
       "status": "possible",
@@ -13252,7 +13424,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:55.106965+00:00"
+      "last_checked": "2026-10-02T04:15:12.463946+00:00"
     },
     "https://wp.ufpel.edu.br/ppgl": {
       "status": "possible",
@@ -13302,7 +13474,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:56.385363+00:00"
+      "last_checked": "2026-10-02T04:15:13.803589+00:00"
     },
     "https://ufcspa.edu.br/vida-academica/pos-graduacao/mestrado-e-doutorado/ciencias-da-reabilitacao": {
       "status": "possible",
@@ -13346,7 +13518,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:57.947031+00:00"
+      "last_checked": "2026-10-02T04:15:15.286846+00:00"
     },
     "https://ufcspa.edu.br/vida-academica/pos-graduacao/mestrado-e-doutorado/ciencias-da-saude": {
       "status": "possible",
@@ -13390,7 +13562,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:58.709916+00:00"
+      "last_checked": "2026-10-02T04:15:16.008950+00:00"
     },
     "https://ufcspa.edu.br/vida-academica/pos-graduacao/mestrado-e-doutorado/hepatologia": {
       "status": "possible",
@@ -13434,7 +13606,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:19:59.403231+00:00"
+      "last_checked": "2026-10-02T04:15:16.715665+00:00"
     },
     "https://ufcspa.edu.br/vida-academica/pos-graduacao/mestrado-e-doutorado/patologia": {
       "status": "possible",
@@ -13478,7 +13650,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:00.121442+00:00"
+      "last_checked": "2026-10-02T04:15:17.432481+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgd": {
       "status": "possible",
@@ -13528,7 +13700,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:02.010053+00:00"
+      "last_checked": "2026-10-02T04:15:19.183984+00:00"
     },
     "https://www.ufsm.br/ppgdch": {
       "status": "possible",
@@ -13578,23 +13750,22 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:03.855166+00:00"
+      "last_checked": "2026-10-02T04:15:21.362279+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgep": {
-      "status": "likely_open",
-      "confidence": 0.6,
+      "status": "possible",
+      "confidence": 0.4,
       "keywords_found": [
-        "inscri[cç][oõ]es\\s+abertas",
         "edital",
         "processo\\s+seletivo",
         "sele[cç][aã]o"
       ],
       "dates_found": [
-        "24/09/2026",
-        "14/09/2026",
-        "08/09/2026",
-        "26/08/2026",
-        "18/08/2026"
+        "01/10/2026",
+        "01/10/2026",
+        "01/10/2026",
+        "01/10/2026",
+        "01/10/2026"
       ],
       "title": "PPGEP – Programa de Pós-Graduação em Engenharia de Produção",
       "metadata": {
@@ -13629,7 +13800,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:06.371191+00:00"
+      "last_checked": "2026-10-02T04:15:23.333619+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/palmeira-das-missoes/ppgagr": {
       "status": "possible",
@@ -13679,7 +13850,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:08.560287+00:00"
+      "last_checked": "2026-10-02T04:15:26.038493+00:00"
     },
     "https://www.ufsm.br/": {
       "status": "possible",
@@ -13690,7 +13861,7 @@
         "bolsas?"
       ],
       "dates_found": [
-        "29/09/2026",
+        "01/10/2026",
         "23/09/2026",
         "16/12/2026",
         "28/09/2026",
@@ -13729,7 +13900,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:09.383793+00:00"
+      "last_checked": "2026-10-02T04:15:26.925832+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgco": {
       "status": "possible",
@@ -13779,7 +13950,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:11.097864+00:00"
+      "last_checked": "2026-10-02T04:15:28.975596+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppge": {
       "status": "possible",
@@ -13829,7 +14000,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:13.106443+00:00"
+      "last_checked": "2026-10-02T04:15:30.966108+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgri": {
       "status": "possible",
@@ -13879,7 +14050,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:15.253160+00:00"
+      "last_checked": "2026-10-02T04:15:33.158708+00:00"
     },
     "https://www.ufsm.br/ppged": {
       "status": "possible",
@@ -13929,7 +14100,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:17.644571+00:00"
+      "last_checked": "2026-10-02T04:15:35.357201+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgacc": {
       "status": "possible",
@@ -13979,7 +14150,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:19.768323+00:00"
+      "last_checked": "2026-10-02T04:15:36.123275+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgapublica": {
       "status": "possible",
@@ -14029,7 +14200,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:21.637735+00:00"
+      "last_checked": "2026-10-02T04:15:37.667840+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgap": {
       "status": "possible",
@@ -14079,7 +14250,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:23.209703+00:00"
+      "last_checked": "2026-10-02T04:15:39.359559+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgagrobio": {
       "status": "possible",
@@ -14129,7 +14300,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:24.918733+00:00"
+      "last_checked": "2026-10-02T04:15:41.145467+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgagro": {
       "status": "possible",
@@ -14179,7 +14350,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:26.572766+00:00"
+      "last_checked": "2026-10-02T04:15:41.885386+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgaup": {
       "status": "possible",
@@ -14229,7 +14400,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:28.313239+00:00"
+      "last_checked": "2026-10-02T04:15:43.989186+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgart": {
       "status": "possible",
@@ -14240,7 +14411,7 @@
         "doutorado"
       ],
       "dates_found": [
-        "02/10/2026",
+        "04/10/2026",
         "02/10/2026",
         "02/10/2026",
         "28/09/2026",
@@ -14279,7 +14450,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:30.258047+00:00"
+      "last_checked": "2026-10-02T04:15:45.846296+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/pgac": {
       "status": "possible",
@@ -14329,7 +14500,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:32.057471+00:00"
+      "last_checked": "2026-10-02T04:15:47.399857+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgba": {
       "status": "possible",
@@ -14379,7 +14550,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:32.769779+00:00"
+      "last_checked": "2026-10-02T04:15:48.923681+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcc": {
       "status": "likely_open",
@@ -14430,7 +14601,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:33.477202+00:00"
+      "last_checked": "2026-10-02T04:15:50.363114+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcs": {
       "status": "possible",
@@ -14441,11 +14612,11 @@
         "inscri[cç][oõ]es"
       ],
       "dates_found": [
-        "30/08/2026",
-        "09/09/2026",
-        "30/09/2026",
-        "30/09/2026",
-        "27/09/2026"
+        "01/09/2026",
+        "21/09/2026",
+        "01/10/2026",
+        "01/10/2026",
+        "30/09/2026"
       ],
       "title": "PPGCS – Programa de Pós-Graduação em Ciência do Solo – Campus Santa Maria",
       "metadata": {
@@ -14480,7 +14651,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:35.462914+00:00"
+      "last_checked": "2026-10-02T04:15:51.137142+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcta": {
       "status": "possible",
@@ -14530,7 +14701,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:37.608326+00:00"
+      "last_checked": "2026-10-02T04:15:53.800738+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgbtox": {
       "status": "likely_open",
@@ -14581,7 +14752,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:38.349603+00:00"
+      "last_checked": "2026-10-02T04:15:55.785939+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/pgfarmacologia": {
       "status": "possible",
@@ -14631,7 +14802,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:39.744633+00:00"
+      "last_checked": "2026-10-02T04:15:57.709509+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcf": {
       "status": "possible",
@@ -14681,7 +14852,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:41.377972+00:00"
+      "last_checked": "2026-10-02T04:15:59.177247+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcsociais": {
       "status": "possible",
@@ -14731,7 +14902,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:43.237192+00:00"
+      "last_checked": "2026-10-02T04:16:01.109386+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/mpcs": {
       "status": "likely_open",
@@ -14782,15 +14953,15 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:45.447683+00:00"
+      "last_checked": "2026-10-02T04:16:03.555468+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcmr": {
       "status": "possible",
       "confidence": 0.4,
       "keywords_found": [
         "edital",
-        "inscri[cç][oõ]es",
-        "mestrado"
+        "sele[cç][aã]o",
+        "inscri[cç][oõ]es"
       ],
       "dates_found": [],
       "title": "Programa de Pós-graduação em Ciências do Movimento e Reabilitação – Pós-graduação – Campus Santa Maria",
@@ -14826,7 +14997,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:46.862428+00:00"
+      "last_checked": "2026-10-02T04:16:04.294511+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/poscom": {
       "status": "possible",
@@ -14876,7 +15047,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:48.647224+00:00"
+      "last_checked": "2026-10-02T04:16:06.247542+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgdch": {
       "status": "possible",
@@ -14926,7 +15097,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:49.355885+00:00"
+      "last_checked": "2026-10-02T04:16:06.977204+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppged": {
       "status": "possible",
@@ -14976,7 +15147,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:50.087396+00:00"
+      "last_checked": "2026-10-02T04:16:07.731953+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgemef": {
       "status": "possible",
@@ -15026,7 +15197,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:51.736199+00:00"
+      "last_checked": "2026-10-02T04:16:08.284490+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgept": {
       "status": "possible",
@@ -15076,7 +15247,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:53.356653+00:00"
+      "last_checked": "2026-10-02T04:16:09.522574+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/pgeec": {
       "status": "possible",
@@ -15126,7 +15297,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:55.193675+00:00"
+      "last_checked": "2026-10-02T04:16:11.619217+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgenf": {
       "status": "possible",
@@ -15176,7 +15347,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:57.148964+00:00"
+      "last_checked": "2026-10-02T04:16:13.385425+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgea": {
       "status": "possible",
@@ -15226,7 +15397,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:20:58.870129+00:00"
+      "last_checked": "2026-10-02T04:16:15.102093+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgeamb": {
       "status": "possible",
@@ -15276,7 +15447,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:00.377440+00:00"
+      "last_checked": "2026-10-02T04:16:16.863841+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgec": {
       "status": "possible",
@@ -15326,7 +15497,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:02.333161+00:00"
+      "last_checked": "2026-10-02T04:16:18.978296+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgecam": {
       "status": "possible",
@@ -15376,7 +15547,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:03.979678+00:00"
+      "last_checked": "2026-10-02T04:16:21.035877+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgee": {
       "status": "possible",
@@ -15426,7 +15597,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:04.700345+00:00"
+      "last_checked": "2026-10-02T04:16:21.774280+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgef": {
       "status": "possible",
@@ -15476,7 +15647,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:06.478865+00:00"
+      "last_checked": "2026-10-02T04:16:23.478819+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/pgmec": {
       "status": "possible",
@@ -15487,11 +15658,11 @@
         "sele[cç][aã]o"
       ],
       "dates_found": [
-        "28/09/2026",
-        "28/09/2026",
-        "24/09/2026",
-        "21/09/2026",
-        "11/09/2026"
+        "01/10/2026",
+        "01/10/2026",
+        "01/10/2026",
+        "01/10/2026",
+        "01/10/2026"
       ],
       "title": "PGMEC – Programa de Pós-Graduação em Engenharia Mecânica – Campus Santa Maria",
       "metadata": {
@@ -15526,7 +15697,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:11.359371+00:00"
+      "last_checked": "2026-10-02T04:16:27.843266+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgeq": {
       "status": "possible",
@@ -15576,7 +15747,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:13.358611+00:00"
+      "last_checked": "2026-10-02T04:16:28.593085+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/profhistoria": {
       "status": "possible",
@@ -15626,7 +15797,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:15.138130+00:00"
+      "last_checked": "2026-10-02T04:16:30.715196+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgexr": {
       "status": "likely_open",
@@ -15677,7 +15848,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:15.854327+00:00"
+      "last_checked": "2026-10-02T04:16:31.452348+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgf": {
       "status": "possible",
@@ -15727,7 +15898,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:17.844577+00:00"
+      "last_checked": "2026-10-02T04:16:32.262755+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/pgfisica": {
       "status": "possible",
@@ -15777,7 +15948,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:19.839530+00:00"
+      "last_checked": "2026-10-02T04:16:34.202079+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppggeo": {
       "status": "possible",
@@ -15827,7 +15998,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:21.268058+00:00"
+      "last_checked": "2026-10-02T04:16:34.930314+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgeronto": {
       "status": "possible",
@@ -15877,7 +16048,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:22.937890+00:00"
+      "last_checked": "2026-10-02T04:16:36.157276+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgop": {
       "status": "possible",
@@ -15927,7 +16098,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:25.098059+00:00"
+      "last_checked": "2026-10-02T04:16:37.875141+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgh": {
       "status": "possible",
@@ -15977,7 +16148,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:25.836032+00:00"
+      "last_checked": "2026-10-02T04:16:38.635074+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgletras": {
       "status": "possible",
@@ -16021,7 +16192,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:27.568358+00:00"
+      "last_checked": "2026-10-02T04:16:39.427254+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgmat": {
       "status": "possible",
@@ -16071,7 +16242,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:28.117343+00:00"
+      "last_checked": "2026-10-02T04:16:39.985376+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgmv": {
       "status": "likely_open",
@@ -16122,7 +16293,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:29.893336+00:00"
+      "last_checked": "2026-10-02T04:16:41.566467+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgmet": {
       "status": "possible",
@@ -16172,7 +16343,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:31.847041+00:00"
+      "last_checked": "2026-10-02T04:16:43.170842+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgpc": {
       "status": "possible",
@@ -16222,7 +16393,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:34.133603+00:00"
+      "last_checked": "2026-10-02T04:16:45.064488+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/pppg": {
       "status": "possible",
@@ -16272,7 +16443,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:36.075052+00:00"
+      "last_checked": "2026-10-02T04:16:47.169373+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgp": {
       "status": "possible",
@@ -16316,7 +16487,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:37.915624+00:00"
+      "last_checked": "2026-10-02T04:16:49.016613+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgq": {
       "status": "possible",
@@ -16366,7 +16537,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:39.614784+00:00"
+      "last_checked": "2026-10-02T04:16:50.794092+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgsc": {
       "status": "possible",
@@ -16416,7 +16587,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:41.774449+00:00"
+      "last_checked": "2026-10-02T04:16:52.762339+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgsspp": {
       "status": "possible",
@@ -16466,7 +16637,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:43.850041+00:00"
+      "last_checked": "2026-10-02T04:16:54.802206+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgter": {
       "status": "possible",
@@ -16516,7 +16687,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:45.492055+00:00"
+      "last_checked": "2026-10-02T04:16:56.886245+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgz": {
       "status": "possible",
@@ -16566,7 +16737,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:46.219018+00:00"
+      "last_checked": "2026-10-02T04:16:58.853098+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/frederico-westphalen/ppgaaa": {
       "status": "possible",
@@ -16616,7 +16787,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:47.822026+00:00"
+      "last_checked": "2026-10-02T04:16:59.598491+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/frederico-westphalen/ppgctamb": {
       "status": "possible",
@@ -16666,7 +16837,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:49.793177+00:00"
+      "last_checked": "2026-10-02T04:17:01.928048+00:00"
     },
     "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/espgestao": {
       "status": "possible",
@@ -16716,32 +16887,32 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:21:51.377166+00:00"
+      "last_checked": "2026-10-02T04:17:03.487368+00:00"
     },
     "https://www.ufrgs.br/ppgcin/": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-10-01T04:22:00.095612+00:00"
+      "last_checked": "2026-10-02T04:17:12.068496+00:00"
     },
     "https://www.ufrgs.br/esefid/ppgcmh/": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-10-01T04:22:08.409459+00:00"
+      "last_checked": "2026-10-02T04:17:20.382164+00:00"
     },
     "https://www.ufrgs.br/ppgcv/": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-10-01T04:22:16.765619+00:00"
+      "last_checked": "2026-10-02T04:17:28.693780+00:00"
     },
     "https://www.ufrgs.br/ppgpservicosocial/": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-10-01T04:22:25.077518+00:00"
+      "last_checked": "2026-10-02T04:17:37.005151+00:00"
     },
     "https://www.ufrgs.br/posgea/": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-10-01T04:22:33.389320+00:00"
+      "last_checked": "2026-10-02T04:17:45.316709+00:00"
     },
     "https://www.uffs.edu.br/uffs/mestrado/historia": {
       "status": "possible",
@@ -16788,7 +16959,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:22:35.710819+00:00"
+      "last_checked": "2026-10-02T04:17:47.483085+00:00"
     },
     "https://www.uffs.edu.br/uffs/programa-de-pos-graduacao-em-enfermagem/apresentacao": {
       "status": "possible",
@@ -16832,7 +17003,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:22:36.834591+00:00"
+      "last_checked": "2026-10-02T04:17:48.600300+00:00"
     },
     "https://www.uffs.edu.br/uffs/doutorado/interinstitucional-em-educacao-cientifica-e-tecnologica-encerrado": {
       "status": "possible",
@@ -16876,7 +17047,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:22:38.128472+00:00"
+      "last_checked": "2026-10-02T04:17:49.788346+00:00"
     },
     "https://www.uffs.edu.br/uffs/doutorado/interinstitucional-em-arquitetura-encerrado": {
       "status": "possible",
@@ -16920,7 +17091,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:22:39.228462+00:00"
+      "last_checked": "2026-10-02T04:17:50.930989+00:00"
     },
     "https://www.uffs.edu.br/uffs/pos-graduacao/apresentacao": {
       "status": "possible",
@@ -16964,7 +17135,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:22:40.360709+00:00"
+      "last_checked": "2026-10-02T04:17:52.001072+00:00"
     },
     "https://cienciascontabeis.ufes.br/pt-br/pos-graduacao/PPGCC": {
       "status": "possible",
@@ -17008,7 +17179,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:22:42.265487+00:00"
+      "last_checked": "2026-10-02T04:17:56.753606+00:00"
     },
     "https://engenhariacivil.ufes.br/pt-br/pos-graduacao/PPGEC": {
       "status": "possible",
@@ -17052,7 +17223,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:22:44.249523+00:00"
+      "last_checked": "2026-10-02T04:17:58.766537+00:00"
     },
     "https://saudecoletiva.ufes.br": {
       "status": "possible",
@@ -17102,7 +17273,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:22:51.224769+00:00"
+      "last_checked": "2026-10-02T04:18:05.396556+00:00"
     },
     "http://www.educacao.ufes.br/": {
       "status": "likely_open",
@@ -17154,7 +17325,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:22:57.556494+00:00"
+      "last_checked": "2026-10-02T04:18:11.315100+00:00"
     },
     "https://ele.ufes.br/": {
       "status": "possible",
@@ -17204,7 +17375,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:22:59.634970+00:00"
+      "last_checked": "2026-10-02T04:18:17.914076+00:00"
     },
     "https://engenhariaambiental.ufes.br/pt-br/pos-graduacao/PPGEA": {
       "status": "possible",
@@ -17248,7 +17419,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:23:01.380288+00:00"
+      "last_checked": "2026-10-02T04:18:19.845388+00:00"
     },
     "https://linguistica.ufes.br/": {
       "status": "possible",
@@ -17292,7 +17463,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:23:03.351847+00:00"
+      "last_checked": "2026-10-02T04:18:22.220956+00:00"
     },
     "https://direito.ufes.br/": {
       "status": "possible",
@@ -17342,7 +17513,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:23:05.325862+00:00"
+      "last_checked": "2026-10-02T04:18:27.169765+00:00"
     },
     "https://filosofia.ufes.br": {
       "status": "possible",
@@ -17388,7 +17559,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:23:06.802232+00:00"
+      "last_checked": "2026-10-02T04:18:28.728086+00:00"
     },
     "http://www.administracao.ufes.br/pos-graduacao/PPGAdm": {
       "status": "possible",
@@ -17432,7 +17603,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:23:10.556987+00:00"
+      "last_checked": "2026-10-02T04:18:32.470071+00:00"
     },
     "http://www.agroquimica.alegre.ufes.br/pos-graduacao/PPGAQ": {
       "status": "possible",
@@ -17476,7 +17647,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:23:16.849845+00:00"
+      "last_checked": "2026-10-02T04:18:44.376710+00:00"
     },
     "http://www.arquitetura.ufes.br/pt-br/pos-graduacao/PPGAU": {
       "status": "likely_open",
@@ -17527,7 +17698,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:23:24.250590+00:00"
+      "last_checked": "2026-10-02T04:18:48.232203+00:00"
     },
     "http://www.artes.ufes.br/pt-br/pos-graduacao/PPGA": {
       "status": "possible",
@@ -17571,22 +17742,22 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:23:27.497218+00:00"
+      "last_checked": "2026-10-02T04:18:50.851176+00:00"
     },
     "http://www.ufrgs.br/ppgasfar": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-10-01T04:23:35.810745+00:00"
+      "last_checked": "2026-10-02T04:18:59.162937+00:00"
     },
     "http://www.cosmologia.ufes.br/en/pos-graduacao/PPGCosmo": {
       "status": "error",
       "error": "http_404",
-      "last_checked": "2026-10-01T04:23:39.605900+00:00"
+      "last_checked": "2026-10-02T04:19:09.308259+00:00"
     },
     "http://www.bioquimicaefarmacologia.ufes.br/pt-br/pos-graduacao/PPGBF": {
       "status": "error",
       "error": "http_404",
-      "last_checked": "2026-10-01T04:23:42.773930+00:00"
+      "last_checked": "2026-10-02T04:19:16.847536+00:00"
     },
     "http://www.biotecnologia.ufes.br/pt-br/pos-graduacao/PPGBIOTEC": {
       "status": "possible",
@@ -17630,12 +17801,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:23:45.912204+00:00"
+      "last_checked": "2026-10-02T04:19:25.577469+00:00"
     },
     "http://www.cienciaetecnologiadealimentos.ufes.br/pos-graduacao/PCTA": {
       "status": "error",
       "error": "http_404",
-      "last_checked": "2026-10-01T04:23:49.165673+00:00"
+      "last_checked": "2026-10-02T04:19:31.708445+00:00"
     },
     "http://www.cienciasbiologicas.ufes.br/pt-br/pos-graduacao/PPGBAN": {
       "status": "possible",
@@ -17679,7 +17850,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:23:56.520147+00:00"
+      "last_checked": "2026-10-02T04:19:37.645218+00:00"
     },
     "http://www.cienciascontabeis.ufes.br/pos-graduacao/PPGCC": {
       "status": "possible",
@@ -17723,7 +17894,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:23:58.377563+00:00"
+      "last_checked": "2026-10-02T04:19:40.157573+00:00"
     },
     "http://www.farmacia.vitoria.ufes.br/pt-br/pos-graduacao/PPGCFAR": {
       "status": "possible",
@@ -17767,7 +17938,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:24:06.409700+00:00"
+      "last_checked": "2026-10-02T04:19:51.643867+00:00"
     },
     "http://www.cienciasfisiologicas.ufes.br/pt-br/pos-graduacao/PPGCF": {
       "status": "possible",
@@ -17811,7 +17982,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:24:11.944363+00:00"
+      "last_checked": "2026-10-02T04:19:58.326937+00:00"
     },
     "http://www.cienciasflorestais.ufes.br/pos-graduacao/PPGCFL": {
       "status": "possible",
@@ -17857,7 +18028,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:24:14.446496+00:00"
+      "last_checked": "2026-10-02T04:20:02.834683+00:00"
     },
     "http://www.odontologia.ufes.br/pt-br/pt-br/pos-graduacao/PPGCienciasOdontologicas": {
       "status": "possible",
@@ -17901,7 +18072,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:24:17.020146+00:00"
+      "last_checked": "2026-10-02T04:20:06.544191+00:00"
     },
     "http://www.cienciassociais.ufes.br/pt-br/pos-graduacao/PGCS": {
       "status": "possible",
@@ -17945,7 +18116,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:24:19.293628+00:00"
+      "last_checked": "2026-10-02T04:20:17.851517+00:00"
     },
     "http://www.cienciasveterinarias.ufes.br/pos-graduacao/PPGCV": {
       "status": "possible",
@@ -17989,7 +18160,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:24:25.719476+00:00"
+      "last_checked": "2026-10-02T04:20:34.033170+00:00"
     },
     "http://www.comunicacaosocial.ufes.br/pos-graduacao/POSCOM": {
       "status": "possible",
@@ -18033,7 +18204,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:24:28.065453+00:00"
+      "last_checked": "2026-10-02T04:20:36.572068+00:00"
     },
     "http://www.direito.ufes.br/pt-br/pos-graduacao/PPGDIR": {
       "status": "possible",
@@ -18077,7 +18248,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:24:31.107494+00:00"
+      "last_checked": "2026-10-02T04:20:40.864528+00:00"
     },
     "http://doencasinfecciosas.ufes.br/pos-graduacao/PPGDI": {
       "status": "possible",
@@ -18121,7 +18292,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:24:32.730036+00:00"
+      "last_checked": "2026-10-02T04:20:43.141642+00:00"
     },
     "http://www.educacao.ufes.br/pt-br/pos-graduacao/PPGE": {
       "status": "likely_open",
@@ -18166,12 +18337,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:24:34.392765+00:00"
+      "last_checked": "2026-10-02T04:20:44.896329+00:00"
     },
     "http://www.educacao.ufes.br/pos-graduacao/PPGMPE": {
       "status": "error",
       "error": "http_404",
-      "last_checked": "2026-10-01T04:24:35.089970+00:00"
+      "last_checked": "2026-10-02T04:20:45.810280+00:00"
     },
     "http://www.educacaofisica.ufes.br/pt-br/pos-graduacao/PPGEF": {
       "status": "possible",
@@ -18215,7 +18386,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:24:38.247530+00:00"
+      "last_checked": "2026-10-02T04:20:49.529863+00:00"
     },
     "https://energia.ufes.br/pt-br/pos-graduacao/PPGEN": {
       "status": "possible",
@@ -18259,7 +18430,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:24:40.118137+00:00"
+      "last_checked": "2026-10-02T04:20:56.156622+00:00"
     },
     "https://enfermagem.vitoria.ufes.br/pt-br/pos-graduacao/PPGENF": {
       "status": "possible",
@@ -18309,7 +18480,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:24:41.867700+00:00"
+      "last_checked": "2026-10-02T04:20:58.195531+00:00"
     },
     "http://www.ambiental.ufes.br/pos-graduacao/PPGEA": {
       "status": "possible",
@@ -18353,7 +18524,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:24:44.874868+00:00"
+      "last_checked": "2026-10-02T04:21:02.155876+00:00"
     },
     "http://www.civil.ufes.br/pos-graduacao/PPGEC": {
       "status": "possible",
@@ -18397,7 +18568,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:24:47.174756+00:00"
+      "last_checked": "2026-10-02T04:21:06.172431+00:00"
     },
     "https://engenhariaeletrica.ufes.br/pt-br/pos-graduacao/PPGEE": {
       "status": "possible",
@@ -18441,7 +18612,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:24:49.047365+00:00"
+      "last_checked": "2026-10-02T04:21:07.743019+00:00"
     },
     "http://www.engenhariamecanica.ufes.br/pos-graduacao/PPGEM": {
       "status": "possible",
@@ -18485,7 +18656,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:24:51.429085+00:00"
+      "last_checked": "2026-10-02T04:21:10.266110+00:00"
     },
     "http://www.engenhariaquimica.alegre.ufes.br/pos-graduacao/PPEQ": {
       "status": "possible",
@@ -18529,7 +18700,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:24:55.191601+00:00"
+      "last_checked": "2026-10-02T04:21:13.809616+00:00"
     },
     "http://www.ensinoeeducacao.alegre.ufes.br/pt-br/pos-graduacao/PPGEEDUC": {
       "status": "possible",
@@ -18573,7 +18744,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:24:59.249334+00:00"
+      "last_checked": "2026-10-02T04:21:18.492086+00:00"
     },
     "http://www.filosofia.ufes.br/pt-br/pos-graduacao/PPGFil": {
       "status": "possible",
@@ -18617,7 +18788,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:25:01.372527+00:00"
+      "last_checked": "2026-10-02T04:21:20.729755+00:00"
     },
     "http://www.fisica.ufes.br/pos-graduacao/PPGFis": {
       "status": "possible",
@@ -18661,12 +18832,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:25:03.955436+00:00"
+      "last_checked": "2026-10-02T04:21:23.843697+00:00"
     },
     "http://www.geneticaemelhoramento.ufes.br/pos-graduacao/PGGM": {
       "status": "error",
       "error": "http_404",
-      "last_checked": "2026-10-01T04:25:06.050380+00:00"
+      "last_checked": "2026-10-02T04:21:26.358285+00:00"
     },
     "http://www.geografia.ufes.br/pt-br/pos-graduacao/PPGG": {
       "status": "possible",
@@ -18716,12 +18887,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:25:08.553720+00:00"
+      "last_checked": "2026-10-02T04:21:28.795769+00:00"
     },
     "http://profagua.ufes.br/pos-graduacao/PROF%C3%81GUA": {
       "status": "error",
       "error": "http_404",
-      "last_checked": "2026-10-01T04:25:10.478831+00:00"
+      "last_checked": "2026-10-02T04:21:30.655331+00:00"
     },
     "https://gestaopublica.ufes.br/pt-br/pos-graduacao/PPGGP": {
       "status": "possible",
@@ -18765,7 +18936,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:25:11.876737+00:00"
+      "last_checked": "2026-10-02T04:21:32.128043+00:00"
     },
     "http://www.historia.ufes.br/pt-br/pos-graduacao/PPGHIS": {
       "status": "possible",
@@ -18815,7 +18986,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:25:14.328886+00:00"
+      "last_checked": "2026-10-02T04:21:35.144358+00:00"
     },
     "http://www.informatica.ufes.br/pt-br/pos-graduacao/PPGI": {
       "status": "possible",
@@ -18859,7 +19030,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:25:16.721348+00:00"
+      "last_checked": "2026-10-02T04:21:39.477732+00:00"
     },
     "http://www.letras.ufes.br/pos-graduacao/PPGL": {
       "status": "possible",
@@ -18909,7 +19080,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:25:19.050757+00:00"
+      "last_checked": "2026-10-02T04:21:42.011502+00:00"
     },
     "http://www.matematica.ufes.br/pos-graduacao/PPGMAT": {
       "status": "possible",
@@ -18953,17 +19124,17 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:25:21.435722+00:00"
+      "last_checked": "2026-10-02T04:21:44.978052+00:00"
     },
     "http://www.matematica.redenacional.ufes.br/pos-graduacao/PMPM": {
       "status": "error",
       "error": "http_404",
-      "last_checked": "2026-10-01T04:25:24.407767+00:00"
+      "last_checked": "2026-10-02T04:21:53.401403+00:00"
     },
     "http://www.oceanografia.ufes.br/pos-graduacao/PPGOAM": {
       "status": "error",
       "error": "http_404",
-      "last_checked": "2026-10-01T04:25:26.520173+00:00"
+      "last_checked": "2026-10-02T04:21:56.197358+00:00"
     },
     "http://www.psicologia.ufes.br/pos-graduacao/PPGP": {
       "status": "possible",
@@ -19007,7 +19178,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:25:28.836041+00:00"
+      "last_checked": "2026-10-02T04:21:58.640522+00:00"
     },
     "http://www.psicologiainstitucional.ufes.br/pt-br/pos-graduacao/PPGPSI": {
       "status": "possible",
@@ -19051,7 +19222,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:25:31.041004+00:00"
+      "last_checked": "2026-10-02T04:22:01.034253+00:00"
     },
     "http://www.saudecoletiva.ufes.br/pt-br/pos-graduacao/PPGSC": {
       "status": "possible",
@@ -19095,7 +19266,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:25:32.934423+00:00"
+      "last_checked": "2026-10-02T04:22:03.056503+00:00"
     },
     "http://www.ppgoufu.com/": {
       "status": "possible",
@@ -19139,12 +19310,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:25:54.854860+00:00"
+      "last_checked": "2026-10-02T04:22:04.568701+00:00"
     },
     "https://www.ppghi.inhis.ufu.br": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T04:26:15.884649+00:00"
+      "last_checked": "2026-10-02T04:22:26.015426+00:00"
     },
     "https://ppgmq.iciag.ufu.br/": {
       "status": "possible",
@@ -19194,7 +19365,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:26:18.355095+00:00"
+      "last_checked": "2026-10-02T04:22:28.631476+00:00"
     },
     "https://ppgagro.iciag.ufu.br": {
       "status": "possible",
@@ -19244,7 +19415,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:26:20.766094+00:00"
+      "last_checked": "2026-10-02T04:22:30.925096+00:00"
     },
     "https://ppgcv.fmvz.ufu.br": {
       "status": "possible",
@@ -19294,7 +19465,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:26:23.218404+00:00"
+      "last_checked": "2026-10-02T04:22:33.317732+00:00"
     },
     "http://www.ppgel.ileel.ufu.br/": {
       "status": "possible",
@@ -19344,7 +19515,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:26:25.355867+00:00"
+      "last_checked": "2026-10-02T04:22:35.276721+00:00"
     },
     "https://ppgpsi.ip.ufu.br/": {
       "status": "possible",
@@ -19394,7 +19565,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:26:27.674583+00:00"
+      "last_checked": "2026-10-02T04:22:37.564517+00:00"
     },
     "http://www.cmdip.fadir.ufu.br/": {
       "status": "possible",
@@ -19444,7 +19615,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:26:30.835384+00:00"
+      "last_checked": "2026-10-02T04:22:40.600092+00:00"
     },
     "https://ppgeo.igesc.ufu.br/": {
       "status": "possible",
@@ -19458,8 +19629,8 @@
         "09/09/2026",
         "09/09/2026",
         "09/09/2026",
-        "22/09/2026",
-        "22/09/2026"
+        "01/10/2026",
+        "01/10/2026"
       ],
       "title": "Programa de Pós-Graduação em Geografia |",
       "metadata": {
@@ -19494,7 +19665,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:26:33.072251+00:00"
+      "last_checked": "2026-10-02T04:22:42.828492+00:00"
     },
     "https://ppgfis.infis.ufu.br/": {
       "status": "possible",
@@ -19544,7 +19715,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:26:35.410429+00:00"
+      "last_checked": "2026-10-02T04:22:44.774195+00:00"
     },
     "https://ppggb.ibtec.ufu.br/": {
       "status": "likely_open",
@@ -19595,7 +19766,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:26:38.400025+00:00"
+      "last_checked": "2026-10-02T04:22:47.390912+00:00"
     },
     "https://ppgbiotec.ibtec.ufu.br/": {
       "status": "possible",
@@ -19645,7 +19816,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:26:40.502003+00:00"
+      "last_checked": "2026-10-02T04:22:49.680876+00:00"
     },
     "https://ppgfil.ifilo.ufu.br/": {
       "status": "likely_open",
@@ -19697,7 +19868,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:26:42.491382+00:00"
+      "last_checked": "2026-10-02T04:22:51.592183+00:00"
     },
     "https://www.ppge.ieri.ufu.br/": {
       "status": "possible",
@@ -19747,7 +19918,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:26:45.011106+00:00"
+      "last_checked": "2026-10-02T04:22:53.867885+00:00"
     },
     "https://coord.ppgau@faued.ufu.br": {
       "status": "possible",
@@ -19795,7 +19966,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:26:46.544230+00:00"
+      "last_checked": "2026-10-02T04:22:55.499198+00:00"
     },
     "https://ufsj.edu.br/ppgeog/about_us.php": {
       "status": "possible",
@@ -19845,7 +20016,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:26:48.747331+00:00"
+      "last_checked": "2026-10-02T04:22:57.985211+00:00"
     },
     "https://ufsj.edu.br/ppgbiotec/": {
       "status": "possible",
@@ -19895,7 +20066,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:26:49.787709+00:00"
+      "last_checked": "2026-10-02T04:22:59.104052+00:00"
     },
     "https://ufsj.edu.br/ppgfil/": {
       "status": "possible",
@@ -19907,9 +20078,9 @@
       ],
       "dates_found": [
         "25/09/2026",
-        "15/09/2026",
+        "01/10/2026",
         "25/09/2026",
-        "15/09/2026",
+        "01/10/2026",
         "25/09/2026"
       ],
       "title": "UFSJ | Universidade Federal de São João del-Rei",
@@ -19945,7 +20116,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:26:50.818166+00:00"
+      "last_checked": "2026-10-02T04:23:00.191185+00:00"
     },
     "https://ufsj.edu.br/ppgcm/": {
       "status": "possible",
@@ -19995,7 +20166,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:26:51.876457+00:00"
+      "last_checked": "2026-10-02T04:23:01.387319+00:00"
     },
     "https://ufsj.edu.br/ppgcs/": {
       "status": "possible",
@@ -20045,7 +20216,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:26:53.051839+00:00"
+      "last_checked": "2026-10-02T04:23:02.622841+00:00"
     },
     "https://www.ufsj.edu.br/ppbe": {
       "status": "possible",
@@ -20095,7 +20266,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:26:55.089407+00:00"
+      "last_checked": "2026-10-02T04:23:04.686644+00:00"
     },
     "https://ufsj.edu.br/pgenf/": {
       "status": "possible",
@@ -20145,7 +20316,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:26:57.412815+00:00"
+      "last_checked": "2026-10-02T04:23:06.112911+00:00"
     },
     "https://www.ufsj.edu.br/ppgmusi": {
       "status": "likely_open",
@@ -20196,7 +20367,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:26:58.490978+00:00"
+      "last_checked": "2026-10-02T04:23:07.481953+00:00"
     },
     "https://ufsj.edu.br/mestradoeducacao/": {
       "status": "possible",
@@ -20246,12 +20417,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:26:59.511639+00:00"
+      "last_checked": "2026-10-02T04:23:09.054007+00:00"
     },
     "https://httpas://ufsj.edu.br/fqmat": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-10-01T04:27:09.829678+00:00"
+      "last_checked": "2026-10-02T04:23:19.374413+00:00"
     },
     "https://www.uftm.edu.br/stricto-sensu/ppgas": {
       "status": "likely_open",
@@ -20296,7 +20467,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:11.798522+00:00"
+      "last_checked": "2026-10-02T04:23:21.095649+00:00"
     },
     "https://sistemas.uftm.edu.br/integrado/sitesCursos/ppgcf?idCurso=535&lang=pt-BR&pag=1": {
       "status": "possible",
@@ -20340,7 +20511,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:12.984172+00:00"
+      "last_checked": "2026-10-02T04:23:22.271287+00:00"
     },
     "https://sistemas.uftm.edu.br/integrado/sitesCursos/mestrado_em_ciencia_e_tecnologia_de_materiais/?idCurso=545&lang=pt-BR&pag=1": {
       "status": "possible",
@@ -20384,7 +20555,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:13.440303+00:00"
+      "last_checked": "2026-10-02T04:23:22.739166+00:00"
     },
     "https://sistemas.uftm.edu.br/integrado/sitesCursos/ppge/?idCurso=543&lang=pt-BR&pag=3": {
       "status": "unknown",
@@ -20424,7 +20595,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:13.892627+00:00"
+      "last_checked": "2026-10-02T04:23:23.201602+00:00"
     },
     "https://www.uftm.edu.br/stricto-sensu/ppgef": {
       "status": "likely_open",
@@ -20469,7 +20640,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:14.634540+00:00"
+      "last_checked": "2026-10-02T04:23:23.952662+00:00"
     },
     "https://sistemas.uftm.edu.br/integrado/sitesCursos/mestrado_em_fisica_e_quimica_biomolecular?idCurso=666&lang=pt-BR&pag=1": {
       "status": "possible",
@@ -20513,7 +20684,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:15.092802+00:00"
+      "last_checked": "2026-10-02T04:23:24.420266+00:00"
     },
     "https://sistemas.uftm.edu.br/integrado/sitesCursos/ppgoc/?idCurso=615&lang=pt-BR&pag=1": {
       "status": "possible",
@@ -20557,7 +20728,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:15.552495+00:00"
+      "last_checked": "2026-10-02T04:23:24.888031+00:00"
     },
     "https://sistemas.uftm.edu.br/integrado/sitesCursos/mestrado_em_psicologia/?idCurso=548&lang=pt-BR&pag=1": {
       "status": "possible",
@@ -20601,7 +20772,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:16.009995+00:00"
+      "last_checked": "2026-10-02T04:23:25.356628+00:00"
     },
     "https://www.poseconomiaaplicada.ufv.br": {
       "status": "possible",
@@ -20645,7 +20816,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:19.989935+00:00"
+      "last_checked": "2026-10-02T04:23:29.666443+00:00"
     },
     "https://posengenhariacivil.ufv.br/": {
       "status": "possible",
@@ -20689,7 +20860,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:22.280875+00:00"
+      "last_checked": "2026-10-02T04:23:32.319035+00:00"
     },
     "https://extensao-rural.ufv.br/": {
       "status": "possible",
@@ -20733,7 +20904,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:24.586217+00:00"
+      "last_checked": "2026-10-02T04:23:34.537774+00:00"
     },
     "https://www.posbioanimal.ufv.br": {
       "status": "possible",
@@ -20743,8 +20914,14 @@
         "processo\\s+seletivo",
         "mestrado"
       ],
-      "dates_found": [],
-      "title": "Biologia Animal | Pós-Graduação Stricto Sensu em",
+      "dates_found": [
+        "31/05/2004",
+        "16/03/2006",
+        "31/05/2004",
+        "16/03/2006",
+        "31/05/2004"
+      ],
+      "title": "Biologia Animal - Pós-Graduação Stricto Sensu em",
       "metadata": {
         "applicationDeadline": {
           "value": null,
@@ -20777,7 +20954,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:28.131096+00:00"
+      "last_checked": "2026-10-02T04:23:38.507935+00:00"
     },
     "https://www.ppgcom.ufv.br": {
       "status": "unknown",
@@ -20817,7 +20994,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:32.023547+00:00"
+      "last_checked": "2026-10-02T04:23:42.392849+00:00"
     },
     "https://sigaa.ufla.br/sigaa/public/programa/apresentacao.jsf?lc=pt_BR&id=1787": {
       "status": "possible",
@@ -20828,7 +21005,7 @@
         "sele[cç][aã]o"
       ],
       "dates_found": [
-        "01/10/2026"
+        "02/10/2026"
       ],
       "title": "Portal de Programas de Pós-Graduação (UFLA)",
       "metadata": {
@@ -20863,7 +21040,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:33.681199+00:00"
+      "last_checked": "2026-10-02T04:23:44.227329+00:00"
     },
     "https://sigaa.ufla.br/sigaa/public/programa/portal.jsf?lc=pt_BR&id=1798": {
       "status": "possible",
@@ -20913,7 +21090,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:35.561182+00:00"
+      "last_checked": "2026-10-02T04:23:46.003440+00:00"
     },
     "https://sigaa.ufla.br/sigaa/public/programa/portal.jsf?lc=pt_BR&id=1800": {
       "status": "possible",
@@ -20963,7 +21140,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:37.436872+00:00"
+      "last_checked": "2026-10-02T04:23:48.048520+00:00"
     },
     "https://sigaa.ufla.br/sigaa/public/programa/portal.jsf?lc=pt_BR&id=1799": {
       "status": "possible",
@@ -21013,7 +21190,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:39.194760+00:00"
+      "last_checked": "2026-10-02T04:23:49.475965+00:00"
     },
     "https://sigaa.ufla.br/sigaa/public/programa/portal.jsf?lc=pt_BR&id=3009": {
       "status": "possible",
@@ -21063,7 +21240,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:40.514497+00:00"
+      "last_checked": "2026-10-02T04:23:51.124216+00:00"
     },
     "https://prpg.ufla.br/_ppg/fisica/": {
       "status": "unknown",
@@ -21103,7 +21280,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:41.766826+00:00"
+      "last_checked": "2026-10-02T04:23:52.171787+00:00"
     },
     "https://sigaa.ufla.br/sigaa/public/programa/apresentacao.jsf?lc=pt_BR&id=1699": {
       "status": "possible",
@@ -21114,7 +21291,7 @@
         "sele[cç][aã]o"
       ],
       "dates_found": [
-        "01/10/2026"
+        "02/10/2026"
       ],
       "title": "Portal de Programas de Pós-Graduação (UFLA)",
       "metadata": {
@@ -21149,7 +21326,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:43.042492+00:00"
+      "last_checked": "2026-10-02T04:23:53.348075+00:00"
     },
     "https://sigaa.ufla.br/sigaa/public/programa/apresentacao.jsf?lc=pt_BR&id=1701": {
       "status": "possible",
@@ -21160,7 +21337,7 @@
         "mestrado"
       ],
       "dates_found": [
-        "01/10/2026"
+        "02/10/2026"
       ],
       "title": "Portal de Programas de Pós-Graduação (UFLA)",
       "metadata": {
@@ -21195,7 +21372,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:44.132476+00:00"
+      "last_checked": "2026-10-02T04:23:54.516407+00:00"
     },
     "https://sigaa.ufla.br/sigaa/public/programa/portal.jsf?lc=pt&id=2592": {
       "status": "possible",
@@ -21245,7 +21422,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:45.708285+00:00"
+      "last_checked": "2026-10-02T04:23:55.752310+00:00"
     },
     "https://www.unifal-mg.edu.br/ppgbiotec/": {
       "status": "likely_open",
@@ -21296,7 +21473,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:47.810604+00:00"
+      "last_checked": "2026-10-02T04:23:57.757496+00:00"
     },
     "https://www.unifal-mg.edu.br/ppgeo/": {
       "status": "likely_open",
@@ -21348,7 +21525,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:50.171965+00:00"
+      "last_checked": "2026-10-02T04:24:00.342791+00:00"
     },
     "https://www.unifal-mg.edu.br/ppgeab/": {
       "status": "possible",
@@ -21392,7 +21569,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:51.152661+00:00"
+      "last_checked": "2026-10-02T04:24:01.406120+00:00"
     },
     "https://www.unifal-mg.edu.br/ppgcf/": {
       "status": "possible",
@@ -21436,35 +21613,35 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:52.333281+00:00"
+      "last_checked": "2026-10-02T04:24:02.623735+00:00"
     },
     "https://pos.uemg.br/ppgartes": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-10-01T04:27:53.469427+00:00"
+      "last_checked": "2026-10-02T04:24:03.907933+00:00"
     },
     "https://pos.uemg.br/ppgbsh": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-10-01T04:27:53.894498+00:00"
+      "last_checked": "2026-10-02T04:24:04.349135+00:00"
     },
     "https://pos.uemg.br/ppgciamb": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-10-01T04:27:54.319486+00:00"
+      "last_checked": "2026-10-02T04:24:04.789805+00:00"
     },
     "https://pos.uemg.br/ppgd": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-10-01T04:27:54.744598+00:00"
+      "last_checked": "2026-10-02T04:24:05.230291+00:00"
     },
     "https://ppgeduc.fae@uemg.br": {
       "status": "possible",
       "confidence": 0.4,
       "keywords_found": [
-        "edital",
         "processo\\s+seletivo",
-        "sele[cç][aã]o"
+        "sele[cç][aã]o",
+        "mestrado"
       ],
       "dates_found": [],
       "title": "UEMG - Universidade do Estado de Minas Gerais",
@@ -21500,22 +21677,22 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:27:58.614976+00:00"
+      "last_checked": "2026-10-02T04:24:08.723581+00:00"
     },
     "https://pos.uemg.br/ppgdm": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-10-01T04:27:59.040482+00:00"
+      "last_checked": "2026-10-02T04:24:09.164071+00:00"
     },
     "https://pos.uemg.br/ppgpm": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-10-01T04:27:59.465539+00:00"
+      "last_checked": "2026-10-02T04:24:09.604337+00:00"
     },
     "https://pos.uemg.br/ppgdrma": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-10-01T04:27:59.890613+00:00"
+      "last_checked": "2026-10-02T04:24:10.044736+00:00"
     },
     "https://www.ufmg.br/montesclaros/mestrado-em-alimentos-e-saude/": {
       "status": "possible",
@@ -21559,7 +21736,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:28:02.250241+00:00"
+      "last_checked": "2026-10-02T04:24:12.532503+00:00"
     },
     "http://pgbiologiacelular.icb.ufmg.br/": {
       "status": "possible",
@@ -21607,7 +21784,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:28:06.088997+00:00"
+      "last_checked": "2026-10-02T04:24:14.513347+00:00"
     },
     "https://www.cctn.nuclear.ufmg.br/": {
       "status": "possible",
@@ -21655,7 +21832,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:28:10.843929+00:00"
+      "last_checked": "2026-10-02T04:24:19.599298+00:00"
     },
     "https://ppgem.eng.ufmg.br/": {
       "status": "possible",
@@ -21703,7 +21880,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:28:12.586732+00:00"
+      "last_checked": "2026-10-02T04:24:21.427281+00:00"
     },
     "https://www.pggenetica.icb.ufmg.br/selecdown.php": {
       "status": "possible",
@@ -21747,7 +21924,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:28:14.510072+00:00"
+      "last_checked": "2026-10-02T04:24:23.656551+00:00"
     },
     "https://posgrad.odonto.ufmg.br/": {
       "status": "possible",
@@ -21795,7 +21972,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:28:15.757108+00:00"
+      "last_checked": "2026-10-02T04:24:25.129867+00:00"
     },
     "https://www.ufmg.br/montesclaros/mestrado-em-producao-animal/": {
       "status": "possible",
@@ -21845,7 +22022,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:28:17.226952+00:00"
+      "last_checked": "2026-10-02T04:24:26.427802+00:00"
     },
     "https://biotec.nupeb.ufop.br/": {
       "status": "possible",
@@ -21889,7 +22066,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:28:19.757269+00:00"
+      "last_checked": "2026-10-02T04:24:29.626328+00:00"
     },
     "https://fimat.ufop.br/": {
       "status": "possible",
@@ -21933,7 +22110,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:28:23.148003+00:00"
+      "last_checked": "2026-10-02T04:24:36.410253+00:00"
     },
     "https://ppgcom.ufop.br/": {
       "status": "possible",
@@ -21977,7 +22154,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:28:25.432110+00:00"
+      "last_checked": "2026-10-02T04:24:42.377518+00:00"
     },
     "https://novosdireitos.ufop.br/": {
       "status": "possible",
@@ -22021,7 +22198,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:28:27.820102+00:00"
+      "last_checked": "2026-10-02T04:24:45.409696+00:00"
     },
     "https://ppea.ufop.br/": {
       "status": "possible",
@@ -22065,7 +22242,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:28:29.889257+00:00"
+      "last_checked": "2026-10-02T04:24:47.647479+00:00"
     },
     "https://ppgedmat.ufop.br/": {
       "status": "possible",
@@ -22109,7 +22286,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:28:32.298945+00:00"
+      "last_checked": "2026-10-02T04:24:50.188691+00:00"
     },
     "https://redemat.ufop.br/": {
       "status": "possible",
@@ -22153,7 +22330,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:28:34.707315+00:00"
+      "last_checked": "2026-10-02T04:24:52.814440+00:00"
     },
     "https://ppgep.ufop.br/": {
       "status": "possible",
@@ -22197,7 +22374,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:28:36.540720+00:00"
+      "last_checked": "2026-10-02T04:24:54.773769+00:00"
     },
     "https://ppgem.ufop.br/": {
       "status": "unknown",
@@ -22237,7 +22414,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:28:38.051695+00:00"
+      "last_checked": "2026-10-02T04:24:56.534386+00:00"
     },
     "https://nugeo.ufop.br/": {
       "status": "possible",
@@ -22281,12 +22458,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:28:40.317197+00:00"
+      "last_checked": "2026-10-02T04:24:58.652938+00:00"
     },
     "https://proficam.ufop.br/": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-10-01T04:28:41.250989+00:00"
+      "last_checked": "2026-10-02T04:24:59.598722+00:00"
     },
     "https://www.ppgquimica.ufop.br/": {
       "status": "possible",
@@ -22333,22 +22510,22 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:28:43.440049+00:00"
+      "last_checked": "2026-10-02T04:25:01.921452+00:00"
     },
     "https://PPGCFAR - PROGRAMA DE PÓS GRADUAÇÃO EM CIÊNCIAS FARMACÊUTICAS": {
       "status": "error",
       "error": "Failed to parse: Host 'PPGCFAR - PROGRAMA DE PÓS GRADUAÇÃO E",
-      "last_checked": "2026-10-01T04:28:43.741894+00:00"
+      "last_checked": "2026-10-02T04:25:02.223027+00:00"
     },
     "https://Processo seletivo - PPGER": {
       "status": "error",
       "error": "Failed to parse: Host 'Processo seletivo - PPGER' contains i",
-      "last_checked": "2026-10-01T04:28:44.043497+00:00"
+      "last_checked": "2026-10-02T04:25:02.524534+00:00"
     },
     "https://PPGAP - Programa de Pós-Graduação em Administração Pública": {
       "status": "error",
       "error": "Failed to parse: Host 'PPGAP - Programa de Pós-Graduação em ",
-      "last_checked": "2026-10-01T04:28:44.345173+00:00"
+      "last_checked": "2026-10-02T04:25:02.826091+00:00"
     },
     "https://sgppg.com.br/ppg/ppgttep/43/": {
       "status": "possible",
@@ -22398,7 +22575,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:28:45.829692+00:00"
+      "last_checked": "2026-10-02T04:25:04.465915+00:00"
     },
     "https://sgppg.com.br/ppg/ppgq-programa-de-pos-graduacao-em-quimica/9/": {
       "status": "possible",
@@ -22448,7 +22625,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:28:46.378479+00:00"
+      "last_checked": "2026-10-02T04:25:05.014730+00:00"
     },
     "https://ppggeo.ict.ufvjm.edu.br/": {
       "status": "possible",
@@ -22490,7 +22667,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:28:48.282716+00:00"
+      "last_checked": "2026-10-02T04:25:06.853400+00:00"
     },
     "https://sgppg.com.br/ppg/ppgcs-programa-de-pos-graduacao-em-ciencias-da-saude/35/": {
       "status": "possible",
@@ -22540,12 +22717,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:28:48.846819+00:00"
+      "last_checked": "2026-10-02T04:25:07.410859+00:00"
     },
     "https://PPGPV - PROGRAMA DE PÓS-GRADUAÇÃO EM PRODUÇÃO VEGETAL": {
       "status": "error",
       "error": "Failed to parse: Host 'PPGPV - PROGRAMA DE PÓS-GRADUAÇÃO EM ",
-      "last_checked": "2026-10-01T04:28:49.148463+00:00"
+      "last_checked": "2026-10-02T04:25:07.712406+00:00"
     },
     "http://bit.ly/ppgreab_ufvjm": {
       "status": "possible",
@@ -22595,12 +22772,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:28:50.713339+00:00"
+      "last_checked": "2026-10-02T04:25:09.560567+00:00"
     },
     "https://www.ppgec.cefetmg.br": {
       "status": "error",
       "error": "timeout",
-      "last_checked": "2026-10-01T04:29:20.060649+00:00"
+      "last_checked": "2026-10-02T04:25:39.016475+00:00"
     },
     "https://posmat.cefetmg.br/": {
       "status": "possible",
@@ -22644,7 +22821,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:29:22.882635+00:00"
+      "last_checked": "2026-10-02T04:25:41.854374+00:00"
     },
     "https://ppgmmc.cefetmg.br/": {
       "status": "possible",
@@ -22694,7 +22871,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:29:25.519282+00:00"
+      "last_checked": "2026-10-02T04:25:44.363093+00:00"
     },
     "https://www.dppg.cefetmg.br/pos-graduacao/programas-stricto-sensu/programa-de-pos-graduacao-em-administracao/": {
       "status": "possible",
@@ -22738,12 +22915,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:29:27.382062+00:00"
+      "last_checked": "2026-10-02T04:25:46.256527+00:00"
     },
     "https://ppgmin.cefetmg.br/": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-10-01T04:29:28.033257+00:00"
+      "last_checked": "2026-10-02T04:25:46.844739+00:00"
     },
     "https://dippg.cefet-rj.br/ppdsp/": {
       "status": "possible",
@@ -22793,7 +22970,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:29:30.750414+00:00"
+      "last_checked": "2026-10-02T04:25:49.803199+00:00"
     },
     "https://dippg.cefet-rj.br/pprer/": {
       "status": "possible",
@@ -22837,7 +23014,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:29:32.637609+00:00"
+      "last_checked": "2026-10-02T04:25:51.764614+00:00"
     },
     "https://dippg.cefet-rj.br/pppro/": {
       "status": "likely_open",
@@ -22882,7 +23059,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:29:34.498154+00:00"
+      "last_checked": "2026-10-02T04:25:53.709073+00:00"
     },
     "https://dippg.cefet-rj.br/ppeel/": {
       "status": "possible",
@@ -22926,7 +23103,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:29:36.172718+00:00"
+      "last_checked": "2026-10-02T04:25:55.208116+00:00"
     },
     "https://cursos.ufrrj.br/posgraduacao/ppgfba/": {
       "status": "possible",
@@ -22976,7 +23153,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:29:38.767923+00:00"
+      "last_checked": "2026-10-02T04:25:57.509251+00:00"
     },
     "https://ppg.unifesp.br/educacao/en/": {
       "status": "possible",
@@ -23026,7 +23203,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:29:39.829327+00:00"
+      "last_checked": "2026-10-02T04:25:59.020588+00:00"
     },
     "https://ppg.unifesp.br/cienciacirurgica/": {
       "status": "possible",
@@ -23070,7 +23247,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:29:41.192044+00:00"
+      "last_checked": "2026-10-02T04:26:00.644874+00:00"
     },
     "https://ppgaai.unifesp.br/english": {
       "status": "possible",
@@ -23114,7 +23291,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:29:41.919085+00:00"
+      "last_checked": "2026-10-02T04:26:01.562458+00:00"
     },
     "https://ppg.unifesp.br/filosofia/": {
       "status": "likely_open",
@@ -23165,7 +23342,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:29:43.131752+00:00"
+      "last_checked": "2026-10-02T04:26:02.825026+00:00"
     },
     "https://ppg.unifesp.br/eq/": {
       "status": "likely_open",
@@ -23213,56 +23390,17 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:29:44.287438+00:00"
+      "last_checked": "2026-10-02T04:26:04.030627+00:00"
     },
     "https://ppg.unifesp.br/evidencias/en/": {
       "status": "error",
       "error": "http_404",
-      "last_checked": "2026-10-01T04:29:44.890900+00:00"
+      "last_checked": "2026-10-02T04:26:04.666920+00:00"
     },
     "https://unifesp.br/campus/san7/home-ppgictmar-english": {
-      "status": "possible",
-      "confidence": 0.4,
-      "keywords_found": [
-        "mestrado",
-        "doutorado",
-        "capes"
-      ],
-      "dates_found": [],
-      "title": "Home",
-      "metadata": {
-        "applicationDeadline": {
-          "value": null,
-          "confidence": 0.0,
-          "source": null
-        },
-        "startDate": {
-          "value": null,
-          "confidence": 0.0,
-          "source": null
-        },
-        "duration": {
-          "value": null,
-          "confidence": 0.0,
-          "source": null
-        },
-        "campus": {
-          "value": null,
-          "confidence": 0.0,
-          "source": null
-        },
-        "languageRequirement": {
-          "value": null,
-          "confidence": 0.0,
-          "source": null
-        },
-        "masterRequired": {
-          "value": null,
-          "confidence": 0.0,
-          "source": null
-        }
-      },
-      "last_checked": "2026-10-01T04:29:46.740290+00:00"
+      "status": "error",
+      "error": "http_403",
+      "last_checked": "2026-10-02T04:26:05.153467+00:00"
     },
     "https://www.ppgto.ufscar.br/pt-br/ppgto-programa-de-pos-graduacao-em-terapia-ocupacional": {
       "status": "possible",
@@ -23312,7 +23450,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:29:47.710252+00:00"
+      "last_checked": "2026-10-02T04:26:06.195659+00:00"
     },
     "https://www.ppgeps.ufscar.br/pt-br": {
       "status": "possible",
@@ -23356,7 +23494,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:29:48.816220+00:00"
+      "last_checked": "2026-10-02T04:26:07.175923+00:00"
     },
     "https://www.ppgees.ufscar.br/pt-br": {
       "status": "possible",
@@ -23400,7 +23538,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:29:49.788457+00:00"
+      "last_checked": "2026-10-02T04:26:07.974371+00:00"
     },
     "https://www.ppgep.ufscar.br/pt-br": {
       "status": "possible",
@@ -23450,7 +23588,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:29:50.904600+00:00"
+      "last_checked": "2026-10-02T04:26:08.918967+00:00"
     },
     "https://www.ppgpur.ufscar.br/pt-br": {
       "status": "possible",
@@ -23498,7 +23636,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:29:51.664765+00:00"
+      "last_checked": "2026-10-02T04:26:09.721540+00:00"
     },
     "https://www.ppgec.ufscar.br/pt-br": {
       "status": "possible",
@@ -23548,7 +23686,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:29:52.744875+00:00"
+      "last_checked": "2026-10-02T04:26:10.772083+00:00"
     },
     "https://www.ppgeu.ufscar.br/pt-br": {
       "status": "possible",
@@ -23595,7 +23733,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:29:53.787449+00:00"
+      "last_checked": "2026-10-02T04:26:11.584639+00:00"
     },
     "https://www.ppgbma.ufscar.br/pt-br": {
       "status": "likely_open",
@@ -23646,12 +23784,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:29:54.676300+00:00"
+      "last_checked": "2026-10-02T04:26:12.583870+00:00"
     },
     "https://www.ppgedsorocaba.ufscar.br": {
       "status": "error",
       "error": "connection_error",
-      "last_checked": "2026-10-01T04:29:55.177656+00:00"
+      "last_checked": "2026-10-02T04:26:13.018545+00:00"
     },
     "https://www.ppgl.ufscar.br/pt-br": {
       "status": "likely_open",
@@ -23699,7 +23837,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:29:56.133320+00:00"
+      "last_checked": "2026-10-02T04:26:14.000764+00:00"
     },
     "https://www.ppgenf.ufscar.br/pt-br": {
       "status": "possible",
@@ -23743,12 +23881,12 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:29:57.006202+00:00"
+      "last_checked": "2026-10-02T04:26:14.829544+00:00"
     },
     "https://Programa de Pós-Graduação em Ciências do Desenvolvimento Humano | Universidade Campus Higienópolis - Mackenzie": {
       "status": "error",
       "error": "Failed to parse: Host 'Programa de Pós-Graduação em Ciências",
-      "last_checked": "2026-10-01T04:29:57.308031+00:00"
+      "last_checked": "2026-10-02T04:26:15.131187+00:00"
     },
     "https://www.feq.unicamp.br/pos-graduacao/sobre-a-pos-graduacao/": {
       "status": "likely_open",
@@ -23793,17 +23931,19 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:29:59.615031+00:00"
+      "last_checked": "2026-10-02T04:26:17.735724+00:00"
     },
     "https://www.iqm.unicamp.br/pos-graduacao/": {
       "status": "possible",
       "confidence": 0.4,
       "keywords_found": [
+        "edital",
         "processo\\s+seletivo",
-        "doutorado",
-        "calend[aá]rio"
+        "sele[cç][aã]o"
       ],
-      "dates_found": [],
+      "dates_found": [
+        "07/12/2026"
+      ],
       "title": "Pós-Graduação - IQ Unicamp",
       "metadata": {
         "applicationDeadline": {
@@ -23812,9 +23952,9 @@
           "source": null
         },
         "startDate": {
-          "value": "2º Semestre de 2026",
+          "value": "1º semestre de 2027",
           "confidence": 0.65,
-          "source": "((?:segundo|2[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
+          "source": "((?:primeiro|1[°º]?)\\s+semestre\\s+(?:letivo\\s+)?de\\s+20\\d{2})"
         },
         "duration": {
           "value": null,
@@ -23837,7 +23977,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:30:02.506688+00:00"
+      "last_checked": "2026-10-02T04:26:21.287927+00:00"
     },
     "https://www.fenf.unicamp.br/pos-graduacao/": {
       "status": "possible",
@@ -23881,7 +24021,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:30:04.984795+00:00"
+      "last_checked": "2026-10-02T04:26:23.359392+00:00"
     },
     "https://portal.ige.unicamp.br/pos-graduacao/programas/geociencias": {
       "status": "possible",
@@ -23931,7 +24071,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:30:06.880791+00:00"
+      "last_checked": "2026-10-02T04:26:25.664982+00:00"
     },
     "https://www.iar.unicamp.br/pos-graduacao-em-artes-da-cena/": {
       "status": "possible",
@@ -23975,7 +24115,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:30:08.503291+00:00"
+      "last_checked": "2026-10-02T04:26:27.286628+00:00"
     },
     "https://www.fcf.unicamp.br/ppgcf/": {
       "status": "possible",
@@ -24019,7 +24159,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:30:10.502192+00:00"
+      "last_checked": "2026-10-02T04:26:29.341107+00:00"
     },
     "https://www.fecfau.unicamp.br/pos/ppgatc/arquitetura-tecnologia%3C-p%3E-e-cidade/": {
       "status": "possible",
@@ -24063,7 +24203,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:30:12.383801+00:00"
+      "last_checked": "2026-10-02T04:26:30.963179+00:00"
     },
     "https://www.feagri.unicamp.br/portal/": {
       "status": "possible",
@@ -24107,7 +24247,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:30:14.586338+00:00"
+      "last_checked": "2026-10-02T04:26:33.483381+00:00"
     },
     "https://www.fem.unicamp.br/pos-graduacao/ciencias-e-engenharia-de-petroleo/": {
       "status": "possible",
@@ -24151,7 +24291,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:30:16.685683+00:00"
+      "last_checked": "2026-10-02T04:26:36.097185+00:00"
     },
     "https://www.fem.unicamp.br/pos-graduacao/engenharia-mecanica-cpg/": {
       "status": "possible",
@@ -24195,7 +24335,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:30:17.175391+00:00"
+      "last_checked": "2026-10-02T04:26:37.590209+00:00"
     },
     "https://www.fem.unicamp.br/pos-graduacao/planejamento-de-sistemas-energeticos/": {
       "status": "possible",
@@ -24239,7 +24379,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:30:18.875030+00:00"
+      "last_checked": "2026-10-02T04:26:39.139832+00:00"
     },
     "https://fea.unicamp.br/pos-graduacao/engenharia-de-alimentos/": {
       "status": "possible",
@@ -24283,7 +24423,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:30:21.275159+00:00"
+      "last_checked": "2026-10-02T04:26:41.849307+00:00"
     },
     "https://fea.unicamp.br/pos-graduacao/ciencia-de-alimentos/": {
       "status": "possible",
@@ -24333,7 +24473,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:30:22.907000+00:00"
+      "last_checked": "2026-10-02T04:26:43.617483+00:00"
     },
     "https://fea.unicamp.br/pos-graduacao/alimentos-e-nutricao/": {
       "status": "possible",
@@ -24383,7 +24523,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:30:24.903697+00:00"
+      "last_checked": "2026-10-02T04:26:45.559851+00:00"
     },
     "https://fea.unicamp.br/pos-graduacao/tecnologia-de-alimentos/": {
       "status": "possible",
@@ -24433,7 +24573,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:30:26.561503+00:00"
+      "last_checked": "2026-10-02T04:26:47.434070+00:00"
     },
     "https://www.ib.unicamp.br/pos_animal/": {
       "status": "possible",
@@ -24483,7 +24623,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:30:27.828604+00:00"
+      "last_checked": "2026-10-02T04:26:49.476951+00:00"
     },
     "https://www.fecfau.unicamp.br/pos/ppgec/o-programa/": {
       "status": "possible",
@@ -24527,7 +24667,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:30:28.677105+00:00"
+      "last_checked": "2026-10-02T04:26:50.344900+00:00"
     },
     "https://www.fee.unicamp.br/pos-graduacao/sobre-a-pos-graduacao/": {
       "status": "likely_open",
@@ -24572,7 +24712,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:30:31.379466+00:00"
+      "last_checked": "2026-10-02T04:26:53.638197+00:00"
     },
     "https://www.ifch.unicamp.br/pos/antropologia": {
       "status": "possible",
@@ -24622,7 +24762,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:30:37.882126+00:00"
+      "last_checked": "2026-10-02T04:27:00.253737+00:00"
     },
     "https://www.fop.unicamp.br/cpg/ppg-co/": {
       "status": "possible",
@@ -24672,7 +24812,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:30:40.011991+00:00"
+      "last_checked": "2026-10-02T04:27:03.566300+00:00"
     },
     "https://portal.ige.unicamp.br/": {
       "status": "possible",
@@ -24683,11 +24823,11 @@
         "inscri[cç][oõ]es"
       ],
       "dates_found": [
-        "29/09/2026",
-        "30/09/2026",
         "07/10/2026",
         "13/10/2026",
-        "15/10/2026"
+        "15/10/2026",
+        "16/10/2026",
+        "18/10/2026"
       ],
       "title": "| Instituto de Geociências",
       "metadata": {
@@ -24707,7 +24847,7 @@
           "source": null
         },
         "campus": {
-          "value": "Videoconferência",
+          "value": "Sala",
           "confidence": 0.6,
           "source": "local[:\\-]\\s*([A-Z][a-zà-ù]+(?:\\s+[A-Z][a-zà-ù]+)*)"
         },
@@ -24722,7 +24862,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:30:43.109162+00:00"
+      "last_checked": "2026-10-02T04:27:06.567929+00:00"
     },
     "https://portal.fcm.unicamp.br/pos-graduacao/mestrado-doutorado-stricto-sensu/farmacologia/": {
       "status": "possible",
@@ -24766,7 +24906,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:30:45.967924+00:00"
+      "last_checked": "2026-10-02T04:27:09.423222+00:00"
     },
     "https://portal.fcm.unicamp.br/pos-graduacao/mestrado-doutorado-stricto-sensu/gerontologia/": {
       "status": "possible",
@@ -24810,7 +24950,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:30:48.519927+00:00"
+      "last_checked": "2026-10-02T04:27:11.902444+00:00"
     },
     "https://portal.fcm.unicamp.br/pos-graduacao/mestrado-doutorado-stricto-sensu/tocoginecologia/": {
       "status": "possible",
@@ -24854,7 +24994,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:30:50.873988+00:00"
+      "last_checked": "2026-10-02T04:27:14.634598+00:00"
     },
     "https://portal.fcm.unicamp.br/pos-graduacao/mestrado-doutorado-stricto-sensu/saude-da-crianca-e-do-adolescente/": {
       "status": "possible",
@@ -24898,7 +25038,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:30:52.736414+00:00"
+      "last_checked": "2026-10-02T04:27:16.855580+00:00"
     },
     "https://www.iel.unicamp.br": {
       "status": "likely_open",
@@ -24944,7 +25084,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:31:01.774137+00:00"
+      "last_checked": "2026-10-02T04:27:21.921978+00:00"
     },
     "https://www.labjor.unicamp.br/pos-graduacao/divulgacao-cientifica-e-cultural/informacoes-gerais/": {
       "status": "possible",
@@ -24988,7 +25128,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:31:04.005595+00:00"
+      "last_checked": "2026-10-02T04:27:24.665463+00:00"
     },
     "https://www.tupa.unesp.br/#!/pgad": {
       "status": "unknown",
@@ -25028,7 +25168,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:31:05.721732+00:00"
+      "last_checked": "2026-10-02T04:27:26.308166+00:00"
     },
     "https://www.ibilce.unesp.br/#!/pos-graduacao/programas-de-pos-graduacao/quimica": {
       "status": "unknown",
@@ -25068,7 +25208,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:31:07.103920+00:00"
+      "last_checked": "2026-10-02T04:27:27.838508+00:00"
     },
     "https://www.fct.unesp.br/#!/pos-graduacao/--ciencias-cartograficas/": {
       "status": "unknown",
@@ -25108,7 +25248,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:31:08.702564+00:00"
+      "last_checked": "2026-10-02T04:27:29.291931+00:00"
     },
     "https://www.ibilce.unesp.br/#!/pos-graduacao/programas-de-pos-graduacao/engenharia-e-ciencia-de-alimentos/": {
       "status": "unknown",
@@ -25148,7 +25288,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:31:09.347756+00:00"
+      "last_checked": "2026-10-02T04:27:29.950085+00:00"
     },
     "https://www.marilia.unesp.br/#!/poscsch": {
       "status": "unknown",
@@ -25188,7 +25328,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:31:10.960629+00:00"
+      "last_checked": "2026-10-02T04:27:31.526200+00:00"
     },
     "https://www.fcav.unesp.br/#!/ensino/pos-graduacao-new/programas/stricto-sensu/ciencia-animal": {
       "status": "unknown",
@@ -25228,7 +25368,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:31:12.266233+00:00"
+      "last_checked": "2026-10-02T04:27:32.662806+00:00"
     },
     "https://igce.rc.unesp.br/#!/pos-graduacao/programas-de-pos/educacao-matematica/": {
       "status": "unknown",
@@ -25268,7 +25408,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:31:13.843461+00:00"
+      "last_checked": "2026-10-02T04:27:33.851963+00:00"
     },
     "https://www.famema.br/pos-graduacao-stricto-sensu/mestrado-academico": {
       "status": "possible",
@@ -25312,7 +25452,7 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:31:16.557532+00:00"
+      "last_checked": "2026-10-02T04:27:36.680864+00:00"
     },
     "https://www.famema.br/pos-graduacao-stricto-sensu/mestrado-profissional": {
       "status": "possible",
@@ -25362,17 +25502,17 @@
           "source": null
         }
       },
-      "last_checked": "2026-10-01T04:31:18.334897+00:00"
+      "last_checked": "2026-10-02T04:27:38.605246+00:00"
     },
     "https://www.unitau.br/pos-graduacao/doutorado-em-ciencias-da-saude": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-10-01T04:31:19.229610+00:00"
+      "last_checked": "2026-10-02T04:27:39.567861+00:00"
     },
     "https://www.unitau.br/pos-graduacao/doutorado-em-planejamento-e-desenvolvimento-regional": {
       "status": "error",
       "error": "http_403",
-      "last_checked": "2026-10-01T04:31:19.567431+00:00"
+      "last_checked": "2026-10-02T04:27:39.900663+00:00"
     }
   }
 }

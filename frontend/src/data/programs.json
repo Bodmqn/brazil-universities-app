@@ -5111,9 +5111,9 @@
     "scan_status": "possible",
     "scan_confidence": 0.4,
     "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
+      "sele[cç][aã]o",
+      "mestrado",
+      "doutorado"
     ],
     "scan_dates_found": [
       "01/01/2026",
@@ -5504,14 +5504,14 @@
     "scan_status": "possible",
     "scan_confidence": 0.4,
     "scan_keywords": [
-      "edital",
       "sele[cç][aã]o",
-      "mestrado"
+      "calend[aá]rio",
+      "cronograma"
     ],
     "scan_dates_found": [
       "14/09/2026",
       "14/09/2026",
-      "14/09/2026",
+      "05/10/2026",
       "14/09/2026",
       "14/09/2026"
     ],
@@ -11795,11 +11795,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "08/03/2026",
+      "01/10/2026",
       "30/11/2026",
-      "08/03/2026",
+      "01/10/2026",
       "30/11/2026",
-      "08/03/2026"
+      "01/10/2026"
     ],
     "scan_title": "Administração – Universidade Federal do Cariri",
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
@@ -11831,11 +11831,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "08/03/2026",
+      "01/10/2026",
       "30/11/2026",
-      "08/03/2026",
+      "01/10/2026",
       "30/11/2026",
-      "08/03/2026"
+      "01/10/2026"
     ],
     "scan_title": "Administração – Universidade Federal do Cariri",
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
@@ -17748,11 +17748,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "21/09/2026",
+      "19/10/2026",
+      "21/09/2026",
+      "11/09/2026",
+      "21/09/2026"
+    ],
+    "scan_title": "Welcome to PPGBEA | PPGBEA",
     "edital_url": "",
     "edital_title": ""
   },
@@ -18778,15 +18789,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "sele[cç][aã]o",
-      "mestrado",
-      "doutorado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Ensino",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -25768,18 +25775,17 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
     "scan_keywords": [
-      "inscri[cç][oõ]es\\s+abertas",
       "edital",
       "sele[cç][aã]o",
       "inscri[cç][oõ]es"
     ],
     "scan_dates_found": [
+      "29/09/2026",
       "30/09/2026",
       "28/09/2026",
-      "25/09/2026",
       "25/09/2026",
       "25/09/2026"
     ],
@@ -25900,11 +25906,7 @@
       "processo\\s+seletivo",
       "sele[cç][aã]o"
     ],
-    "scan_dates_found": [
-      "01/10/2026",
-      "01/10/2026",
-      "01/10/2026"
-    ],
+    "scan_dates_found": [],
     "scan_title": "If Posgraduacao",
     "edital_url": "",
     "edital_title": ""
@@ -25935,10 +25937,10 @@
       "inscri[cç][oõ]es"
     ],
     "scan_dates_found": [
+      "29/09/2026",
       "30/09/2026",
       "28/09/2026",
       "25/09/2026",
-      "22/09/2026",
       "12/06/2026"
     ],
     "scan_title": "PPGMTSP - IPTSP",
@@ -25973,9 +25975,9 @@
     "scan_dates_found": [
       "25/09/2026",
       "23/09/2026",
-      "19/09/2026",
       "04/09/2026",
-      "24/08/2026"
+      "24/08/2026",
+      "04/08/2026"
     ],
     "scan_title": "Programa de Pós-graduação em Ciência da Comp.",
     "edital_url": "",
@@ -26387,11 +26389,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "21/09/2026",
+      "27/08/2026",
+      "02/09/2026",
+      "22/07/2026",
+      "30/06/2026"
+    ],
+    "scan_title": "FAV - Programa de Pós-Graduação Projeto e Cidade",
     "edital_url": "",
     "edital_title": ""
   },
@@ -26404,27 +26416,20 @@
     "city": "Goiânia",
     "campus": "",
     "master_required": "",
-    "start_date": "primeiro semestre de 2027",
+    "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
     "meta_campus": "",
     "meta_duration": "",
-    "meta_start_date": "primeiro semestre de 2027",
+    "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "26/09/2026",
-      "22/06/2026"
-    ],
-    "scan_title": "Programa de Pós-graduação em Geociências",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://files.cercomp.ufg.br/weby/up/1448/o/Banca_Final_de_Sele%C3%A7%C3%A3o_2026.pdf?1772797835",
     "edital_title": "Banca Final de Seleção Edital 03-2025"
   },
@@ -27751,8 +27756,8 @@
       "05/07/2024",
       "20/09/2026",
       "15/09/2026",
-      "20/09/2026",
-      "15/09/2026"
+      "14/08/2026",
+      "21/08/2026"
     ],
     "scan_title": "Pós Graduação em Informática - PPGI - Home",
     "edital_url": "",
@@ -28145,14 +28150,18 @@
     "meta_application_deadline": "",
     "meta_campus": "",
     "meta_duration": "",
-    "meta_start_date": "",
+    "meta_start_date": "primeiro semestre de 2027",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "PPG em Física Ambiental",
     "edital_url": "",
     "edital_title": ""
   },
@@ -30007,20 +30016,19 @@
     "meta_start_date": "1º semestre de 2027",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
     "scan_keywords": [
-      "inscri[cç][oõ]es\\s+abertas",
       "edital",
       "processo\\s+seletivo",
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "24/09/2026",
-      "14/09/2026",
-      "08/09/2026",
-      "26/08/2026",
-      "18/08/2026"
+      "01/10/2026",
+      "01/10/2026",
+      "01/10/2026",
+      "01/10/2026",
+      "01/10/2026"
     ],
     "scan_title": "PPGEP – Programa de Pós-Graduação em Engenharia de Produção",
     "edital_url": "",
@@ -30088,7 +30096,7 @@
       "bolsas?"
     ],
     "scan_dates_found": [
-      "29/09/2026",
+      "01/10/2026",
       "23/09/2026",
       "16/12/2026",
       "28/09/2026",
@@ -30474,7 +30482,7 @@
       "doutorado"
     ],
     "scan_dates_found": [
-      "02/10/2026",
+      "04/10/2026",
       "02/10/2026",
       "02/10/2026",
       "28/09/2026",
@@ -30619,11 +30627,11 @@
       "inscri[cç][oõ]es"
     ],
     "scan_dates_found": [
-      "30/08/2026",
-      "09/09/2026",
-      "30/09/2026",
-      "30/09/2026",
-      "27/09/2026"
+      "01/09/2026",
+      "21/09/2026",
+      "01/10/2026",
+      "01/10/2026",
+      "30/09/2026"
     ],
     "scan_title": "PPGCS – Programa de Pós-Graduação em Ciência do Solo – Campus Santa Maria",
     "edital_url": "https://www.ufsm.br/app/uploads/sites/524/2026/01/Resultado_bolsas_primeiro_semestre-2026_assinado.pdf",
@@ -30869,8 +30877,8 @@
     "scan_confidence": 0.4,
     "scan_keywords": [
       "edital",
-      "inscri[cç][oõ]es",
-      "mestrado"
+      "sele[cç][aã]o",
+      "inscri[cç][oõ]es"
     ],
     "scan_dates_found": [],
     "scan_title": "Programa de Pós-graduação em Ciências do Movimento e Reabilitação – Pós-graduação – Campus Santa Maria",
@@ -31371,11 +31379,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "28/09/2026",
-      "28/09/2026",
-      "24/09/2026",
-      "21/09/2026",
-      "11/09/2026"
+      "01/10/2026",
+      "01/10/2026",
+      "01/10/2026",
+      "01/10/2026",
+      "01/10/2026"
     ],
     "scan_title": "PGMEC – Programa de Pós-Graduação em Engenharia Mecânica – Campus Santa Maria",
     "edital_url": "https://www.ufsm.br/app/uploads/sites/595/2026/06/Cronograma-das-entrevistas_PGMec-2a-janela-2026.pdf",
@@ -34572,8 +34580,8 @@
       "09/09/2026",
       "09/09/2026",
       "09/09/2026",
-      "22/09/2026",
-      "22/09/2026"
+      "01/10/2026",
+      "01/10/2026"
     ],
     "scan_title": "Programa de Pós-Graduação em Geografia |",
     "edital_url": "",
@@ -34923,9 +34931,9 @@
     ],
     "scan_dates_found": [
       "25/09/2026",
-      "15/09/2026",
+      "01/10/2026",
       "25/09/2026",
-      "15/09/2026",
+      "01/10/2026",
       "25/09/2026"
     ],
     "scan_title": "UFSJ | Universidade Federal de São João del-Rei",
@@ -35577,7 +35585,7 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "01/10/2026"
+      "02/10/2026"
     ],
     "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
@@ -35779,7 +35787,7 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "01/10/2026"
+      "02/10/2026"
     ],
     "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
@@ -35811,7 +35819,7 @@
       "mestrado"
     ],
     "scan_dates_found": [
-      "01/10/2026"
+      "02/10/2026"
     ],
     "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
@@ -53311,15 +53319,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "mestrado",
-      "doutorado",
-      "capes"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Home",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -53757,17 +53761,19 @@
     "meta_application_deadline": "",
     "meta_campus": "",
     "meta_duration": "",
-    "meta_start_date": "2º Semestre de 2026",
+    "meta_start_date": "1º semestre de 2027",
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "possible",
     "scan_confidence": 0.4,
     "scan_keywords": [
+      "edital",
       "processo\\s+seletivo",
-      "doutorado",
-      "calend[aá]rio"
+      "sele[cç][aã]o"
     ],
-    "scan_dates_found": [],
+    "scan_dates_found": [
+      "07/12/2026"
+    ],
     "scan_title": "Pós-Graduação - IQ Unicamp",
     "edital_url": "",
     "edital_title": ""
@@ -54394,7 +54400,7 @@
     "duration_months": 24,
     "language_requirement": "Inglês (habilitado para leitura), espanhol e português. As maioria das disciplinas são minsitradas em português",
     "meta_application_deadline": "",
-    "meta_campus": "Videoconferência",
+    "meta_campus": "Sala",
     "meta_duration": "",
     "meta_start_date": "1º semestre de 2027",
     "meta_language": "",
@@ -54407,11 +54413,11 @@
       "inscri[cç][oõ]es"
     ],
     "scan_dates_found": [
-      "29/09/2026",
-      "30/09/2026",
       "07/10/2026",
       "13/10/2026",
-      "15/10/2026"
+      "15/10/2026",
+      "16/10/2026",
+      "18/10/2026"
     ],
     "scan_title": "| Instituto de Geociências",
     "edital_url": "",
