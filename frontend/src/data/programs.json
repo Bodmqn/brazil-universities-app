@@ -2400,16 +2400,20 @@
     "duration_months": 24,
     "language_requirement": "Portugues / Inglês / Espanhol",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "Palmas",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "mestrado",
+      "doutorado",
+      "calend[aá]rio"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "Programa de Pós-Graduação em Ciência e Tecnologia de Alimentos (PPGCTA)",
     "edital_url": "",
     "edital_title": ""
   },
@@ -3252,32 +3256,22 @@
     "level": "Doutorado",
     "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ensino-de-fisica",
     "city": "Rio Branco",
-    "campus": "Rio Branco",
+    "campus": "",
     "master_required": "",
     "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
-    "meta_campus": "Rio Branco",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
-    "scan_dates_found": [
-      "21/08/2026",
-      "18/03/2026",
-      "11/03/2026",
-      "10/02/2026",
-      "02/02/2026"
-    ],
-    "scan_title": "Programa de Pós-Graduação em Ensino de Física",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://www3.ufac.br/propeg/2025/edital-mnpef-sbf-no-07-2025processo-seletivo-de-ingresso-no-curso-demestrado-nacional-profissional-em-ensino-de-fisica1/edital_nacional_turma_2026.pdf",
     "edital_title": "EDITAL MNPEF - SBF Nº 07/2025"
   },
@@ -3288,32 +3282,22 @@
     "level": "Mestrado",
     "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ensino-de-fisica",
     "city": "Rio Branco",
-    "campus": "Rio Branco",
+    "campus": "",
     "master_required": "",
     "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
-    "meta_campus": "Rio Branco",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
-    "scan_dates_found": [
-      "21/08/2026",
-      "18/03/2026",
-      "11/03/2026",
-      "10/02/2026",
-      "02/02/2026"
-    ],
-    "scan_title": "Programa de Pós-Graduação em Ensino de Física",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://www3.ufac.br/propeg/2025/edital-mnpef-sbf-no-07-2025processo-seletivo-de-ingresso-no-curso-demestrado-nacional-profissional-em-ensino-de-fisica1/edital_nacional_turma_2026.pdf",
     "edital_title": "EDITAL MNPEF - SBF Nº 07/2025"
   },
@@ -3335,18 +3319,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.2,
-    "scan_keywords": [
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
-    "scan_dates_found": [
-      "26/02/2025",
-      "26/02/2025",
-      "05/12/2024"
-    ],
-    "scan_title": "Ciflor — Programa de Pós-Graduação em Ciência Florestal",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://www3.ufac.br/propeg/2024/edital-propeg-no-33-2024-abertura-do-processo-de-selecao-para-a-turma-2025-do-mestrado-em-ciencia-florestal-da-ufac/1-edital-propeg-no-35-portugues.pdf",
     "edital_title": "EDITAL PROPEG Nº 35/2024 - PORTUGUÊS"
   },
@@ -3368,18 +3345,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.2,
-    "scan_keywords": [
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
-    "scan_dates_found": [
-      "26/02/2025",
-      "26/02/2025",
-      "05/12/2024"
-    ],
-    "scan_title": "Ciflor — Programa de Pós-Graduação em Ciência Florestal",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://www3.ufac.br/propeg/2024/edital-propeg-no-33-2024-abertura-do-processo-de-selecao-para-a-turma-2025-do-mestrado-em-ciencia-florestal-da-ufac/1-edital-propeg-no-35-portugues.pdf",
     "edital_title": "EDITAL PROPEG Nº 35/2024 - PORTUGUÊS"
   },
@@ -3401,21 +3371,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
-    "scan_dates_found": [
-      "26/05/2025",
-      "26/11/2026",
-      "26/05/2025",
-      "26/05/2025",
-      "26/05/2025"
-    ],
-    "scan_title": "PPGCSAO Ufac — Programa de Pós-Graduação em Ciências da Saúde na Amazônia Ocidental",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "http://www2.ufac.br/site/calendarios-academicos/calendariopos2019.pdf/",
     "edital_title": ""
   },
@@ -3437,21 +3397,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
-    "scan_dates_found": [
-      "26/05/2025",
-      "26/11/2026",
-      "26/05/2025",
-      "26/05/2025",
-      "26/05/2025"
-    ],
-    "scan_title": "PPGCSAO Ufac — Programa de Pós-Graduação em Ciências da Saúde na Amazônia Ocidental",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "http://www2.ufac.br/site/calendarios-academicos/calendariopos2019.pdf/",
     "edital_title": ""
   },
@@ -3464,24 +3414,20 @@
     "city": "Rio Branco",
     "campus": "",
     "master_required": "",
-    "start_date": "2º Semestre de 2026",
+    "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
     "meta_campus": "",
     "meta_duration": "",
-    "meta_start_date": "2º Semestre de 2026",
+    "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "mestrado",
-      "calend[aá]rio"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "home — Ensino de Humanidades e Linguagens",
+    "scan_title": null,
     "edital_url": "https://www.ufac.br/ppehl/edital_ppehel_20261.pdf",
     "edital_title": ""
   },
@@ -3494,24 +3440,20 @@
     "city": "Rio Branco",
     "campus": "",
     "master_required": "",
-    "start_date": "2º Semestre de 2026",
+    "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
     "meta_campus": "",
     "meta_duration": "",
-    "meta_start_date": "2º Semestre de 2026",
+    "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "mestrado",
-      "calend[aá]rio"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "home — Ensino de Humanidades e Linguagens",
+    "scan_title": null,
     "edital_url": "https://www.ufac.br/ppehl/edital_ppehel_20261.pdf",
     "edital_title": ""
   },
@@ -3522,32 +3464,22 @@
     "level": "Doutorado",
     "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/mestrado-em-ciencia-inovacao-e-tecnologia-para-a-amazonia-1",
     "city": "Rio Branco",
-    "campus": "BR",
+    "campus": "",
     "master_required": "",
     "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
-    "meta_campus": "BR",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
-    "scan_dates_found": [
-      "16/06/2025",
-      "16/06/2025",
-      "16/06/2025",
-      "16/06/2025",
-      "16/06/2025"
-    ],
-    "scan_title": "Home — Ciência, Inovação e Tecnologia para a Amazônia",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://www3.ufac.br/propeg/2025/edital-ppgcita-no-03-2025-processo-de-selecao-de-docentes-permanentes-no-programa-de-pos-graduacao-em-ciencia-inovacao-e-tecnologia-para-a-amazonia/edital_de_credenciamento_2025_final.pdf",
     "edital_title": "EDITAL PPGCITA Nº 03/2025"
   },
@@ -3558,32 +3490,22 @@
     "level": "Mestrado",
     "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/mestrado-em-ciencia-inovacao-e-tecnologia-para-a-amazonia-1",
     "city": "Rio Branco",
-    "campus": "BR",
+    "campus": "",
     "master_required": "",
     "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
-    "meta_campus": "BR",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
-    "scan_dates_found": [
-      "16/06/2025",
-      "16/06/2025",
-      "16/06/2025",
-      "16/06/2025",
-      "16/06/2025"
-    ],
-    "scan_title": "Home — Ciência, Inovação e Tecnologia para a Amazônia",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://www3.ufac.br/propeg/2025/edital-ppgcita-no-03-2025-processo-de-selecao-de-docentes-permanentes-no-programa-de-pos-graduacao-em-ciencia-inovacao-e-tecnologia-para-a-amazonia/edital_de_credenciamento_2025_final.pdf",
     "edital_title": "EDITAL PPGCITA Nº 03/2025"
   },
@@ -3605,11 +3527,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.05,
+    "scan_status": "error",
+    "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "home — Programa de Pós-Graduação em Engenharia Elétrica - PPGEE",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -3631,11 +3553,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.05,
+    "scan_status": "error",
+    "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "home — Programa de Pós-Graduação em Engenharia Elétrica - PPGEE",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -3646,32 +3568,22 @@
     "level": "Doutorado",
     "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-agronomia-producao-vegetal",
     "city": "Rio Branco",
-    "campus": "BR",
+    "campus": "",
     "master_required": "",
     "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
-    "meta_campus": "BR",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "mestrado",
-      "doutorado",
-      "calend[aá]rio"
-    ],
-    "scan_dates_found": [
-      "31/03/2005",
-      "31/03/2005",
-      "31/03/2005",
-      "31/03/2005",
-      "31/03/2005"
-    ],
-    "scan_title": "Programa de Pós-graduação em Agronomia — Programa de Pós-Graduação em Agronomia: Produção Vegetal",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "http://www2.ufac.br/ppga/menu/horario-e-calendario/copy_of_Horario_do_Primeiro_semestre_de_2025_Atualizado_GERAL.pdf",
     "edital_title": "Horário de 1º semestre de 2025"
   },
@@ -3682,32 +3594,22 @@
     "level": "Mestrado",
     "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-agronomia-producao-vegetal",
     "city": "Rio Branco",
-    "campus": "BR",
+    "campus": "",
     "master_required": "",
     "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
-    "meta_campus": "BR",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "mestrado",
-      "doutorado",
-      "calend[aá]rio"
-    ],
-    "scan_dates_found": [
-      "31/03/2005",
-      "31/03/2005",
-      "31/03/2005",
-      "31/03/2005",
-      "31/03/2005"
-    ],
-    "scan_title": "Programa de Pós-graduação em Agronomia — Programa de Pós-Graduação em Agronomia: Produção Vegetal",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "http://www2.ufac.br/ppga/menu/horario-e-calendario/copy_of_Horario_do_Primeiro_semestre_de_2025_Atualizado_GERAL.pdf",
     "edital_title": "Horário de 1º semestre de 2025"
   },
@@ -3770,30 +3672,22 @@
     "level": "Doutorado",
     "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ciencia-da-computacao",
     "city": "Rio Branco",
-    "campus": "Sede",
+    "campus": "",
     "master_required": "",
     "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
-    "meta_campus": "Sede",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
-    "scan_dates_found": [
-      "20/03/2024",
-      "24/10/2022",
-      "01/06/2022"
-    ],
-    "scan_title": "PPGCC — Programa de Pós-Graduação em Ciência da Computação",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "http://www2.ufac.br/../../site/nurca/instrucoes-normativas/instrucao-normativa-no-01-2023.pdf",
     "edital_title": "http://www2.ufac.br/site/nurca/instrucoes-normativas/instrucao-normativa-no-01-2023.pdf"
   },
@@ -3804,30 +3698,22 @@
     "level": "Mestrado",
     "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-ciencia-da-computacao",
     "city": "Rio Branco",
-    "campus": "Sede",
+    "campus": "",
     "master_required": "",
     "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
-    "meta_campus": "Sede",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
-    "scan_dates_found": [
-      "20/03/2024",
-      "24/10/2022",
-      "01/06/2022"
-    ],
-    "scan_title": "PPGCC — Programa de Pós-Graduação em Ciência da Computação",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "http://www2.ufac.br/../../site/nurca/instrucoes-normativas/instrucao-normativa-no-01-2023.pdf",
     "edital_title": "http://www2.ufac.br/site/nurca/instrucoes-normativas/instrucao-normativa-no-01-2023.pdf"
   },
@@ -3849,15 +3735,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "doutorado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Biodiversidade e Biotecnologia - Bionorte — Programa de Pós-Graduação em Biodiversidade e B",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -3879,15 +3761,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "doutorado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Biodiversidade e Biotecnologia - Bionorte — Programa de Pós-Graduação em Biodiversidade e B",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -3898,33 +3776,22 @@
     "level": "Doutorado",
     "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/mestrado-em-saude-coletiva-2",
     "city": "Rio Branco",
-    "campus": "Bloco dos Doutorados",
+    "campus": "",
     "master_required": "",
     "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
-    "meta_campus": "Bloco dos Doutorados",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
-    "scan_keywords": [
-      "inscri[cç][oõ]es\\s+abertas",
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "17/11/2025",
-      "17/11/2025",
-      "28/07/2025",
-      "01/08/2025",
-      "26/04/2024"
-    ],
-    "scan_title": "Inicio — Programa de Pós-Graduação em Saúde Coletiva",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "http://www2.ufac.br/ppgsc/editais/edital-propeg-ppgsc-no-01-2026-chamada-interna-para-a-selecao-de-candidato-a-s-do-ppgsc-2013-ufac-a-concessao-de-bolsas-de-mestrado-e-doutorado-2/edital-ppgsc-n-01-concessao-bolsas-2026.pdf/view",
     "edital_title": "Edital PROPEG/PPGSC Nº 01/2026"
   },
@@ -3935,33 +3802,22 @@
     "level": "Mestrado",
     "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/mestrado-em-saude-coletiva-2",
     "city": "Rio Branco",
-    "campus": "Bloco dos Doutorados",
+    "campus": "",
     "master_required": "",
     "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
-    "meta_campus": "Bloco dos Doutorados",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
-    "scan_keywords": [
-      "inscri[cç][oõ]es\\s+abertas",
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "17/11/2025",
-      "17/11/2025",
-      "28/07/2025",
-      "01/08/2025",
-      "26/04/2024"
-    ],
-    "scan_title": "Inicio — Programa de Pós-Graduação em Saúde Coletiva",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "http://www2.ufac.br/ppgsc/editais/edital-propeg-ppgsc-no-01-2026-chamada-interna-para-a-selecao-de-candidato-a-s-do-ppgsc-2013-ufac-a-concessao-de-bolsas-de-mestrado-e-doutorado-2/edital-ppgsc-n-01-concessao-bolsas-2026.pdf/view",
     "edital_title": "Edital PROPEG/PPGSC Nº 01/2026"
   },
@@ -3983,15 +3839,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "mestrado",
-      "mestrado\\s+profissional"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "PROFMAT — Programa de Pós-Graduação em Matemática em Rede Nacional",
+    "scan_title": null,
     "edital_url": "http://www2.ufac.br/profmat/menu/regimento-profmat.pdf/",
     "edital_title": "Regimento Interno"
   },
@@ -4013,15 +3865,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "mestrado",
-      "mestrado\\s+profissional"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "PROFMAT — Programa de Pós-Graduação em Matemática em Rede Nacional",
+    "scan_title": null,
     "edital_url": "http://www2.ufac.br/profmat/menu/regimento-profmat.pdf/",
     "edital_title": "Regimento Interno"
   },
@@ -4043,15 +3891,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "PPGAC Ufac – Universidade Federal do Acre",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -4073,15 +3917,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "PPGAC Ufac – Universidade Federal do Acre",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -4092,26 +3932,22 @@
     "level": "Doutorado",
     "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-letras-linguagem-e-identidade",
     "city": "Rio Branco",
-    "campus": "sede da Ufac",
+    "campus": "",
     "master_required": "",
     "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
-    "meta_campus": "sede da Ufac",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "sele[cç][aã]o",
-      "inscri[cç][oõ]es",
-      "mestrado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -4122,26 +3958,22 @@
     "level": "Mestrado",
     "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-letras-linguagem-e-identidade",
     "city": "Rio Branco",
-    "campus": "sede da Ufac",
+    "campus": "",
     "master_required": "",
     "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
-    "meta_campus": "sede da Ufac",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "sele[cç][aã]o",
-      "inscri[cç][oõ]es",
-      "mestrado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -4163,20 +3995,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.2,
-    "scan_keywords": [
-      "mestrado",
-      "portaria"
-    ],
-    "scan_dates_found": [
-      "23/09/2026",
-      "23/09/2026",
-      "23/09/2026",
-      "11/09/2026",
-      "01/09/2026"
-    ],
-    "scan_title": "PPGCA — Pós-graduação em  Ciências Ambientais",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://www3.ufac.br/propeg/2025/edital-propeg-no-45-2025-edital-de-selecao-para-ingresso-no-curso-de-mestrado-do-programa-de-pos-graduacao-em-ciencias-ambientais-da-universidade-federal-do-acre-campus-floresta-turma-2026/edital-propeg-no-45-2025.pdf",
     "edital_title": "EDITAL PROPEG Nº 45/2025 - EDITAL DE SELEÇÃO PARA INGRESSO NO CURSO DE MESTRADO DO PROGRAMA DE PÓS-GRADUAÇÃO EM CIÊNCIAS AMBIENTAIS DA UNIVERSIDADE FEDERAL DO ACRE, CAMPUS FLORESTA - TURMA 2026"
   },
@@ -4198,20 +4021,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.2,
-    "scan_keywords": [
-      "mestrado",
-      "portaria"
-    ],
-    "scan_dates_found": [
-      "23/09/2026",
-      "23/09/2026",
-      "23/09/2026",
-      "11/09/2026",
-      "01/09/2026"
-    ],
-    "scan_title": "PPGCA — Pós-graduação em  Ciências Ambientais",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://www3.ufac.br/propeg/2025/edital-propeg-no-45-2025-edital-de-selecao-para-ingresso-no-curso-de-mestrado-do-programa-de-pos-graduacao-em-ciencias-ambientais-da-universidade-federal-do-acre-campus-floresta-turma-2026/edital-propeg-no-45-2025.pdf",
     "edital_title": "EDITAL PROPEG Nº 45/2025 - EDITAL DE SELEÇÃO PARA INGRESSO NO CURSO DE MESTRADO DO PROGRAMA DE PÓS-GRADUAÇÃO EM CIÊNCIAS AMBIENTAIS DA UNIVERSIDADE FEDERAL DO ACRE, CAMPUS FLORESTA - TURMA 2026"
   },
@@ -4285,13 +4099,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.2,
-    "scan_keywords": [
-      "mestrado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Desenvolvimento Regional",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -4313,13 +4125,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.2,
-    "scan_keywords": [
-      "mestrado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Desenvolvimento Regional",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -4341,15 +4151,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "mestrado",
-      "doutorado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Ecologia e Manejo de Recursos Naturais",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -4371,15 +4177,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "mestrado",
-      "doutorado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Ecologia e Manejo de Recursos Naturais",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -4390,26 +4192,22 @@
     "level": "Doutorado",
     "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-educacao",
     "city": "Rio Branco",
-    "campus": "Universitário",
+    "campus": "",
     "master_required": "",
     "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
-    "meta_campus": "Universitário",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "mestrado",
-      "mestrado\\s+acad[eê]mico"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Educação - PPGE — Universidade Federal do Acre Programa de Pós-Graduação em Educação - PPGE",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -4420,26 +4218,22 @@
     "level": "Mestrado",
     "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-educacao",
     "city": "Rio Branco",
-    "campus": "Universitário",
+    "campus": "",
     "master_required": "",
     "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
-    "meta_campus": "Universitário",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "mestrado",
-      "mestrado\\s+acad[eê]mico"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Educação - PPGE — Universidade Federal do Acre Programa de Pós-Graduação em Educação - PPGE",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -4450,32 +4244,22 @@
     "level": "Doutorado",
     "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-geografia",
     "city": "Rio Branco",
-    "campus": "Universitário",
+    "campus": "",
     "master_required": "",
-    "start_date": "primeiro semestre de 2026",
+    "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
-    "meta_campus": "Universitário",
+    "meta_campus": "",
     "meta_duration": "",
-    "meta_start_date": "primeiro semestre de 2026",
+    "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
-    "scan_dates_found": [
-      "25/05/2026",
-      "30/09/2026",
-      "29/09/2026",
-      "06/10/2026",
-      "29/09/2026"
-    ],
-    "scan_title": "PROGRAMA DE PÓS-GRADUAÇÃO EM GEOGRAFIA",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://posgeoufac.com/wp-content/uploads/2026/05/edital_eleicao_coordenacao_ppgeo_2026.pdf",
     "edital_title": "Edital_eleicao_coordenacao_ppgeo_2026"
   },
@@ -4486,32 +4270,22 @@
     "level": "Mestrado",
     "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-geografia",
     "city": "Rio Branco",
-    "campus": "Universitário",
+    "campus": "",
     "master_required": "",
-    "start_date": "primeiro semestre de 2026",
+    "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
-    "meta_campus": "Universitário",
+    "meta_campus": "",
     "meta_duration": "",
-    "meta_start_date": "primeiro semestre de 2026",
+    "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
-    "scan_dates_found": [
-      "25/05/2026",
-      "30/09/2026",
-      "29/09/2026",
-      "06/10/2026",
-      "29/09/2026"
-    ],
-    "scan_title": "PROGRAMA DE PÓS-GRADUAÇÃO EM GEOGRAFIA",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://posgeoufac.com/wp-content/uploads/2026/05/edital_eleicao_coordenacao_ppgeo_2026.pdf",
     "edital_title": "Edital_eleicao_coordenacao_ppgeo_2026"
   },
@@ -4533,15 +4307,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "mestrado",
-      "mestrado\\s+profissional",
-      "capes"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "home — Programa de Pós-Graduação em Letras",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -4563,15 +4333,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "mestrado",
-      "mestrado\\s+profissional",
-      "capes"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "home — Programa de Pós-Graduação em Letras",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -4582,32 +4348,22 @@
     "level": "Doutorado",
     "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-historia",
     "city": "Rio Branco",
-    "campus": "rede nacional",
+    "campus": "",
     "master_required": "",
-    "start_date": "2º Semestre de 2024",
+    "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
-    "meta_campus": "rede nacional",
+    "meta_campus": "",
     "meta_duration": "",
-    "meta_start_date": "2º Semestre de 2024",
+    "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "20/01/2025",
-      "20/01/2025",
-      "10/09/2024",
-      "08/09/2024",
-      "08/09/2024"
-    ],
-    "scan_title": "PPGPEH — Mestrado Profissional Ensino de História",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "http://www2.ufac.br/ppgpeh/menu/noticias/edital-ppgpeh-no-01-2025-selecao-simplificada-de-alunos-especiais-para-o-programa-de-pos-graduacao-profissional-em-ensino-de-historia-semestre-2025-1/edital.pdf/view",
     "edital_title": "Edital.pdf"
   },
@@ -4618,32 +4374,22 @@
     "level": "Mestrado",
     "url": "https://www.ufac.br/site/ufac/propeg/mestrados-e-doutorados/programa-de-pos-graduacao-em-historia",
     "city": "Rio Branco",
-    "campus": "rede nacional",
+    "campus": "",
     "master_required": "",
-    "start_date": "2º Semestre de 2024",
+    "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
-    "meta_campus": "rede nacional",
+    "meta_campus": "",
     "meta_duration": "",
-    "meta_start_date": "2º Semestre de 2024",
+    "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "20/01/2025",
-      "20/01/2025",
-      "10/09/2024",
-      "08/09/2024",
-      "08/09/2024"
-    ],
-    "scan_title": "PPGPEH — Mestrado Profissional Ensino de História",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "http://www2.ufac.br/ppgpeh/menu/noticias/edital-ppgpeh-no-01-2025-selecao-simplificada-de-alunos-especiais-para-o-programa-de-pos-graduacao-profissional-em-ensino-de-historia-semestre-2025-1/edital.pdf/view",
     "edital_title": "Edital.pdf"
   },
@@ -4669,15 +4415,15 @@
     "scan_confidence": 0.4,
     "scan_keywords": [
       "edital",
-      "inscri[cç][oõ]es",
-      "mestrado"
+      "sele[cç][aã]o",
+      "inscri[cç][oõ]es"
     ],
     "scan_dates_found": [
+      "05/10/2026",
       "29/09/2026",
       "28/09/2026",
       "28/09/2026",
-      "28/09/2026",
-      "28/09/2026"
+      "24/09/2026"
     ],
     "scan_title": "Uesc - Universidade Estadual de Santa Cruz",
     "edital_url": "",
@@ -6330,9 +6076,9 @@
     "scan_status": "possible",
     "scan_confidence": 0.4,
     "scan_keywords": [
+      "processo\\s+seletivo",
       "sele[cç][aã]o",
-      "calend[aá]rio",
-      "bolsas?"
+      "mestrado"
     ],
     "scan_dates_found": [],
     "scan_title": "PPGEDUF | Programa de Pós-Graduação em Educação e Formação Docente",
@@ -6553,16 +6299,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
-    "scan_keywords": [
-      "chamada\\s+p[uú]blica",
-      "sele[cç][aã]o",
-      "mestrado",
-      "calend[aá]rio"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Mpies | Mestrado Profissional em Intervenção Educativa e Social",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -10252,9 +9993,9 @@
     "scan_status": "possible",
     "scan_confidence": 0.4,
     "scan_keywords": [
-      "sele[cç][aã]o",
       "mestrado",
-      "doutorado"
+      "doutorado",
+      "calend[aá]rio"
     ],
     "scan_dates_found": [],
     "scan_title": "PROGRAMA DE PÓS-GRADUAÇÃO CUIDADOS CLÍNICOS EM ENFERMAGEM E SAÚDE - Modelo",
@@ -10380,15 +10121,16 @@
     "meta_application_deadline": "",
     "meta_campus": "",
     "meta_duration": "",
-    "meta_start_date": "",
+    "meta_start_date": "segundo semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
     "scan_keywords": [
-      "processo\\s+seletivo",
-      "mestrado",
-      "doutorado"
+      "chamada\\s+p[uú]blica",
+      "edital",
+      "sele[cç][aã]o",
+      "inscri[cç][oõ]es"
     ],
     "scan_dates_found": [],
     "scan_title": "PPSAC – Programa de Pós-Graduação em Saúde Coletiva - Programa de Pós-Graduação em Saúde Coletiva",
@@ -17678,11 +17420,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "12/11/2025",
+      "28/10/2025",
+      "12/11/2025",
+      "28/10/2025",
+      "12/11/2025"
+    ],
+    "scan_title": "Início | PGMP",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17704,11 +17457,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "edital",
+      "processo\\s+seletivo",
+      "mestrado"
+    ],
+    "scan_dates_found": [
+      "30/09/2026",
+      "30/09/2026",
+      "30/09/2026",
+      "30/09/2026",
+      "30/09/2026"
+    ],
+    "scan_title": "Welcome to PGB | PGB",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17730,11 +17494,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "21/09/2026",
+      "19/10/2026",
+      "21/09/2026",
+      "11/09/2026",
+      "21/09/2026"
+    ],
+    "scan_title": "Welcome to PPGBEA | PPGBEA",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17756,11 +17531,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "edital",
+      "processo\\s+seletivo",
+      "inscri[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "21/09/2026",
+      "21/09/2026",
+      "21/09/2026",
+      "21/09/2026",
+      "21/09/2026"
+    ],
+    "scan_title": "Welcome to PGS | PGS",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17782,11 +17568,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "09/09/2026",
+      "25/09/2026",
+      "25/09/2026",
+      "25/09/2026",
+      "14/09/2026"
+    ],
+    "scan_title": "Início | PPGCF",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17886,11 +17683,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "edital",
+      "mestrado",
+      "resultado"
+    ],
+    "scan_dates_found": [
+      "27/08/2026",
+      "27/08/2026",
+      "27/08/2026",
+      "27/08/2026",
+      "27/08/2026"
+    ],
+    "scan_title": "Welcome to PROGEL | PROGEL",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17964,11 +17772,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "27/04/2026",
+      "25/09/2026",
+      "25/09/2026",
+      "25/09/2026",
+      "25/09/2026"
+    ],
+    "scan_title": "Welcome to PPGF | PPGF",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17990,11 +17809,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "22/09/2026",
+      "22/09/2026",
+      "22/09/2026",
+      "22/09/2026",
+      "22/09/2026"
+    ],
+    "scan_title": "Welcome to PGPV | PGPV",
     "edital_url": "",
     "edital_title": ""
   },
@@ -18016,11 +17846,22 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "editais?\\s+abertos?",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
+    "scan_dates_found": [
+      "21/09/2026",
+      "19/10/2026",
+      "29/07/2026",
+      "21/09/2026",
+      "19/10/2026"
+    ],
+    "scan_title": "Welcome to PGPA | PGPA",
     "edital_url": "",
     "edital_title": ""
   },
@@ -18209,8 +18050,9 @@
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_confidence": 0.9,
     "scan_keywords": [
+      "edital\\s+aberto",
       "inscri[cç][oõ]es\\s+abertas",
       "edital",
       "processo\\s+seletivo",
@@ -18270,8 +18112,9 @@
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_confidence": 0.9,
     "scan_keywords": [
+      "edital\\s+aberto",
       "inscri[cç][oõ]es\\s+abertas",
       "edital",
       "processo\\s+seletivo",
@@ -18301,8 +18144,9 @@
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_confidence": 0.9,
     "scan_keywords": [
+      "edital\\s+aberto",
       "inscri[cç][oõ]es\\s+abertas",
       "edital",
       "processo\\s+seletivo",
@@ -18332,8 +18176,9 @@
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_confidence": 0.9,
     "scan_keywords": [
+      "edital\\s+aberto",
       "inscri[cç][oõ]es\\s+abertas",
       "edital",
       "processo\\s+seletivo",
@@ -18363,8 +18208,9 @@
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_confidence": 0.9,
     "scan_keywords": [
+      "edital\\s+aberto",
       "inscri[cç][oõ]es\\s+abertas",
       "edital",
       "processo\\s+seletivo",
@@ -18394,8 +18240,9 @@
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_confidence": 0.9,
     "scan_keywords": [
+      "edital\\s+aberto",
       "inscri[cç][oõ]es\\s+abertas",
       "edital",
       "processo\\s+seletivo",
@@ -18425,8 +18272,9 @@
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_confidence": 0.9,
     "scan_keywords": [
+      "edital\\s+aberto",
       "inscri[cç][oõ]es\\s+abertas",
       "edital",
       "processo\\s+seletivo",
@@ -25869,9 +25717,10 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
     "scan_keywords": [
+      "chamada\\s+p[uú]blica",
       "edital",
       "processo\\s+seletivo",
       "sele[cç][aã]o"
@@ -25879,9 +25728,9 @@
     "scan_dates_found": [
       "25/09/2026",
       "23/09/2026",
-      "04/09/2026",
       "04/08/2026",
-      "05/07/2026"
+      "05/07/2026",
+      "24/05/2026"
     ],
     "scan_title": "Programa de Pós-graduação em Ciência da Comp.",
     "edital_url": "",
@@ -25918,7 +25767,7 @@
       "20/11/2023",
       "28/09/2026",
       "28/09/2026",
-      "10/09/2026"
+      "02/09/2026"
     ],
     "scan_title": "Agro Ppgcta",
     "edital_url": "",
@@ -26048,7 +25897,7 @@
     ],
     "scan_dates_found": [
       "12/08/2026",
-      "30/09/2026",
+      "05/10/2026",
       "18/09/2026",
       "29/09/2026",
       "14/09/2026"
@@ -26197,7 +26046,7 @@
       "25/09/2026",
       "20/09/2026",
       "20/09/2026",
-      "20/09/2026"
+      "14/09/2026"
     ],
     "scan_title": "Programa de Pós-Graduação em História (PPGH/UFG)",
     "edital_url": "",
@@ -26301,7 +26150,7 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "21/09/2026",
+      "05/10/2026",
       "27/08/2026",
       "02/09/2026",
       "22/07/2026",
@@ -26437,7 +26286,7 @@
       "chamada\\s+p[uú]blica",
       "edital",
       "processo\\s+seletivo",
-      "mestrado"
+      "sele[cç][aã]o"
     ],
     "scan_dates_found": [],
     "scan_title": "Programa de Pós-Graduação em Geografia",
@@ -26501,11 +26350,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "24/08/2026"
+      "25/06/2026",
+      "14/09/2026",
+      "14/09/2026",
+      "29/06/2026",
+      "29/06/2026"
     ],
     "scan_title": "::.Mestrado em Engenharia Agrícola.::",
     "edital_url": "",
@@ -26537,11 +26386,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "24/08/2026"
+      "25/06/2026",
+      "14/09/2026",
+      "14/09/2026",
+      "29/06/2026",
+      "29/06/2026"
     ],
     "scan_title": "::.Mestrado em Engenharia Agrícola.::",
     "edital_url": "",
@@ -26565,19 +26414,20 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
     "scan_keywords": [
+      "chamada\\s+p[uú]blica",
       "edital",
-      "sele[cç][aã]o",
-      "mestrado"
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "24/08/2026"
+      "30/03/2026",
+      "03/08/2026",
+      "03/08/2026",
+      "23/06/2026",
+      "23/06/2026"
     ],
     "scan_title": "::.Mestrado em Produção Vegetal.::",
     "edital_url": "",
@@ -26601,19 +26451,20 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
     "scan_keywords": [
+      "chamada\\s+p[uú]blica",
       "edital",
-      "sele[cç][aã]o",
-      "mestrado"
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "24/08/2026"
+      "30/03/2026",
+      "03/08/2026",
+      "03/08/2026",
+      "23/06/2026",
+      "23/06/2026"
     ],
     "scan_title": "::.Mestrado em Produção Vegetal.::",
     "edital_url": "",
@@ -26646,11 +26497,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "24/08/2026"
+      "12/06/2026",
+      "12/06/2026",
+      "12/06/2026",
+      "26/03/2026",
+      "26/03/2026"
     ],
     "scan_title": "::.Mestrado em Ambiente e Sociedade.::",
     "edital_url": "https://cdn.ueg.edu.br/source/mestrado_em_ambiente_e_sociedade_123/noticias/73150/262Edital_PPGAS__Aluno_Especial__20262_assinado.pdf",
@@ -26683,11 +26534,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "24/08/2026"
+      "12/06/2026",
+      "12/06/2026",
+      "12/06/2026",
+      "26/03/2026",
+      "26/03/2026"
     ],
     "scan_title": "::.Mestrado em Ambiente e Sociedade.::",
     "edital_url": "https://cdn.ueg.edu.br/source/mestrado_em_ambiente_e_sociedade_123/noticias/73150/262Edital_PPGAS__Aluno_Especial__20262_assinado.pdf",
@@ -26719,11 +26570,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "24/08/2026"
+      "30/06/2026",
+      "29/06/2026",
+      "29/06/2026",
+      "24/06/2026",
+      "24/06/2026"
     ],
     "scan_title": "::.Mestrado em Gestão, Educação e Tecnologias..::",
     "edital_url": "https://cdn.ueg.edu.br/source/mestrado_em_gestaom_educacao_e_tecnologias__377/conteudo/12993/1C2AA_CHAMADA_PARA_MATRICULAS__PS_PPGET_2026_2__1C2AA_CHAMADA_PARA_MATRICULAS__assinado.pdf",
@@ -26755,11 +26606,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "24/08/2026"
+      "30/06/2026",
+      "29/06/2026",
+      "29/06/2026",
+      "24/06/2026",
+      "24/06/2026"
     ],
     "scan_title": "::.Mestrado em Gestão, Educação e Tecnologias..::",
     "edital_url": "https://cdn.ueg.edu.br/source/mestrado_em_gestaom_educacao_e_tecnologias__377/conteudo/12993/1C2AA_CHAMADA_PARA_MATRICULAS__PS_PPGET_2026_2__1C2AA_CHAMADA_PARA_MATRICULAS__assinado.pdf",
@@ -26783,19 +26634,20 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
     "scan_keywords": [
+      "chamada\\s+p[uú]blica",
       "edital",
       "processo\\s+seletivo",
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "24/08/2026"
+      "11/09/2025",
+      "14/02/2023",
+      "14/02/2023",
+      "30/06/2022",
+      "30/06/2022"
     ],
     "scan_title": "::.Mestrado em Ciências Moleculares.::",
     "edital_url": "",
@@ -26819,19 +26671,20 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
     "scan_keywords": [
+      "chamada\\s+p[uú]blica",
       "edital",
       "processo\\s+seletivo",
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "24/08/2026"
+      "11/09/2025",
+      "14/02/2023",
+      "14/02/2023",
+      "30/06/2022",
+      "30/06/2022"
     ],
     "scan_title": "::.Mestrado em Ciências Moleculares.::",
     "edital_url": "",
@@ -26863,11 +26716,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "24/08/2026"
+      "08/06/2026",
+      "27/05/2026",
+      "16/03/2026",
+      "28/02/2026",
+      "23/02/2026"
     ],
     "scan_title": "::.Programa de Pós-Graduação em Educação (PPGE).::",
     "edital_url": "https://ns.ueg.br/pdfs/processos/394/Edital%20Enem%202026-2R.pdf",
@@ -26899,11 +26752,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "24/08/2026"
+      "08/06/2026",
+      "27/05/2026",
+      "16/03/2026",
+      "28/02/2026",
+      "23/02/2026"
     ],
     "scan_title": "::.Programa de Pós-Graduação em Educação (PPGE).::",
     "edital_url": "https://ns.ueg.br/pdfs/processos/394/Edital%20Enem%202026-2R.pdf",
@@ -26931,15 +26784,15 @@
     "scan_confidence": 0.4,
     "scan_keywords": [
       "edital",
-      "sele[cç][aã]o",
-      "mestrado"
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "24/08/2026"
+      "09/12/2025",
+      "04/12/2025",
+      "04/12/2025",
+      "28/11/2025",
+      "28/11/2025"
     ],
     "scan_title": "::.PPGIELT.::",
     "edital_url": "",
@@ -26967,15 +26820,15 @@
     "scan_confidence": 0.4,
     "scan_keywords": [
       "edital",
-      "sele[cç][aã]o",
-      "mestrado"
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "24/08/2026"
+      "09/12/2025",
+      "04/12/2025",
+      "04/12/2025",
+      "28/11/2025",
+      "28/11/2025"
     ],
     "scan_title": "::.PPGIELT.::",
     "edital_url": "",
@@ -27010,10 +26863,10 @@
     ],
     "scan_dates_found": [
       "14/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026"
+      "26/06/2026",
+      "26/06/2026",
+      "25/05/2026",
+      "25/05/2026"
     ],
     "scan_title": "::.Mestrado Acadêmico em Geografia - Câmpus Cora Coralina.::",
     "edital_url": "https://cdn.ueg.edu.br/source/mestrado_academico_em_geografia_-_campus_cora_coralina_337/conteudo/10445/20262/Edital_2026.2_Aluno_Especial.pdf",
@@ -27048,10 +26901,10 @@
     ],
     "scan_dates_found": [
       "14/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026",
-      "10/09/2026"
+      "26/06/2026",
+      "26/06/2026",
+      "25/05/2026",
+      "25/05/2026"
     ],
     "scan_title": "::.Mestrado Acadêmico em Geografia - Câmpus Cora Coralina.::",
     "edital_url": "https://cdn.ueg.edu.br/source/mestrado_academico_em_geografia_-_campus_cora_coralina_337/conteudo/10445/20262/Edital_2026.2_Aluno_Especial.pdf",
@@ -27066,13 +26919,13 @@
     "city": "Anápolis",
     "campus": "Central",
     "master_required": "",
-    "start_date": null,
+    "start_date": "2º semestre de 2026",
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
     "meta_campus": "Central",
     "meta_duration": "",
-    "meta_start_date": "",
+    "meta_start_date": "2º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "likely_open",
@@ -27084,11 +26937,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "14/09/2026",
-      "30/10/2026",
       "25/10/2021",
-      "14/09/2026",
-      "30/10/2026"
+      "25/06/2026",
+      "15/09/2026",
+      "15/09/2026",
+      "25/06/2026"
     ],
     "scan_title": "::.Mestrado em História - Câmpus Morrinhos.::",
     "edital_url": "https://cdn.ueg.edu.br/source/mestrado_em_historia_-_campus_morrinhos_339/conteudo/10878/EDITAL_PPGHIS_Aluno_Especial_20222_x.pdf",
@@ -27103,13 +26956,13 @@
     "city": "Anápolis",
     "campus": "Central",
     "master_required": "",
-    "start_date": null,
+    "start_date": "2º semestre de 2026",
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
     "meta_campus": "Central",
     "meta_duration": "",
-    "meta_start_date": "",
+    "meta_start_date": "2º semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "likely_open",
@@ -27121,11 +26974,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "14/09/2026",
-      "30/10/2026",
       "25/10/2021",
-      "14/09/2026",
-      "30/10/2026"
+      "25/06/2026",
+      "15/09/2026",
+      "15/09/2026",
+      "25/06/2026"
     ],
     "scan_title": "::.Mestrado em História - Câmpus Morrinhos.::",
     "edital_url": "https://cdn.ueg.edu.br/source/mestrado_em_historia_-_campus_morrinhos_339/conteudo/10878/EDITAL_PPGHIS_Aluno_Especial_20222_x.pdf",
@@ -28060,14 +27913,18 @@
     "meta_application_deadline": "",
     "meta_campus": "",
     "meta_duration": "",
-    "meta_start_date": "",
+    "meta_start_date": "primeiro semestre de 2027",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "PPG em Física Ambiental",
     "edital_url": "",
     "edital_title": ""
   },
@@ -28296,7 +28153,7 @@
     "duration_months": 24,
     "language_requirement": "Português intermediário Espanhol intermediário",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "Academica",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
@@ -28326,7 +28183,7 @@
     "duration_months": 24,
     "language_requirement": "Português intermediário Espanhol intermediário",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "Academica",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
@@ -28356,7 +28213,7 @@
     "duration_months": 24,
     "language_requirement": "Português intermediário Espanhol intermediário",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "Academica",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
@@ -28386,7 +28243,7 @@
     "duration_months": 24,
     "language_requirement": "Português intermediário Espanhol intermediário",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "Academica",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
@@ -29020,12 +28877,13 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
     "scan_keywords": [
+      "chamada\\s+p[uú]blica",
       "processo\\s+seletivo",
-      "inscri[cç][aã]o",
-      "inscri[cç][oõ]es"
+      "sele[cç][aã]o",
+      "inscri[cç][aã]o"
     ],
     "scan_dates_found": [],
     "scan_title": "Programa de Pós-graduação em Engenharia Elétrica",
@@ -29283,7 +29141,7 @@
     "scan_keywords": [
       "mestrado",
       "doutorado",
-      "resultado"
+      "cronograma"
     ],
     "scan_dates_found": [],
     "scan_title": "Início - Programa de Pós-Graduação em Biologia de Ambientes Aquáticos Continentais",
@@ -29569,9 +29427,9 @@
     "scan_status": "possible",
     "scan_confidence": 0.4,
     "scan_keywords": [
-      "edital",
       "sele[cç][aã]o",
-      "inscri[cç][aã]o"
+      "inscri[cç][aã]o",
+      "inscri[cç][oõ]es"
     ],
     "scan_dates_found": [
       "08/09/2026",
@@ -29930,11 +29788,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "24/09/2026",
-      "14/09/2026",
-      "08/09/2026",
-      "26/08/2026",
-      "18/08/2026"
+      "05/10/2026",
+      "05/10/2026",
+      "05/10/2026",
+      "05/10/2026",
+      "05/10/2026"
     ],
     "scan_title": "PPGEP – Programa de Pós-Graduação em Engenharia de Produção",
     "edital_url": "",
@@ -30002,7 +29860,7 @@
       "calend[aá]rio"
     ],
     "scan_dates_found": [
-      "01/10/2026",
+      "05/10/2026",
       "23/09/2026",
       "16/12/2026",
       "08/10/2026",
@@ -30164,9 +30022,10 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
     "scan_keywords": [
+      "inscri[cç][oõ]es\\s+abertas",
       "edital",
       "processo\\s+seletivo",
       "sele[cç][aã]o"
@@ -30353,7 +30212,7 @@
     ],
     "scan_dates_found": [
       "13/07/2026",
-      "20/01/2026",
+      "05/10/2026",
       "24/09/2026",
       "03/08/2026",
       "03/08/2026"
@@ -30883,11 +30742,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
+      "05/10/2026",
       "24/09/2026",
       "18/09/2026",
       "17/09/2026",
-      "04/09/2026",
-      "03/09/2026"
+      "04/09/2026"
     ],
     "scan_title": "PPGE&D – Programa de Pós-Graduação em Economia e Desenvolvimento",
     "edital_url": "https://www.ufsm.br/app/uploads/sites/533/2026/05/Edital_Geral_030-2025_-_Orientacoes_para_prova_assinado.pdf",
@@ -31279,11 +31138,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "28/09/2026",
-      "28/09/2026",
-      "24/09/2026",
-      "21/09/2026",
-      "11/09/2026"
+      "05/10/2026",
+      "05/10/2026",
+      "05/10/2026",
+      "05/10/2026",
+      "05/10/2026"
     ],
     "scan_title": "PGMEC – Programa de Pós-Graduação em Engenharia Mecânica – Campus Santa Maria",
     "edital_url": "https://www.ufsm.br/app/uploads/sites/595/2026/06/Cronograma-das-entrevistas_PGMec-2a-janela-2026.pdf",
@@ -35132,15 +34991,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "mestrado",
-      "doutorado",
-      "mestrado\\s+acad[eê]mico"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "UFTM - Universidade Federal do Triângulo Mineiro",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -35162,15 +35017,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "mestrado",
-      "doutorado",
-      "mestrado\\s+acad[eê]mico"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "UFTM - Universidade Federal do Triângulo Mineiro",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -35192,11 +35043,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.05,
+    "scan_status": "error",
+    "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "UFTM - Universidade Federal do Triângulo Mineiro",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -35249,15 +35100,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "mestrado",
-      "doutorado",
-      "mestrado\\s+acad[eê]mico"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "UFTM - Universidade Federal do Triângulo Mineiro",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -35279,15 +35126,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "mestrado",
-      "doutorado",
-      "mestrado\\s+acad[eê]mico"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "UFTM - Universidade Federal do Triângulo Mineiro",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -35309,15 +35152,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "mestrado",
-      "doutorado",
-      "mestrado\\s+acad[eê]mico"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "UFTM - Universidade Federal do Triângulo Mineiro",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -35485,7 +35324,7 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "05/10/2026"
+      "06/10/2026"
     ],
     "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
@@ -35504,7 +35343,7 @@
     "duration_months": 24,
     "language_requirement": "Portugês, espanhol",
     "meta_application_deadline": "",
-    "meta_campus": "Anfiteatro do Departamento de Ecologia",
+    "meta_campus": "Anfiteatro de Ecologia TÍTULO",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
@@ -35517,11 +35356,11 @@
       "mestrado"
     ],
     "scan_dates_found": [
-      "27/10/2026",
+      "19/10/2026",
+      "05/10/2026",
+      "05/10/2026",
       "29/09/2026",
-      "28/09/2026",
-      "24/09/2026",
-      "24/09/2026"
+      "28/09/2026"
     ],
     "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
@@ -35687,7 +35526,7 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "05/10/2026"
+      "06/10/2026"
     ],
     "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
@@ -35719,7 +35558,7 @@
       "mestrado"
     ],
     "scan_dates_found": [
-      "05/10/2026"
+      "06/10/2026"
     ],
     "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
@@ -36152,11 +35991,19 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "mestrado",
+      "doutorado"
+    ],
+    "scan_dates_found": [
+      "16/11/2021",
+      "16/11/2021",
+      "15/11/2021"
+    ],
+    "scan_title": "Programa de Pós-Graduação em Biologia Celular - ICB - UFMG",
     "edital_url": "",
     "edital_title": ""
   },
@@ -36179,8 +36026,9 @@
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "possible",
-    "scan_confidence": 0.2,
+    "scan_confidence": 0.4,
     "scan_keywords": [
+      "processo\\s+seletivo",
       "mestrado",
       "doutorado"
     ],
@@ -36219,7 +36067,6 @@
       "inscri[cç][oõ]es"
     ],
     "scan_dates_found": [
-      "10/04/2026",
       "14/03/2023",
       "17/12/2020"
     ],
@@ -36340,20 +36187,16 @@
     "duration_months": 24,
     "language_requirement": "Inglês ou espanhol (avançado)",
     "meta_application_deadline": "",
-    "meta_campus": "Morro do Cruzeiro Universidade Federal de Ouro Preto Ouro Preto",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "https://biotec.nupeb.ufop.br/",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -36370,20 +36213,16 @@
     "duration_months": 24,
     "language_requirement": "Português ou espanhol (intermediário ou avançado)",
     "meta_application_deadline": "",
-    "meta_campus": "Morro do Cruzeiro Ouro Preto",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "mestrado",
-      "doutorado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Ciências",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -36405,15 +36244,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "mestrado",
-      "doutorado",
-      "calend[aá]rio"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Comunicação",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -36435,15 +36270,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "doutorado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Novos Direitos",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -36465,15 +36296,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Economia Aplicada",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -36495,15 +36322,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "doutorado",
-      "calend[aá]rio",
-      "bolsas?"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -36525,15 +36348,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "mestrado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "REDE TEMÁTICA EM ENGENHARIA DE MATERIAIS",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -36585,11 +36404,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.05,
+    "scan_status": "error",
+    "scan_confidence": 0.0,
     "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de PÃ³s GraduaÃ§Ã£o em Engenharia Mineral",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -36672,11 +36491,12 @@
     "scan_keywords": [
       "edital",
       "sele[cç][aã]o",
-      "mestrado"
+      "inscri[cç][oõ]es"
     ],
     "scan_dates_found": [
-      "19/10/2026",
-      "30/10/2026"
+      "22/11/2026",
+      "22/11/2026",
+      "22/11/2026"
     ],
     "scan_title": "PPGQUIM - UFOP",
     "edital_url": "",
@@ -37039,13 +36859,7 @@
       "processo\\s+seletivo",
       "sele[cç][aã]o"
     ],
-    "scan_dates_found": [
-      "16/07/2026",
-      "16/07/2026",
-      "16/07/2026",
-      "16/07/2026",
-      "16/07/2026"
-    ],
+    "scan_dates_found": [],
     "scan_title": "PROGRAMA DE PÓS-GRADUAÇÃO EM MODELAGEM MATEMÁTICA E COMPUTACIONAL",
     "edital_url": "",
     "edital_title": ""
@@ -53210,11 +53024,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "mestrado",
+      "doutorado",
+      "capes"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "Home",
     "edital_url": "",
     "edital_title": ""
   },
