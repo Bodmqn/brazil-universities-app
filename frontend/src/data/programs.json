@@ -534,15 +534,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Página inicial",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -590,15 +586,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "mestrado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "PPG Geografia UFAM",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -646,15 +638,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Página inicial",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -4426,11 +4414,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "unknown",
-    "scan_confidence": 0.05,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "capes"
+    ],
     "scan_dates_found": [],
-    "scan_title": "Index of /",
+    "scan_title": "PPGMC/UESC",
     "edital_url": "",
     "edital_title": ""
   },
@@ -17468,11 +17460,11 @@
       "inscri[cç][aã]o"
     ],
     "scan_dates_found": [
-      "29/10/2026",
-      "29/10/2026",
-      "29/10/2026",
-      "29/10/2026",
-      "29/10/2026"
+      "02/11/2026",
+      "02/11/2026",
+      "02/11/2026",
+      "02/11/2026",
+      "02/11/2026"
     ],
     "scan_title": "Welcome to PGS | PGS",
     "edital_url": "",
@@ -25841,10 +25833,10 @@
     ],
     "scan_dates_found": [
       "12/08/2026",
-      "29/10/2026",
+      "02/11/2026",
       "18/09/2026",
       "29/09/2026",
-      "14/09/2026"
+      "12/08/2026"
     ],
     "scan_title": "Pós Direitos Humanos UFG",
     "edital_url": "",
@@ -25977,19 +25969,20 @@
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_confidence": 0.9,
     "scan_keywords": [
       "inscri[cç][oõ]es\\s+abertas",
+      "chamada\\s+p[uú]blica",
       "edital",
       "processo\\s+seletivo",
       "inscri[cç][oõ]es"
     ],
     "scan_dates_found": [
+      "30/10/2026",
       "28/10/2026",
       "25/10/2026",
       "25/10/2026",
-      "25/10/2026",
-      "25/10/2026"
+      "27/09/2026"
     ],
     "scan_title": "Programa de Pós-Graduação em História (PPGH/UFG)",
     "edital_url": "",
@@ -29535,15 +29528,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "sele[cç][aã]o",
-      "inscri[cç][oõ]es",
-      "mestrado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "UFCSPA - Universidade Federal de Ciências da Saúde de Porto Alegre - Ciências da Reabilitação",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -29565,15 +29554,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "UFCSPA - Universidade Federal de Ciências da Saúde de Porto Alegre - Ciências da Saúde",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -29595,15 +29580,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "sele[cç][aã]o",
-      "mestrado",
-      "doutorado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "UFCSPA - Universidade Federal de Ciências da Saúde de Porto Alegre - Hepatologia",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -29625,15 +29606,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "sele[cç][aã]o",
-      "mestrado",
-      "doutorado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "UFCSPA - Universidade Federal de Ciências da Saúde de Porto Alegre - Patologia",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -35282,7 +35259,7 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "02/11/2026"
+      "03/11/2026"
     ],
     "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
@@ -35484,7 +35461,7 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "02/11/2026"
+      "03/11/2026"
     ],
     "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
@@ -35516,7 +35493,7 @@
       "mestrado"
     ],
     "scan_dates_found": [
-      "02/11/2026"
+      "03/11/2026"
     ],
     "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
@@ -35711,11 +35688,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "PPGARTES - UEMG",
     "edital_url": "",
     "edital_title": ""
   },
@@ -35737,11 +35718,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "PPGBSH - UEMG",
     "edital_url": "",
     "edital_title": ""
   },
@@ -35763,11 +35748,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "mestrado"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "PPGCIAMB - UEMG",
     "edital_url": "",
     "edital_title": ""
   },
@@ -35786,14 +35775,18 @@
     "meta_application_deadline": "",
     "meta_campus": "",
     "meta_duration": "",
-    "meta_start_date": "",
+    "meta_start_date": "1º Semestre de 2026",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "PPGD - UEMG",
     "edital_url": "",
     "edital_title": ""
   },
@@ -35832,20 +35825,24 @@
     "city": "Belo Horizonte",
     "campus": "Escola de Design",
     "master_required": "",
-    "start_date": null,
+    "start_date": "1º Semestre de 2027",
     "duration_months": 24,
     "language_requirement": "Português e inglês",
     "meta_application_deadline": "",
     "meta_campus": "",
     "meta_duration": "",
-    "meta_start_date": "",
+    "meta_start_date": "1º Semestre de 2027",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "PPGDM - UEMG",
     "edital_url": "",
     "edital_title": ""
   },
@@ -35867,11 +35864,16 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
+    "scan_keywords": [
+      "inscri[cç][oõ]es\\s+abertas",
+      "edital",
+      "processo\\s+seletivo",
+      "sele[cç][aã]o"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "PPGPM - UEMG",
     "edital_url": "",
     "edital_title": ""
   },
@@ -35884,20 +35886,24 @@
     "city": "Passos",
     "campus": "Passos",
     "master_required": "",
-    "start_date": null,
+    "start_date": "Segundo Semestre de 2021",
     "duration_months": 24,
     "language_requirement": "Inglês, espanhol e português. (Todos idiomas no nível avançado).",
     "meta_application_deadline": "",
     "meta_campus": "",
     "meta_duration": "",
-    "meta_start_date": "",
+    "meta_start_date": "Segundo Semestre de 2021",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "edital",
+      "processo\\s+seletivo",
+      "inscri[cç][oõ]es"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "PPGDRMA - UEMG",
     "edital_url": "",
     "edital_title": ""
   },
