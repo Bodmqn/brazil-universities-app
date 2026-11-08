@@ -534,15 +534,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Página inicial",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -590,15 +586,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "mestrado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "PPG Geografia UFAM",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -646,15 +638,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Página inicial",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -25705,20 +25693,19 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
     "scan_keywords": [
-      "chamada\\s+p[uú]blica",
       "edital",
       "processo\\s+seletivo",
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
+      "05/11/2026",
       "25/09/2026",
       "23/09/2026",
       "04/08/2026",
-      "05/07/2026",
-      "24/05/2026"
+      "05/07/2026"
     ],
     "scan_title": "Programa de Pós-graduação em Ciência da Comp.",
     "edital_url": "",
@@ -29844,10 +29831,10 @@
     ],
     "scan_dates_found": [
       "15/11/2026",
-      "07/11/2026",
       "13/11/2026",
+      "11/11/2026",
       "15/11/2026",
-      "07/11/2026"
+      "13/11/2026"
     ],
     "scan_title": "UFSM – Universidade Federal de Santa Maria",
     "edital_url": "",
@@ -35926,21 +35913,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "mestrado",
-      "doutorado"
-    ],
-    "scan_dates_found": [
-      "17/11/2026",
-      "17/11/2026",
-      "17/11/2026",
-      "16/11/2021",
-      "16/11/2021"
-    ],
-    "scan_title": "Programa de Pós-Graduação em Biologia Celular - ICB - UFMG",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -52863,11 +52840,15 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "doutorado",
+      "capes",
+      "bolsas?"
+    ],
     "scan_dates_found": [],
-    "scan_title": null,
+    "scan_title": "PPGAAI - English",
     "edital_url": "",
     "edital_title": ""
   },
