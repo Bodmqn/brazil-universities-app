@@ -285,9 +285,9 @@
     "scan_status": "possible",
     "scan_confidence": 0.4,
     "scan_keywords": [
+      "edital",
       "sele[cç][aã]o",
-      "mestrado",
-      "vagas?"
+      "mestrado"
     ],
     "scan_dates_found": [],
     "scan_title": "Início - Portal UEA",
@@ -320,7 +320,13 @@
       "sele[cç][aã]o",
       "inscri[cç][oõ]es"
     ],
-    "scan_dates_found": [],
+    "scan_dates_found": [
+      "10/11/2026",
+      "10/11/2026",
+      "10/11/2026",
+      "10/11/2026",
+      "10/11/2026"
+    ],
     "scan_title": "Mestrado em Biotecnologia e Recursos Naturais",
     "edital_url": "",
     "edital_title": ""
@@ -346,9 +352,9 @@
     "scan_status": "possible",
     "scan_confidence": 0.4,
     "scan_keywords": [
+      "edital",
       "sele[cç][aã]o",
-      "mestrado",
-      "vagas?"
+      "mestrado"
     ],
     "scan_dates_found": [],
     "scan_title": "Início - Portal UEA",
@@ -5394,21 +5400,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "sele[cç][aã]o",
-      "inscri[cç][oõ]es"
-    ],
-    "scan_dates_found": [
-      "04/11/2026",
-      "28/10/2026",
-      "04/11/2026",
-      "28/10/2026",
-      "04/11/2026"
-    ],
-    "scan_title": "Programa de Pós-Graduação em Ciências Agrárias UFRB",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -5430,15 +5426,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós Graduação em Educação Científica, Inclusão e Diversidade",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -5460,21 +5452,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "12/10/2026",
-      "12/10/2026",
-      "12/10/2026",
-      "12/10/2026",
-      "12/10/2026"
-    ],
-    "scan_title": "Mestrado Profissional em Gestão de Políticas Públicas da UFRB",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -5496,22 +5478,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
-    "scan_keywords": [
-      "inscri[cç][oõ]es\\s+abertas",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o",
-      "inscri[cç][oõ]es"
-    ],
-    "scan_dates_found": [
-      "20/03/2026",
-      "24/11/2023",
-      "24/11/2023",
-      "24/11/2023",
-      "24/11/2023"
-    ],
-    "scan_title": "Programa de Pós-Graduação em Arqueologia e Patrimônio Cultural",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -5533,15 +5504,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "sele[cç][aã]o",
-      "inscri[cç][oõ]es"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Programa de Pós-Graduação em Comunicação - Mídia e Formatos Narrativos",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -5563,15 +5530,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "Curso de Pós-graduação em Engenharia Elétrica e Computação - UFRB",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -5593,21 +5556,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "03/11/2026",
-      "27/10/2026",
-      "26/10/2026",
-      "14/10/2026",
-      "13/10/2026"
-    ],
-    "scan_title": "Curso de Pós Graduação em Artes - UFRB",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -5629,21 +5582,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
-    "scan_dates_found": [
-      "23/10/2026",
-      "30/09/2026",
-      "21/09/2026",
-      "31/08/2026",
-      "26/08/2026"
-    ],
-    "scan_title": "Programa de Pós-Graduação em Recursos Genéticos Vegetais UFRB",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -5665,21 +5608,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "mestrado",
-      "vagas?"
-    ],
-    "scan_dates_found": [
-      "23/07/2025",
-      "23/07/2025",
-      "23/07/2025",
-      "23/07/2025",
-      "23/07/2025"
-    ],
-    "scan_title": "Programa de Pós-Graduação Integrado em Zootecnia - UFRB/CCAAB",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -5701,21 +5634,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "processo\\s+seletivo",
-      "sele[cç][aã]o",
-      "mestrado"
-    ],
-    "scan_dates_found": [
-      "13/03/2026",
-      "13/03/2026",
-      "13/03/2026",
-      "13/03/2026",
-      "13/03/2026"
-    ],
-    "scan_title": "Mestrado Profissional em Saúde da População Negra e Indígena",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -5737,21 +5660,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "inscri[cç][oõ]es"
-    ],
-    "scan_dates_found": [
-      "15/10/2026",
-      "14/08/2026",
-      "30/07/2026",
-      "26/05/2026",
-      "26/05/2026"
-    ],
-    "scan_title": "Programa de Pós-Graduação em Política Social e Territórios",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -11517,21 +11430,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "01/10/2026",
-      "30/11/2026",
-      "01/10/2026",
-      "30/11/2026",
-      "01/10/2026"
-    ],
-    "scan_title": "Administração – Universidade Federal do Cariri",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -11553,21 +11456,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "01/10/2026",
-      "30/11/2026",
-      "01/10/2026",
-      "30/11/2026",
-      "01/10/2026"
-    ],
-    "scan_title": "Administração – Universidade Federal do Cariri",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -11589,21 +11482,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "15/07/2024",
-      "13/03/2026",
-      "15/07/2024",
-      "13/03/2026",
-      "15/07/2024"
-    ],
-    "scan_title": "Administração Pública – Universidade Federal do Cariri",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -11625,21 +11508,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "15/07/2024",
-      "13/03/2026",
-      "15/07/2024",
-      "13/03/2026",
-      "15/07/2024"
-    ],
-    "scan_title": "Administração Pública – Universidade Federal do Cariri",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -11661,21 +11534,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "11/03/2024",
-      "09/08/2026",
-      "11/03/2024",
-      "09/08/2026",
-      "11/03/2024"
-    ],
-    "scan_title": "Biblioteconomia – Universidade Federal do Cariri",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -11697,21 +11560,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "11/03/2024",
-      "09/08/2026",
-      "11/03/2024",
-      "09/08/2026",
-      "11/03/2024"
-    ],
-    "scan_title": "Biblioteconomia – Universidade Federal do Cariri",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -11733,21 +11586,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "28/05/2024",
-      "14/10/2026",
-      "28/05/2024",
-      "14/10/2026",
-      "28/05/2024"
-    ],
-    "scan_title": "Bioquímica e Biologia Molecular – Universidade Federal do Cariri",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -11769,21 +11612,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "28/05/2024",
-      "14/10/2026",
-      "28/05/2024",
-      "14/10/2026",
-      "28/05/2024"
-    ],
-    "scan_title": "Bioquímica e Biologia Molecular – Universidade Federal do Cariri",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -11805,21 +11638,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "29/01/2025",
-      "15/05/2026",
-      "14/06/2025",
-      "29/01/2025",
-      "15/05/2026"
-    ],
-    "scan_title": "Ciência e Engenharia de Materiais – Universidade Federal do Cariri",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -11841,21 +11664,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "29/01/2025",
-      "15/05/2026",
-      "14/06/2025",
-      "29/01/2025",
-      "15/05/2026"
-    ],
-    "scan_title": "Ciência e Engenharia de Materiais – Universidade Federal do Cariri",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -11877,21 +11690,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "24/01/2025",
-      "02/11/2026",
-      "24/01/2025",
-      "02/11/2026",
-      "24/01/2025"
-    ],
-    "scan_title": "Ciências da Saúde – Universidade Federal do Cariri",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -11913,21 +11716,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "24/01/2025",
-      "02/11/2026",
-      "24/01/2025",
-      "02/11/2026",
-      "24/01/2025"
-    ],
-    "scan_title": "Ciências da Saúde – Universidade Federal do Cariri",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -11949,21 +11742,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "09/04/2026",
-      "04/01/2026",
-      "09/04/2026",
-      "04/01/2026",
-      "09/04/2026"
-    ],
-    "scan_title": "Desenvolvimento Regional Sustentável – Universidade Federal do Cariri",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -11985,21 +11768,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "09/04/2026",
-      "04/01/2026",
-      "09/04/2026",
-      "04/01/2026",
-      "09/04/2026"
-    ],
-    "scan_title": "Desenvolvimento Regional Sustentável – Universidade Federal do Cariri",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -12021,21 +11794,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "17/09/2024",
-      "06/02/2026",
-      "17/09/2024",
-      "06/02/2026",
-      "17/09/2024"
-    ],
-    "scan_title": "Filosofia – Universidade Federal do Cariri",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -12057,21 +11820,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "17/09/2024",
-      "06/02/2026",
-      "17/09/2024",
-      "06/02/2026",
-      "17/09/2024"
-    ],
-    "scan_title": "Filosofia – Universidade Federal do Cariri",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -12093,21 +11846,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "15/05/2026",
-      "04/02/2026",
-      "15/05/2026",
-      "04/02/2026",
-      "15/05/2026"
-    ],
-    "scan_title": "Matemática – Universidade Federal do Cariri",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -12129,21 +11872,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "15/05/2026",
-      "04/02/2026",
-      "15/05/2026",
-      "04/02/2026",
-      "15/05/2026"
-    ],
-    "scan_title": "Matemática – Universidade Federal do Cariri",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -12159,27 +11892,17 @@
     "start_date": null,
     "duration_months": null,
     "language_requirement": "",
-    "meta_application_deadline": "05/01/2026",
+    "meta_application_deadline": "",
     "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "30/10/2023",
-      "05/08/2026",
-      "05/01/2026",
-      "30/10/2023",
-      "05/08/2026"
-    ],
-    "scan_title": "Saúde da Família – PROFSAÚDE – Universidade Federal do Cariri",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -12195,27 +11918,17 @@
     "start_date": null,
     "duration_months": null,
     "language_requirement": "",
-    "meta_application_deadline": "05/01/2026",
+    "meta_application_deadline": "",
     "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "30/10/2023",
-      "05/08/2026",
-      "05/01/2026",
-      "30/10/2023",
-      "05/08/2026"
-    ],
-    "scan_title": "Saúde da Família – PROFSAÚDE – Universidade Federal do Cariri",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -12237,21 +11950,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "20/01/2026",
-      "29/03/2026",
-      "20/01/2026",
-      "29/03/2026",
-      "20/01/2026"
-    ],
-    "scan_title": "Biblioteconomia – Universidade Federal do Cariri",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -12273,21 +11976,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
-    "scan_dates_found": [
-      "28/05/2024",
-      "14/10/2026",
-      "28/05/2024",
-      "14/10/2026",
-      "28/05/2024"
-    ],
-    "scan_title": "Bioquímica e Biologia Molecular – Universidade Federal do Cariri",
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
+    "scan_dates_found": [],
+    "scan_title": null,
     "edital_url": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2026/04/Edital_20_2026_assinado.pdf",
     "edital_title": "Edital 20/2026 – Concurso Público para o Cargo do Magistério Superior"
   },
@@ -17482,11 +17175,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "03/11/2026",
-      "11/09/2026",
-      "26/10/2026",
-      "03/11/2026",
-      "11/09/2026"
+      "09/11/2026",
+      "09/11/2026",
+      "09/11/2026",
+      "09/11/2026",
+      "09/11/2026"
     ],
     "scan_title": "Welcome to PPGBEA | PPGBEA",
     "edital_url": "",
@@ -18041,9 +17734,10 @@
     "meta_start_date": "primeiro semestre letivo de 2027",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
     "scan_keywords": [
+      "inscreva-se",
       "edital",
       "processo\\s+seletivo",
       "sele[cç][aã]o"
@@ -18107,9 +17801,10 @@
     "meta_start_date": "primeiro semestre letivo de 2027",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
     "scan_keywords": [
+      "inscreva-se",
       "edital",
       "processo\\s+seletivo",
       "sele[cç][aã]o"
@@ -18137,9 +17832,10 @@
     "meta_start_date": "primeiro semestre letivo de 2027",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
     "scan_keywords": [
+      "inscreva-se",
       "edital",
       "processo\\s+seletivo",
       "sele[cç][aã]o"
@@ -18167,9 +17863,10 @@
     "meta_start_date": "primeiro semestre letivo de 2027",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
     "scan_keywords": [
+      "inscreva-se",
       "edital",
       "processo\\s+seletivo",
       "sele[cç][aã]o"
@@ -18197,9 +17894,10 @@
     "meta_start_date": "primeiro semestre letivo de 2027",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
     "scan_keywords": [
+      "inscreva-se",
       "edital",
       "processo\\s+seletivo",
       "sele[cç][aã]o"
@@ -18227,9 +17925,10 @@
     "meta_start_date": "primeiro semestre letivo de 2027",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
     "scan_keywords": [
+      "inscreva-se",
       "edital",
       "processo\\s+seletivo",
       "sele[cç][aã]o"
@@ -18257,9 +17956,10 @@
     "meta_start_date": "primeiro semestre letivo de 2027",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
+    "scan_status": "likely_open",
+    "scan_confidence": 0.6,
     "scan_keywords": [
+      "inscreva-se",
       "edital",
       "processo\\s+seletivo",
       "sele[cç][aã]o"
@@ -25812,11 +25512,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
+      "09/11/2026",
       "05/11/2026",
       "29/10/2026",
       "26/10/2026",
-      "19/10/2026",
-      "13/10/2026"
+      "19/10/2026"
     ],
     "scan_title": "Programa Pós-Graduação em Desenvolvimento Regional",
     "edital_url": "",
@@ -25956,10 +25656,10 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
+      "09/11/2026",
       "20/10/2026",
       "23/09/2026",
       "16/09/2026",
-      "11/09/2026",
       "11/09/2026"
     ],
     "scan_title": "Programa de Pós-Graduação em Enfermagem e Saúde",
@@ -26140,7 +25840,7 @@
     "scan_dates_found": [
       "03/11/2026",
       "30/11/2026",
-      "29/10/2026",
+      "09/11/2026",
       "15/10/2026",
       "27/08/2026"
     ],
@@ -26466,31 +26166,30 @@
     "city": "Anápolis",
     "campus": "Central",
     "master_required": "",
-    "start_date": "2º Semestre de 2021",
+    "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
     "meta_campus": "Central",
     "meta_duration": "",
-    "meta_start_date": "2º Semestre de 2021",
+    "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
     "scan_keywords": [
-      "chamada\\s+p[uú]blica",
       "edital",
       "processo\\s+seletivo",
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "06/11/2026",
-      "04/11/2026",
-      "04/11/2026",
-      "06/10/2026",
-      "06/10/2026"
+      "09/11/2026",
+      "09/11/2026",
+      "09/11/2026",
+      "09/11/2026",
+      "06/11/2026"
     ],
-    "scan_title": "::.Mestrado em Ambiente e Sociedade.::",
+    "scan_title": "::.Universidade Estadual de Goiás.::",
     "edital_url": "https://cdn.ueg.edu.br/source/mestrado_em_ambiente_e_sociedade_123/noticias/73150/262Edital_PPGAS__Aluno_Especial__20262_assinado.pdf",
     "edital_title": "EDITAL PPGAS PARA ALUNO ESPECIAL Nº 02/2026"
   },
@@ -26503,31 +26202,30 @@
     "city": "Anápolis",
     "campus": "Central",
     "master_required": "",
-    "start_date": "2º Semestre de 2021",
+    "start_date": null,
     "duration_months": null,
     "language_requirement": "",
     "meta_application_deadline": "",
     "meta_campus": "Central",
     "meta_duration": "",
-    "meta_start_date": "2º Semestre de 2021",
+    "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
     "scan_keywords": [
-      "chamada\\s+p[uú]blica",
       "edital",
       "processo\\s+seletivo",
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "06/11/2026",
-      "04/11/2026",
-      "04/11/2026",
-      "06/10/2026",
-      "06/10/2026"
+      "09/11/2026",
+      "09/11/2026",
+      "09/11/2026",
+      "09/11/2026",
+      "06/11/2026"
     ],
-    "scan_title": "::.Mestrado em Ambiente e Sociedade.::",
+    "scan_title": "::.Universidade Estadual de Goiás.::",
     "edital_url": "https://cdn.ueg.edu.br/source/mestrado_em_ambiente_e_sociedade_123/noticias/73150/262Edital_PPGAS__Aluno_Especial__20262_assinado.pdf",
     "edital_title": "EDITAL PPGAS PARA ALUNO ESPECIAL Nº 02/2026"
   },
@@ -26557,13 +26255,13 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "27/10/2026",
-      "30/06/2026",
-      "30/06/2026",
-      "29/06/2026",
-      "29/06/2026"
+      "09/11/2026",
+      "09/11/2026",
+      "09/11/2026",
+      "09/11/2026",
+      "06/11/2026"
     ],
-    "scan_title": "::.Mestrado em Gestão, Educação e Tecnologias..::",
+    "scan_title": "::.Universidade Estadual de Goiás.::",
     "edital_url": "https://cdn.ueg.edu.br/source/mestrado_em_gestaom_educacao_e_tecnologias__377/conteudo/12993/1C2AA_CHAMADA_PARA_MATRICULAS__PS_PPGET_2026_2__1C2AA_CHAMADA_PARA_MATRICULAS__assinado.pdf",
     "edital_title": "1ª Chamada para matrículas"
   },
@@ -26593,13 +26291,13 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "27/10/2026",
-      "30/06/2026",
-      "30/06/2026",
-      "29/06/2026",
-      "29/06/2026"
+      "09/11/2026",
+      "09/11/2026",
+      "09/11/2026",
+      "09/11/2026",
+      "06/11/2026"
     ],
-    "scan_title": "::.Mestrado em Gestão, Educação e Tecnologias..::",
+    "scan_title": "::.Universidade Estadual de Goiás.::",
     "edital_url": "https://cdn.ueg.edu.br/source/mestrado_em_gestaom_educacao_e_tecnologias__377/conteudo/12993/1C2AA_CHAMADA_PARA_MATRICULAS__PS_PPGET_2026_2__1C2AA_CHAMADA_PARA_MATRICULAS__assinado.pdf",
     "edital_title": "1ª Chamada para matrículas"
   },
@@ -26778,8 +26476,8 @@
       "02/11/2026",
       "02/11/2026",
       "02/11/2026",
-      "06/11/2026",
-      "04/11/2026"
+      "09/11/2026",
+      "06/11/2026"
     ],
     "scan_title": "::.PPGIELT.::",
     "edital_url": "",
@@ -26814,8 +26512,8 @@
       "02/11/2026",
       "02/11/2026",
       "02/11/2026",
-      "06/11/2026",
-      "04/11/2026"
+      "09/11/2026",
+      "06/11/2026"
     ],
     "scan_title": "::.PPGIELT.::",
     "edital_url": "",
@@ -29385,7 +29083,7 @@
     "meta_application_deadline": "",
     "meta_campus": "Sala Virtual",
     "meta_duration": "",
-    "meta_start_date": "",
+    "meta_start_date": "primeiro semestre de 2027",
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "possible",
@@ -29770,11 +29468,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "06/11/2026",
-      "05/11/2026",
-      "21/10/2026",
-      "24/09/2026",
-      "14/09/2026"
+      "09/11/2026",
+      "09/11/2026",
+      "09/11/2026",
+      "09/11/2026",
+      "09/11/2026"
     ],
     "scan_title": "PPGEP – Programa de Pós-Graduação em Engenharia de Produção",
     "edital_url": "",
@@ -29842,11 +29540,11 @@
       "calend[aá]rio"
     ],
     "scan_dates_found": [
+      "09/11/2026",
       "15/11/2026",
       "13/11/2026",
       "11/11/2026",
-      "15/11/2026",
-      "13/11/2026"
+      "09/11/2026"
     ],
     "scan_title": "UFSM – Universidade Federal de Santa Maria",
     "edital_url": "",
@@ -29951,10 +29649,10 @@
     ],
     "scan_dates_found": [
       "24/09/2026",
-      "24/09/2026",
-      "24/09/2026",
-      "24/09/2026",
-      "24/09/2026"
+      "29/10/2026",
+      "09/11/2026",
+      "09/11/2026",
+      "05/11/2026"
     ],
     "scan_title": "PPGRI – Programa de Pós-Graduação em Relações Internacionais – Campus Santa Maria",
     "edital_url": "",
@@ -30294,11 +29992,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "03/09/2026",
-      "03/11/2026",
-      "03/11/2026",
-      "03/11/2026",
-      "27/10/2026"
+      "14/09/2026",
+      "09/11/2026",
+      "09/11/2026",
+      "09/11/2026",
+      "03/11/2026"
     ],
     "scan_title": "PPGBA – Programa de Pós-Graduação em Biodiversidade Animal –  Campus Santa Maria",
     "edital_url": "https://www.ufsm.br/app/uploads/sites/345/2025/08/MEST_BIODANI_1J_030_2025.pdf",
@@ -30322,20 +30020,19 @@
     "meta_start_date": "1º semestre de 2027",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
     "scan_keywords": [
-      "inscri[cç][oõ]es\\s+abertas",
       "processo\\s+seletivo",
       "sele[cç][aã]o",
-      "inscri[cç][oõ]es"
+      "mestrado"
     ],
     "scan_dates_found": [
-      "15/07/2026",
-      "14/09/2026",
+      "17/07/2026",
       "24/09/2026",
-      "24/09/2026",
-      "14/09/2026"
+      "09/11/2026",
+      "09/11/2026",
+      "24/09/2026"
     ],
     "scan_title": "PPGCC – Programa de Pós-Graduação em Ciência da Computação",
     "edital_url": "https://www.ufsm.br/app/uploads/sites/345/2026/12/Edit_PIBPG-PRPGP-01_2026-UFSM-1.docx-2.pdf",
@@ -30645,16 +30342,16 @@
     "scan_status": "possible",
     "scan_confidence": 0.4,
     "scan_keywords": [
-      "edital",
       "processo\\s+seletivo",
-      "sele[cç][aã]o"
+      "sele[cç][aã]o",
+      "inscri[cç][oõ]es"
     ],
     "scan_dates_found": [
+      "09/11/2026",
       "29/09/2026",
       "24/09/2026",
       "23/09/2026",
-      "23/09/2026",
-      "23/09/2026"
+      "09/11/2026"
     ],
     "scan_title": "POSCOM – Programa de Pós-Graduação em Comunicação – Campus Santa Maria",
     "edital_url": "https://www.ufsm.br/app/uploads/sites/513/2026/03/Normas-de-Bolsas-DEZ-2025-Colegiado.pdf",
@@ -30722,11 +30419,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
+      "09/11/2026",
       "06/11/2026",
       "05/11/2026",
       "03/11/2026",
-      "29/10/2026",
-      "26/10/2026"
+      "29/10/2026"
     ],
     "scan_title": "PPGE&D – Programa de Pós-Graduação em Economia e Desenvolvimento",
     "edital_url": "https://www.ufsm.br/app/uploads/sites/533/2026/05/Edital_Geral_030-2025_-_Orientacoes_para_prova_assinado.pdf",
@@ -31119,11 +30816,11 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "21/10/2026",
-      "28/09/2026",
-      "28/09/2026",
-      "24/09/2026",
-      "21/09/2026"
+      "09/11/2026",
+      "09/11/2026",
+      "09/11/2026",
+      "09/11/2026",
+      "09/11/2026"
     ],
     "scan_title": "PGMEC – Programa de Pós-Graduação em Engenharia Mecânica – Campus Santa Maria",
     "edital_url": "https://www.ufsm.br/app/uploads/sites/595/2026/06/Cronograma-das-entrevistas_PGMec-2a-janela-2026.pdf",
@@ -31793,11 +31490,11 @@
       "mestrado"
     ],
     "scan_dates_found": [
+      "09/11/2026",
+      "09/11/2026",
       "06/11/2026",
       "06/11/2026",
-      "04/11/2026",
-      "27/10/2026",
-      "23/10/2026"
+      "04/11/2026"
     ],
     "scan_title": "Programa de Pós Graduação em Serviço Social e Políticas Públicas – Pós-graduação – Campus Santa Maria",
     "edital_url": "https://www.ufsm.br/app/uploads/sites/924/2025/09/Portaria-de-Pessoal-CCSH-UFSM-N.-337-setembo-2025-Comissao-de-Selecao.pdf",
@@ -32562,7 +32259,7 @@
     "duration_months": 24,
     "language_requirement": "Tomando como base os níveis de proficiência previstos pelo CELPE-Bras, consideramos necessário que o candidato tenha um nível de proficiência em língua portuguesa avançado ou avançado superior.",
     "meta_application_deadline": "",
-    "meta_campus": "Auditório do IC II",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
@@ -34317,9 +34014,9 @@
       "inscri[cç][oõ]es"
     ],
     "scan_dates_found": [
-      "04/11/2026",
-      "04/11/2026",
-      "04/11/2026",
+      "09/11/2026",
+      "09/11/2026",
+      "09/11/2026",
       "01/10/2026",
       "01/10/2026"
     ],
@@ -34340,25 +34037,24 @@
     "duration_months": 24,
     "language_requirement": "Português",
     "meta_application_deadline": "",
-    "meta_campus": "",
+    "meta_campus": "Bloco",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
     "scan_keywords": [
-      "inscri[cç][oõ]es\\s+abertas",
       "edital",
       "sele[cç][aã]o",
-      "inscri[cç][oõ]es"
+      "mestrado"
     ],
     "scan_dates_found": [
-      "26/10/2026",
-      "26/10/2026",
-      "26/10/2026",
-      "21/10/2026",
-      "21/10/2026"
+      "12/11/2026",
+      "09/11/2026",
+      "12/11/2026",
+      "09/11/2026",
+      "12/11/2026"
     ],
     "scan_title": "Programa de Pós-graduação em Física |",
     "edital_url": "",
@@ -35326,7 +35022,7 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "09/11/2026"
+      "10/11/2026"
     ],
     "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
@@ -35345,7 +35041,7 @@
     "duration_months": 24,
     "language_requirement": "Portugês, espanhol",
     "meta_application_deadline": "",
-    "meta_campus": "Anfiteatro do Departamento de Ecologia",
+    "meta_campus": "https",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
@@ -35355,14 +35051,14 @@
     "scan_keywords": [
       "edital",
       "sele[cç][aã]o",
-      "mestrado"
+      "doutorado"
     ],
     "scan_dates_found": [
-      "27/10/2026",
+      "30/11/2026",
+      "09/11/2026",
       "08/10/2026",
       "05/10/2026",
-      "05/10/2026",
-      "24/09/2026"
+      "05/10/2026"
     ],
     "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
@@ -35381,7 +35077,7 @@
     "duration_months": 24,
     "language_requirement": "Portugês, espanhol",
     "meta_application_deadline": "",
-    "meta_campus": "Meet TÍTULO",
+    "meta_campus": "https",
     "meta_duration": "",
     "meta_start_date": "",
     "meta_language": "",
@@ -35391,14 +35087,14 @@
     "scan_keywords": [
       "edital",
       "sele[cç][aã]o",
-      "doutorado"
+      "mestrado"
     ],
     "scan_dates_found": [
-      "28/07/2025",
+      "26/11/2026",
+      "09/11/2026",
       "16/09/2026",
       "10/08/2026",
-      "10/08/2026",
-      "28/07/2026"
+      "10/08/2026"
     ],
     "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
@@ -35528,7 +35224,7 @@
       "sele[cç][aã]o"
     ],
     "scan_dates_found": [
-      "09/11/2026"
+      "10/11/2026"
     ],
     "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
@@ -35560,7 +35256,7 @@
       "mestrado"
     ],
     "scan_dates_found": [
-      "09/11/2026"
+      "10/11/2026"
     ],
     "scan_title": "Portal de Programas de Pós-Graduação (UFLA)",
     "edital_url": "",
@@ -35755,15 +35451,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "PPGARTES - UEMG",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -35785,15 +35477,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "PPGBSH - UEMG",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -35815,15 +35503,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "mestrado"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "PPGCIAMB - UEMG",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -35842,18 +35526,14 @@
     "meta_application_deadline": "",
     "meta_campus": "",
     "meta_duration": "",
-    "meta_start_date": "1º Semestre de 2026",
+    "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "PPGD - UEMG",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -35892,24 +35572,20 @@
     "city": "Belo Horizonte",
     "campus": "Escola de Design",
     "master_required": "",
-    "start_date": "1º Semestre de 2027",
+    "start_date": null,
     "duration_months": 24,
     "language_requirement": "Português e inglês",
     "meta_application_deadline": "",
     "meta_campus": "",
     "meta_duration": "",
-    "meta_start_date": "1º Semestre de 2027",
+    "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "PPGDM - UEMG",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -35931,16 +35607,11 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "likely_open",
-    "scan_confidence": 0.6,
-    "scan_keywords": [
-      "inscri[cç][oõ]es\\s+abertas",
-      "edital",
-      "processo\\s+seletivo",
-      "sele[cç][aã]o"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "PPGPM - UEMG",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -35953,24 +35624,20 @@
     "city": "Passos",
     "campus": "Passos",
     "master_required": "",
-    "start_date": "Segundo Semestre de 2021",
+    "start_date": null,
     "duration_months": 24,
     "language_requirement": "Inglês, espanhol e português. (Todos idiomas no nível avançado).",
     "meta_application_deadline": "",
     "meta_campus": "",
     "meta_duration": "",
-    "meta_start_date": "Segundo Semestre de 2021",
+    "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "possible",
-    "scan_confidence": 0.4,
-    "scan_keywords": [
-      "edital",
-      "processo\\s+seletivo",
-      "inscri[cç][oõ]es"
-    ],
+    "scan_status": "error",
+    "scan_confidence": 0.0,
+    "scan_keywords": [],
     "scan_dates_found": [],
-    "scan_title": "PPGDRMA - UEMG",
+    "scan_title": null,
     "edital_url": "",
     "edital_title": ""
   },
@@ -36022,11 +35689,21 @@
     "meta_start_date": "",
     "meta_language": "",
     "meta_master_required": "",
-    "scan_status": "error",
-    "scan_confidence": 0.0,
-    "scan_keywords": [],
-    "scan_dates_found": [],
-    "scan_title": null,
+    "scan_status": "possible",
+    "scan_confidence": 0.4,
+    "scan_keywords": [
+      "processo\\s+seletivo",
+      "mestrado",
+      "doutorado"
+    ],
+    "scan_dates_found": [
+      "17/11/2026",
+      "17/11/2026",
+      "17/11/2026",
+      "16/11/2021",
+      "16/11/2021"
+    ],
+    "scan_title": "Programa de Pós-Graduação em Biologia Celular - ICB - UFMG",
     "edital_url": "",
     "edital_title": ""
   },
@@ -36895,7 +36572,7 @@
     "meta_application_deadline": "",
     "meta_campus": "",
     "meta_duration": "",
-    "meta_start_date": "2º SEMESTRE DE 2026",
+    "meta_start_date": "1º semestre de 2027",
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "possible",
@@ -53282,11 +52959,11 @@
       "bolsas?"
     ],
     "scan_dates_found": [
+      "12/11/2026",
       "29/10/2026",
       "22/10/2026",
-      "08/10/2026",
-      "29/10/2026",
-      "22/10/2026"
+      "12/11/2026",
+      "29/10/2026"
     ],
     "scan_title": "PPGEC - Programa de Pós-Graduação em Economia — Português (Brasil)",
     "edital_url": "",
@@ -53716,19 +53393,12 @@
     "meta_language": "",
     "meta_master_required": "",
     "scan_status": "possible",
-    "scan_confidence": 0.4,
+    "scan_confidence": 0.2,
     "scan_keywords": [
-      "edital",
-      "sele[cç][aã]o",
-      "inscri[cç][oõ]es"
+      "ingresso",
+      "concurso"
     ],
-    "scan_dates_found": [
-      "06/11/2026",
-      "06/11/2026",
-      "06/11/2026",
-      "06/11/2026",
-      "06/11/2026"
-    ],
+    "scan_dates_found": [],
     "scan_title": "Home - FEAGRI - Faculdade de Engenharia Agrícola/Unicamp",
     "edital_url": "",
     "edital_title": ""
@@ -54097,7 +53767,7 @@
     "duration_months": 24,
     "language_requirement": "Inglês e português",
     "meta_application_deadline": "",
-    "meta_campus": "Sala da Congregação",
+    "meta_campus": "",
     "meta_duration": "",
     "meta_start_date": "2º semestre de 2026",
     "meta_language": "",
@@ -54109,13 +53779,7 @@
       "processo\\s+seletivo",
       "sele[cç][aã]o"
     ],
-    "scan_dates_found": [
-      "12/06/2025",
-      "12/06/2025",
-      "12/06/2025",
-      "12/06/2025",
-      "12/06/2025"
-    ],
+    "scan_dates_found": [],
     "scan_title": "Antropologia | IFCH",
     "edital_url": "",
     "edital_title": ""
@@ -54213,9 +53877,9 @@
     "scan_status": "possible",
     "scan_confidence": 0.4,
     "scan_keywords": [
-      "edital",
       "processo\\s+seletivo",
-      "mestrado"
+      "mestrado",
+      "doutorado"
     ],
     "scan_dates_found": [],
     "scan_title": "Farmacologia - Mestrado/Doutorado - Pós-Graduação - Faculdade de Ciências Médicas - FCM",
@@ -54243,9 +53907,9 @@
     "scan_status": "possible",
     "scan_confidence": 0.4,
     "scan_keywords": [
-      "edital",
       "processo\\s+seletivo",
-      "mestrado"
+      "mestrado",
+      "doutorado"
     ],
     "scan_dates_found": [],
     "scan_title": "Gerontologia - Mestrado/Doutorado - Pós-Graduação - Faculdade de Ciências Médicas - FCM",
@@ -54273,9 +53937,9 @@
     "scan_status": "possible",
     "scan_confidence": 0.4,
     "scan_keywords": [
-      "edital",
       "processo\\s+seletivo",
-      "mestrado"
+      "mestrado",
+      "doutorado"
     ],
     "scan_dates_found": [],
     "scan_title": "Tocoginecologia - Mestrado/Doutorado - Pós-Graduação - Faculdade de Ciências Médicas - FCM",
@@ -54303,9 +53967,9 @@
     "scan_status": "possible",
     "scan_confidence": 0.4,
     "scan_keywords": [
-      "edital",
       "processo\\s+seletivo",
-      "mestrado"
+      "mestrado",
+      "doutorado"
     ],
     "scan_dates_found": [],
     "scan_title": "Saúde da Criança e do Adolescente - Mestrado/Doutorado - Pós-Graduação - Faculdade de Ciências Médicas - FCM",
