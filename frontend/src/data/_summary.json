@@ -15,10 +15,10 @@
     "Municipal": 1
   },
   "by_scan_status": {
-    "error": 186,
-    "likely_open": 61,
+    "possible": 394,
+    "likely_open": 75,
     "unknown": 1826,
-    "possible": 333
+    "error": 111
   },
   "by_level": {
     "Mestrado": 1393,
